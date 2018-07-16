@@ -27,9 +27,10 @@ tags:
 - SNPs
 ---
 
+<!-- ![R language for statistical computing](/images/R-logo-image.png =80x) -->
+<img src="/images/R-logo-image.png" alt="R language for statistical computing" width="150px"/>
+
 ## AMOVA in R
-
-
 
 Resources for conducting population genetic and phylogenetic analyses in the R computing environment are continually improving, and to date several packages have provided functions for estimating phi-statistics and hierarchical patterns of population variance partitioning using AMOVA (analysis of molecular variance; Quattro et al. 1992). The [paper](http://www.genetics.org/content/genetics/131/2/479.full.pdf) for the AMOVA method, penned by population geneticists Joe Quattro, Peter Smouse, and Laurent Excoffier, now [has >12,000 citations](https://scholar.google.com/scholar?hl=en&q=analysis+molecular+variance+Quattro+1992&btnG=&as_sdt=1%2C47&as_sdtp=), making it one of the most used and cited methods of all time in evolutionary genetic analysis; many people continue using this method, including me. What is interesting about recent packages is that they allow us to do AMOVA rather easily on SNP data, and today I'm going to show you some code for conducting AMOVA in R on biallelic SNPs.
 
