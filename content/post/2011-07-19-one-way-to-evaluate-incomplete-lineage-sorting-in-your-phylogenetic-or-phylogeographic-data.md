@@ -1,20 +1,25 @@
 ---
-author: justin
+author: Justin Bagley
 comments: true
 date: 2011-07-19 04:20:00+00:00
 layout: post
-link: http://www.justinbagley.org/130/one-way-to-evaluate-incomplete-lineage-sorting-in-your-phylogenetic-or-phylogeographic-data
+link: https://justinbagley.rbind.io/2011/07/19/one-way-to-evaluate-incomplete-lineage-sorting-in-your-phylogenetic-or-phylogeographic-data/
 slug: one-way-to-evaluate-incomplete-lineage-sorting-in-your-phylogenetic-or-phylogeographic-data
 title: One way to evaluate incomplete lineage sorting in your phylogenetic or phylogeographic
   data
 wordpress_id: 130
 categories:
 - blog posts
+tags:
+- incomplete lineage sorting
+- Lacey Knowles
+- Mesquite
+- PAUP*
 ---
 
 There aren't many ways to quantitatively evaluate incomplete lineage sorting (ILS) or ancestral polymorphism in molecular data in a statistically rigorous way.  One means of gauging relative amounts of lineage sorting is the gsi, which I will be working on later.  But, right here I wanted to note that I recently saw Ian Wang & Brad Shaffer using Wayne Maddison and Lacey Knowles method to evaluate ILS in a paper they wrote on dendrobatid frogs of Costa Rica, which is one of the main areas I am studying in my dissertation research.  Here is an excerpt from their paper:  
   
-"Because incomplete lineage sorting has the potential to confound  
+>"Because incomplete lineage sorting has the potential to confound  
 phylogenetic analyses of recently diverged populations, we  
 also performed the “minimize deep coalescences method” following  
 the procedure of Maddison and Knowles (2006). This method  
@@ -36,6 +41,6 @@ Through this analysis, the authors were able to say that their phylogeny based o
   
 This is a nifty little trick that I plan on using.  I am currently learning to implement gene tree modeling in MESQUITE, but I have a long way to go (feels like)....  my consolation is that I am already really familiar with the basics and with phylogenetic comparative analyses and trait evolution-related analyses in the program, so maybe my progress will be fast.   
   
-Reference  
+**References**  
   
 Ian J. Wang1,2 and H. Bradley Shaffer1 (2008) RAPID COLOR EVOLUTION IN AN APOSEMATIC SPECIES: A PHYLOGENETIC ANALYSIS OF COLOR VARIATION IN THE STRIKINGLY POLYMORPHIC STRAWBERRY POISON-DART FROG. _Evolution_, 62-11: 2742–2759.
