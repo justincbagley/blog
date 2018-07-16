@@ -31,21 +31,17 @@ tags:
 - wget
 ---
 
-![R language for statistical computing](http://www.justinbagley.org/wp-content/uploads/2017/06/R-logo-image.png)
+![R language for statistical computing](/images/R-logo-image.png)
 
 An up-to-date R install is a key component of any biologist's bioinformatics toolkit. In this post, I will walk through some code that I used to solve the problem of installing the latest version of R, [R v3.4.4](https://cran.r-project.org) (the "2018-03-15, Someone to Lean On" release), at the user level on a Linux supercomputing cluster running [CentOS 5/6/7](https://www.centos.org). First, I'll give some background information that will be useful for following along. Then, I'll go into the basics of conducting a Linux R install when you do not have admin privileges. Thirdly, I'll point out a library/environment problem that I ran into with this method, and I'll show a low-stress solution for solving that problem. And, finally, I'll close with the successful install setup steps and illustrate that the newly installed version of R v3.4.4 worked and was available from my command line.
 
 
 
-
-
 ##### 1. Background: pre-install environment
-
-
 
 On our cluster, I first used [`qrsh`](http://gridscheduler.sourceforge.net/howto/basic_usage.html) to log into a node and run or check the available R install, which gave me the following information:
 
-[code language="bash"]
+<code>
 $ which R
 /usr/global/R-3.3.2/bin/R
 $
@@ -71,15 +67,13 @@ Type 'q()' to quit R.
 
 > q()
 Save workspace image? [y/n/c]: n
-[/code]
+</code>
 
 This told me that the system administrator currently had R v3.3.2 installed, and that it was made available to all users at /usr/global/R-3.3.2/bin/R. This version is from one or two years back, so I wanted to install my own updated version of R in my [home directory](http://www.linfo.org/home_directory.html) (you can get the path to your home dir by doing `echo $HOME`). 
 
 
 
 ##### 2. First steps: local R install within my user "$HOME"
-
-
 
 To install R within my home directory, I started by following the standard install procedure for Linux, which involves downloading the source code as a tarball, unzipping that tarball, configuring the install, and performing the install. Note that you may see other biologists/scientists discussing tools such as `sudo`, `yum`, and `apt-get` for installing software on Linux. **It is important to _note_ that _none of these apply to the current case_**. The "super user do" command [`sudo`](https://linuxacademy.com/blog/linux/linux-commands-for-beginners-sudo/) is only used when you have admin privileges, and I am working as a user on an HPC cluster _without_ such privileges (not in sudoers list). Therefore, and in addition, since `yum` often requires `sudo`, it is also off limits. Want to use `apt-get`? Nope. Think again. The `apt-get` command calls [APT (Advanced Package Tool)](https://wiki.debian.org/Apt), which is a package tool manager that is only available on [Debian Linux](https://www.debian.org), and I am working on a cluster that runs CentOS. **So, the appropriate CentOS approach, without admin privileges, is to use [`wget`](https://www.gnu.org/software/wget/) as follows:**
 
@@ -96,8 +90,6 @@ $ make && make install
 
 ##### 3. The problem: libiconv configure error
 
-
-
 Unfortunately, while running the standard install procedure above, I hit a snag in the form of the following configure error:
 
 [code language="bash"]checking whether iconv accepts "UTF-8", "latin1", "ASCII" and "UCS-*"... no
@@ -107,8 +99,6 @@ Unfortunately, while running the standard install procedure above, I hit a snag 
 
 
 ##### 4. The solution: point to lib directory with libiconv library/module files
-
-
 
 I reasoned that the underlying issue causing this problem was that the libiconv library/module files were simply not being found. I suspected this library was installed within Miniconda, but was not sure, so I first checked for its presence and location. It's always safe and pretty fast to do this using Bioconda [`install`](https://bioconda.github.io), which told me that libiconv was indeed already _installed_, and where it was located. So, I next looked to make sure libiconv files were in the Miniconda lib dir, and they were:
 
@@ -140,7 +130,6 @@ $ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/gpfs_fs/home/jcbagley/miniconda2/lib
 
 
 **I then went back and started a fresh R install, and configure as well as make and install worked!!**
-
 
 
 **Still, a successful install is not a suitable stopping point in bioinformatics. The same applies to every R install.**
