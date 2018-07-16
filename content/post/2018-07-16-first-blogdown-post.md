@@ -1,6 +1,6 @@
 ---
 title: First blogdown post
-author: Justin
+author: Justin Bagley
 date: '2018-07-16'
 slug: first-blogdown-post
 categories:
