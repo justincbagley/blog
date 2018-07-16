@@ -134,7 +134,7 @@ _NOTE: I don't have time now but I plan to add links to download pages for sever
 	  <tr >
 	    <td style="text-align: left;" ><img src="/images/ArcGIS10_logo-300x200.png" title="ArcGIS" alt="ArcGIS"></img></td>
 	    <td style="text-align: left;" ><img src="/images/R-logo-image.png" title="R" alt="R" width="150px"></img></td>
-	    <td ><img src="/images/QGis_Logo.png" title="QGIS" alt="QGIS"></img></td>
+	    <td ><img src="/images/QGis_Logo-150x150.png" title="QGIS" alt="QGIS"></img></td>
 	  </tr>
 	</tbody>
 </table>
