@@ -1,12 +1,11 @@
 ---
-author: justin
+author: Justin Bagley
 comments: true
 date: 2016-03-10 12:16:25+00:00
 layout: post
-link: http://www.justinbagley.org/2159/getting-beast-v1-8-3-running-java-cuda-beagle-linux
+link: http://justinbagley.rbind.io/2016/03/10/getting-beast-v1-8-3-running-java-cuda-beagle-linux/
 slug: getting-beast-v1-8-3-running-java-cuda-beagle-linux
 title: Getting BEAST v1.8.3 running! Beagle, CUDA, Java, and LINUX
-wordpress_id: 2159
 categories:
 - BEAST
 - blog posts
@@ -44,9 +43,9 @@ _**Problems from the start because of my mac**_
 
 Given I use mac, I installed BEAST by downloading the 1.8.3 dmg file from the [BEAST v1.8.3 GitHub site](https://github.com/beast-dev/beast-mcmc/releases/tag/v1.8.3) (see screenshots of site and links _below_) and opening it, then moving the new software files to a folder in my Applications directory.
 
-[![BEAST183_GitHub](http://www.justinbagley.org/wp-content/uploads/2016/03/BEAST183_GitHub-e1457571041590-300x174.png)](http://www.justinbagley.org/wp-content/uploads/2016/03/BEAST183_GitHub.png)
+![BEAST183_GitHub](/images/BEAST183_GitHub_links-e1457609581420-768x444.png)
 
-[![](http://www.justinbagley.org/wp-content/uploads/2016/03/BEAST183_GitHub_links-e1457609581420-300x174.png)](http://www.justinbagley.org/wp-content/uploads/2016/03/BEAST183_GitHub_links-e1457609581420.png)
+![BEAST183 GitHub links](/images/BEAST183_GitHub_links-e1457609581420-768x444.png)
 
 My first attempt with BEAST v1.8.3 failed and resulted in several warnings and errors, one of the most significant of which was an exhortation to download the newest version of the Beagle library. I don't have a screenshot of the error, but it occurred near the top of the run log... (look for something that starts like this: "WARNING: ..."). The moral of the story here is that when you get a new version of BEAST, you should automatically check to make sure you have an updated version of Beagle.
 
@@ -56,13 +55,16 @@ _**Updating Beagle...and CUDA drivers on mac**_
 
 Fortunately, updating Beagle is very simple. To do this, I went to the Beagle download site on GitHub, and, according to the properties of my Macbook Pro laptop, I downloaded the appropriate binary installers by clicking on the "[BEAGLE v2.1.2 for Mac OS X 10.6 and later](https://www.dropbox.com/s/11kgt2jlq3lzln3/BEAGLE-2.1.2.pkg)" link, as shown in the screenshots _below right_.
 
-[![Beagle_readme_and_links](http://www.justinbagley.org/wp-content/uploads/2016/03/Beagle_readme_and_links-e1457609868462-300x182.png)](http://www.justinbagley.org/wp-content/uploads/2016/03/Beagle_readme_and_links.png) [![Beagle_lib_GitHub_front](http://www.justinbagley.org/wp-content/uploads/2016/03/Beagle_lib_GitHub_front-e1457609837139-300x178.png)](http://www.justinbagley.org/wp-content/uploads/2016/03/Beagle_lib_GitHub_front.png)
+![Beagle_readme_and_links](/images/Beagle_readme_and_links-e1457609868462-768x466.png)
+![Beagle_lib_GitHub_front](/images/Beagle_lib_GitHub_front-e1457609837139-768x455.png)
 
 Surprisingly, this took me to Dropbox (screenshot _below_), so you may need to create a Dropbox account to download the file. I already use Dropbox, so I just signed in and clicked "Download" to get the "BEAGLE-2.1.2.pkg" file. Once you have this file on mac, all you need to do is double click on it and click through the install windows. 
 
-[![Beagle_Dropbox](http://www.justinbagley.org/wp-content/uploads/2016/03/Beagle_Dropbox-e1457609900660-300x237.png)](http://www.justinbagley.org/wp-content/uploads/2016/03/Beagle_Dropbox.png)It is tempting to assume that installing Beagle would be sufficient; however, this may not be the case. Why is that? Well, you'll probably want to run Beagle using a GPU, and so you will want to do one more step. If you look at the install instructions for Beagle, for example by clicking the "[Instructions for installing BEAGLE on Mac OS X](https://github.com/beagle-dev/beagle-lib/wiki/MacInstallInstructions)" link for mac users, you will find that, beyond getting the most recent Beagle version, the authors recommend that you proceed in a second step to install/update the NVIDIA CUDA drivers for mac. You just simply go [here](http://www.nvidia.com/object/mac-driver-archive.html) to get the updated drivers (top of list; screenshot _below right_), download and click on the new file to install CUDA. If you already have olderCUDA drivers on your mac, there's no need to uninstall or worry about potential issues with a new install (e.g. "installing over" previous versions); this is irrelevant for mac users, but I am unfamiliar with potential related issues on windows.
+![Beagle_Dropbox](/images/Beagle_Dropbox-e1457609900660-768x607.png)
 
-[![CUDA_download](http://www.justinbagley.org/wp-content/uploads/2016/03/CUDA_download-e1457609934135-300x151.png)](http://www.justinbagley.org/wp-content/uploads/2016/03/CUDA_download.png)
+It is tempting to assume that installing Beagle would be sufficient; however, this may not be the case. Why is that? Well, you'll probably want to run Beagle using a GPU, and so you will want to do one more step. If you look at the install instructions for Beagle, for example by clicking the "[Instructions for installing BEAGLE on Mac OS X](https://github.com/beagle-dev/beagle-lib/wiki/MacInstallInstructions)" link for mac users, you will find that, beyond getting the most recent Beagle version, the authors recommend that you proceed in a second step to install/update the NVIDIA CUDA drivers for mac. You just simply go [here](http://www.nvidia.com/object/mac-driver-archive.html) to get the updated drivers (top of list; screenshot _below right_), download and click on the new file to install CUDA. If you already have olderCUDA drivers on your mac, there's no need to uninstall or worry about potential issues with a new install (e.g. "installing over" previous versions); this is irrelevant for mac users, but I am unfamiliar with potential related issues on windows.
+
+![CUDA_download](/images/CUDA_download-e1457609934135-768x386.png)
 
 After installing the above Beagle and CUDA updates, my test file ran when trying BEAST v1.8.3 on my MacBook Pro! So, that was great news!! 
 
