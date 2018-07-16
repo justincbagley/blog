@@ -31,6 +31,7 @@ tags:
 ---
 
 ![Jukes-Cantor model](/images/jc-revised.png)
+
 JC model of sequence evolution from [TreeThinkers](http://treethinkers.org/jukes-cantor-model-of-dna-substitution/).
 
 
@@ -50,9 +51,7 @@ It seems that many people are having issues with the fact that it's not a simple
 The real solution to the above problems is to realize the options available to you, especially that BEAUti actually gives several important options in the Site Model panel that each user must learn to use to tailor the models of evolution for each alignment/partition. These options are located right "under your nose," but I'll show you where they are and how to use them in **Tables 1 and 2 below**, as follows:
 
 
-
 **Table 1. Details for setting substitution models in BEAST1 (e.g. v1.8.3).**
-
 
 <table >
 <tbody >
@@ -157,7 +156,6 @@ The real solution to the above problems is to realize the options available to y
 
 
 **Table 2. Details for setting substitution models in BEAST2 (e.g. 2.4.0+).**
-
 
 <table >
 <tbody >
@@ -306,7 +304,6 @@ We can infer from this that the F81 model can be specified in any BEAST version
 _**Additional Reading**_
 
 **Substitution model basics from Wikipedia: **[substitution model](https://en.wikipedia.org/wiki/Substitution_model), [models of DNA evolution](https://en.wikipedia.org/wiki/Models_of_DNA_evolution)  
-
 
 **Beast users google group threads:**
 	
