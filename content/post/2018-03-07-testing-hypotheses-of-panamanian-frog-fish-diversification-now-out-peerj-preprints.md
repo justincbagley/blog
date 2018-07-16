@@ -1,13 +1,12 @@
 ---
-author: justin
+author: Justin Bagley
 comments: true
 date: 2018-03-07 05:32:23+00:00
 layout: post
-link: http://www.justinbagley.org/3421/testing-hypotheses-of-panamanian-frog-fish-diversification-now-out-peerj-preprints
+link: http://justinbagley.rbind.io/2018/03/07/testing-hypotheses-of-panamanian-frog-fish-diversification-now-out-peerj-preprints/
 slug: testing-hypotheses-of-panamanian-frog-fish-diversification-now-out-peerj-preprints
 title: Testing hypotheses of Panamanian frog & fish diversification - now out @ PeerJ
   Preprints
-wordpress_id: 3421
 categories:
 - blog posts
 - PeerJ
@@ -24,23 +23,13 @@ tags:
 ---
 
 Thanks to [PeerJ Preprints](https://peerj.com/preprints-search/) I am very pleased to be able to report two pieces of positive news for today: 
-**
+
+>1. **Our new preprint, which presents the results of a comparative phylogeography study, is now _[published online](https://peerj.com/preprints/26623/)_ at PeerJ Preprints (as of yesterday) and **
+>2. **I had a very positive experience submitting my preprint to this service.**
+>
 
 
-
-  1. **Our new preprint, which presents the results of a comparative phylogeography study, is now _[published online](https://peerj.com/preprints/26623/)_ at PeerJ Preprints (as of yesterday) and **
-
-
-
-  2. **I had a very positive experience submitting my preprint to this service.**
-
-
-**
-
-
-
-
-[![](http://www.justinbagley.org/wp-content/uploads/2018/03/Screen-Shot-2018-03-06-at-11.13.14-PM.png)](https://peerj.com/preprints/26623/)
+[![Bagley et al. Peerj preprint](/images/Screen-Shot-2018-03-06-at-11.13.14-PM.png)](https://peerj.com/preprints/26623/)
 
 **The Paper**
 
@@ -60,7 +49,7 @@ I'll keep my comments on PeerJ Preprints brief, except to say that the only othe
 
 As an extra bonus, you'll find that when you then attempt to go view the preprint, while logged in, that PeerJ's website gives you a nice little checklist of things to do to promote and disseminate your article. This checklist is given in a box with the heading "Article to-dos" (_see blue box, right side of screenshot below_): 
 
-[![](http://www.justinbagley.org/wp-content/uploads/2018/03/Screen-Shot-2018-03-06-at-11.13.23-PM.png)](http://www.justinbagley.org/wp-content/uploads/2018/03/Screen-Shot-2018-03-06-at-11.13.23-PM.png)
+[![](/images/Screen-Shot-2018-03-06-at-11.13.23-PM.png)]
 
 I thought that was pretty smart. It also provides a useful reminder, for scientists of all skill or training levels and all backgrounds, of ways in which you can promote your article, especially using social media.
 
