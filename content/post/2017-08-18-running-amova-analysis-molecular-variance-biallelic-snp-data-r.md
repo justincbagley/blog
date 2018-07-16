@@ -210,7 +210,7 @@ Phi-drain-total   0.2750973
 ```
 
 
-![Results plot: Hypostomus drainage AMOVA with 30% missing data cutoff.](http://www.justinbagley.org/wp-content/uploads/2017/08/Hyp.drain_.amova_.test_NOOUT_poppr_AMOVA_result_plot.jpg)
+![Results plot: Hypostomus drainage AMOVA with 30% missing data cutoff.](/images/Hyp.drain_.amova_.test_NOOUT_poppr_AMOVA_result_plot.jpg)
 
 **95% cutoff AMOVA results**
 
@@ -240,7 +240,7 @@ Phi-drain-total   0.2750973
 4   Variations between drain 5.10788445   3.725359    less   1.00
 ```
 
-![Results plot: Hypostomus drainage AMOVA with 95% missing data cutoff.](http://www.justinbagley.org/wp-content/uploads/2017/08/Hyp.drain_.amova_.test_.95_NOOUT_poppr_AMOVA_result_plot.jpg)
+![Results plot: Hypostomus drainage AMOVA with 95% missing data cutoff.](/images/Hyp.drain_.amova_.test_.95_NOOUT_poppr_AMOVA_result_plot.jpg)
 
 
 
