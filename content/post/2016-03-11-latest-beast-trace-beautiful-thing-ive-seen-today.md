@@ -1,12 +1,11 @@
 ---
-author: justin
+author: Justin Bagley
 comments: true
 date: 2016-03-11 12:00:01+00:00
 layout: post
-link: http://www.justinbagley.org/2183/latest-beast-trace-beautiful-thing-ive-seen-today
+link: http://justinbagley.rbind.io/2016/03/11/latest-beast-trace-beautiful-thing-ive-seen-today/
 slug: latest-beast-trace-beautiful-thing-ive-seen-today
-title: 'Latest *BEAST trace: Most beautiful thing I''ve seen today'
-wordpress_id: 2183
+title: 'Latest \*BEAST trace: Most beautiful thing I've seen today'
 categories:
 - Bayesian
 - BEAST
@@ -24,9 +23,11 @@ tags:
 - Tracer
 ---
 
-My new *BEAST (starbeast) species tree runs are converging wonderfully in BEAST v1.8.3, so I am off to a great start this morning. Here, I'm including a screenshot of the results of one of these runs, which I ran for 200 million generations using 3 normally distributed calibration points, as visualized in Tracer. Note the good posterior trace, very high ESS scores for all parameter estimates, and good use of burn-in (default 10% value works quite well in this case).
+My new \*BEAST (starbeast) species tree runs are converging wonderfully in BEAST v1.8.3, so I am off to a great start this morning. Here, I'm including a screenshot of the results of one of these runs, which I ran for 200 million generations using 3 normally distributed calibration points, as visualized in Tracer. Note the good posterior trace, very high ESS scores for all parameter estimates, and good use of burn-in (default 10% value works quite well in this case).
 
-This is the most beautiful thing I've seen in my research today, or even this week![![38_STARBEAST_PSmle_post_trace_Mar10](http://www.justinbagley.org/wp-content/uploads/2016/03/38_STARBEAST_PSmle_post_trace_Mar10-e1457623813213.png)](http://www.justinbagley.org/wp-content/uploads/2016/03/38_STARBEAST_PSmle_post_trace_Mar10-e1457623813213.png) 
+This is the most beautiful thing I've seen in my research today, or even this week!
+
+![38_STARBEAST_PSmle_post_trace_Mar10](/images/38_STARBEAST_PSmle_post_trace_Mar10-768x480.png)
 
 I am now checking and processing the results from multiple such runs using different species schemes (trait mapping schemes/files). They seem like they are going to give me a nice estimate of the species tree for this dataset.
 
