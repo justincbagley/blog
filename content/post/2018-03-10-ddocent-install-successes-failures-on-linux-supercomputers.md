@@ -67,25 +67,15 @@ Please install at least version 1.3.0
 ```
 
 For more on Samtools, read [here](http://biobits.org/samtools_primer.html). **I had this issue in my regular environment (above) and the virtual environment I set up for dDocent during the install.** The abbreviated solution given in the user group thread I linked to above is that you simply need to fix your conda configuration, uninstall bzip2 and dDocent, and then reinstall dDocent. However, there are two problems with this: 
+
+**
+1. my Samtools version is wayyyy more recent than 1.3.0** (think 1.7+, in my regular environment and my dDocent virtual environment),
+2. the proposed uninstall-reinstall procedure for the dDocent virtual environment did not work for me, and may not work for other users either!
 **
 
 
-
-**
-  1. my Samtools version is wayyyy more recent than 1.3.0** (think 1.7+, in my regular environment and my dDocent virtual environment),
-**
-  2. the proposed uninstall-reinstall procedure for the dDocent virtual environment did not work for me, and may not work for other users either!**
-
-
-**
-
-
-
-<blockquote>So what did I do? What solves the problem here? 
+>_"So what did I do? What solves the problem here?"_
 > 
-> </blockquote>
-
-
 
 
 
