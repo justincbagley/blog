@@ -8,6 +8,8 @@ slug: recent-stuff-latest-micropterus-sequences-on-genbank
 title: Recent stuff - latest Micropterus sequences on GenBank
 categories:
 - blog posts
+tags:
+- Micropterus
 ---
 
 Micropterus GenBank accessions   
