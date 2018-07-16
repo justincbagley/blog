@@ -1,12 +1,11 @@
 ---
-author: justin
+author: Justin Bagley
 comments: true
 date: 2017-09-13 11:40:35+00:00
 layout: post
-link: http://www.justinbagley.org/3160/gist-ddradseq-data-snapp
+link: http://justinbagley.rbind.io/2017/09/13/gist-ddradseq-data-snapp/
 slug: gist-ddradseq-data-snapp
 title: Analyzing ddRADseq Data in SNAPP
-wordpress_id: 3160
 categories:
 - blog posts
 - ddRAD-seq
@@ -36,9 +35,9 @@ tags:
 - SNPs
 ---
 
-[![](http://www.justinbagley.org/wp-content/uploads/2017/09/GitHub_Gist_img.png)](https://gist.github.com)Oh, SNAPP...
+[![GitHub Gist](/images/GitHub_Gist_img.png)](https://gist.github.com)
 
-
+Oh, SNAPP...
 
 Over the last year, as I've become increasingly comfortable with [GitHub](https://github.com), I've naturally shifted all of my note writing to [Markdown](https://daringfireball.net/projects/markdown/) language. During the process, I've started frequently jotting down useful notes related to analysis, code, or scientific computing as "Gists" on GitHub. In contrast to most repositories, Gists are small snippets of code or notes and are posted at [gist.github.com](https://gist.github.com) rather than [github.com](https://github.com). To date, I have published 8 Gists on topics as broad as Pandoc, ∂a∂i, SNAPP, and Markdown.
 
@@ -46,10 +45,15 @@ Over the last year, as I've become increasingly comfortable with [GitHub](https:
 
 Here is a link to the [Gist](https://gist.github.com/justincbagley/8f1a263790609ed5275db065aa96b42b).
 
-Here, I am sharing this Gist with you as embedded Markdown, thanks to the [oEmbed Gist](https://github.com/miya0001/oembed-gist) plugin:
+<!-- Here, I am sharing this Gist with you as embedded Markdown, thanks to the [oEmbed Gist](https://github.com/miya0001/oembed-gist) plugin: -->
+<!--
+https://gist.github.com/justincbagley/8f1a263790609ed5275db065aa96b42b
+-->
+
+Here, I am sharing this Gist with you as a link:
 
 https://gist.github.com/justincbagley/8f1a263790609ed5275db065aa96b42b
 
-Cheers, ~ J
+Cheers, ~J
 
 
