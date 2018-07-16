@@ -51,7 +51,6 @@ Once the resulting treefile from a BEAST analysis is checked in Tracer to confir
     for i in `cat cytb_gene.trees`; do echo "$RANDOM $i"; done | sort | sed -E 's/^[0-9]+ //' > cytb_randorder.trees
 ```
 
-
 Have fun with this!  Let me know if it works for you.  Also, I'm sure that we can come up with a lot more ways to do this or improving on the above code, and I'd love to hear more...
 
 ~J
