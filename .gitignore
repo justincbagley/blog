@@ -2,3 +2,6 @@
 .Rhistory
 .RData
 .Ruserdata
+blogdown
+.nojekyll
+public/ # if using Netlify
