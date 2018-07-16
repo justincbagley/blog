@@ -1,6 +1,6 @@
-baseurl = "/"
+baseurl = "https://justinbagley.org/blog/"
 languageCode = "en-us"
-title = "A Hugo website"
+title = "Justin C. Bagley's blog"
 theme = "hugo-lithium"
 googleAnalytics = ""
 disqusShortname = ""
@@ -10,17 +10,26 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     post = "/:year/:month/:day/:slug/"
 
 [[menu.main]]
-    name = "About"
+    name = "about"
     url = "/about/"
 [[menu.main]]
     name = "GitHub"
-    url = "https://github.com/rstudio/blogdown"
+    url = "https://github.com/justincbagley"
+    #weight = 4
+    #pre = "<i class='fa fa-github'></i>"
 [[menu.main]]
     name = "Twitter"
-    url = "https://twitter.com/rstudio"
+    url = "https://twitter.com/justincbagley"
+    #weight = 4
+    #pre = "<i class='fa fa-twitter'></i>"
+[[menu.main]]
+    name = "LinkedIn"
+    url = "https://www.linkedin.com/in/justin-c-bagley-2a8a0523"
+    #weight = 4
+    #pre = "<i class='fa fa-linkedin'></i>"
 
 [params]
-    description = "A website built through Hugo and blogdown."
+    description = "Justin Bagley's blogdown blog targeted for https://justinbagley.org/blog."
 
     # options for highlight.js (version, additional languages, and theme)
     highlightjsVersion = "9.11.0"
