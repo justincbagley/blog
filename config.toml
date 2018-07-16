@@ -1,4 +1,4 @@
-baseurl = "https://justinbagley.org/blog/"
+baseurl = "https://justinbagley.rbind.io/"
 languageCode = "en-us"
 title = "blog"
 theme = "hugo-lithium"
@@ -30,8 +30,8 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [params]
     description = "Justin Bagley's blog."
-    disqusURL = "https://justinbagley.org/blog/"
-    fullURL = "https://justinbagley.org/blog/"
+    disqusURL = "https://justinbagley.rbind.io"
+    fullURL = "https://justinbagley.rbind.io"
 
     # options for highlight.js (version, additional languages, and theme)
     highlightjsVersion = "9.11.0"
