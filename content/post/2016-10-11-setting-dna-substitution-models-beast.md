@@ -32,7 +32,7 @@ tags:
 
 <a href="/images/jc-revised.png"><img src="/images/jc-revised.png" title="Jukes-Cantor model" alt="Jukes-Cantor model" width="200px"></a>
 
-JC model of sequence evolution from [TreeThinkers](http://treethinkers.org/jukes-cantor-model-of-dna-substitution/).
+_JC model of sequence evolution from [TreeThinkers](http://treethinkers.org/jukes-cantor-model-of-dna-substitution/)._
 
 
 BEAST (Bayesian Evolutionary Analysis Sampling Trees) software provides a growing set of _clear_ options for specifying evolutionary models of DNA substitution for alignments loaded into the program. However, the set of models that are readily available and "spelled out" in drop-down menus in the BEAUti (Bayesian Evolutionary Analysis Utility) GUI is much smaller compared to the standard set of 11 substitution schemes considered by other software programs for model selection (giving rise to a total of 88 models in [jModelTest](https://github.com/ddarriba/jmodeltest2), or 56 models in [PartitionFinder](http://www.robertlanfear.com/partitionfinder/)). This poses a problem that I have heard several BEAST users bring up in online discussion groups, and that several people have asked me about personally. In this post, I shed some light on this problem and clear up some of the confusion by giving details on how users can easily specify different substitution models for their BEAST runs. 
