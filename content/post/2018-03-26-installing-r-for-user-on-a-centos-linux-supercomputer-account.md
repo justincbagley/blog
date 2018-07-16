@@ -32,7 +32,7 @@ tags:
 ---
 
 <!-- ![R language for statistical computing](/images/R-logo-image.png =80x) -->
-<img src="/images/R-logo-image.png" alt="R language for statistical computing" width="80px"/>
+<img src="/images/R-logo-image.png" alt="R language for statistical computing" width="150px"/>
 
 An up-to-date R install is a key component of any biologist's bioinformatics toolkit. In this post, I will walk through some code that I used to solve the problem of installing the latest version of R, [R v3.4.4](https://cran.r-project.org) (the "2018-03-15, Someone to Lean On" release), at the user level on a Linux supercomputing cluster running [CentOS 5/6/7](https://www.centos.org). First, I'll give some background information that will be useful for following along. Then, I'll go into the basics of conducting a Linux R install when you do not have admin privileges. Thirdly, I'll point out a library/environment problem that I ran into with this method, and I'll show a low-stress solution for solving that problem. And, finally, I'll close with the successful install setup steps and illustrate that the newly installed version of R v3.4.4 worked and was available from my command line.
 
