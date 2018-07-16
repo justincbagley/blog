@@ -23,7 +23,7 @@ tags:
 - path sampling
 ---
 
-[![BEAST PathSampler in AppStore](/images/BEAST2_PathSampler_logo_inAppStore.png)]
+![BEAST PathSampler in AppStore](/images/BEAST2_PathSampler_logo_inAppStore.png)
 
 **I am a relatively big Mac (UNIX) and Linux fan, as many of you know.** So, my standard approach to running [BEAST](http://beast.community) or [BEAST2](http://beast2.org/) is to use my Mac for local setup and testing and then employ shell scripts (effective wrappers) that I've developed to automate final run setup and queuing on a Linux supercomputing cluster. However, there are times, especially when running path sampling (PS) analysis (Larillot and Phillipe 2006; Baele et al. 2012; [Baele 2016 lecture](https://www.biostat.washington.edu/sites/default/files/modules//2016_SISMID_13_10.pdf)) to estimate log-marginal likelihoods of BEAST models, when I tend to run into issues on the supercomputer. These are often memory problems (e.g. step memory limits), input XML reading errors, and other issues, and oddly they can happen when attempting to run PS XML files that pass local run tests. In these times (but only with small numbers of models, to date), **I turn to running PS analysis locally using the [Path Sampler](https://www.beast2.org/2014/07/14/path-sampling-with-a-gui/) GUI version (image _at upper left_), and I use as many computers as I have at my disposal!**
 
