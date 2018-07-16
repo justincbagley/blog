@@ -1,12 +1,11 @@
 ---
-author: justin
+author: Justin Bagley
 comments: true
 date: 2010-08-03 22:49:00+00:00
 layout: post
 link: http://www.justinbagley.org/140/recent-stuff-latest-micropterus-sequences-on-genbank
 slug: recent-stuff-latest-micropterus-sequences-on-genbank
 title: Recent stuff - latest Micropterus sequences on GenBank
-wordpress_id: 140
 categories:
 - blog posts
 ---
