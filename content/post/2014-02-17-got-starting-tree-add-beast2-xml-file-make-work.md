@@ -18,6 +18,8 @@ tags:
 - XML
 ---
 
+<img src="/images/beast2.png" title="BEAST logo" alt="BEAST logo" width="150px">
+
 I have now for several months been happily using BEAST2 instead of Beast 1.7.5 or 1.8.x--I'm converted!  Thus far, datasets have run surprisingly smoothly, but for some recent analyses I have tried to jump-start things and ensure proper likelihood values at the onset of runs by including a starting tree in my xml input file.
 
 [**Previously, I blogged about just how you might create such a starting tree**](http://justinbagley.rbind.io/2013/10/10/off-to-a-good-start-how-to-generate-starting-trees-for-beast-or-beast-analyses-using-r/) that fits one or multiple calibration points in a BEAST analysis, by using penalized likelihood analysis (r8s) in R.  However, another easy way to do this is to conduct a preliminary analysis using a short run specifying the full set of calibrations in BEAST2, and then to use the MCC tree from this run (or one post-burnin tree) as a starting tree for your final runs.  Either way, I have discussed how to generate starting trees.  Now, I'll round out this topic more with a brief post on how to _actually add_ the starting tree to an xml file for a BEAST2 analysis.
