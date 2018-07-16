@@ -1,12 +1,11 @@
 ---
-author: justin
+author: Justin Bagley
 comments: true
 date: 2018-03-26 03:11:07+00:00
 layout: post
-link: http://www.justinbagley.org/4445/installing-r-for-user-on-a-centos-linux-supercomputer-account
+link: https://justinbagley.rbind.io/2018/03/26/installing-r-for-user-on-a-centos-linux-supercomputer-account/
 slug: installing-r-for-user-on-a-centos-linux-supercomputer-account
 title: R install for user on a CentOS Linux supercomputer
-wordpress_id: 4445
 categories:
 - blog posts
 - command line
@@ -32,7 +31,9 @@ tags:
 - wget
 ---
 
-![R language for statistical computing](http://www.justinbagley.org/wp-content/uploads/2017/06/R-logo-image.png)An up-to-date R install is a key component of any biologist's bioinformatics toolkit. In this post, I will walk through some code that I used to solve the problem of installing the latest version of R, [R v3.4.4](https://cran.r-project.org) (the "2018-03-15, Someone to Lean On" release), at the user level on a Linux supercomputing cluster running [CentOS 5/6/7](https://www.centos.org). First, I'll give some background information that will be useful for following along. Then, I'll go into the basics of conducting a Linux R install when you do not have admin privileges. Thirdly, I'll point out a library/environment problem that I ran into with this method, and I'll show a low-stress solution for solving that problem. And, finally, I'll close with the successful install setup steps and illustrate that the newly installed version of R v3.4.4 worked and was available from my command line.
+![R language for statistical computing](http://www.justinbagley.org/wp-content/uploads/2017/06/R-logo-image.png)
+
+An up-to-date R install is a key component of any biologist's bioinformatics toolkit. In this post, I will walk through some code that I used to solve the problem of installing the latest version of R, [R v3.4.4](https://cran.r-project.org) (the "2018-03-15, Someone to Lean On" release), at the user level on a Linux supercomputing cluster running [CentOS 5/6/7](https://www.centos.org). First, I'll give some background information that will be useful for following along. Then, I'll go into the basics of conducting a Linux R install when you do not have admin privileges. Thirdly, I'll point out a library/environment problem that I ran into with this method, and I'll show a low-stress solution for solving that problem. And, finally, I'll close with the successful install setup steps and illustrate that the newly installed version of R v3.4.4 worked and was available from my command line.
 
 
 
