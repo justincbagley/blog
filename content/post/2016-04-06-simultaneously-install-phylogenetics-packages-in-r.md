@@ -21,6 +21,9 @@ tags:
 - views
 ---
 
+<!-- ![R language for statistical computing](/images/R-logo-image.png =80x) -->
+<img src="/images/R-logo-image.png" alt="R language for statistical computing" width="150px"/>
+
 In case you are unaware of this trick, it is possible to simultaneously install or update all of the phylogenetics packages available in R in one fail swoop.
 
 A number of different CRAN Task Views have been created summarizing R packages and utilities for different fields of analysis or research. Luckily, there is not only a compilation of these located on the CRAN-R website [here](https://cran.r-project.org/web/views/), but also [Brian O'Meara](https://twitter.com/omearabrian) (@omearabrian #omearabrian) has developed a nice CRAN Task View entitled "Phylogenetics, Especially Comparative Methods." This means that you can view all of the software for phylogenetics and phylogenetic comparative methods in R at one time from the corresponding [Phylogenetics website](https://cran.r-project.org/web/views/Phylogenetics.html). Here is what these websites look like:
