@@ -29,7 +29,6 @@ tags:
 
 From time to time, we make mistakes in programming or testing a new R script or function, only to find that R "freezes" and appears to be stuck, or working but giving the impression that it will take an eternity to complete the computation. What could be happening is that the process is based on an maximum-likelihood estimation of a parameter that requires convergence, you could have accidentally (e.g. by default) run a function that needs to visit the total number of models possible for your dataset or a certain amount of parameter space. Alternatively, there might be an issue with FORTRAN coding. Or, the function you're using might require a maximum number of iterations to be specified, or else it will use an exhaustive search. R can "hang" for these and many other reasons.
 
-
 Today, I'm doing a short post to show you how to get out of this situation by killing the process in R from outside the R environment. Specifically, I'll show you how to do this from mac [Terminal](https://en.wikipedia.org/wiki/Terminal_(OS_X)), i.e. the command line.
 
 First do the following at the command line to obtain a list of processes including R:
