@@ -57,11 +57,11 @@ The real solution to the above problems is to realize the options available to y
 <table >
 <tbody >
 <tr >
-<td >**Best-fit substitution model**
+	<td ><strong>Best-fit substitution model</strong>
 </td>
-<td >**(Base) Model to select in BEAUti**
+	<td ><strong>(Base) Model to select in BEAUti</strong>
 </td>
-<td >**Additional specifications in BEAUti**
+	<td ><strong>Additional specifications in BEAUti</strong>
 </td>
 </tr>
 <tr >
@@ -162,11 +162,11 @@ The real solution to the above problems is to realize the options available to y
 <table >
 <tbody >
 <tr >
-<td >**Best-fit substitution model**
+	<td ><strong>Best-fit substitution model</strong>
 </td>
-<td >**(Base) Model to select in BEAUti 2**
+	<td ><strong>(Base) Model to select in BEAUti 2</strong>
 </td>
-<td >**Additional specifications in BEAUti 2**
+	<td ><strong>Additional specifications in BEAUti 2</strong>
 </td>
 </tr>
 <tr >
