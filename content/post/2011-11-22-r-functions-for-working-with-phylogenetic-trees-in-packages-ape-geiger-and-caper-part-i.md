@@ -106,6 +106,8 @@ x$root.edge
 
 One of my favorite things to do with phylogenies in R is to play around with different branch length transformations. Changing the branch lengths of your phylogeny might be something you might would want to do in a number of different ways, at different times, and with several important consequences. For example, branch length transformations allow you to alter your phylogenetic hypothesis to reflect different relative rates of evolution. Trees with different branch lengths, hence representing different evolutionary models, can then be compared with likelihood ratios or AIC scores... or placed into statistical phylogenetic models of trait data (e.g. logistic regression models or different models of character evolution), which can also subsequently be compared using model selection techniques. You might also need a bank of trees with the same topology but different branch lengths to test which set of branch lengths is most appropriate for a given analysis, or test which tree has branch lengths that provide the best fit to a certain model of interest.  
 
+~ J
+
 
 **References and links**  
 
@@ -139,5 +141,3 @@ Cutting a tree at a given time interval: https://stat.ethz.ch/pipermail/r-sig-ph
 Phylogenetic comparative methods wiki resource: http://www.r-phylo.org/wiki/Main_Page  
 
 Charles Nunn's AnthroTree website, phylo branch length transformations, evolutionary models, and detecting evolutionary trends: http://nunn.rc.fas.harvard.edu/groups/pica/wiki/a6fd9/Chapter_5Modeling_Evolutionary_Change.html, http://nunn.rc.fas.harvard.edu/groups/pica/wiki/ccf76/47_Detecting_Evolutionary_Trends_from_a_Dated_Phylogeny.html   
-
- ~ J
