@@ -55,7 +55,7 @@ Along with my [collaborators](http://justinbagley.org/collaborators), I am curre
 	  <tr >
 	    <td style="text-align: left;" ><img src="/images/GBIF_header.png" title="GBIF" alt="GBIF"></img></td>
 	    <td style="text-align: left;" ><img src="/images/iucn_logo-150x150.png" title="ICUN" alt="ICUN"></img></td>
-	    <td style="text-align: left;" ><img src="images/speciesLink_logo_transparent.png" title="SpeciesLink" alt="SpeciesLink"></img></td>
+	    <td style="text-align: left;" ><img src="/images/speciesLink_logo_transparent.png" title="speciesLink" alt="speciesLink"></img></td>
 	  </tr>
 	</tbody>
 </table>
