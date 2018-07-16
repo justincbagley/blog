@@ -1,5 +1,5 @@
 ---
-author: justin
+author: Justin Bagley
 comments: true
 date: 2014-02-17 04:46:23+00:00
 layout: post
@@ -7,7 +7,6 @@ link: http://www.justinbagley.org/511/got-starting-tree-add-beast2-xml-file-make
 slug: got-starting-tree-add-beast2-xml-file-make-work
 title: So you got a starting tree?  How to add it to your BEAST2 xml file and make
   it work for you
-wordpress_id: 511
 categories:
 - BEAST
 - blog posts
