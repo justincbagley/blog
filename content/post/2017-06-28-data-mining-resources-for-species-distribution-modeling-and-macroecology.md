@@ -53,12 +53,9 @@ Along with my [collaborators](http://justinbagley.org/collaborators), I am curre
 <table >
 	<tbody >
 	  <tr >
-	    <td style="text-align: left;" >![GBIF](/images/GBIF_header.png)
-	    </td>
-	    <td style="text-align: left;" >![](/images/iucn_logo-150x150.png)
-	    </td>
-	    <td style="text-align: left;" >![](images/speciesLink_logo_transparent.png)
-	    </td>
+	    <td style="text-align: left;" ><img src="/images/GBIF_header.png" title="GBIF" alt="GBIF"></img></td>
+	    <td style="text-align: left;" ><img src="/images/iucn_logo-150x150.png" title="ICUN" alt="ICUN"></img></td>
+	    <td style="text-align: left;" ><img src="images/speciesLink_logo_transparent.png" title="SpeciesLink" alt="SpeciesLink"></img></td>
 	  </tr>
 	</tbody>
 </table>
@@ -93,12 +90,9 @@ _NOTE: I don't have time now but I plan to add links to download pages for sever
 <table >
 	<tbody >
 	  <tr >
-	    <td >![](/images/ArcGIS10_logo-300x200.png)
-	    </td>
-	    <td >![](/images/REVERB_header-300x66.png)
-	    </td>
-	    <td >![](/images/2000px-NOAA_logo.svg_-180x180.png)
-	    </td>
+	    <td > <img src="/images/ArcGIS10_logo-300x200.png" title="ArcGIS" alt="ArcGIS"></img></td>
+	    <td > <img src="/images/REVERB_header-300x66.png" title="REVERB" alt="REVERB"></img> </td>
+	    <td > <img src="/images/2000px-NOAA_logo.svg_-180x180.png" title="NOAA" alt="NOAA"></img> </td>
 	  </tr>
 	</tbody>
 </table>
@@ -137,14 +131,11 @@ _NOTE: I don't have time now but I plan to add links to download pages for sever
 
 <table >
 	<tbody >
-	<tr >
-		<td style="text-align: left;" >![](/images/ArcGIS10_logo-300x200.png)
-		</td>
-		<td style="text-align: left;" >![](/images/R-logo-image.png)
-		</td>
-		<td >![](/images/QGis_Logo.png)
-		</td>
-	</tr>
+	  <tr >
+	    <td style="text-align: left;" ><img src="/images/ArcGIS10_logo-300x200.png" title="ArcGIS" alt="ArcGIS"></img></td>
+	    <td style="text-align: left;" ><img src="/images/R-logo-image.png" title="R" alt="R"></img></td>
+	    <td ><img src="/images/QGis_Logo.png" title="QGIS" alt="QGIS"></img></td>
+	  </tr>
 	</tbody>
 </table>
 	
