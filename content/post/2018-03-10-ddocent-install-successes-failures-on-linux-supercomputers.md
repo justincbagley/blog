@@ -29,7 +29,7 @@ tags:
 ---
 
 <!-- [![dDocent](/images/Screen-Shot-2018-03-10-at-3.00.13-PM.png =100x)](http://dDocent.com/) -->
-<img src="/images/Screen-Shot-2018-03-10-at-3.00.13-PM.png" title="dDocent" alt="dDocent" width="100px">
+<img src="/images/Screen-Shot-2018-03-10-at-3.00.13-PM.png" title="dDocent" alt="dDocent" width="200px">
 
 Jon Puritz and some other developers have hacked out a nice pipeline, named [dDocent](http://ddocent.com) (pronounced "docent"), for genomic assembly, read mapping, and SNP calling using NGS data from the RAD-seq family of sequencing strategies. dDocent is nice because it pulls together several top-of-the-line existing tools, and because it provides reference-based and _de novo_ assembly options.
 
