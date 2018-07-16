@@ -30,7 +30,7 @@ tags:
 - TrN
 ---
 
-![Jukes-Cantor model](/images/jc-revised.png)
+<a href="/images/jc-revised.png"><img src="/images/jc-revised.png" title="Jukes-Cantor model" alt="Jukes-Cantor model" width="200px"></a>
 
 JC model of sequence evolution from [TreeThinkers](http://treethinkers.org/jukes-cantor-model-of-dna-substitution/).
 
