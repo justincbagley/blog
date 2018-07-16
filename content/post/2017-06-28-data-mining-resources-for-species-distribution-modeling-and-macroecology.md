@@ -62,8 +62,6 @@ Along with my [collaborators](http://justinbagley.org/collaborators), I am curre
 	  </tr>
 	</tbody>
 </table>
-
-
 	
   * GBIF - Global Biodiversity Information Facility
     * GBIF 0ccurrences search - [http://www.gbif.org/occurrence](http://www.gbif.org/occurrence)
@@ -104,9 +102,6 @@ _NOTE: I don't have time now but I plan to add links to download pages for sever
 	  </tr>
 	</tbody>
 </table>
-
-
-
 	
   * ArcGIS Resources online
     * [http://resources.arcgis.com](http://resources.arcgis.com)
@@ -152,9 +147,6 @@ _NOTE: I don't have time now but I plan to add links to download pages for sever
 	</tr>
 	</tbody>
 </table>
-
-
-
 	
   * ArcGIS software ($$$)  
     * About - [http://www.esri.com/arcgis/about-arcgis](https://www.echo.nasa.gov/reverb/about_reverb.htm)
@@ -168,7 +160,6 @@ _NOTE: I don't have time now but I plan to add links to download pages for sever
     * Comprehensive R Archive Network - [https://cran.r-project.org/](https://cran.r-project.org/)
 
 _Note: Check back... more links coming soon! ~J_
-
 
 
 #### References
