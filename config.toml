@@ -13,17 +13,17 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     name = "about"
     url = "/about/"
 [[menu.main]]
-    name = "GitHub"
+    name = "github"
     url = "https://github.com/justincbagley"
     #weight = 4
     #pre = "<i class='fa fa-github'></i>"
 [[menu.main]]
-    name = "Twitter"
+    name = "twitter"
     url = "https://twitter.com/justincbagley"
     #weight = 4
     #pre = "<i class='fa fa-twitter'></i>"
 [[menu.main]]
-    name = "LinkedIn"
+    name = "linkedin"
     url = "https://www.linkedin.com/in/justin-c-bagley-2a8a0523"
     #weight = 4
     #pre = "<i class='fa fa-linkedin'></i>"
