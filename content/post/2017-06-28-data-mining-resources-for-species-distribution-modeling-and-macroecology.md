@@ -55,7 +55,7 @@ Along with my [collaborators](http://justinbagley.org/collaborators), I am curre
 	  <tr >
 	    <td style="text-align: left;" >![GBIF](/images/GBIF_header.png)
 	    </td>
-	    <td style="text-align: left;" >![](/images/iucn_logo.png)
+	    <td style="text-align: left;" >![](/images/iucn_logo-150x150.png)
 	    </td>
 	    <td style="text-align: left;" >![](images/speciesLink_logo_transparent.png)
 	    </td>
@@ -95,11 +95,11 @@ _NOTE: I don't have time now but I plan to add links to download pages for sever
 <table >
 	<tbody >
 	  <tr >
-	    <td >![](/images/ArcGIS10_logo.png)
+	    <td >![](/images/ArcGIS10_logo-300x200.png)
 	    </td>
-	    <td >![](/images/REVERB_header.png)
+	    <td >![](/images/REVERB_header-300x66.png)
 	    </td>
-	    <td >![](/images/2000px-NOAA_logo.svg_.png)
+	    <td >![](/images/2000px-NOAA_logo.svg_-180x180.png)
 	    </td>
 	  </tr>
 	</tbody>
@@ -141,16 +141,16 @@ _NOTE: I don't have time now but I plan to add links to download pages for sever
 ## GIS Software
 
 <table >
-<tbody >
-<tr >
-<td style="text-align: left;" >[![](http://www.justinbagley.org/wp-content/uploads/2017/06/ArcGIS10_logo.png)](http://www.justinbagley.org/wp-content/uploads/2017/06/ArcGIS10_logo.png)
-</td>
-<td style="text-align: left;" >[![](http://www.justinbagley.org/wp-content/uploads/2017/06/R-logo-image.png)](http://www.justinbagley.org/wp-content/uploads/2017/06/R-logo-image.png)
-</td>
-<td >[![](http://www.justinbagley.org/wp-content/uploads/2017/06/QGis_Logo.png)](http://www.justinbagley.org/wp-content/uploads/2017/06/QGis_Logo.png)
-</td>
-</tr>
-</tbody>
+	<tbody >
+	<tr >
+		<td style="text-align: left;" >![](/images/ArcGIS10_logo-300x200.png)
+		</td>
+		<td style="text-align: left;" >![](/images/R-logo-image.png)
+		</td>
+		<td >![](/images/QGis_Logo.png)
+		</td>
+	</tr>
+	</tbody>
 </table>
 
 
