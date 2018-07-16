@@ -5,10 +5,11 @@ date: 2016-03-11 12:00:01+00:00
 layout: post
 link: http://justinbagley.rbind.io/2016/03/11/latest-beast-trace-beautiful-thing-ive-seen-today/
 slug: latest-beast-trace-beautiful-thing-ive-seen-today
-title: 'Latest BEAST starbeast trace: Most beautiful thing I\'ve seen today'
+title: 'Latest BEAST starbeast trace: Most beautiful thing Ive seen today'
 categories:
 - Bayesian
 - BEAST
+- \*BEAST
 - blog posts
 - Species delimitation
 - species trees
@@ -16,9 +17,11 @@ tags:
 - Bayes factor
 - Bayes factor species delimitation
 - BEAST
+- \*BEAST
 - BFD
 - likelihood
 - marginal likelihood estimate
+- starbeast
 - trace
 - Tracer
 ---
