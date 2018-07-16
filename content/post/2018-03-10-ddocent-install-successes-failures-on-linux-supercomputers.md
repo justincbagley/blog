@@ -1,12 +1,11 @@
 ---
-author: justin
+author: Justin Bagley
 comments: true
 date: 2018-03-10 23:17:05+00:00
 layout: post
 link: http://www.justinbagley.org/3482/ddocent-install-successes-failures-on-linux-supercomputers
 slug: ddocent-install-successes-failures-on-linux-supercomputers
 title: dDocent install successes & failures on Linux supercomputers
-wordpress_id: 3482
 categories:
 - bash
 - blog posts
@@ -29,7 +28,7 @@ tags:
 - Supercomputer
 ---
 
-[![](http://www.justinbagley.org/wp-content/uploads/2018/03/Screen-Shot-2018-03-10-at-3.00.13-PM.png)](http://dDocent.com/)
+[![dDocent](/images/Screen-Shot-2018-03-10-at-3.00.13-PM.png =100x)](http://dDocent.com/)
 
 Jon Puritz and some other developers have hacked out a nice pipeline, named [dDocent](http://ddocent.com) (pronounced "docent"), for genomic assembly, read mapping, and SNP calling using NGS data from the RAD-seq family of sequencing strategies. dDocent is nice because it pulls together several top-of-the-line existing tools, and because it provides reference-based and _de novo_ assembly options.
 
