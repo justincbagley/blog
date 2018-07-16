@@ -155,7 +155,7 @@ _Note: Check back... more links coming soon! ~J_
 
 #### References
 
-[![](/images/CMEC_header-300x62.png)](http://macroecology.ku.dk/)CMEC (2017) Software and GIS data. Center for Macroecology, Evolution and Climate. Natural History Museum of Denmark, available at: [http://macroecology.ku.dk/resources/software/](http://macroecology.ku.dk/resources/software/).
+[![](/images/CMEC_header-300x62.png)](http://macroecology.ku.dk/)  CMEC (2017) Software and GIS data. Center for Macroecology, Evolution and Climate. Natural History Museum of Denmark, available at: [http://macroecology.ku.dk/resources/software/](http://macroecology.ku.dk/resources/software/).
 
 WWF (2017) Conservation Science Data and Tools. World Wildlife Fund, available at: [https://www.worldwildlife.org/pages/conservation-science-data-and-tools](https://www.worldwildlife.org/pages/conservation-science-data-and-tools).
 
