@@ -42,7 +42,7 @@ An up-to-date R install is a key component of any biologist's bioinformatics too
 
 On our cluster, I first used [`qrsh`](http://gridscheduler.sourceforge.net/howto/basic_usage.html) to log into a node and run or check the available R install, which gave me the following information:
 
-<code>
+```
 $ which R
 /usr/global/R-3.3.2/bin/R
 $
@@ -68,24 +68,23 @@ Type 'q()' to quit R.
 
 > q()
 Save workspace image? [y/n/c]: n
-</code>
+```
 
 This told me that the system administrator currently had R v3.3.2 installed, and that it was made available to all users at /usr/global/R-3.3.2/bin/R. This version is from one or two years back, so I wanted to install my own updated version of R in my [home directory](http://www.linfo.org/home_directory.html) (you can get the path to your home dir by doing `echo $HOME`). 
-
 
 
 ##### 2. First steps: local R install within my user "$HOME"
 
 To install R within my home directory, I started by following the standard install procedure for Linux, which involves downloading the source code as a tarball, unzipping that tarball, configuring the install, and performing the install. Note that you may see other biologists/scientists discussing tools such as `sudo`, `yum`, and `apt-get` for installing software on Linux. **It is important to _note_ that _none of these apply to the current case_**. The "super user do" command [`sudo`](https://linuxacademy.com/blog/linux/linux-commands-for-beginners-sudo/) is only used when you have admin privileges, and I am working as a user on an HPC cluster _without_ such privileges (not in sudoers list). Therefore, and in addition, since `yum` often requires `sudo`, it is also off limits. Want to use `apt-get`? Nope. Think again. The `apt-get` command calls [APT (Advanced Package Tool)](https://wiki.debian.org/Apt), which is a package tool manager that is only available on [Debian Linux](https://www.debian.org), and I am working on a cluster that runs CentOS. **So, the appropriate CentOS approach, without admin privileges, is to use [`wget`](https://www.gnu.org/software/wget/) as follows:**
 
-[code language="bash"]
+```
 $ cd $HOME
 $ wget http://cran.rstudio.com/src/base/R-3/R-3.4.4.tar.gz
 $ tar xvf R-3.4.4.tar.gz
 $ cd R-3.4.4
 $ ./configure --prefix=$HOME/R
 $ make && make install
-[/code]
+```
 
 
 
@@ -93,9 +92,11 @@ $ make && make install
 
 Unfortunately, while running the standard install procedure above, I hit a snag in the form of the following configure error:
 
-[code language="bash"]checking whether iconv accepts "UTF-8", "latin1", "ASCII" and "UCS-*"... no
+```
+checking whether iconv accepts "UTF-8", "latin1", "ASCII" and "UCS-*"... no
      configure: error: a suitable iconv is essential
-[/code]
+```
+
 
 
 
@@ -103,7 +104,7 @@ Unfortunately, while running the standard install procedure above, I hit a snag 
 
 I reasoned that the underlying issue causing this problem was that the libiconv library/module files were simply not being found. I suspected this library was installed within Miniconda, but was not sure, so I first checked for its presence and location. It's always safe and pretty fast to do this using Bioconda [`install`](https://bioconda.github.io), which told me that libiconv was indeed already _installed_, and where it was located. So, I next looked to make sure libiconv files were in the Miniconda lib dir, and they were:
 
-[code language="bash"]
+```
 $ ## Check/update libiconv:
 $ conda install libiconv
 Fetching package metadata .................
@@ -120,13 +121,15 @@ $ cd ~/miniconda2/lib
 $ ls ./libiconv*
 ./libiconv.a  ./libiconv.la  ./libiconv.so  ./libiconv.so.2  ./libiconv.so.2.6.0
 
-[/code]
+```
+
 
 The above listed the corresponding/correct lib files, so... I decided that the best solution at this point would be to add the Miniconda lib directory (folder) to my "$LD_LIBRARY_PATH" environmental variable. I did this using standard practices, as follows:
 
-[code language="bash"]
+```
 $ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/gpfs_fs/home/jcbagley/miniconda2/lib
-[/code]
+```
+
 
 
 
@@ -137,15 +140,17 @@ $ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/gpfs_fs/home/jcbagley/miniconda2/lib
 
 You must always make sure that the version of the software that you have installed is actually available from the command line, and not superseded by a previous install; and we want the appropriate R version to have priority. In my case, even after installing R v3.4.4 locally, I found that a call to R would open the system version, v3.3.2, which of course was suboptimal. One easy fix for this is to alias "R" to the newly installed version. Specifically, you could add the following line to your "~/.bashrc" file and then source it:
 
-[code language="bash"]
+```
 alias R="$HOME/R/bin/R"
-[/code]
+```
+
 
 Afterwards, a call to R would always direct to the correct version corresponding to your user R install.
 
 However, I realized that **a better solution** would be to move the "R" script generated during the R install (which is actually a shell script) into the main binary folder located within my "$PATH", which for me is `~/local/bin`, and that's what I did: 
 
-[code language="bash"]$ cp R Rscript ~/local/bin
+```
+$ cp R Rscript ~/local/bin
 $ cd ~
 $ R
 
@@ -169,7 +174,7 @@ Type 'q()' to quit R.
 
 > q()
 Save workspace image? [y/n/c]: n
-[/code]
+```
 
 
 
