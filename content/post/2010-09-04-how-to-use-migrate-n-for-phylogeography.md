@@ -1,9 +1,9 @@
 ---
-author: justin
+author: Justin Bagley
 comments: true
 date: 2010-09-04 00:38:00+00:00
 layout: post
-link: http://www.justinbagley.org/136/how-to-use-migrate-n-for-phylogeography
+link: https://justinbagley.rbind.io/2010/09/04/how-to-use-migrate-n-for-phylogeography/
 slug: how-to-use-migrate-n-for-phylogeography
 title: How to use MIGRATE-N for phylogeography
 wordpress_id: 136
@@ -93,7 +93,7 @@ Use the command logfile=YES:logfile, where the second "logfile" happens to be th
 **12. Always conduct multiple runs.**  
 One thing that I have done when implementing the ML then Bayesian runs method mentioned above is that I a have run Bayesian runs several times in sequence after I have the ML-generated priors.  In this method, I use the results from each run to inform the subsequent run as priors.  Theoretically, we should get better searches of tree space, and results (we hope), this way.    
   
-**REFERENCES**  
+**References**  
   
 Beerli, P. (2006) Comparison of Bayesian and maximum likelihood inference of population genetic parameters. _Bioinformatics_, 22: 341.  
   
