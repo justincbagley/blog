@@ -20,7 +20,7 @@ tags:
 - stdio.h
 ---
 
-[![Error - STOP!](/images/errorstop-300x300-150x150.png)]
+![Error - STOP!](/images/errorstop-300x300-150x150.png)
 
 Recently, back in February of 2018, I updated [Xcode](https://developer.apple.com/xcode/) and installed the macOS High Sierra Supplemental Update as well. I was _quite_ unhappy to find out that, following these updates, compiling software written in C/C++ using gcc (which was up to date!) seemed to be failing with a "stdio.h" file not found error, as follows:
 
