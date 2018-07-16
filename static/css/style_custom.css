@@ -1,0 +1,28 @@
+h2 {
+  font-size: 30px;
+}
+
+.navbar-default .navbar-brand {
+   color: rgb(0,80,200);
+   font-size: 35px;
+}
+
+.navbar-brand:hover {
+  color: rgb(0,40,100);
+}
+
+a {
+  color: rgb(0,80,200);
+}
+
+a:hover {
+  color: rgb(0,40,100);
+}
+
+.label-primary {
+    background-color: #bbbbbb;
+}
+
+.copyright {
+  padding-left:200px;
+}
