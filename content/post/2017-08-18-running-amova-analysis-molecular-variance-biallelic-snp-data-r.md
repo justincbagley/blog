@@ -3,10 +3,9 @@ author: Justin Bagley
 comments: true
 date: 2017-08-18 19:16:27+00:00
 layout: post
-link: http://www.justinbagley.org/3007/running-amova-analysis-molecular-variance-biallelic-snp-data-r
+link: http://justinbagley.rbind.io/2017/08/18/running-amova-analysis-molecular-variance-biallelic-snp-data-r/
 slug: running-amova-analysis-molecular-variance-biallelic-snp-data-r
 title: Running AMOVA (analysis of molecular variance) on biallelic SNP data in R
-wordpress_id: 3007
 categories:
 - adegenet
 - blog posts
