@@ -1,12 +1,11 @@
 ---
-author: justin
+author: Justin Bagley
 comments: true
 date: 2010-08-07 22:21:00+00:00
 layout: post
-link: http://www.justinbagley.org/139/phylogenetic-signal
+link: https://justinbagley.rbind.io/2010/08/07/phylogenetic-signal/
 slug: phylogenetic-signal
 title: Phylogenetic signal
-wordpress_id: 139
 categories:
 - blog posts
 ---
