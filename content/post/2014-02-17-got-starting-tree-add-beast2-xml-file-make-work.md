@@ -59,9 +59,9 @@ Note that we actually specify ("spec=") the starting tree with the "beast.util.T
 
 **References**
 
-[http://www.beast2.org/wiki](http://www.beast2.org/wiki)
+[BEAST2 Wiki](http://www.beast2.org/wiki)
 
-[Beast book](http://beast2.org/book.html)
+[Drummond & Bouckaert BEAST book](http://www.beast2.org/book/)
 
 PS: A slightly more simple way to do step three would be to use this instead (because I think "spec" is sufficient to initialize the starting tree, i.e. "initial=" may not be needed):
     
