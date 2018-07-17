@@ -26,8 +26,8 @@ Here, I'm going to briefly tell you how to install the "nexml Mesquite plugin."
 1. Make sure you have the newest version of Mesquite, which is v3.0.4! Get it from the [Download and Installation ](http://mesquiteproject.wikispaces.com/Installation)section of the new [Mesquite Project wikispaces](http://mesquiteproject.wikispaces.com) website if you don't have it already. Make sure Mesquite is in your Applications folder (on mac), or wherever you want it to be; note the location; and make sure Mesquite downloads into a folder named "Mesquite_Folder."
 2. Download the nexml Mesquite plugin from direct FTP/Dropbox, by clicking here: [nexml_Mesquite_plugin download](https://www.dropbox.com/sh/yp8t4jvb5id879m/S7ERRMkUpw). 
 3. The plugin downloads to a single folder, within which you will find two subfolders labeled "mesquite" and "org." In turn, each of these subfolders has its own "nexml" folder. You need to copy each of these "nexml" folders and paste them into the subfolder with the _same names_ in the "Mesquite_Folder" that contains Mesquite. 
-  o Copy and paste the .../mesquite/nexml folder into the folder located at .../Mesquite_Folder/mesquite.
-  o Copy and paste the .../org/nexml folder into the folder located at .../Mesquite_Folder/org.
+  - * Copy and paste the .../mesquite/nexml folder into the folder located at .../Mesquite_Folder/mesquite.
+  - * Copy and paste the .../org/nexml folder into the folder located at .../Mesquite_Folder/org.
 
 OK, now you're done, so give it a try! Open Mesquite v3.0.4 and test it. See if you can read and write NeXML files. 
 
