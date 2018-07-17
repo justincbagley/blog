@@ -24,4 +24,7 @@ In 2012, the Evolution meetings were held in Ottawa, Canada as part of the 1st J
 <iframe src="https://player.vimeo.com/video/46751720" width="640" height="352" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 <p><a href="https://vimeo.com/46751720">Model Selection As A Tool For Inference In Phylogeographic Investigations</a> from <a href="https://vimeo.com/user12771984">Fraser Hutchinson</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
-[Model Selection As A Tool For Inference In Phylogeographic Investigations](http://vimeo.com/46751720) from [Fraser Hutchinson](http://vimeo.com/user12771984) on [Vimeo](https://vimeo.com).
+<!-- [Model Selection As A Tool For Inference In Phylogeographic Investigations](http://vimeo.com/46751720) from [Fraser Hutchinson](http://vimeo.com/user12771984) on [Vimeo](https://vimeo.com).-->
+
+~J
+
