@@ -5,7 +5,7 @@ date: 2013-10-10 20:35:00+00:00
 layout: post
 link: http://justinbagley.rbind.io/2013/10/10/off-to-a-good-start-how-to-generate-starting-trees-for-beast-or-beast-analyses-using-r/
 slug: off-to-a-good-start-how-to-generate-starting-trees-for-beast-or-beast-analyses-using-r
-title: 'Off to a good start: how to generate starting trees for BEAST or *BEAST analyses using R'
+title: 'Off to a good start: how to generate starting trees for BEAST analyses using R'
 categories:
 - BEAST
 - *BEAST
@@ -34,7 +34,7 @@ In this post, I show you how to get "off to a good start" by generating a starti
 
 **Generate a starting tree that fits your calibration, using R**
 
-There are several ways you can make starting trees for BEAST, including using programs as diverse as TreeEdit, Mesquite, r8s, etc. However, the idea is in general to take a Bayesian or ML tree topology inferred from a separate phylogenetic analysis in a program such as MrBayes or GARLI (respectively), and then to manipulate the branch lengths in some way to get to the right starting tree--with branch lengths in units of time matching the units specified in your xml file for your BEAST run.
+There are several ways you can make starting trees for BEAST or \*BEAST, including using programs as diverse as TreeEdit, Mesquite, r8s, etc. However, the idea is in general to take a Bayesian or ML tree topology inferred from a separate phylogenetic analysis in a program such as MrBayes or GARLI (respectively), and then to manipulate the branch lengths in some way to get to the right starting tree--with branch lengths in units of time matching the units specified in your xml file for your BEAST run.
 
 In TreeEdit and Mesquite, you can basically import a starting tree topology with branch lengths output from the above programs in substitutions/site and move them around to fit your needs, and then use an iterative scaling and manual tree-editing approach to get the right time tree. I take a slightly different approach using some commands that allow me to run an algorithm from r8s in the R environment without having to manually alter the topology; for this, we are going to use the package ape (Analysis in Phylogenetics and Evolution), by Emmanuel Paradis, to make our starting tree.
 
