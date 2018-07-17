@@ -11,7 +11,7 @@ categories:
 ---
 
 <div class="embed-responsive embed-responsive-16by9">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/wxDOpAM2FrQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wxDOpAM2FrQ" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </div>
 
 _The Greatest Show on Earth_
