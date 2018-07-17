@@ -1,13 +1,12 @@
 ---
-author: justin
+author: Justin Bagley
 comments: true
 date: 2013-10-29 15:36:00+00:00
 layout: post
-link: http://www.justinbagley.org/104/beastgen-a-new-program-for-creating-nexus-fasta-and-beast-xml-input-files-for-phylogenetics-software
+link: http://justinbagley.rbind.io/2013/10/29/beastgen-a-new-program-for-creating-nexus-fasta-and-beast-xml-input-files-for-phylogenetics-software/
 slug: beastgen-a-new-program-for-creating-nexus-fasta-and-beast-xml-input-files-for-phylogenetics-software
 title: 'BEASTGen: a new program for creating NEXUS, FASTA and BEAST XML input files
   for phylogenetics software'
-wordpress_id: 104
 categories:
 - BEAST
 - blog posts
