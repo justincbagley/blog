@@ -1,12 +1,11 @@
 ---
-author: justin
+author: Justin Bagley
 comments: true
 date: 2015-09-17 15:06:20+00:00
 layout: post
-link: http://www.justinbagley.org/1361/detecting-trait-dependent-shifts-dna-sequence-evolution-traitrate
+link: http://justinbagley.rbind.io/2015/09/17/detecting-trait-dependent-shifts-dna-sequence-evolution-traitrate/
 slug: detecting-trait-dependent-shifts-dna-sequence-evolution-traitrate
 title: Detecting trait-dependent shifts in DNA sequence evolution with traitRate
-wordpress_id: 1361
 categories:
 - blog posts
 - Molecular evolution
@@ -21,7 +20,9 @@ tags:
 - traitRate
 ---
 
-These days, we evo-biologists studying macroevolution tend to be interested in riding different waves of research and methods, and one of these is focused on understanding shifts in diversification rates as inferred from phylogenies and trait data. This is a hot topic in my opinion, and the focus is on understanding the causes and rates of spectacular adaptive and non-adaptive radiations of species in different systems across the glob. But did you know it was possible to test for trait-dependent shifts in evolution of species DNA sequences or genomes?
+These days, we evo-biologists studying macroevolution tend to be interested in riding different waves of research and methods, and one of these is focused on understanding shifts in diversification rates as inferred from phylogenies and trait data. This is a hot topic in my opinion, and the focus is on understanding the causes and rates of spectacular adaptive and non-adaptive radiations of species in different systems across the glob. 
+
+_But did you know it was possible to test for trait-dependent shifts in evolution of species DNA sequences or genomes?_
 
 A method published a few years ago, but that I had never heard of until now, provides a means to do this, as described in the paper by Mayrose and Otto (2011). Mayrose and Otto's method is implemented in a program called traitRate. For more information, and to download the traitRate software program, follow this [link](http://www.tau.ac.il/~itaymay/cp/traitRate/index.html) to the traitRate website. Also, here is [link](http://www.hindawi.com/journals/ijeb/2011/908735/abs/) to a paper by Wong (2011) discussing the outlook for using traitRate and similar methods to understand the molecular evolution of animal reproductive tract proteins.
 
