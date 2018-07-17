@@ -24,3 +24,6 @@ Wow, this is my first [blogdown](https://bookdown.org/yihui/blogdown/) post, wri
 >
 > ― Richard Dawkins, _The Selfish Gene_
 
+Looks pretty good!
+
+~J
