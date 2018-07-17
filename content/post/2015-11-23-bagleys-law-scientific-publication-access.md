@@ -23,7 +23,7 @@ tags:
 
 ![Open Access](/images/images-2.jpeg)[![Find Scholarly Articles Online Step 1](/images/670px-Find-Scholarly-Articles-Online-Step-1-Version-2-300x226.jpg)](/images/670px-Find-Scholarly-Articles-Online-Step-1-Version-2.jpg)
 
-_Publish Open Access_
+_Find Open Access scholarly articles online for free_
 
 The topic is peer-reviewed scientific articles (primary or secondary literature). Also, we'll assume that you're not searching for a paper from an [Open Access](https://en.wikipedia.org/wiki/Open_access) publisher. Let's also assume that library holdings / subscriptions at your institution have gaps--they do not cover every journal in your field over every possible time period.
 
