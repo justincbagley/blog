@@ -1,12 +1,11 @@
 ---
-author: justin
+author: Justin Bagley
 comments: true
 date: 2013-10-27 19:25:00+00:00
 layout: post
-link: http://www.justinbagley.org/107/a-comprehensive-list-of-phylogenetics-packages-for-r
+link: http://justinbagley.rbind.io/2013/10/27/a-comprehensive-list-of-phylogenetics-packages-for-r/
 slug: a-comprehensive-list-of-phylogenetics-packages-for-r
 title: A comprehensive list of phylogenetics packages for R
-wordpress_id: 107
 categories:
 - blog posts
 - R
@@ -20,7 +19,7 @@ tags:
 ---
 
 **The packages**  
-Here is my comprehensive list of phylogenetics packages for R, with links to their websites (for some, links to support pages or more detailed information are provided in subsequent sections).  The requirement for inclusion in the list is at least one function related to manipulation or analysis of phylogenetic data.  Please [E-mail me](http://www.justinbagley.org/contact) if you know of another program to add, or if you are developing a new package for phylogenetics in R.  The packages, listed in alphabetical order, are as follows:** **
+Here is my comprehensive list of phylogenetics packages for R, with links to their websites (for some, links to support pages or more detailed information are provided in subsequent sections).  The requirement for inclusion in the list is at least one function related to manipulation or analysis of phylogenetic data.  Please [E-mail me](https://justinbagley.org/pages/about.html#contact) if you know of another program to add, or if you are developing a new package for phylogenetics in R.  The packages, listed in alphabetical order, are as follows:** **
 
   1. ade4, Analysis of Ecological Data: Exploratory and Euclidian methods in Environmental sciences ([link](http://cran.r-project.org/web/packages/ade4/index.html))
   2. ape, Analysis of Phylogenetics and Evolution ([link](http://cran.r-project.org/web/packages/ape/))
@@ -48,11 +47,7 @@ Here is my comprehensive list of phylogenetics packages for R, with links to the
   23. phylobase, Base package for phylogenetic structures and comparative data ([link](http://cran.r-project.org/web/packages/phylobase/index.html))
   24. phyloch, PHYLOCH: interfaces and graphic tools for phylogenetic data in R ([link](http://www.christophheibl.de/Rpackages.html))
   25. phyloclim, PHYLOCLIM: phyloclimatic modeling in R ([link](http://www.christophheibl.de/Rpackages.html))
-
- 
-
   26. phylocom, Software for the Analysis of Phylogenetic Community Structure and Character Evolution, with Phylomatic ([link](http://phylodiversity.net/phylocom/))
-
   27. phylogr (no longer supported but available from archive, see other; [link](http://cran.r-project.org/src/contrib/Archive/PHYLOGR/))
   28. phylolm, Phylogenetic Linear Regression ([link](http://cran.r-project.org/web/packages/phylolm/index.html))
   29. phylosim, R package for simulation biological sequence evolution ([link](http://cran.r-project.org/web/packages/phylosim/index.html))
