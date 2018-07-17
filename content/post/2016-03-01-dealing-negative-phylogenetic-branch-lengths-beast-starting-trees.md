@@ -22,7 +22,9 @@ tags:
 
 ## Negative branch lengths and the BEAST
 
-[![beast](http://www.justinbagley.org/wp-content/uploads/2016/02/beast.png)](http://www.justinbagley.org/wp-content/uploads/2016/02/beast.png)When conducting phylogenetic analyses, you will from time to time encounter negative branch lengths. Negative branch lengths are a nuisance because they can cause substantial visualization problems or keep analyses (e.g. downstream analyses in other programs) from running.
+![BEAST](/images/beast183.png)
+
+When conducting phylogenetic analyses, you will from time to time encounter negative branch lengths. Negative branch lengths are a nuisance because they can cause substantial visualization problems or keep analyses (e.g. downstream analyses in other programs) from running.
 
 For example, it will be desirable in many cases to add a starting tree to input files for datasets with phylogeographical sampling (e.g. multiple individuals in a standard BEAST analysis, or a *BEAST species tree analysis with multiple individuals sampled per species/population modeled). However, intraspecific sampling has the downside that it lends itself to negative phylogenetic branch lengths in maximum clade credibility (MCC) trees (final annotated tree resulting from BEAST analysis). This can happen when a clade in the MCC tree [occurs at low frequency](http://beast.bio.ed.ac.uk/faq#Why_does_my_tree_produced_by_TreeAnnotator_have_negative_branch_lengths.3F) relative to many other trees that are being summarized. But watch out!! TreeAnnotator _will not alert you_ that negative branches are present in the MCC tree output. You are unlikely to catch this issue unless you visualize your MCC tree in FigTree, which in more conspicuous cases will show some really funky looking branches running the opposite direction!
 
