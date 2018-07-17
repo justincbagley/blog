@@ -1,5 +1,5 @@
 ---
-author: justin
+author: Justin Bagley
 comments: true
 date: 2011-08-05 18:50:00+00:00
 layout: post
