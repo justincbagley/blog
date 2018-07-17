@@ -1,20 +1,26 @@
 ---
-author: justin
+author: Justin Bagley
 comments: true
 date: 2013-11-18 00:22:53+00:00
 layout: post
-link: http://www.justinbagley.org/102/software-carpentry-providing-training-open-access-material-self-paced-instruction-software-skills-researchers
+link: http://justinbagley.rbind.io/2013/11/18/software-carpentry-providing-training-open-access-material-self-paced-instruction-software-skills-researchers/
 slug: software-carpentry-providing-training-open-access-material-self-paced-instruction-software-skills-researchers
 title: 'Software Carpentry: providing training and open-access material for self-paced
   instruction in software skills for researchers'
-wordpress_id: 102
 categories:
 - blog posts
+- software
+- code
+- education
 ---
 
-[![software-carpentry-banner](http://www.justinbagley.org/wp-content/uploads/2013/10/software-carpentry-banner.png)](http://software-carpentry.org/index.html)
+![software-carpentry-banner](/images/software-carpentry-banner.png)
 
-Meet [Software Carpentry](http://software-carpentry.org/index.html).  On a volunteer basis, members of this company teach basic software proficiencies to scientists in any field, including biology, physical sciences, engineering and medicine.  They also provide a large amount of training tools, e.g. videos, online, all for free!  This company walks the talk about open-access material for self-paced instruction in software skills.  Moreover, their products are professional.  Software Carpentry carries loads of experience gained since their 1998 founding, and from their current participation in the [Mozilla Science Lab](https://wiki.mozilla.org/ScienceLab).  This provides for a professional and rich infusion of computer science literacy into the scientific community.
+_Software Carpentry_
+
+Meet [Software Carpentry](http://software-carpentry.org/index.html).  
+
+On a volunteer basis, members of this company teach basic software proficiencies to scientists in any field, including biology, physical sciences, engineering and medicine.  They also provide a large amount of training tools, e.g. videos, online, all for free!  This company walks the talk about open-access material for self-paced instruction in software skills.  Moreover, their products are professional.  Software Carpentry carries loads of experience gained since their 1998 founding, and from their current participation in the [Mozilla Science Lab](https://wiki.mozilla.org/ScienceLab).  This provides for a professional and rich infusion of computer science literacy into the scientific community.
 
 I recently began working through Software Carpentry's tutorials, and I must say that I am amazed by the work of this organization.  Already after less than a week of training I am seeing benefits, including greater awareness and the means to use my computer and other computational resources more efficiently in my research.  As a result, I highly recommend Software Carpentry.  [More coming soon.]
 
