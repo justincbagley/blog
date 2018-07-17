@@ -1,12 +1,11 @@
 ---
-author: justin
+author: Justin Bagley
 comments: true
 date: 2013-12-11 20:02:10+00:00
 layout: post
-link: http://www.justinbagley.org/486/new-version-tracer-tracer-1-6-now-available
+link: http://justinbagley.rbind.io/2013/12/11/new-version-tracer-tracer-1-6-now-available/
 slug: new-version-tracer-tracer-1-6-now-available
 title: New version of Tracer - Tracer v1.6 - now available!
-wordpress_id: 486
 categories:
 - BEAST
 - blog posts
@@ -24,6 +23,9 @@ OK, heads up everyone using BEAST, or interested in summarizing and analyzing th
   * Multilocus 'Skygrid' analysis option - use this option when analysing BEAST output generated under this model.
   * Density plots are now drawn as kernal density estimates (KDEs) instead of histograms.
   * Traces can be designated as integer or categorical with appropriate plots and statistics given.
+
 If you haven't downloaded a new version of Tracer in awhile, you may also notice several other new features... and obviously there have been some bug fixes.  So get the new version!
 
-Cheers ~ J
+Cheers,
+
+~ J
