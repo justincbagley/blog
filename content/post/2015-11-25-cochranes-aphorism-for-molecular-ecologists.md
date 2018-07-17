@@ -41,8 +41,9 @@ and style, and to be skeptical about adding more methods to an analysis for a ma
 
 Put another way with a focus on the actual writing of a paper, **Cochrane's Aphorism for Molecular Ecology Papers** might be as follows: 
 
->_1. "Before adding an analysis to your paper, decide whether it will help you (1) test your assumptions or hypotheses (2) or not. If the answer to is "not", then don't add the analysis." OR:
->2. "Before adding an analysis to your paper, decide what you will do if it is (1) changes your story or (2) doesn't change your story. If both answers are the same, don't add the analysis."_
+>_1. "Before adding an analysis to your paper, decide whether it will help you (1) test your assumptions or hypotheses (2) or not. If the answer to is "not", then don't add the analysis."_ 
+>OR:
+>_2. "Before adding an analysis to your paper, decide what you will do if it is (1) changes your story or (2) doesn't change your story. If both answers are the same, don't add the analysis."_
 >
 
 I think that some, or perhaps many, people already think this way, and their papers are likely the better off for it. And some have already blogged on this topic, but not made it specific to any field I work in. For example, on applying Cochrane's Aphorism to science in general, CheckmateScientist quipped, "Much time, money, and distress would be saved in any field of research if only every PhD was taught this during their first month of work." And I would have to say that I agree wholeheartedly.
