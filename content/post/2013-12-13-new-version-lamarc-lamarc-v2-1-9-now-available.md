@@ -1,12 +1,11 @@
 ---
-author: justin
+author: Justin Bagley
 comments: true
 date: 2013-12-13 19:04:34+00:00
 layout: post
-link: http://www.justinbagley.org/492/new-version-lamarc-lamarc-v2-1-9-now-available
+link: http://justinbagley.rbind.io/2013/12/13/new-version-lamarc-lamarc-v2-1-9-now-available/
 slug: new-version-lamarc-lamarc-v2-1-9-now-available
 title: New version of Lamarc--Lamarc v2.1.9--now available!
-wordpress_id: 492
 categories:
 - blog posts
 - Software
