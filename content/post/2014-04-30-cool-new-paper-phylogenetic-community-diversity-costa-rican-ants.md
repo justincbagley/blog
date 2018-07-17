@@ -1,12 +1,11 @@
 ---
-author: justin
+author: Justin Bagley
 comments: true
 date: 2014-04-30 17:30:36+00:00
 layout: post
-link: http://www.justinbagley.org/711/cool-new-paper-phylogenetic-community-diversity-costa-rican-ants
+link: http://justinbagley.rbind.io/2014/04/30/cool-new-paper-phylogenetic-community-diversity-costa-rican-ants/
 slug: cool-new-paper-phylogenetic-community-diversity-costa-rican-ants
 title: Cool new paper on phylogenetic community diversity in Costa Rican ants
-wordpress_id: 711
 categories:
 - blog posts
 ---
