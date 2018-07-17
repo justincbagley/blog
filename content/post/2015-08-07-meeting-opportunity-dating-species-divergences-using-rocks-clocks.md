@@ -1,12 +1,11 @@
 ---
-author: justin
+author: Justin Bagley
 comments: true
 date: 2015-08-07 01:12:00+00:00
 layout: post
-link: http://www.justinbagley.org/1215/meeting-opportunity-dating-species-divergences-using-rocks-clocks
+link: http://justinbagley.rbind.io/2015/08/07/meeting-opportunity-dating-species-divergences-using-rocks-clocks/
 slug: meeting-opportunity-dating-species-divergences-using-rocks-clocks
 title: 'Meeting opportunity: Dating species divergences using rocks and clocks'
-wordpress_id: 1215
 categories:
 - blog posts
 tags:
@@ -16,7 +15,9 @@ tags:
 - molecular clock
 ---
 
-[caption id="" align="alignleft" width="210"]![spiral clock](http://cdn.phys.org/newman/csz/news/800/2008/13-probingquest.jpg) A seemingly infinite clock... credit: Chris Limb; see link to this image: [Probing question: what is a molecular clock?](http://phys.org/news/2008-11-probing-molecular-clock.html)[/caption]
+![spiral clock](http://cdn.phys.org/newman/csz/news/800/2008/13-probingquest.jpg) 
+
+_A seemingly infinite clock... credit: Chris Limb; see link to this image at [Probing question: what is a molecular clock?](http://phys.org/news/2008-11-probing-molecular-clock.html)_
 
 The Royal Society has announced a new scientific discussion meeting opportunity aimed at uniting experts from various fields of the life and earth sciences to share scientific ideas, methods, and results, relevant to the topic of using molecular clocks to date patterns of evolution. SO, if you can be, or plan on being, in London the 9-10 of November, 2015, and this topic interests you, you should look into this meeting! 
 
