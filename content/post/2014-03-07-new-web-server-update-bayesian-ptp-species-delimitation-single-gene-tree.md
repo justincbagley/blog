@@ -1,13 +1,11 @@
 ---
-author: justin
+author: Justin Bagley
 comments: true
 date: 2014-03-07 16:05:31+00:00
 layout: post
-link: http://www.justinbagley.org/569/new-web-server-update-bayesian-ptp-species-delimitation-single-gene-tree
+link: http://justinbagley.rbind.io/2014/03/07/new-web-server-update-bayesian-ptp-species-delimitation-single-gene-tree/
 slug: new-web-server-update-bayesian-ptp-species-delimitation-single-gene-tree
-title: New web server update for Bayesian PTP species delimitation on single-locus
-  gene trees - and more!
-wordpress_id: 569
+title: New web server update for Bayesian PTP species delimitation on single-locus gene trees - and more!
 categories:
 - blog posts
 - Species delimitation
@@ -30,21 +28,21 @@ Among the new methods, two sets of methods take similar approaches to delimit sp
 
 As much as I'd like to go on about these methods, you can read about them yourself or I can explain them later; the point of this post is to highlight the fact that Jiajie Zhang of the [Exelixis Lab](http://sco.h-its.org/exelixis/index.html) (="Evolution" Lab), Heidelberg Institute for Theoretical Studies, has recently updated the Species delimitation server (or PTP web server) to allow free online runs with the Bayesian PTP implementation.  [Link to the PTP web server here](http://species.h-its.org/ptp/).  This web server previously ran the ML version of PTP, but now runs Bayesian PTP (bPTP).  In addition to the PTP models, Jiajie has also provided us with a web server to run ML GMYC models on the data as well, for comparison.  [Link to the GMYC web server here](http://species.h-its.org/gmyc/).
 
-That said, you do not _have to run _your analyses on the Exelixis web Species delimitation server.  The web server links above will take you to pages containing external links to download the standalone versions of  PTP and bPTP, which run in python.  These are maintained by Jiajie on his Github page.
+That said, you do not _have to run_ your analyses on the Exelixis web Species delimitation server.  The web server links above will take you to pages containing external links to download the standalone versions of  PTP and bPTP, which run in python.  These are maintained by Jiajie on his Github page.
 
 Both methods--GMYC an PTP--provide confidence intervals on species delimitations.  And bPTP will output Bayesian support values for each delimited species (along each branch).
 
 Of course, you should take the time (as I have) to read the original papers on each of these models before you run them (probably all of them, regardless of which one you present in your final analysis or publication).  This is to be stressed.  Here are links to the papers corresponding to each method:
 
-GMYC - original ML implementation, single-threshold model - [Pons et al. (2006)](http://sco.h-its.org/exelixis/index.html)
+**GMYC - original ML implementation, single-threshold model -** [Pons et al. (2006)](http://sco.h-its.org/exelixis/index.html)
 
-GMYC - ML implementation with multiple-threshold model - [Monaghan et al. (2009)](http://sysbio.oxfordjournals.org/content/58/3/298.short)
+**GMYC - ML implementation with multiple-threshold model -** [Monaghan et al. (2009)](http://sysbio.oxfordjournals.org/content/58/3/298.short)
 
-GMYC - v2 of splits and modified version (newest GMYC citation/model) - [Fujisawa and Barraclough (2013)](http://sysbio.oxfordjournals.org/content/62/5/707.short)
+**GMYC - v2 of splits and modified version (newest GMYC citation/model) -** [Fujisawa and Barraclough (2013)](http://sysbio.oxfordjournals.org/content/62/5/707.short)
 
-bGMYC - new Bayesian implementation of single- and multiple-threshold GMYC models using single or multiple gene trees and accounting for phylogenetic error (e.g. using Bayesian MCMC) - [Reid and Carstens (2012)](http://www.biomedcentral.com/1471-2148/12/196)
+**bGMYC - new Bayesian implementation of single- and multiple-threshold GMYC models using single or multiple gene trees and accounting for phylogenetic error (e.g. using Bayesian MCMC) -** [Reid and Carstens (2012)](http://www.biomedcentral.com/1471-2148/12/196)
 
-PTP - original ML implementation, both models (serves as citation for bPTP as well, since there is no one paper on this method yet) - [Zhang et al. (2013)](http://bioinformatics.oxfordjournals.org/content/29/22/2869.short)
+**PTP - original ML implementation, both models (serves as citation for bPTP as well, since there is no one paper on this method yet) -** [Zhang et al. (2013)](http://bioinformatics.oxfordjournals.org/content/29/22/2869.short)
 
 Note we are getting close to submitting a paper on species delimitation in Central American "mollies" (Poeciliidae; 'livebearing fishes') so you can look to our paper one day and cite it as an example of using these methods with other coalescent-based species delimitation methods.  Check back for more news about that pub this year. Happy species delimiting!
 
