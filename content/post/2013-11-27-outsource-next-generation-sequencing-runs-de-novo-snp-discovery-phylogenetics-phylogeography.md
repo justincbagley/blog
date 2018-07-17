@@ -1,13 +1,12 @@
 ---
-author: justin
+author: Justin Bagley
 comments: false
 date: 2013-11-27 04:33:44+00:00
 layout: post
-link: http://www.justinbagley.org/435/outsource-next-generation-sequencing-runs-de-novo-snp-discovery-phylogenetics-phylogeography
+link: http://justinbagley.rbind.io/2013/11/27/outsource-next-generation-sequencing-runs-de-novo-snp-discovery-phylogenetics-phylogeography/
 slug: outsource-next-generation-sequencing-runs-de-novo-snp-discovery-phylogenetics-phylogeography
 title: Where to outsource next-generation sequencing runs for de novo SNP discovery
   for phylogenetics and phylogeography
-wordpress_id: 435
 categories:
 - blog posts
 - Next-Generation Sequencing
