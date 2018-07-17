@@ -3,7 +3,7 @@ author: Justin Bagley
 comments: true
 date: 2015-08-30 02:55:29+00:00
 layout: post
-link: http://www.justinbagley.org/1226/update-new-functions-for-generating-starting-trees-for-beast-or-starbeast-in-r
+link: http://justinbagley.rbind.io/2015/08/30/update-new-functions-for-generating-starting-trees-for-beast-or-starbeast-in-r/
 slug: update-new-functions-for-generating-starting-trees-for-beast-or-starbeast-in-r
 title: 'Update: ''new'' functions for generating starting trees for BEAST or *BEAST in R'
 
