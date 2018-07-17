@@ -1,3 +1,5 @@
 User-agent: * 
-Disallow: 
+Disallow: /themes/
+Disallow: /themes/hugo-lithium/
+Disallow: /static/.gitkeep
 Sitemap: http://justinbagley.rbind.io/sitemap.xml
