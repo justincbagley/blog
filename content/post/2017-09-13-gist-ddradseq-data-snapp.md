@@ -35,7 +35,7 @@ tags:
 - SNPs
 ---
 
-[![GitHub Gist](/images/GitHub_Gist_img.png)](https://gist.github.com)
+![GitHub Gist](/images/GitHub_Gist_img.png)](https://gist.github.com)
 
 Oh, SNAPP...
 
