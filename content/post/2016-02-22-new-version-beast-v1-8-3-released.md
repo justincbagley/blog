@@ -1,14 +1,18 @@
 ---
-author: justin
+author: Justin Bagley
 comments: true
 date: 2016-02-22 17:10:32+00:00
 layout: post
-link: http://www.justinbagley.org/2083/new-version-beast-v1-8-3-released
+link: http://justinbagley.rbind.io/2016/02/22/new-version-beast-v1-8-3-released/
 slug: new-version-beast-v1-8-3-released
 title: New version of BEAST--v1.8.3--released!
-wordpress_id: 2083
 categories:
 - blog posts
+- BEAST
+- software
+tags:
+- BEAST
+- software
 ---
 
 [![BEAST v1.8.3](/images/beast183.png)](http://beast.bio.ed.ac.uk)
