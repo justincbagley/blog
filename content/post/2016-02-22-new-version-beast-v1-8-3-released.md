@@ -11,7 +11,11 @@ categories:
 - blog posts
 ---
 
-[![beast](http://www.justinbagley.org/wp-content/uploads/2016/02/beast.png)](http://beast.bio.ed.ac.uk)In case you were unaware, Andrew Rambaut has made a new version of BEAST 1, v1.8.3, available for Mac, Windows and Linux (.dmg, .zip, .tgz) at the [BEAST 1 GitHub website](https://github.com/beast-dev/beast-mcmc/releases/tag/v1.8.3).
+[![BEAST v1.8.3](/images/beast183.png)](http://beast.bio.ed.ac.uk)
+
+_BEAST v1.8.3 logo_
+
+In case you were unaware, Andrew Rambaut has made a new version of BEAST 1, v1.8.3, available for Mac, Windows and Linux (.dmg, .zip, .tgz) at the [BEAST 1 GitHub website](https://github.com/beast-dev/beast-mcmc/releases/tag/v1.8.3).
 
 According to Andrew, new features of this version include:
 
