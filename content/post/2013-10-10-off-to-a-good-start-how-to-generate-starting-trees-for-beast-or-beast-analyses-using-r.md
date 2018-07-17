@@ -5,8 +5,7 @@ date: 2013-10-10 20:35:00+00:00
 layout: post
 link: http://justinbagley.rbind.io/2013/10/10/off-to-a-good-start-how-to-generate-starting-trees-for-beast-or-beast-analyses-using-r/
 slug: off-to-a-good-start-how-to-generate-starting-trees-for-beast-or-beast-analyses-using-r
-title: 'Off to a good start\: how to generate starting trees for BEAST or *BEAST analyses using R'
-
+title: 'Off to a good start: how to generate starting trees for BEAST or *BEAST analyses using R'
 categories:
 - BEAST
 - *BEAST
