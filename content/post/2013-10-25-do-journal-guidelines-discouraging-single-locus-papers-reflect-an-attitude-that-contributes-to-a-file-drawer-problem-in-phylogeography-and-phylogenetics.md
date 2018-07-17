@@ -1,13 +1,12 @@
 ---
-author: justin
+author: Justin Bagley
 comments: true
 date: 2013-10-25 06:22:00+00:00
 layout: post
-link: http://www.justinbagley.org/109/do-journal-guidelines-discouraging-single-locus-papers-reflect-an-attitude-that-contributes-to-a-file-drawer-problem-in-phylogeography-and-phylogenetics
+link: http://justinbagley.rbind.io/2013/10/25/do-journal-guidelines-discouraging-single-locus-papers-reflect-an-attitude-that-contributes-to-a-file-drawer-problem-in-phylogeography-and-phylogenetics/
 slug: do-journal-guidelines-discouraging-single-locus-papers-reflect-an-attitude-that-contributes-to-a-file-drawer-problem-in-phylogeography-and-phylogenetics
 title: Do journal guidelines discouraging single-locus papers reflect an attitude
   that contributes to a "file-drawer problem" in phylogeography and phylogenetics?
-wordpress_id: 109
 categories:
 - blog posts
 ---
@@ -15,7 +14,7 @@ categories:
 Single-locus phylogeography studies are now "unlikely" to be published in _Molecular Ecology_, the most important journal in phylogeography and molecular ecology, based on a new policy (other journals seem to be going this way, too... like _Molecular Phylogenetics and Evolution_).  I ask what this means for authors/studies with single locus datasets, and whether this will contribute to a "file-drawer problem" in phylogeography and phylogenetic systematics.  
   
 **The "New" guidelines for Mol Ecol and existing guidelines for MPE say NO! to single-locus phylogeography studies**  
-A few weeks ago while considering where to send a new phylogeography manuscript, I checked the _[Molecular Ecology](http://onlinelibrary.wiley.com/journal/10.1111/%28ISSN%291365-294X) _website and, to my surprise, I found no information for submission guidelines.  I took this to signify that the Author Guidelines section of website for the most important journal to the field of phylogeography was under construction, possibly because new guidelines were being drawn up by the editorial board, administration, etc.  Later, I began to check back daily to see whether new guidelines had been posted.  
+A few weeks ago while considering where to send a new phylogeography manuscript, I checked the _[Molecular Ecology](http://onlinelibrary.wiley.com/journal/10.1111/%28ISSN%291365-294X)_ website and, to my surprise, I found no information for submission guidelines.  I took this to signify that the Author Guidelines section of website for the most important journal to the field of phylogeography was under construction, possibly because new guidelines were being drawn up by the editorial board, administration, etc.  Later, I began to check back daily to see whether new guidelines had been posted.  
   
 Today, I found the [Author Guidelines](http://onlinelibrary.wiley.com/journal/10.1111/%28ISSN%291365-294X/homepage/ForAuthors.html) for _Molecular Ecology_, newly published online.  I was shocked to find that Mol Ecol seems to be taking steps  towards curbing single-locus analyses/paper submissions.  Admittedly,  this is just my interpretation but I find it a bit striking that the journal that  has probably published more single-locus phylogeography studies than any  other journal out there is now turning its back on them.  While Mol Ecol has not said that it will _not_ accept single-locus manuscripts anymore by any means, their guidelines website section entitled "_Policy Regarding Number of Loci, Populations and                 Individuals"_ reads,  
 
@@ -27,16 +26,15 @@ This policy leaves open the possibility that single-locus phylogeography studies
 Apparently, Mol Ecol is following in the footsteps of the journal [_Molecular Phylogenetics and Evolution_](http://www.sciencedirect.com/science/journal/10557903), another prominent peer-reviewed journal in evolutionary biology that a couple of years ago (I think) said they weren't really interested in single-locus phylogeography studies either, so they nixed them in their guidelines.  To verify this was still the case, I checked the [current online MPE guidelines for submission](http://www.elsevier.com/journals/molecular-phylogenetics-and-evolution/1055-7903/guide-for-authors) and found the statements that  
 
 
-<blockquote>"Phylogeographic studies will be considered for publication if they offer EXCEPTIONAL theoretical or empirical advances."</blockquote>
+>"Phylogeographic studies will be considered for publication if they offer EXCEPTIONAL theoretical or empirical advances."
+>
 
 and that,  
 
-
-<blockquote>"Papers based on few taxa, single molecular markers, or that use  codon-based methods to test for positive Darwinian selection, but in the  absence of experimental evidence that allegedly selected amino acid  changes cause an adaptive phenotypic effect, will not be accepted."</blockquote>
+>"Papers based on few taxa, single molecular markers, or that use  codon-based methods to test for positive Darwinian selection, but in the  absence of experimental evidence that allegedly selected amino acid  changes cause an adaptive phenotypic effect, will not be accepted."
+>
 
 Although the long and boring clause about adaptive phenotypic effects is very distracting, the key point is that this is basically saying that the editorial board of MPE reserves the right to boot into the street up front any study that has "few" samples (subjective interpretation as a basis, or hard criteria?) or is based on single markers (e.g., mitochondrial DNA).  But this makes one wonder whether the important connection that can be inferred to exist between these statements isn't that single-locus phylogeography studies cannot by fiat make exceptional theoretical or empirical advances.  Maybe.  
-
-
 
 **Does this reflect an attitude that single-locus phylogeography studies are de-valued as science?**  
 Now, I have several questions.  I immediately question whether these trends in Mol Ecol and MPE, and especially the new guidelines in Mol Ecol, are even news at all.  If not, then these can be deemd "not a departure from business as usual," or not worth nary a mention.  And I realize that there is nothing surprising about a journal saying it expects the study designs of submitted reports to be appropriate.  This is obvious.  Also, at the present time in our field while many are surfing or learning to surf on the waves of the statistical phylogeography and genomics revolutions, I admit it's kind of cool for journals like Mol Ecol and MPE to step up and say that they'll _only_ take multilocus studies seriously, since single-locus studies have a variety of caveats and limitations.  "Yay" for scientific rigor!  And we can all see the benefit of what they're trying to do.  
@@ -50,13 +48,11 @@ At worst, however, maybe we should all worry just a little bit about this MPE-Mo
   
 To explain, when there is "[publication bias](http://en.wikipedia.org/wiki/Publication_bias)," the probability that a study is published depends on some external factor other than its core scientific merit, including its patterns of statistical significance, the quality of the data, or some other factor.  Thus, while a larger pool of studies (and knowledge) exists, the literature will represent a biased subset of all relevant studies in a research area.  The classic "file drawer problem" is created when some of the studies in the broader pool of studies that could potentially be published are thus set aside (e.g. in a file drawer, or filing cabinet) not to be published or to be published at a later point in time.  This is problematic for a variety of reasons.  Chief among them, it means that there will be a difference in the content of what is  reported in the literature versus what is actually known by the  scientific community, and this messes up meta-analyses among other things.  Publication bias is also bad because it wastes money (virtually all resources are funded, with the goal being discovering and publication of new theories, hypotheses tests, and observations), and of course it wastes time.  
   
-If my sense of the above attitude from the field and from the guidelines of _Molecular Ecology _and _Molecular Phylogenetics and Evolution _is accurate, then this may mean that some authors feeling less confident about their chances of publishing their phylogeographic work in reputable journals like Mol Ecol may now sit on their datasets and not publish them until data for more loci become available (or never at all).  And, if this happens--and I'm sure it is happening and will be happening in the future--then this will create (more of) a "file-drawer problem" for phylogeography, and also for phylogenetics.  So, if you're doing any meta-analyses of phylogeographic patterns, beware.  Also beware if you are trying to interpret available phylogeographic patterns in your study area.  If it is a study system of great value that other molecular ecologists with phylogeographic tendencies are also working in, there is a good chance they have unpublished data that they are sitting on.  So, you should do the right thing and request that they share their data or results with you.  
+If my sense of the above attitude from the field and from the guidelines of _Molecular Ecology_ and _Molecular Phylogenetics and Evolution_ is accurate, then this may mean that some authors feeling less confident about their chances of publishing their phylogeographic work in reputable journals like Mol Ecol may now sit on their datasets and not publish them until data for more loci become available (or never at all).  And, if this happens--and I'm sure it is happening and will be happening in the future--then this will create (more of) a "file-drawer problem" for phylogeography, and also for phylogenetics.  So, if you're doing any meta-analyses of phylogeographic patterns, beware.  Also beware if you are trying to interpret available phylogeographic patterns in your study area.  If it is a study system of great value that other molecular ecologists with phylogeographic tendencies are also working in, there is a good chance they have unpublished data that they are sitting on.  So, you should do the right thing and request that they share their data or results with you.  
   
 I would love to hear what the molecular ecology community thinks about this.  
   
 **A caveat: more multilocus, genomic and statistical directions represent great progress in phylogeography and phylogenetics**  
 It would be remiss not to point out that I wholly support the direction of our field towards expanding multilocus and genomic approaches, as well as adopting more statistically saavy and computational modes of thinking to frame and test hypotheses in phylogeography and phylogenetics.  In particular, I support multilocus statistical phylogeography.  I also support integrating phylogeography with other kinds of biological and geospatial data.  And I am actively trying to do this in my own research.  The purpose of this post is to think about a specific question relevant to sampling and the value of studies that do not meet certain sampling policies for journals.  And I have legitimate concerns about several related issues.  However, I do not believe that single-locus phylogeography or phylogenetic studies represent a best solution, nor do traditional gene tree or "pattern-matching" approaches.  And of course I am not advocating DNA barcoding or other completely single-locus approaches.  I'm also not making any claims here that single-locus studies provide the best estimates of population parameters or are able to correctly infer the species/population tree of interest in a phylogenetic or phylogeographic study.  It's just that when people want to outlaw studies that test hypotheses and do science because they use a single locus, this seems reckless, particularly if those studies acknowledge the limitations of their data and present a cautious interpretation of their results.  More later.  
   
-~J  
-  
-
+~J
