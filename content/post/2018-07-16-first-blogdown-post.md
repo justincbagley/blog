@@ -1,11 +1,12 @@
 ---
-title: First blogdown post
 author: Justin Bagley
 date: '2018-07-16'
 slug: first-blogdown-post
+title: First blogdown post
 categories:
   - R
   - blogdown
+  - blog posts
 tags:
   - R Markdown
   - Markdown
@@ -13,7 +14,7 @@ tags:
 
 # Post
 
-Wow, this is my first [blogdown](https://bookdown.org/yihui/blogdown/) post, written in Markdown from within the R console in RStudio Version 1.1.453 (released this year, available [here](https://www.rstudio.com/products/rstudio/download/)). No content for this one, so I'll just throw in a couple of quotes from some of my favorite evolutionary biologists, as follows:
+This is my first [blogdown](https://bookdown.org/yihui/blogdown/) post, written in Markdown from within the R console in RStudio Version 1.1.453 (released this year, available [here](https://www.rstudio.com/products/rstudio/download/)). As I have no content prepared for this post, I'll just throw in a couple of quotes from some of my favorite evolutionary biologists instead, as follows:
 
 >_“There is grandeur in this view of life, with its several powers, having been originally breathed by the Creator into a few forms or into one; and that, whilst this planet has gone cycling on according to the fixed law of gravity, from so simple a beginning endless forms most beautiful and most wonderful have been and are being evolved.”_
 >
@@ -24,6 +25,6 @@ Wow, this is my first [blogdown](https://bookdown.org/yihui/blogdown/) post, wri
 >
 > ― Richard Dawkins, _The Selfish Gene_
 
-Looks pretty good!
+After building page and checking it, the new blog format looks pretty good! 
 
 ~J
