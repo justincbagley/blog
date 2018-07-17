@@ -1,12 +1,11 @@
 ---
-author: justin
+author: Justin Bagley
 comments: true
 date: 2014-08-07 20:59:25+00:00
 layout: post
-link: http://www.justinbagley.org/988/updated-links-beast-1-7-5-phylogeography-tutorials
+link: http://justinbagley.rbind.io/2014/08/07/updated-links-beast-1-7-5-phylogeography-tutorials/
 slug: updated-links-beast-1-7-5-phylogeography-tutorials
 title: Updated links to BEAST 1.7.5 phylogeography tutorials
-wordpress_id: 988
 categories:
 - BEAST
 - blog posts
