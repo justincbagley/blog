@@ -1,9 +1,9 @@
 ---
-author: justin
+author: Justin Bagley
 comments: true
 date: 2013-11-12 00:09:21+00:00
 layout: post
-link: http://www.justinbagley.org/232/tracy-heath-visits-byu-biology-dept
+link: http://justinbagley.rbind.io/2013/11/12/tracy-heath-visits-byu-biology-dept/
 slug: tracy-heath-visits-byu-biology-dept
 title: Tracy Heath visits BYU Biology dept ... and more
 wordpress_id: 232
@@ -11,7 +11,9 @@ categories:
 - blog posts
 ---
 
-[![Tracy Heath w Darwin](http://www.justinbagley.org/wp-content/uploads/2013/11/Tracy-Heath-w-Darwin.jpg)](http://www.justinbagley.org/wp-content/uploads/2013/11/Tracy-Heath-w-Darwin.jpg)_Tracy Heath poses with Charles Darwin._
+![Tracy Heath w Darwin](/images/Tracy-Heath-w-Darwin.jpg)
+
+_Tracy Heath poses with Charles Darwin._
 
 This past week, the BYU Department of Biology had the distinct pleasure of welcoming Tracy Heath for a seminar.  Tracy was chosen by the graduate students as a key speaker for our seminar series this semester, and was brought in to visit with the entire department, in addition to delivering a talk at our regular Thursday meeting.
 
