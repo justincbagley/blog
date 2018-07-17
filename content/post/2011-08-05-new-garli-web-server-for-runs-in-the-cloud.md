@@ -1,12 +1,11 @@
 ---
-author: justin
+author: Justin Bagley
 comments: true
 date: 2011-08-05 19:41:00+00:00
 layout: post
-link: http://www.justinbagley.org/127/new-garli-web-server-for-runs-in-the-cloud
+link: http://justinbagley.rbind.io/2011/08/05/new-garli-web-server-for-runs-in-the-cloud/
 slug: new-garli-web-server-for-runs-in-the-cloud
 title: New GARLI web server for runs in the cloud
-wordpress_id: 127
 categories:
 - blog posts
 ---
