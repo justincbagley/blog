@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<url>
+	<loc>http://justinbagley.rbind.io/</loc>
+	<changefreq>daily</changefreq>
+	<image:image><image:loc>http://justinbagley.rbind.io/images/jselfie_logo.png</image:loc><image:title>Logo</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/hugo-logo.png</image:loc></image:image>
+</url>
+<url>
+	<loc>http://justinbagley.rbind.io/about/</loc>
+	<changefreq>daily</changefreq>
+	<image:image><image:loc>http://justinbagley.rbind.io/images/jselfie_logo.png</image:loc><image:title>Logo</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/hugo-logo.png</image:loc></image:image>
+</url>
+<url>
+	<loc>http://justinbagley.rbind.io/2011/11/22/r-functions-for-working-with-phylogenetic-trees-in-packages-ape-geiger-and-caper-part-i/</loc>
+	<changefreq>daily</changefreq>
+	<image:image><image:loc>http://justinbagley.rbind.io/images/jselfie_logo.png</image:loc><image:title>Logo</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/hugo-logo.png</image:loc></image:image>
+</url>
+<url>
+	<loc>http://justinbagley.rbind.io/2018/07/16/first-blogdown-post/</loc>
+	<changefreq>daily</changefreq>
+	<image:image><image:loc>http://justinbagley.rbind.io/images/jselfie_logo.png</image:loc><image:title>Logo</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/hugo-logo.png</image:loc></image:image>
+</url>
+<url>
+	<loc>http://justinbagley.rbind.io/2018/03/26/installing-r-for-user-on-a-centos-linux-supercomputer-account/</loc>
+	<changefreq>daily</changefreq>
+	<image:image><image:loc>http://justinbagley.rbind.io/images/jselfie_logo.png</image:loc><image:title>Logo</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/R-logo-image.png</image:loc><image:title>R language for statistical computing</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/hugo-logo.png</image:loc></image:image>
+</url>
+<url>
+	<loc>http://justinbagley.rbind.io/2018/03/10/ddocent-install-successes-failures-on-linux-supercomputers/</loc>
+	<changefreq>daily</changefreq>
+	<image:image><image:loc>http://justinbagley.rbind.io/images/jselfie_logo.png</image:loc><image:title>Logo</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/Screen-Shot-2018-03-10-at-3.00.13-PM.png</image:loc><image:title>dDocent</image:title></image:image><image:image><image:loc>http://www.justinbagley.org/wp-content/uploads/2018/03/conda-300x81.png</image:loc></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/hugo-logo.png</image:loc></image:image>
+</url>
+<url>
+	<loc>http://justinbagley.rbind.io/2018/03/07/testing-hypotheses-of-panamanian-frog-fish-diversification-now-out-peerj-preprints/</loc>
+	<changefreq>daily</changefreq>
+	<image:image><image:loc>http://justinbagley.rbind.io/images/jselfie_logo.png</image:loc><image:title>Logo</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/Screen-Shot-2018-03-06-at-11.13.14-PM.png</image:loc><image:title>Bagley et al. Peerj preprint</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/Screen-Shot-2018-03-06-at-11.13.23-PM.png</image:loc></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/hugo-logo.png</image:loc></image:image>
+</url>
+<url>
+	<loc>http://justinbagley.rbind.io/2018/03/06/stdio-h-file-error-during-c-c-software-compilation-on-mac/</loc>
+	<changefreq>daily</changefreq>
+	<image:image><image:loc>http://justinbagley.rbind.io/images/jselfie_logo.png</image:loc><image:title>Logo</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/errorstop-300x300-150x150.png</image:loc><image:title>Error - STOP!</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/hugo-logo.png</image:loc></image:image>
+</url>
+<url>
+	<loc>http://justinbagley.rbind.io/2018/03/06/command-line-trash-how-to-delete-trash-and-inspect-files-from-the-cli/</loc>
+	<changefreq>daily</changefreq>
+	<image:image><image:loc>http://justinbagley.rbind.io/images/jselfie_logo.png</image:loc><image:title>Logo</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/hugo-logo.png</image:loc></image:image>
+</url>
+<url>
+	<loc>http://justinbagley.rbind.io/2017/12/26/a-very-darwin-christmas-reminder-to-evolutionary-biologists-to-never-stop-exploring/</loc>
+	<changefreq>daily</changefreq>
+	<image:image><image:loc>http://justinbagley.rbind.io/images/jselfie_logo.png</image:loc><image:title>Logo</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/darwinsmall.jpg</image:loc><image:title>darwin</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/hugo-logo.png</image:loc></image:image>
+</url>
+<url>
+	<loc>http://justinbagley.rbind.io/2017/09/13/gist-ddradseq-data-snapp/</loc>
+	<changefreq>daily</changefreq>
+	<image:image><image:loc>http://justinbagley.rbind.io/images/jselfie_logo.png</image:loc><image:title>Logo</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/GitHub_Gist_img.png</image:loc><image:title>GitHub Gist</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/hugo-logo.png</image:loc></image:image>
+</url>
+<url>
+	<loc>http://justinbagley.rbind.io/2017/09/17/linux-supercomputer-rad-seq/</loc>
+	<changefreq>daily</changefreq>
+	<image:image><image:loc>http://justinbagley.rbind.io/images/jselfie_logo.png</image:loc><image:title>Logo</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/hugo-logo.png</image:loc></image:image>
+</url>
+<url>
+	<loc>http://justinbagley.rbind.io/2017/08/17/getting-beast2-path-sampler-analyses-running-windows-10/</loc>
+	<changefreq>daily</changefreq>
+	<image:image><image:loc>http://justinbagley.rbind.io/images/jselfie_logo.png</image:loc><image:title>Logo</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/BEAST2_PathSampler_logo_inAppStore.png</image:loc><image:title>BEAST2 PathSampler in AppStore</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/BEAGLE_2.1_dropbox_installer_file.png</image:loc><image:title>BEAGLE 2.1 Dropbox installer</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/Windows10_control_panel.png</image:loc><image:title>Windows10 Control Panel</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/hugo-logo.png</image:loc></image:image>
+</url>
+<url>
+	<loc>http://justinbagley.rbind.io/2017/06/28/data-mining-resources-for-species-distribution-modeling-and-macroecology/</loc>
+	<changefreq>daily</changefreq>
+	<image:image><image:loc>http://justinbagley.rbind.io/images/jselfie_logo.png</image:loc><image:title>Logo</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/GBIF_header.png</image:loc><image:title>GBIF</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/iucn_logo-150x150.png</image:loc><image:title>ICUN</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/speciesLink_logo_transparent.png</image:loc><image:title>speciesLink</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/worldclim_header.png</image:loc><image:title>WorldClim datasets</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/ArcGIS10_logo-300x200.png</image:loc><image:title>ArcGIS</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/REVERB_header-300x66.png</image:loc><image:title>REVERB</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/2000px-NOAA_logo.svg_-180x180.png</image:loc><image:title>NOAA</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/R-logo-image.png</image:loc><image:title>R</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/QGis_Logo-150x150.png</image:loc><image:title>QGIS</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/CMEC_header-300x62.png</image:loc></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/hugo-logo.png</image:loc></image:image>
+</url>
+<url>
+	<loc>http://justinbagley.rbind.io/2016/10/11/setting-dna-substitution-models-beast/</loc>
+	<changefreq>daily</changefreq>
+	<image:image><image:loc>http://justinbagley.rbind.io/images/jselfie_logo.png</image:loc><image:title>Logo</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/jc-revised.png</image:loc><image:title>Jukes-Cantor model</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/hugo-logo.png</image:loc></image:image>
+</url>
+<url>
+	<loc>http://justinbagley.rbind.io/2017/08/18/running-amova-analysis-molecular-variance-biallelic-snp-data-r/</loc>
+	<changefreq>daily</changefreq>
+	<image:image><image:loc>http://justinbagley.rbind.io/images/jselfie_logo.png</image:loc><image:title>Logo</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/R-logo-image.png</image:loc><image:title>R language for statistical computing</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/Hypostomus-sp2_picture-800x400.jpg</image:loc><image:title>Photo Credit: P. Aquino</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/Hyp.drain_.amova_.test_NOOUT_poppr_AMOVA_result_plot.jpg</image:loc><image:title>Results plot: Hypostomus drainage AMOVA with 30% missing data cutoff.</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/Hyp.drain_.amova_.test_.95_NOOUT_poppr_AMOVA_result_plot.jpg</image:loc><image:title>Results plot: Hypostomus drainage AMOVA with 95% missing data cutoff.</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/hugo-logo.png</image:loc></image:image>
+</url>
+<url>
+	<loc>http://justinbagley.rbind.io/2016/04/06/simultaneously-install-phylogenetics-packages-in-r/</loc>
+	<changefreq>daily</changefreq>
+	<image:image><image:loc>http://justinbagley.rbind.io/images/jselfie_logo.png</image:loc><image:title>Logo</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/R-logo-image.png</image:loc><image:title>R language for statistical computing</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/CRAN_Task_Views_screenshot-768x407.png</image:loc><image:title>CRAN_Task_Views_screenshot</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/Omeara_Phylogenetics_ctv-768x407.png</image:loc><image:title>Omeara_Phylogenetics_ctv</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/hugo-logo.png</image:loc></image:image>
+</url>
+<url>
+	<loc>http://justinbagley.rbind.io/2016/04/06/kill-r-process-without-forcing-r-quit-mac/</loc>
+	<changefreq>daily</changefreq>
+	<image:image><image:loc>http://justinbagley.rbind.io/images/jselfie_logo.png</image:loc><image:title>Logo</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/R-logo-image.png</image:loc><image:title>R language for statistical computing</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/hugo-logo.png</image:loc></image:image>
+</url>
+<url>
+	<loc>http://justinbagley.rbind.io/2016/03/11/latest-beast-trace-beautiful-thing-ive-seen-today/</loc>
+	<changefreq>daily</changefreq>
+	<image:image><image:loc>http://justinbagley.rbind.io/images/jselfie_logo.png</image:loc><image:title>Logo</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/38_STARBEAST_PSmle_post_trace_Mar10-768x480.png</image:loc><image:title>38_STARBEAST_PSmle_post_trace_Mar10</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/hugo-logo.png</image:loc></image:image>
+</url>
+<url>
+	<loc>http://justinbagley.rbind.io/2016/03/01/dealing-negative-phylogenetic-branch-lengths-beast-starting-trees/</loc>
+	<changefreq>daily</changefreq>
+	<image:image><image:loc>http://justinbagley.rbind.io/images/jselfie_logo.png</image:loc><image:title>Logo</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/beast183.png</image:loc><image:title>BEAST</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/hugo-logo.png</image:loc></image:image>
+</url>
+<url>
+	<loc>http://justinbagley.rbind.io/2016/03/10/getting-beast-v1-8-3-running-java-cuda-beagle-linux/</loc>
+	<changefreq>daily</changefreq>
+	<image:image><image:loc>http://justinbagley.rbind.io/images/jselfie_logo.png</image:loc><image:title>Logo</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/BEAST183_GitHub_links-e1457609581420-768x444.png</image:loc><image:title>BEAST183_GitHub</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/Beagle_readme_and_links-e1457609868462-768x466.png</image:loc><image:title>Beagle_readme_and_links</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/Beagle_lib_GitHub_front-e1457609837139-768x455.png</image:loc><image:title>Beagle_lib_GitHub_front</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/Beagle_Dropbox-e1457609900660-768x607.png</image:loc><image:title>Beagle_Dropbox</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/CUDA_download-e1457609934135-768x386.png</image:loc><image:title>CUDA_download</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/hugo-logo.png</image:loc></image:image>
+</url>
+<url>
+	<loc>http://justinbagley.rbind.io/2015/12/17/update-beast-v2-3-2-released/</loc>
+	<changefreq>daily</changefreq>
+	<image:image><image:loc>http://justinbagley.rbind.io/images/jselfie_logo.png</image:loc><image:title>Logo</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/cropped-beast2-logo-2-1024x118.png</image:loc><image:title>BEAST2 logo</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/hugo-logo.png</image:loc></image:image>
+</url>
+<url>
+	<loc>http://justinbagley.rbind.io/2016/02/22/new-version-beast-v1-8-3-released/</loc>
+	<changefreq>daily</changefreq>
+	<image:image><image:loc>http://justinbagley.rbind.io/images/jselfie_logo.png</image:loc><image:title>Logo</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/beast183.png</image:loc><image:title>BEAST v1.8.3</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/hugo-logo.png</image:loc></image:image>
+</url>
+<url>
+	<loc>http://justinbagley.rbind.io/2015/12/02/update-beast-v2-3-1/</loc>
+	<changefreq>daily</changefreq>
+	<image:image><image:loc>http://justinbagley.rbind.io/images/jselfie_logo.png</image:loc><image:title>Logo</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/cropped-beast2-logo-2-1024x118.png</image:loc><image:title>BEAST2 logo</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/hugo-logo.png</image:loc></image:image>
+</url>
+<url>
+	<loc>http://justinbagley.rbind.io/2015/11/25/cochranes-aphorism-for-molecular-ecologists/</loc>
+	<changefreq>daily</changefreq>
+	<image:image><image:loc>http://justinbagley.rbind.io/images/jselfie_logo.png</image:loc><image:title>Logo</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/AR-309159965-672x372-300x166.jpg</image:loc><image:title>AR-309159965-672x372</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/canstockphoto7351376-landingpage.jpg</image:loc><image:title>canstockphoto7351376-landingpage</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/hugo-logo.png</image:loc></image:image>
+</url>
+<url>
+	<loc>http://justinbagley.rbind.io/2015/11/23/bagleys-law-scientific-publication-access/</loc>
+	<changefreq>daily</changefreq>
+	<image:image><image:loc>http://justinbagley.rbind.io/images/jselfie_logo.png</image:loc><image:title>Logo</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/images-2.jpeg</image:loc><image:title>Open Access</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/670px-Find-Scholarly-Articles-Online-Step-1-Version-2-300x226.jpg</image:loc><image:title>Find Scholarly Articles Online Step 1</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/hugo-logo.png</image:loc></image:image>
+</url>
+<url>
+	<loc>http://justinbagley.rbind.io/2015/09/17/detecting-trait-dependent-shifts-dna-sequence-evolution-traitrate/</loc>
+	<changefreq>daily</changefreq>
+	<image:image><image:loc>http://justinbagley.rbind.io/images/jselfie_logo.png</image:loc><image:title>Logo</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/hugo-logo.png</image:loc></image:image>
+</url>
+<url>
+	<loc>http://justinbagley.rbind.io/2015/09/08/coding-general-data-types-with-ambiguities-in-beast-input-files/</loc>
+	<changefreq>daily</changefreq>
+	<image:image><image:loc>http://justinbagley.rbind.io/images/jselfie_logo.png</image:loc><image:title>Logo</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/hugo-logo.png</image:loc></image:image>
+</url>
+<url>
+	<loc>http://justinbagley.rbind.io/2015/09/02/tigerfish-have-stupidcommonnames/</loc>
+	<changefreq>daily</changefreq>
+	<image:image><image:loc>http://justinbagley.rbind.io/images/jselfie_logo.png</image:loc><image:title>Logo</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/stupid_tigerfish-300x225.png</image:loc><image:title>stupid tigerfish</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/hugo-logo.png</image:loc></image:image>
+</url>
+<url>
+	<loc>http://justinbagley.rbind.io/2015/09/01/funny-thing-ima2-output/</loc>
+	<changefreq>daily</changefreq>
+	<image:image><image:loc>http://justinbagley.rbind.io/images/jselfie_logo.png</image:loc><image:title>Logo</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/hugo-logo.png</image:loc></image:image>
+</url>
+<url>
+	<loc>http://justinbagley.rbind.io/2015/08/28/get-the-latest-version-of-beast-v2-3-0-then-ask-do-you-need-it/</loc>
+	<changefreq>daily</changefreq>
+	<image:image><image:loc>http://justinbagley.rbind.io/images/jselfie_logo.png</image:loc><image:title>Logo</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/hugo-logo.png</image:loc></image:image>
+</url>
+<url>
+	<loc>http://justinbagley.rbind.io/2015/08/23/update-mesquite-plugin-reading-writing-nexml-format/</loc>
+	<changefreq>daily</changefreq>
+	<image:image><image:loc>http://justinbagley.rbind.io/images/jselfie_logo.png</image:loc><image:title>Logo</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/hugo-logo.png</image:loc></image:image>
+</url>
+<url>
+	<loc>http://justinbagley.rbind.io/2015/08/30/update-new-functions-for-generating-starting-trees-for-beast-or-starbeast-in-r/</loc>
+	<changefreq>daily</changefreq>
+	<image:image><image:loc>http://justinbagley.rbind.io/images/jselfie_logo.png</image:loc><image:title>Logo</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/makeChronosCalib_interactive_example1_afterRightClick_-300x188.png</image:loc><image:title>makeChronosCalib_interactive_example1</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/hugo-logo.png</image:loc></image:image>
+</url>
+<url>
+	<loc>http://justinbagley.rbind.io/2015/08/07/meeting-opportunity-dating-species-divergences-using-rocks-clocks/</loc>
+	<changefreq>daily</changefreq>
+	<image:image><image:loc>http://justinbagley.rbind.io/images/jselfie_logo.png</image:loc><image:title>Logo</image:title></image:image><image:image><image:loc>http://cdn.phys.org/newman/csz/news/800/2008/13-probingquest.jpg</image:loc><image:title>spiral clock</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/hugo-logo.png</image:loc></image:image>
+</url>
+<url>
+	<loc>http://justinbagley.rbind.io/2015/03/26/update-latest-version-beast2-v2-2-1/</loc>
+	<changefreq>daily</changefreq>
+	<image:image><image:loc>http://justinbagley.rbind.io/images/jselfie_logo.png</image:loc><image:title>Logo</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/hugo-logo.png</image:loc></image:image>
+</url>
+<url>
+	<loc>http://justinbagley.rbind.io/2014/12/27/new-beast2-tutorial-rocks/</loc>
+	<changefreq>daily</changefreq>
+	<image:image><image:loc>http://justinbagley.rbind.io/images/jselfie_logo.png</image:loc><image:title>Logo</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/hugo-logo.png</image:loc></image:image>
+</url>
+<url>
+	<loc>http://justinbagley.rbind.io/2014/12/26/quickly-get-post-burnin-trees-beast-output-without-using-log-combiner-tree-annotator/</loc>
+	<changefreq>daily</changefreq>
+	<image:image><image:loc>http://justinbagley.rbind.io/images/jselfie_logo.png</image:loc><image:title>Logo</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/hugo-logo.png</image:loc></image:image>
+</url>
+<url>
+	<loc>http://justinbagley.rbind.io/2014/09/20/give-mac-relief-remove-sleepimage-file-using-terminal/</loc>
+	<changefreq>daily</changefreq>
+	<image:image><image:loc>http://justinbagley.rbind.io/images/jselfie_logo.png</image:loc><image:title>Logo</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/hugo-logo.png</image:loc></image:image>
+</url>
+<url>
+	<loc>http://justinbagley.rbind.io/2014/08/07/updated-links-beast-1-7-5-phylogeography-tutorials/</loc>
+	<changefreq>daily</changefreq>
+	<image:image><image:loc>http://justinbagley.rbind.io/images/jselfie_logo.png</image:loc><image:title>Logo</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/hugo-logo.png</image:loc></image:image>
+</url>
+<url>
+	<loc>http://justinbagley.rbind.io/2014/08/07/mesquite-website-yesterday-today-tomorrow/</loc>
+	<changefreq>daily</changefreq>
+	<image:image><image:loc>http://justinbagley.rbind.io/images/jselfie_logo.png</image:loc><image:title>Logo</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/hugo-logo.png</image:loc></image:image>
+</url>
+<url>
+	<loc>http://justinbagley.rbind.io/2014/04/30/new-book-phylogenetic-comparative-analysis-r/</loc>
+	<changefreq>daily</changefreq>
+	<image:image><image:loc>http://justinbagley.rbind.io/images/jselfie_logo.png</image:loc><image:title>Logo</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/Swenson_book.png</image:loc><image:title>Functional and Phylogenetic Ecology in R</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/hugo-logo.png</image:loc></image:image>
+</url>
+<url>
+	<loc>http://justinbagley.rbind.io/2014/04/30/cool-new-paper-phylogenetic-community-diversity-costa-rican-ants/</loc>
+	<changefreq>daily</changefreq>
+	<image:image><image:loc>http://justinbagley.rbind.io/images/jselfie_logo.png</image:loc><image:title>Logo</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/hugo-logo.png</image:loc></image:image>
+</url>
+<url>
+	<loc>http://justinbagley.rbind.io/2014/02/08/lower-central-america-phylogeography-review-paper-gets-100-views-2-days-academia-edu/</loc>
+	<changefreq>daily</changefreq>
+	<image:image><image:loc>http://justinbagley.rbind.io/images/jselfie_logo.png</image:loc><image:title>Logo</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/100views.png</image:loc><image:title>100 views</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/Academia.edu_first100views_in_2_days_LCA_review-e1391845095212.png</image:loc><image:title>Academia.edu first 100 views in 2 days LCA review</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/hugo-logo.png</image:loc></image:image>
+</url>
+<url>
+	<loc>http://justinbagley.rbind.io/2014/03/07/new-web-server-update-bayesian-ptp-species-delimitation-single-gene-tree/</loc>
+	<changefreq>daily</changefreq>
+	<image:image><image:loc>http://justinbagley.rbind.io/images/jselfie_logo.png</image:loc><image:title>Logo</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/hugo-logo.png</image:loc></image:image>
+</url>
+<url>
+	<loc>http://justinbagley.rbind.io/2014/02/17/got-starting-tree-add-beast2-xml-file-make-work/</loc>
+	<changefreq>daily</changefreq>
+	<image:image><image:loc>http://justinbagley.rbind.io/images/jselfie_logo.png</image:loc><image:title>Logo</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/beast2.png</image:loc><image:title>BEAST logo</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/hugo-logo.png</image:loc></image:image>
+</url>
+<url>
+	<loc>http://justinbagley.rbind.io/2013/12/13/new-version-lamarc-lamarc-v2-1-9-now-available/</loc>
+	<changefreq>daily</changefreq>
+	<image:image><image:loc>http://justinbagley.rbind.io/images/jselfie_logo.png</image:loc><image:title>Logo</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/hugo-logo.png</image:loc></image:image>
+</url>
+<url>
+	<loc>http://justinbagley.rbind.io/2013/12/11/new-version-tracer-tracer-1-6-now-available/</loc>
+	<changefreq>daily</changefreq>
+	<image:image><image:loc>http://justinbagley.rbind.io/images/jselfie_logo.png</image:loc><image:title>Logo</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/hugo-logo.png</image:loc></image:image>
+</url>
+<url>
+	<loc>http://justinbagley.rbind.io/2013/12/03/new-phyloseminar-adding-fossil-data-phylogenies/</loc>
+	<changefreq>daily</changefreq>
+	<image:image><image:loc>http://justinbagley.rbind.io/images/jselfie_logo.png</image:loc><image:title>Logo</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/hugo-logo.png</image:loc></image:image>
+</url>
+<url>
+	<loc>http://justinbagley.rbind.io/2013/12/11/luke-mahler-visits-byu/</loc>
+	<changefreq>daily</changefreq>
+	<image:image><image:loc>http://justinbagley.rbind.io/images/jselfie_logo.png</image:loc><image:title>Logo</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/hugo-logo.png</image:loc></image:image>
+</url>
+<url>
+	<loc>http://justinbagley.rbind.io/2013/11/27/bryan-carstenss-phylogeography-talk-2012-molecular-ecology-symposium-1st-congress-evolutionary-biology-ottawa-canada/</loc>
+	<changefreq>daily</changefreq>
+	<image:image><image:loc>http://justinbagley.rbind.io/images/jselfie_logo.png</image:loc><image:title>Logo</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/hugo-logo.png</image:loc></image:image>
+</url>
+<url>
+	<loc>http://justinbagley.rbind.io/2013/11/27/outsource-next-generation-sequencing-runs-de-novo-snp-discovery-phylogenetics-phylogeography/</loc>
+	<changefreq>daily</changefreq>
+	<image:image><image:loc>http://justinbagley.rbind.io/images/jselfie_logo.png</image:loc><image:title>Logo</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/hugo-logo.png</image:loc></image:image>
+</url>
+<url>
+	<loc>http://justinbagley.rbind.io/2013/11/18/software-carpentry-providing-training-open-access-material-self-paced-instruction-software-skills-researchers/</loc>
+	<changefreq>daily</changefreq>
+	<image:image><image:loc>http://justinbagley.rbind.io/images/jselfie_logo.png</image:loc><image:title>Logo</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/software-carpentry-banner.png</image:loc><image:title>software-carpentry-banner</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/hugo-logo.png</image:loc></image:image>
+</url>
+<url>
+	<loc>http://justinbagley.rbind.io/2013/11/12/tracy-heath-visits-byu-biology-dept/</loc>
+	<changefreq>daily</changefreq>
+	<image:image><image:loc>http://justinbagley.rbind.io/images/jselfie_logo.png</image:loc><image:title>Logo</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/Tracy-Heath-w-Darwin.jpg</image:loc><image:title>Tracy Heath w Darwin</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/hugo-logo.png</image:loc></image:image>
+</url>
+<url>
+	<loc>http://justinbagley.rbind.io/2013/11/11/california-freshwater-fish-distribution-resources/</loc>
+	<changefreq>daily</changefreq>
+	<image:image><image:loc>http://justinbagley.rbind.io/images/jselfie_logo.png</image:loc><image:title>Logo</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/hugo-logo.png</image:loc></image:image>
+</url>
+<url>
+	<loc>http://justinbagley.rbind.io/2013/10/29/beastgen-a-new-program-for-creating-nexus-fasta-and-beast-xml-input-files-for-phylogenetics-software/</loc>
+	<changefreq>daily</changefreq>
+	<image:image><image:loc>http://justinbagley.rbind.io/images/jselfie_logo.png</image:loc><image:title>Logo</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/hugo-logo.png</image:loc></image:image>
+</url>
+<url>
+	<loc>http://justinbagley.rbind.io/2013/10/27/symphony-of-science-the-greatest-show-on-earth-a-music-video-about-e/</loc>
+	<changefreq>daily</changefreq>
+	<image:image><image:loc>http://justinbagley.rbind.io/images/jselfie_logo.png</image:loc><image:title>Logo</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/hugo-logo.png</image:loc></image:image>
+</url>
+<url>
+	<loc>http://justinbagley.rbind.io/2013/10/27/a-comprehensive-list-of-phylogenetics-packages-for-r/</loc>
+	<changefreq>daily</changefreq>
+	<image:image><image:loc>http://justinbagley.rbind.io/images/jselfie_logo.png</image:loc><image:title>Logo</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/hugo-logo.png</image:loc></image:image>
+</url>
+<url>
+	<loc>http://justinbagley.rbind.io/2013/10/25/do-journal-guidelines-discouraging-single-locus-papers-reflect-an-attitude-that-contributes-to-a-file-drawer-problem-in-phylogeography-and-phylogenetics/</loc>
+	<changefreq>daily</changefreq>
+	<image:image><image:loc>http://justinbagley.rbind.io/images/jselfie_logo.png</image:loc><image:title>Logo</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/hugo-logo.png</image:loc></image:image>
+</url>
+<url>
+	<loc>http://justinbagley.rbind.io/2013/10/10/off-to-a-good-start-how-to-generate-starting-trees-for-beast-analyses-using-r/</loc>
+	<changefreq>daily</changefreq>
+	<image:image><image:loc>http://justinbagley.rbind.io/images/jselfie_logo.png</image:loc><image:title>Logo</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/beast2.png</image:loc><image:title>BEAST logo</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/hugo-logo.png</image:loc></image:image>
+</url>
+<url>
+	<loc>http://justinbagley.rbind.io/2013/03/13/ssh-clients-and-linux-command-line-for-interacting-with-supercomputers-during-evolutionary-analysis/</loc>
+	<changefreq>daily</changefreq>
+	<image:image><image:loc>http://justinbagley.rbind.io/images/jselfie_logo.png</image:loc><image:title>Logo</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/hugo-logo.png</image:loc></image:image>
+</url>
+<url>
+	<loc>http://justinbagley.rbind.io/2011/09/13/migrate-n-and-phylogeography-bayesian-priors-and-run-settings/</loc>
+	<changefreq>daily</changefreq>
+	<image:image><image:loc>http://justinbagley.rbind.io/images/jselfie_logo.png</image:loc><image:title>Logo</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/hugo-logo.png</image:loc></image:image>
+</url>
+<url>
+	<loc>http://justinbagley.rbind.io/2011/09/22/statistical-phylogeography-tutorial-1-coalescent-simulations-in-mesquite-part-i/</loc>
+	<changefreq>daily</changefreq>
+	<image:image><image:loc>http://justinbagley.rbind.io/images/jselfie_logo.png</image:loc><image:title>Logo</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/hugo-logo.png</image:loc></image:image>
+</url>
+<url>
+	<loc>http://justinbagley.rbind.io/2011/09/04/dna-polymorphism-indices-and-sampling/</loc>
+	<changefreq>daily</changefreq>
+	<image:image><image:loc>http://justinbagley.rbind.io/images/jselfie_logo.png</image:loc><image:title>Logo</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/hugo-logo.png</image:loc></image:image>
+</url>
+<url>
+	<loc>http://justinbagley.rbind.io/2011/09/01/beast-and-the-beast-basics-molecular-clocks-and-how-to-input-rates-into-beast/</loc>
+	<changefreq>daily</changefreq>
+	<image:image><image:loc>http://justinbagley.rbind.io/images/jselfie_logo.png</image:loc><image:title>Logo</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/hugo-logo.png</image:loc></image:image>
+</url>
+<url>
+	<loc>http://justinbagley.rbind.io/2011/08/12/estimated-cytb-and-rps7-mutation-rates-for-heterandria/</loc>
+	<changefreq>daily</changefreq>
+	<image:image><image:loc>http://justinbagley.rbind.io/images/jselfie_logo.png</image:loc><image:title>Logo</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/hugo-logo.png</image:loc></image:image>
+</url>
+<url>
+	<loc>http://justinbagley.rbind.io/2011/08/06/jmodeltest-will-not-run-with-single-quotes-around-tip-names/</loc>
+	<changefreq>daily</changefreq>
+	<image:image><image:loc>http://justinbagley.rbind.io/images/jselfie_logo.png</image:loc><image:title>Logo</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/hugo-logo.png</image:loc></image:image>
+</url>
+<url>
+	<loc>http://justinbagley.rbind.io/2011/08/05/new-garli-web-server-for-runs-in-the-cloud/</loc>
+	<changefreq>daily</changefreq>
+	<image:image><image:loc>http://justinbagley.rbind.io/images/jselfie_logo.png</image:loc><image:title>Logo</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/hugo-logo.png</image:loc></image:image>
+</url>
+<url>
+	<loc>http://justinbagley.rbind.io/2011/08/05/evolution-phylogenetics-and-phylogenetic-model-selection-jmodeltest-vs-dt_modsel/</loc>
+	<changefreq>daily</changefreq>
+	<image:image><image:loc>http://justinbagley.rbind.io/images/jselfie_logo.png</image:loc><image:title>Logo</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/hugo-logo.png</image:loc></image:image>
+</url>
+<url>
+	<loc>http://justinbagley.rbind.io/2011/07/19/in-only-so-many-words/</loc>
+	<changefreq>daily</changefreq>
+	<image:image><image:loc>http://justinbagley.rbind.io/images/jselfie_logo.png</image:loc><image:title>Logo</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/hugo-logo.png</image:loc></image:image>
+</url>
+<url>
+	<loc>http://justinbagley.rbind.io/2011/07/19/one-way-to-evaluate-incomplete-lineage-sorting-in-your-phylogenetic-or-phylogeographic-data/</loc>
+	<changefreq>daily</changefreq>
+	<image:image><image:loc>http://justinbagley.rbind.io/images/jselfie_logo.png</image:loc><image:title>Logo</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/hugo-logo.png</image:loc></image:image>
+</url>
+<url>
+	<loc>http://justinbagley.rbind.io/2010/09/04/how-to-use-migrate-n-for-phylogeography/</loc>
+	<changefreq>daily</changefreq>
+	<image:image><image:loc>http://justinbagley.rbind.io/images/jselfie_logo.png</image:loc><image:title>Logo</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/hugo-logo.png</image:loc></image:image>
+</url>
+<url>
+	<loc>http://justinbagley.rbind.io/2010/08/07/phylogenetic-signal/</loc>
+	<changefreq>daily</changefreq>
+	<image:image><image:loc>http://justinbagley.rbind.io/images/jselfie_logo.png</image:loc><image:title>Logo</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/hugo-logo.png</image:loc></image:image>
+</url>
+<url>
+	<loc>http://justinbagley.rbind.io/2010/08/03/recent-stuff-latest-micropterus-sequences-on-genbank/</loc>
+	<changefreq>daily</changefreq>
+	<image:image><image:loc>http://justinbagley.rbind.io/images/jselfie_logo.png</image:loc><image:title>Logo</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/hugo-logo.png</image:loc></image:image>
+</url>
+<url>
+	<loc>http://justinbagley.rbind.io/2010/08/16/phylogenetic-hypotheses-testing/</loc>
+	<changefreq>daily</changefreq>
+	<image:image><image:loc>http://justinbagley.rbind.io/images/jselfie_logo.png</image:loc><image:title>Logo</image:title></image:image><image:image><image:loc>http://justinbagley.rbind.io/images/hugo-logo.png</image:loc></image:image>
+</url></urlset>
