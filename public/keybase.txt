@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/justincbagley
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://justinbagley.rbind.io
+  * I am justincbagley (https://keybase.io/justincbagley) on keybase.
+  * I have a public key ASCxJVNMZzqQcBR8GRqlRF6noG-EgEvy0fGe0Qa3A-yXbAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120b125534c673a9070147c191aa5445ea7a06f84804bf2d1f19ed106b703ec976c0a",
+      "host": "keybase.io",
+      "kid": "0120b125534c673a9070147c191aa5445ea7a06f84804bf2d1f19ed106b703ec976c0a",
+      "uid": "a610cf34a440dc3b14107088299e7c19",
+      "username": "justincbagley"
+    },
+    "merkle_root": {
+      "ctime": 1532367732,
+      "hash": "f84b708ec3c2250dca2328f736e15ccb80fe0b9c1e121034ca87caea3f273556cdd7aaa934d645d9ece6b787a7a8d8869c44613d0cabf8e4ccf50c8fcb35e0e0",
+      "hash_meta": "e2f5b7987a1237ffc38327b022f7a0622bea2de8c3167de091e71ba645551419",
+      "seqno": 3316676
+    },
+    "service": {
+      "entropy": "meeDo19QhPm7zNnlFEJkd8aT",
+      "hostname": "justinbagley.rbind.io",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "2.3.0"
+  },
+  "ctime": 1532367751,
+  "expire_in": 504576000,
+  "prev": "7517227df99fade49346e7c93fcab0ba8220b89397be3f723a03a6d200f7fa43",
+  "seqno": 8,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgsSVTTGc6kHAUfBkapURep6BvhIBL8tHxntEGtwPsl2wKp3BheWxvYWTESpcCCMQgdRciffmfreSTRufJP8qwuoIguJOXvj9yOgOm0gD3+kPEINsOKkyv18YEURQ0NNipNTRJIL9z1Cl/ixv7Cm4dQLN1AgHCo3NpZ8RAfonEQsYAnq4MlEmwhISM3/+YBSMUKxGlE9Kh3IjgjeqLFSAPN32L9RDoGhO0IEKO5tnNr44rT9OvQDR9EWWtB6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIDrIc9tcWni+MzVUG4MFvpMyNGsT/zZQ0d3YRmzA8YM0o3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/justincbagley
+
+==================================================================
