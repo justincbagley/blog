@@ -21,7 +21,7 @@ The source code for this site is located at [GitHub](https://github.com/justincb
 
 ---
 
-<h4><a name="counter"></a>site visitor counter</h4>
+<h3><a name="counter"></a>site visitor counter</h3>
 <section id="site-visitor-counter">
 <hr>
 <script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?d=WaFt_sL-6TuW7rv_t3N3XnIcHJ3aS-9C90MYdJfvjlE&cl=ffffff&w=a"></script>    
