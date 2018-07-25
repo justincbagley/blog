@@ -384,13 +384,13 @@
   </url>
   
   <url>
-    <loc>/categories/adegenet/</loc>
+    <loc>/tags/adegenet/</loc>
     <lastmod>2017-08-18T19:16:27+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/adegenet/</loc>
+    <loc>/categories/adegenet/</loc>
     <lastmod>2017-08-18T19:16:27+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -420,14 +420,14 @@
   </url>
   
   <url>
-    <loc>/categories/ape/</loc>
-    <lastmod>2011-11-22T08:15:00+00:00</lastmod>
+    <loc>/tags/ape/</loc>
+    <lastmod>2016-03-01T21:43:35+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/ape/</loc>
-    <lastmod>2016-03-01T21:43:35+00:00</lastmod>
+    <loc>/categories/ape/</loc>
+    <lastmod>2011-11-22T08:15:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -486,14 +486,14 @@
   </url>
   
   <url>
-    <loc>/categories/bayesian/</loc>
-    <lastmod>2016-10-11T19:52:55+00:00</lastmod>
+    <loc>/tags/bayesian/</loc>
+    <lastmod>2015-09-01T02:41:34+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/bayesian/</loc>
-    <lastmod>2015-09-01T02:41:34+00:00</lastmod>
+    <loc>/categories/bayesian/</loc>
+    <lastmod>2016-10-11T19:52:55+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -516,19 +516,13 @@
   </url>
   
   <url>
-    <loc>/categories/beagle/</loc>
-    <lastmod>2017-08-17T18:18:35+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/tags/beagle/</loc>
     <lastmod>2017-08-17T18:18:35+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/beast/</loc>
+    <loc>/categories/beagle/</loc>
     <lastmod>2017-08-17T18:18:35+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -540,7 +534,19 @@
   </url>
   
   <url>
+    <loc>/categories/beast/</loc>
+    <lastmod>2017-08-17T18:18:35+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/beast2/</loc>
+    <lastmod>2017-09-13T11:40:35+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/beauti/</loc>
     <lastmod>2017-09-13T11:40:35+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -548,12 +554,6 @@
   <url>
     <loc>/categories/beauti/</loc>
     <lastmod>2016-10-11T19:52:55+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/beauti/</loc>
-    <lastmod>2017-09-13T11:40:35+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -588,13 +588,13 @@
   </url>
   
   <url>
-    <loc>/categories/books/</loc>
+    <loc>/tags/books/</loc>
     <lastmod>2014-04-30T18:04:38+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/books/</loc>
+    <loc>/categories/books/</loc>
     <lastmod>2014-04-30T18:04:38+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -666,13 +666,13 @@
   </url>
   
   <url>
-    <loc>/categories/charles-darwin/</loc>
+    <loc>/tags/charles-darwin/</loc>
     <lastmod>2017-12-26T17:28:55+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/charles-darwin/</loc>
+    <loc>/categories/charles-darwin/</loc>
     <lastmod>2017-12-26T17:28:55+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -702,13 +702,13 @@
   </url>
   
   <url>
-    <loc>/categories/climate/</loc>
+    <loc>/tags/climate/</loc>
     <lastmod>2017-06-28T01:49:20+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/climate/</loc>
+    <loc>/categories/climate/</loc>
     <lastmod>2017-06-28T01:49:20+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -744,19 +744,13 @@
   </url>
   
   <url>
-    <loc>/categories/code/</loc>
-    <lastmod>2018-07-25T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/tags/code/</loc>
     <lastmod>2014-04-30T18:04:38+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/command-line/</loc>
+    <loc>/categories/code/</loc>
     <lastmod>2018-07-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -764,6 +758,12 @@
   <url>
     <loc>/tags/command-line/</loc>
     <lastmod>2018-03-26T03:11:07+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/command-line/</loc>
+    <lastmod>2018-07-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -888,19 +888,13 @@
   </url>
   
   <url>
-    <loc>/categories/ddocent/</loc>
-    <lastmod>2018-03-10T23:17:05+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/tags/ddocent/</loc>
     <lastmod>2018-03-10T23:17:05+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/ddrad-seq/</loc>
+    <loc>/categories/ddocent/</loc>
     <lastmod>2018-03-10T23:17:05+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -912,19 +906,25 @@
   </url>
   
   <url>
+    <loc>/categories/ddrad-seq/</loc>
+    <lastmod>2018-03-10T23:17:05+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/delete/</loc>
     <lastmod>2018-03-06T03:49:42+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/development/</loc>
+    <loc>/tags/development/</loc>
     <lastmod>2018-07-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/development/</loc>
+    <loc>/categories/development/</loc>
     <lastmod>2018-07-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -1128,20 +1128,14 @@
   </url>
   
   <url>
-    <loc>/categories/gis/</loc>
-    <lastmod>2017-06-28T01:49:20+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/tags/gis/</loc>
     <lastmod>2017-06-28T01:49:20+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/gist/</loc>
-    <lastmod>2017-09-17T18:23:01+00:00</lastmod>
+    <loc>/categories/gis/</loc>
+    <lastmod>2017-06-28T01:49:20+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1152,7 +1146,7 @@
   </url>
   
   <url>
-    <loc>/categories/github/</loc>
+    <loc>/categories/gist/</loc>
     <lastmod>2017-09-17T18:23:01+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -1160,6 +1154,12 @@
   <url>
     <loc>/tags/github/</loc>
     <lastmod>2017-09-13T11:40:35+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/github/</loc>
+    <lastmod>2017-09-17T18:23:01+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1212,13 +1212,13 @@
   </url>
   
   <url>
-    <loc>/categories/ima2/</loc>
+    <loc>/tags/ima2/</loc>
     <lastmod>2015-09-01T02:41:34+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/ima2/</loc>
+    <loc>/categories/ima2/</loc>
     <lastmod>2015-09-01T02:41:34+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -1272,14 +1272,14 @@
   </url>
   
   <url>
-    <loc>/categories/java/</loc>
-    <lastmod>2017-08-17T18:18:35+00:00</lastmod>
+    <loc>/tags/java/</loc>
+    <lastmod>2017-09-17T18:23:01+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/java/</loc>
-    <lastmod>2017-09-17T18:23:01+00:00</lastmod>
+    <loc>/categories/java/</loc>
+    <lastmod>2017-08-17T18:18:35+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1296,13 +1296,13 @@
   </url>
   
   <url>
-    <loc>/categories/jmodeltest/</loc>
+    <loc>/tags/jmodeltest/</loc>
     <lastmod>2011-08-06T14:20:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/jmodeltest/</loc>
+    <loc>/categories/jmodeltest/</loc>
     <lastmod>2011-08-06T14:20:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -1368,14 +1368,14 @@
   </url>
   
   <url>
-    <loc>/categories/linux/</loc>
-    <lastmod>2018-03-26T03:11:07+00:00</lastmod>
+    <loc>/tags/linux/</loc>
+    <lastmod>2018-07-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/linux/</loc>
-    <lastmod>2018-07-25T00:00:00+00:00</lastmod>
+    <loc>/categories/linux/</loc>
+    <lastmod>2018-03-26T03:11:07+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1392,14 +1392,14 @@
   </url>
   
   <url>
-    <loc>/categories/mac/</loc>
-    <lastmod>2018-03-06T04:14:15+00:00</lastmod>
+    <loc>/tags/mac/</loc>
+    <lastmod>2016-04-06T15:22:18+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/mac/</loc>
-    <lastmod>2016-04-06T15:22:18+00:00</lastmod>
+    <loc>/categories/mac/</loc>
+    <lastmod>2018-03-06T04:14:15+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1410,13 +1410,13 @@
   </url>
   
   <url>
-    <loc>/categories/macroecology/</loc>
+    <loc>/tags/macroecology/</loc>
     <lastmod>2017-06-28T01:49:20+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/macroecology/</loc>
+    <loc>/categories/macroecology/</loc>
     <lastmod>2017-06-28T01:49:20+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -1476,14 +1476,14 @@
   </url>
   
   <url>
-    <loc>/categories/mesquite/</loc>
-    <lastmod>2014-08-07T18:11:18+00:00</lastmod>
+    <loc>/tags/mesquite/</loc>
+    <lastmod>2015-08-23T13:58:21+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/mesquite/</loc>
-    <lastmod>2015-08-23T13:58:21+00:00</lastmod>
+    <loc>/categories/mesquite/</loc>
+    <lastmod>2014-08-07T18:11:18+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1494,14 +1494,14 @@
   </url>
   
   <url>
-    <loc>/categories/migrate-n/</loc>
-    <lastmod>2011-09-13T14:56:00+00:00</lastmod>
+    <loc>/tags/migrate-n/</loc>
+    <lastmod>2013-12-13T19:04:34+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/migrate-n/</loc>
-    <lastmod>2013-12-13T19:04:34+00:00</lastmod>
+    <loc>/categories/migrate-n/</loc>
+    <lastmod>2011-09-13T14:56:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1512,13 +1512,13 @@
   </url>
   
   <url>
-    <loc>/categories/miniconda/</loc>
+    <loc>/tags/miniconda/</loc>
     <lastmod>2017-09-17T18:23:01+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/miniconda/</loc>
+    <loc>/categories/miniconda/</loc>
     <lastmod>2017-09-17T18:23:01+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -1530,14 +1530,14 @@
   </url>
   
   <url>
-    <loc>/categories/model-selection/</loc>
-    <lastmod>2011-08-05T18:50:00+00:00</lastmod>
+    <loc>/tags/model-selection/</loc>
+    <lastmod>2011-08-06T14:20:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/model-selection/</loc>
-    <lastmod>2011-08-06T14:20:00+00:00</lastmod>
+    <loc>/categories/model-selection/</loc>
+    <lastmod>2011-08-05T18:50:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1554,13 +1554,13 @@
   </url>
   
   <url>
-    <loc>/categories/molecular-clocks/</loc>
+    <loc>/tags/molecular-clocks/</loc>
     <lastmod>2011-09-01T23:38:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/molecular-clocks/</loc>
+    <loc>/categories/molecular-clocks/</loc>
     <lastmod>2011-09-01T23:38:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -1572,25 +1572,25 @@
   </url>
   
   <url>
-    <loc>/categories/molecular-evolution/</loc>
-    <lastmod>2016-10-11T19:52:55+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/tags/molecular-evolution/</loc>
     <lastmod>2015-09-17T15:06:20+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/morphological-data/</loc>
-    <lastmod>2015-09-08T03:07:12+00:00</lastmod>
+    <loc>/categories/molecular-evolution/</loc>
+    <lastmod>2016-10-11T19:52:55+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/morphological-data/</loc>
+    <lastmod>2015-09-08T03:07:12+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/morphological-data/</loc>
     <lastmod>2015-09-08T03:07:12+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -1626,13 +1626,13 @@
   </url>
   
   <url>
-    <loc>/categories/next-generation-sequencing/</loc>
+    <loc>/tags/next-generation-sequencing/</loc>
     <lastmod>2013-11-27T04:33:44+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/next-generation-sequencing/</loc>
+    <loc>/categories/next-generation-sequencing/</loc>
     <lastmod>2013-11-27T04:33:44+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -1746,13 +1746,13 @@
   </url>
   
   <url>
-    <loc>/categories/peerj/</loc>
+    <loc>/tags/peerj/</loc>
     <lastmod>2018-03-07T05:32:23+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/peerj/</loc>
+    <loc>/categories/peerj/</loc>
     <lastmod>2018-03-07T05:32:23+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -1794,20 +1794,14 @@
   </url>
   
   <url>
-    <loc>/categories/phylogenetics/</loc>
-    <lastmod>2016-04-06T15:43:16+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/tags/phylogenetics/</loc>
     <lastmod>2016-04-06T15:43:16+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/phylogeny/</loc>
-    <lastmod>2011-08-05T18:50:00+00:00</lastmod>
+    <loc>/categories/phylogenetics/</loc>
+    <lastmod>2016-04-06T15:43:16+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1818,14 +1812,20 @@
   </url>
   
   <url>
-    <loc>/categories/phylogeography/</loc>
-    <lastmod>2015-09-01T02:41:34+00:00</lastmod>
+    <loc>/categories/phylogeny/</loc>
+    <lastmod>2011-08-05T18:50:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/phylogeography/</loc>
     <lastmod>2014-08-07T20:59:25+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/phylogeography/</loc>
+    <lastmod>2015-09-01T02:41:34+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1842,13 +1842,13 @@
   </url>
   
   <url>
-    <loc>/categories/poppr/</loc>
+    <loc>/tags/poppr/</loc>
     <lastmod>2017-08-18T19:16:27+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/poppr/</loc>
+    <loc>/categories/poppr/</loc>
     <lastmod>2017-08-18T19:16:27+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -1920,19 +1920,13 @@
   </url>
   
   <url>
-    <loc>/categories/pyrad/</loc>
-    <lastmod>2017-09-17T18:23:01+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/tags/pyrad/</loc>
     <lastmod>2017-09-17T18:23:01+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/python/</loc>
+    <loc>/categories/pyrad/</loc>
     <lastmod>2017-09-17T18:23:01+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -1944,14 +1938,14 @@
   </url>
   
   <url>
-    <loc>/tags/qgis/</loc>
-    <lastmod>2017-06-28T01:49:20+00:00</lastmod>
+    <loc>/categories/python/</loc>
+    <lastmod>2017-09-17T18:23:01+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/r/</loc>
-    <lastmod>2018-07-16T00:00:00+00:00</lastmod>
+    <loc>/tags/qgis/</loc>
+    <lastmod>2017-06-28T01:49:20+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1962,19 +1956,25 @@
   </url>
   
   <url>
+    <loc>/categories/r/</loc>
+    <lastmod>2018-07-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/r-markdown/</loc>
     <lastmod>2018-07-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/rad-seq/</loc>
+    <loc>/tags/rad-seq/</loc>
     <lastmod>2017-09-17T18:23:01+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/rad-seq/</loc>
+    <loc>/categories/rad-seq/</loc>
     <lastmod>2017-09-17T18:23:01+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -2016,13 +2016,13 @@
   </url>
   
   <url>
-    <loc>/categories/samtools/</loc>
+    <loc>/tags/samtools/</loc>
     <lastmod>2018-03-10T23:17:05+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/samtools/</loc>
+    <loc>/categories/samtools/</loc>
     <lastmod>2018-03-10T23:17:05+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -2034,13 +2034,13 @@
   </url>
   
   <url>
-    <loc>/categories/scientific-names/</loc>
+    <loc>/tags/scientific-names/</loc>
     <lastmod>2015-09-02T02:38:32+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/scientific-names/</loc>
+    <loc>/categories/scientific-names/</loc>
     <lastmod>2015-09-02T02:38:32+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -2106,13 +2106,13 @@
   </url>
   
   <url>
-    <loc>/categories/snapp/</loc>
+    <loc>/tags/snapp/</loc>
     <lastmod>2017-09-13T11:40:35+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/snapp/</loc>
+    <loc>/categories/snapp/</loc>
     <lastmod>2017-09-13T11:40:35+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -2124,25 +2124,25 @@
   </url>
   
   <url>
-    <loc>/categories/snps/</loc>
-    <lastmod>2018-07-25T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/tags/snps/</loc>
     <lastmod>2017-09-13T11:40:35+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/software/</loc>
+    <loc>/categories/snps/</loc>
     <lastmod>2018-07-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/software/</loc>
+    <lastmod>2018-07-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/software/</loc>
     <lastmod>2018-07-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -2166,14 +2166,14 @@
   </url>
   
   <url>
-    <loc>/categories/species-delimitation/</loc>
-    <lastmod>2016-03-11T12:00:01+00:00</lastmod>
+    <loc>/tags/species-delimitation/</loc>
+    <lastmod>2014-03-07T16:05:31+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/species-delimitation/</loc>
-    <lastmod>2014-03-07T16:05:31+00:00</lastmod>
+    <loc>/categories/species-delimitation/</loc>
+    <lastmod>2016-03-11T12:00:01+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2184,26 +2184,26 @@
   </url>
   
   <url>
-    <loc>/categories/species-trees/</loc>
-    <lastmod>2017-09-13T11:40:35+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/tags/species-trees/</loc>
     <lastmod>2013-10-10T20:35:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/ssh/</loc>
-    <lastmod>2017-09-17T18:23:01+00:00</lastmod>
+    <loc>/categories/species-trees/</loc>
+    <lastmod>2017-09-13T11:40:35+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/ssh/</loc>
     <lastmod>2013-03-13T14:05:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/ssh/</loc>
+    <lastmod>2017-09-17T18:23:01+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2268,14 +2268,14 @@
   </url>
   
   <url>
-    <loc>/categories/supercomputers/</loc>
-    <lastmod>2018-03-26T03:11:07+00:00</lastmod>
+    <loc>/tags/supercomputers/</loc>
+    <lastmod>2017-09-17T18:23:01+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/supercomputers/</loc>
-    <lastmod>2017-09-17T18:23:01+00:00</lastmod>
+    <loc>/categories/supercomputers/</loc>
+    <lastmod>2018-03-26T03:11:07+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2334,13 +2334,13 @@
   </url>
   
   <url>
-    <loc>/categories/terminal/</loc>
+    <loc>/tags/terminal/</loc>
     <lastmod>2016-04-06T15:22:18+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/terminal/</loc>
+    <loc>/categories/terminal/</loc>
     <lastmod>2016-04-06T15:22:18+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -2454,14 +2454,14 @@
   </url>
   
   <url>
-    <loc>/categories/unix/</loc>
-    <lastmod>2018-03-06T03:49:42+00:00</lastmod>
+    <loc>/tags/unix/</loc>
+    <lastmod>2018-07-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/unix/</loc>
-    <lastmod>2018-07-25T00:00:00+00:00</lastmod>
+    <loc>/categories/unix/</loc>
+    <lastmod>2018-03-06T03:49:42+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2526,13 +2526,13 @@
   </url>
   
   <url>
-    <loc>/categories/website/</loc>
+    <loc>/tags/website/</loc>
     <lastmod>2018-07-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/website/</loc>
+    <loc>/categories/website/</loc>
     <lastmod>2018-07-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -2580,25 +2580,25 @@
   </url>
   
   <url>
-    <loc>/categories/xml/</loc>
-    <lastmod>2016-10-11T19:52:55+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/tags/xml/</loc>
     <lastmod>2015-09-08T03:07:12+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/%5Cbeast/</loc>
-    <lastmod>2016-03-11T12:00:01+00:00</lastmod>
+    <loc>/categories/xml/</loc>
+    <lastmod>2016-10-11T19:52:55+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/%5Cbeast/</loc>
+    <lastmod>2016-03-11T12:00:01+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/%5Cbeast/</loc>
     <lastmod>2016-03-11T12:00:01+00:00</lastmod>
     <priority>0</priority>
   </url>
