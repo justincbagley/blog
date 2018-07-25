@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.44" />
+
+
+<title>BEAST and the BEAST basics: molecular clocks and how to input rates into BEAST - blog</title>
+<meta property="og:title" content="BEAST and the BEAST basics: molecular clocks and how to input rates into BEAST - blog">
+
+
+
+  
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/css/fonts.css" media="all">
+<link rel="stylesheet" href="/css/main.css" media="all">
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/" class="nav-logo">
+    <img src="/images/jselfie_logo.png"
+         width="50"
+         height="50"
+         alt="Logo">
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="/about/">About</a></li>
+    
+    <li><a href="https://github.com/justincbagley">GitHub</a></li>
+    
+    <li><a href="https://www.linkedin.com/in/justin-c-bagley-2a8a0523">LinkedIn</a></li>
+    
+    <li><a href="https://www.researchgate.net/profile/Justin_Bagley2">ResearchGate</a></li>
+    
+    <li><a href="https://twitter.com/justincbagley">Twitter</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">9 min read</span>
+    
+
+    <h1 class="article-title">BEAST and the BEAST basics: molecular clocks and how to input rates into BEAST</h1>
+
+    
+    <span class="article-date">2011/09/01</span>
+    
+
+    <div class="article-content">
+      
+
+<h4 id="beast-basics"><strong>BEAST basics</strong></h4>
+
+<h5 id="a-brief-introduction-to-beast">**A brief introduction to BEAST **</h5>
+
+<p>BEAST is a powerful computer program for evolutionary analysis developed by Andrew Rambaut and Alexei Drummond, as well as Marc Suchard, Simon Ho, Joseph Heled, and others. BEAST was originally designed to provide a <a href="https://en.wikipedia.org/wiki/Bayesian_inference">Bayesian</a> <a href="https://en.wikipedia.org/wiki/Markov_chain_Monte_Carlo">Markov chain Monte Carlo (MCMC)</a> method for simultaneously co-estimating phylogenies and divergence times (times to the most recent common ancestor, TMRCAs) from DNA sequence data (or amino acids) for one or multiple loci. However, it has now been extended to trait data and provides means of testing for correlated trait evolution. It currently implements a wide variety of evolutionary models. For those interested in studying phylogenetics, phylogeography and demography in a Bayesian framework, BEAST is a choice option for analysis, being among the premier tools in each of these fields.</p>
+
+<p>Before reading the rest of this post, make sure you have downloaded BEAST. You can get the latest version at the BEAST website, which can be accessed by clicking <a href="http://beast.bio.ed.ac.uk/Main_Page">here</a> [<em>Updated May 2016:</em> or you can download BEAST2 <a href="http://beast2.org">here</a>]. I&rsquo;d also point out that BEAST developers have provided a very useful set of <a href="http://beast.bio.ed.ac.uk/Tutorials">tutorials</a> as well as a frequently-visited <a href="http://groups.google.com/group/beast-users?pli=1">google group</a> for discussing and dealing with issues related to BEAST analysis.  Like other programs common to molecular ecology and evolutionary genetic analysis, e.g. migrate, first learning to use BEAST can be challenging. Fortunately, the program has grown quite a bit since earlier versions, with more flexibility (options) and a more user-friendly interface in BEAUTi for generating input files (less direct <a href="https://en.wikipedia.org/wiki/XML">XML</a> file editing).</p>
+
+<hr />
+
+<h5 id="molecular-clocks-in-beast"><strong>Molecular clocks in BEAST</strong></h5>
+
+<p><a href="https://en.wikipedia.org/wiki/Molecular_clock">Molecular clocks</a> play a key role in all of the models implemented in BEAST. Despite the good documentation and support mentioned above, however, a frequently asked question regarding setting up BEAST runs is, &ldquo;I have an idea of what rate I would like to use in my analysis, but how do I input it into the program?&rdquo; In response to such questions, the purpose of this post is to practically introduce readers to the way strict molecular clocks are used in BEAST. Although BEAST implements three different molecular clock models (strict, relaxed, and random), I focus on strict clock analyses where users will want to set mutation rate priors. Assuming a strict or &ldquo;global&rdquo; molecular clock will often be a poor assumption for interspecific molecular data, because rates vary among lineages; however, in programs such as BEAST that are based on the coalescent (which is usually assumed to tick at a strict pace), when users analyze large intraspecific datasets, relaxed clocks are almost always inappropriate. Thus for intraspecific phylogeography of a single mtDNA locus, for example, a strict clock will usually be preferred.</p>
+
+<p><strong>Clock setting in BEAST</strong></p>
+
+<p>To set up a strict clock run in BEAST, the user must specify a strict molecular clock in their input (.xml) file. This is accomplished when creating the input file in the utility program BEAUti, which is part of the BEAST installation. After importing your NEXUS-formatted DNA seq data into BEAUti, select the desired taxon sets and site model(s) for the analysis.  Next, click on the &ldquo;Clocks&rdquo; tab (this applies to BEAUti 1.7.4; older versions of this software may have a tab named &ldquo;Clock Models&rdquo;). The strict clock model is the default setting.  Importantly, clock rates if constant can be spread across a range of values (e.g. uniform prior); however, a constant mutation rate is not necessary, and mutation can be modeled using several distributions.  For simplicity, let&rsquo;s set the clock first; we will discuss these distributions a little later.</p>
+
+<p>In BEAST, we input the mutation rate using the &lsquo;clock.rate&rsquo; parameter, which is in units of substitutions/site/unit time (default). The default value for this parameter is 1.0. If you leave the clock.rate parameter set to 1.0 and do not check &ldquo;estimate,&rdquo; then you are going to get a resulting phylogeny or demographic model with units of substitutions/site, the same as if you were just reconstructing a phylogeny using standard maximum likelihood or Bayesian inference analysis methods. However, when analyzing multilocus datasets using strict molecular clocks on each locus in *BEAST, you can leave the &ldquo;estimate&rdquo; box unchecked for one locus (e.g. imagine the first locus you sampled/entered was a chunk of mtDNA sequence) leave the clock.rate parameter set to 1.0, while checking &ldquo;estimate&rdquo; for the others. In this case, BEAST will estimate rates of every other locus relative to the one whose rate was set to 1.0.  For the present tutorial, leave the strict clock model selected.</p>
+
+<p>Now that you have specified the strict clock model, you will need to place a prior on the clock.rate parameter. You now need to set up code in the input file that will supply the program with your rate or rates. How you do this will depend on what your rate/data is and your desired outcome.  Here are three potential situations you might be in:</p>
+
+<p><strong><em>(1) &ldquo;I have a pairwise rate.  How do I go from pairwise to per-lineage rates and input them into BEAST?&rdquo;</em></strong></p>
+
+<p>Usually, when we discuss evolutionary rates, or mutation rates, it is understood that we are talking about &lsquo;per-lineage&rsquo; rates.  This is not surprising given evolution occurs along individual branches/lineages in the tree of life. Thus, BEAST works with per-lineage rates. However, pairwise rates of evolution are commonly reported and thus of interest as candidate priors.  When we talk about divergence as a percentage, x% pairwise divergence between two lineages is equivalent to x%/2 divergence per lineage (along one branch of a two-tip phylogenetic tree).</p>
+
+<p>Imagine you are interested in the standard 2% rate for vertebrate mtDNA evolution.  <em>This</em> is a <em>pairwise</em> rate (2%/million years, Myr). If you wanted to set the program (i.e. fix it) to exactly this rate (taking it as a mean rate across the phylogeny of your samples)&hellip; then the rate <em>must be converted to a per-lineage rate in units of substitutions/site</em> before being input. To obtain a per-lineage rate from a pairwise rate, you simply divide the pairwise rate by 2. The above rate becomes 1% when expressed as a percentage, and we divide this value by 100 to get 0.01 expressed in substitutions/site/Myr. Once you have this value, you need to simply leave the &ldquo;estimate&rdquo; box unchecked, check the &ldquo;Fix mean substitution rate&rdquo; box, and enter your rate to set the mean clock.rate in your xml file. Here, we are assuming that you want your units (hence the scaling of your output) to be in millions of years (Myr).</p>
+
+<p>But there are other options&hellip; and we can imagine other cases.</p>
+
+<p>For example, you may want the <em>x</em>-axis of your BEAST output files (e.g. for your time tree or Bayesian skyline plot) to be in units of years. To accomplish this, you need to format the desired rate value appropriately. In the case of a pairwise rate such as the 2%/Myr rate in the example above, you would divide 0.01 by 10^6 (one million), leaving you with 1.0 x 10^-8 or 0.00000001. This is the value you would input into BEAUTi to achieve the result desired here. This assumes generation time = 1.0 yr (thus you could think of it as the output actually being in generations).</p>
+
+<p>_</p>
+
+<p>_<em>Note</em>: if you had a fossil calibration point dated in Ma and you checked &ldquo;estimate&rdquo; for your rate under a model specifying a strict clock and input your fossil calibration, the resulting output would also be in Myr. So, if your fossil is 30 Ma +/- 2 Ma for a given node, you would input that into the program as a point estimate of 30.0 (fixed; also you could use a variety of calibration transformations/distributions; see below). And you would get output in units of Ma.  BEAST would also estimate the substitution rate in subs/site/Myr for you.</p>
+
+<p><strong><em>(2) &ldquo;I have a per-lineage rate(s).&rdquo;</em></strong></p>
+
+<p>If you have a per-lineage rate already&hellip; put it in the program as discussed above.</p>
+
+<p><strong><em>(3) &ldquo;I don&rsquo;t have rates&hellip; (Or, what is a molecular clock anyway?)&rdquo;</em></strong></p>
+
+<p>If this is your situation, then wow, maybe I should have started this post by explaining this!!  If rates are not available (i.e. published) for your taxa or nodes of interest, then you may want to roughly estimate a rate to use in your analysis. For this, you would need a justifiable calibration point (e.g. fossil data, or information on a biogeographical or paleogeographical event, etc.) and an in-hand estimate of <em>d</em>,_ _ pairwise genetic divergence (i.e. DNA sequence divergence). Care must be taken in doing this and in setting the priors on the rate distribution (e.g. your outcome will depend on your choice and quality of <em>d</em> calculation and calibration point selection), but if you need to do this then you must first understand the basic molecular clock model.</p>
+
+<p>To understand the molecular clock, let&rsquo;s imagine a two-taxon phylogenetic tree representing the relationship between two sister lineages. You have sequence data from these lineages and you calculate the pairwise divergence, _d<em>xy</em> _(= mean # differences, i.e. mean # nucleotide substitutions/site), between the two sequences. This value is a product of mutation rate (mu) in substitutions/site/Myr and the amount of time since two unique lineages diverged (originated). Given this information, the simplest calculation of the time (<em>T</em>) of divergence in millions of years ago (Ma) for a given lineage is calculated by taking _d_xy and dividing by twice the substitution rate (mu; the mutation rate). In other words <em>T</em> = <em>d</em>\xy/2mu [this is commonly also written as <em>T = (d</em>\xy/mu)/2, as in Nei (1987)]. Since you need to calculate a rate, you need prior information on the splitting time/event leading to the level of observed divergence.  So you need to re-arrange this equation.  To obtain a per-lineage rate (what we want!), you see that mu = _d_xy/2<em>T</em> [which is the same as (_d_xy/<em>T</em>)/2]. If you have an estimate of 4% divergence between two lineages and you know that this <em>d</em> is at least as old as a certain number, say 5 Ma (based on the geological date of a mountain chain uplifting rapidly or some other vicariate event), you could calculate a per-lineage rate as 4/(5*2) = 0.4%/My, assuming a global clock. This would be input into BEAST as 0.004, in units of substitutions/site/Myr.  But, again, you could input this number into BEAST in other ways.  As discussed in (1) above, if you want the results to be in years, take your 0.4%/Myr rate and divide it by a million, and this leaves you with 4 x 10^-9, or  &ldquo;0.000000004&rdquo;, to enter into the program (assuming generation time = 1 yr).</p>
+
+<p><em>Prior distributions on clock.rate</em></p>
+
+<p>The most simple way of inputting an evolutionary rate is to leave clock.rate set to a point estimate; however, this is hardly realistic, and you will probably want to factor in some uncertainty in this estimate. When doing so, the most simple prior distribution that can be placed on the clock.rate parameter in BEAST is a uniform distribution.  <em>More coming soon</em>&hellip;</p>
+
+<p>OK, that&rsquo;s all for now on this particular topic.  Hope this helps.</p>
+
+<p>~ J</p>
+
+<p><strong>References</strong></p>
+
+<p>Nei, M., 1987. Molecular Evolutionary Genetics. Columbia University Press, New York.</p>
+
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <a href="/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+          </li>
+          <li>
+            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="/images/hugo-logo.png" width="22" height="22"></a>
+          </li>
+        <p class="m-0 text-center text-white">Copyright &copy; 2018 Justin C. Bagley</p>
+        </ul>
+      </footer>
+
+    </div>
+    
+
+    
+<script src="/js/math-code.js"></script>
+<script async src="//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+
+    
+  </body>
+</html>
+

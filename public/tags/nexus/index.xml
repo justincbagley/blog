@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nexus on blog</title>
+    <link>/tags/nexus/</link>
+    <description>Recent content in Nexus on blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 13 Sep 2017 11:40:35 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/nexus/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Analyzing ddRADseq Data in SNAPP</title>
+      <link>/2017/09/13/gist-ddradseq-data-snapp/</link>
+      <pubDate>Wed, 13 Sep 2017 11:40:35 +0000</pubDate>
+      
+      <guid>/2017/09/13/gist-ddradseq-data-snapp/</guid>
+      <description>](https://gist.github.com)
+Oh, SNAPP&amp;hellip;
+Over the last year, as I&amp;rsquo;ve become increasingly comfortable with GitHub, I&amp;rsquo;ve naturally shifted all of my note writing to Markdown language. During the process, I&amp;rsquo;ve started frequently jotting down useful notes related to analysis, code, or scientific computing as &amp;ldquo;Gists&amp;rdquo; on GitHub. In contrast to most repositories, Gists are small snippets of code or notes and are posted at gist.github.com rather than github.com. To date, I have published 8 Gists on topics as broad as Pandoc, ∂a∂i, SNAPP, and Markdown.</description>
+    </item>
+    
+    <item>
+      <title>Update Mesquite with plugin for reading and writing NeXML format</title>
+      <link>/2015/08/23/update-mesquite-plugin-reading-writing-nexml-format/</link>
+      <pubDate>Sun, 23 Aug 2015 13:58:21 +0000</pubDate>
+      
+      <guid>/2015/08/23/update-mesquite-plugin-reading-writing-nexml-format/</guid>
+      <description>In case you were unaware, there is a community-driven &amp;ldquo;NeXML&amp;rdquo; movement in computational phylogenetics, led by several bioinformaticians including Rutger Vos who are attempting to harness technologies and advantages of the XML format for transforming NEXUS flat files (an older standard for storing systematic data) into a format that is more easily processed and manipulated. See NeXML.org for more info on this technology and for softwares that allow reading and writing NeXML etc.</description>
+    </item>
+    
+    <item>
+      <title>BEASTGen: a new program for creating NEXUS, FASTA and BEAST XML input files for phylogenetics software</title>
+      <link>/2013/10/29/beastgen-a-new-program-for-creating-nexus-fasta-and-beast-xml-input-files-for-phylogenetics-software/</link>
+      <pubDate>Tue, 29 Oct 2013 15:36:00 +0000</pubDate>
+      
+      <guid>/2013/10/29/beastgen-a-new-program-for-creating-nexus-fasta-and-beast-xml-input-files-for-phylogenetics-software/</guid>
+      <description>Andrew Rambaut has released the first version of a new software program, BEASTGen, that transforms phylogenetic data between the standard NEXUS, FASTA and BEAST XML formats. Could this mean that we are one step closer to calming many graduate students&amp;rsquo; (and other people&amp;rsquo;s) woes over this issue?
+The new software can be downloaded from the BEAST Google code website, at https://code.google.com/p/beast-mcmc/downloads/detail?name=BEASTGen_v1.0.tgz.
+Andrew has also written a brief set of instructions that can be found on the BEAST website, at http://beast.</description>
+    </item>
+    
+  </channel>
+</rss>

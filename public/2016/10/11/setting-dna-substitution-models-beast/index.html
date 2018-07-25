@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.44" />
+
+
+<title>Setting DNA substitution models in BEAST - blog</title>
+<meta property="og:title" content="Setting DNA substitution models in BEAST - blog">
+
+
+
+  
+
+
+
+
+
+
+
+
+<link href='//cdn.bootcss.com/highlight.js/9.11.0/styles/github.min.css' rel='stylesheet' type='text/css' />
+
+
+
+<link rel="stylesheet" href="/css/fonts.css" media="all">
+<link rel="stylesheet" href="/css/main.css" media="all">
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/" class="nav-logo">
+    <img src="/images/jselfie_logo.png"
+         width="50"
+         height="50"
+         alt="Logo">
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="/about/">About</a></li>
+    
+    <li><a href="https://github.com/justincbagley">GitHub</a></li>
+    
+    <li><a href="https://www.linkedin.com/in/justin-c-bagley-2a8a0523">LinkedIn</a></li>
+    
+    <li><a href="https://www.researchgate.net/profile/Justin_Bagley2">ResearchGate</a></li>
+    
+    <li><a href="https://twitter.com/justincbagley">Twitter</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">5 min read</span>
+    
+
+    <h1 class="article-title">Setting DNA substitution models in BEAST</h1>
+
+    
+    <span class="article-date">2016/10/11</span>
+    
+
+    <div class="article-content">
+      
+
+<p><a href="/images/jc-revised.png"><img src="/images/jc-revised.png" title="Jukes-Cantor model" alt="Jukes-Cantor model" width="200px"></a></p>
+
+<p><em>JC model of sequence evolution from <a href="http://treethinkers.org/jukes-cantor-model-of-dna-substitution/">TreeThinkers</a>.</em></p>
+
+<p>BEAST (Bayesian Evolutionary Analysis Sampling Trees) software provides a growing set of <em>clear</em> options for specifying evolutionary models of DNA substitution for alignments loaded into the program. However, the set of models that are readily available and &ldquo;spelled out&rdquo; in drop-down menus in the BEAUti (Bayesian Evolutionary Analysis Utility) GUI is much smaller compared to the standard set of 11 substitution schemes considered by other software programs for model selection (giving rise to a total of 88 models in <a href="https://github.com/ddarriba/jmodeltest2">jModelTest</a>, or 56 models in <a href="http://www.robertlanfear.com/partitionfinder/">PartitionFinder</a>). This poses a problem that I have heard several BEAST users bring up in online discussion groups, and that several people have asked me about personally. In this post, I shed some light on this problem and clear up some of the confusion by giving details on how users can easily specify different substitution models for their BEAST runs. </p>
+
+<h5 id="background-substitution-models-in-beast">Background: Substitution models in BEAST</h5>
+
+<p>I will assume that readers are familiar with <a href="https://en.wikipedia.org/wiki/Models_of_DNA_evolution">DNA substitution models</a>. Also, there are a number of details about how BEAST handles DNA substitution models, which you can learn from the <a href="http://beast2.org">BEAST2</a> book or the manual, but that I will not cover. For example, by default, BEAST normalizes the rate matrix so that the mean rate is 1.0, and so on. Moving on to the issues&hellip;</p>
+
+<p>It seems that many people are having issues with the fact that it&rsquo;s not a simple &ldquo;one-click&rdquo; procedure to specify the diverse variety of substitution models that are frequently selected during model selection inference conducted prior to setting up BEAST runs. This is because <a href="http://beast.bio.ed.ac.uk">BEAST1</a> only gives the <em>obvious</em> options to specify three of the most popular models of DNA substitution: TrN, HKY, and GTR, while BEAST2 versions give users <em>obvious</em> options to specify one of four models: JC69, TrN, HKY, and GTR. Thus other models such as TIM, K80, and F81 can seem cryptic to some users, who will often exclaim in dismay, &ldquo;Where is the option for model <em>X???</em>&rdquo; or &ldquo;I don&rsquo;t see how to specify model <em>Y!!!</em>&rdquo; and then post a question about it (that may languish, never to even be directly answered, who knows).</p>
+
+<h5 id="solving-the-problem-learning-beast-functionalities-under-your-nose"><strong>Solving the problem: Learning BEAST functionalities &ldquo;under your nose&rdquo;</strong></h5>
+
+<p>The real solution to the above problems is to realize the options available to you, especially that BEAUti actually gives several important options in the Site Model panel that each user must learn to use to tailor the models of evolution for each alignment/partition. These options are located right &ldquo;under your nose,&rdquo; but I&rsquo;ll show you where they are and how to use them in <strong>Tables 1 and 2 below</strong>, as follows:</p>
+
+<p><strong>Table 1. Details for setting substitution models in BEAST1 (e.g. v1.8.3).</strong></p>
+
+<table >
+<tbody >
+<tr >
+    <td ><strong>Best-fit substitution model</strong>
+</td>
+    <td ><strong>(Base) Model to select in BEAUti</strong>
+</td>
+    <td ><strong>Additional specifications in BEAUti</strong>
+</td>
+</tr>
+<tr >
+<td >JC69
+</td>
+<td >JC69
+</td>
+<td >None 
+</td>
+</tr>
+<tr >
+<td >TrN
+</td>
+<td >TN93
+</td>
+<td >None 
+</td>
+</tr>
+<tr >
+<td >TrNef
+</td>
+<td >TN93
+</td>
+<td >base Frequencies set to "All Equal"
+</td>
+</tr>
+<tr >
+<td >K80 (K2P)
+</td>
+<td >HKY
+</td>
+<td >base Frequencies set to "All Equal"
+</td>
+</tr>
+<tr >
+<td >F81
+</td>
+<td >GTR
+</td>
+<td >turn off operators for all rate parameters
+</td>
+</tr>
+<tr >
+<td >HKY
+</td>
+<td >HKY
+</td>
+<td >None
+</td>
+</tr>
+<tr >
+<td >SYM
+</td>
+<td >GTR
+</td>
+<td >base Frequencies set to "All Equal"
+</td>
+</tr>
+<tr >
+<td >TIM
+</td>
+<td >GTR
+</td>
+<td >edit XML file by hand so that all other rates are equal to the AG rate
+</td>
+</tr>
+<tr >
+<td >TVM
+</td>
+<td >GTR
+</td>
+<td >unchecking AG rate operator
+</td>
+</tr>
+<tr >
+<td >TVMef
+</td>
+<td >GTR
+</td>
+<td >unchecking AG rate operator and setting base Frequencies to "All Equal"
+</td>
+</tr>
+<tr >
+<td >GTR
+</td>
+<td >GTR
+</td>
+<td >None
+</td>
+</tr>
+</tbody>
+</table>
+
+<p><strong>Table 2. Details for setting substitution models in BEAST2 (e.g. 2.4.0+).</strong></p>
+
+<table >
+<tbody >
+<tr >
+    <td ><strong>Best-fit substitution model</strong>
+</td>
+    <td ><strong>(Base) Model to select in BEAUti 2</strong>
+</td>
+    <td ><strong>Additional specifications in BEAUti 2</strong>
+</td>
+</tr>
+<tr >
+<td >JC69
+</td>
+<td >JC69
+</td>
+<td >None 
+</td>
+</tr>
+<tr >
+<td >TrN
+</td>
+<td >TN93
+</td>
+<td >None
+</td>
+</tr>
+<tr >
+<td >TrNef
+</td>
+<td >TN93
+</td>
+<td >base Frequencies set to "All Equal"
+</td>
+</tr>
+<tr >
+<td >K80 (K2P)
+</td>
+<td >HKY
+</td>
+<td >base Frequencies set to "All Equal"
+</td>
+</tr>
+<tr >
+<td >F81
+</td>
+<td >GTR
+</td>
+<td >fix all rate parameters to 1.0 (uncheck the "estimate" box)
+</td>
+</tr>
+<tr >
+<td >HKY
+</td>
+<td >HKY
+</td>
+<td > None
+</td>
+</tr>
+<tr >
+<td >SYM
+</td>
+<td >GTR
+</td>
+<td >base Frequencies set to "All Equal"
+</td>
+</tr>
+<tr >
+<td >TIM
+</td>
+<td >GTR
+</td>
+<td >fix CT and AG rate parameters to 1.0 (uncheck the "estimate" box)
+</td>
+</tr>
+<tr >
+<td >TVM
+</td>
+<td >GTR
+</td>
+<td >fix the AG rate parameter to 1.0 (uncheck the "estimate" box)
+</td>
+</tr>
+<tr >
+<td >TVMef
+</td>
+<td >GTR
+</td>
+<td >fix the AG rate parameter to 1.0 (uncheck the "estimate" box), and also set base Frequencies to "All Equal"
+</td>
+</tr>
+<tr >
+<td >GTR
+</td>
+<td >GTR
+</td>
+<td > None
+</td>
+</tr>
+</tbody>
+</table>
+
+<p>I have quickly constructed these tables based on different options available in BEAST versions, my knowledge of the substitution models, and the list of model code for different substitution models on the <a href="http://beast.bio.ed.ac.uk/Substitution-model-code">BEAST1 website</a> (information for XML format for BEAST1 / earlier versions than present). How can you use the above tables to set a desired site model? Easy. You simply check <strong>Tables 1 and 2 </strong>and for a given model you might want to set (<strong>first column</strong>), the tables tell you which model to select in BEAUti (<strong>second column</strong>) and the modifications, if any, you will need to make to that model or the XML file itself to get the model you want (<strong>third column</strong>). </p>
+
+<p><strong>Another way&hellip;</strong></p>
+
+<p>If you would like more detail, you can also draw on other resources available online to do this properly. For example, if you wanted to set the F81 model for a partition of your dataset, you could also search the <a href="http://beast.bio.ed.ac.uk/Substitution-model-code">substitution model code page</a> mentioned above for &rdquo;F81&rdquo;. If you did this you would find the following block for BEAST1:</p>
+
+<pre><code>    &lt;!-- *** SUBSTITUTION MODEL FOR PARTITION Gene2 *** --&gt;
+    &lt;!-- The F81 substitution model (Felsenstein, 1981) --&gt;
+    &lt;gtrModel id=&quot;F81_Gene2&quot;&gt;
+    	&lt;frequencies&gt;
+    		&lt;frequencyModel dataType=&quot;nucleotide&quot;&gt;
+    			&lt;frequencies&gt;
+    				&lt;parameter id=&quot;F81_Gene2.frequencies&quot; value=&quot;0.25 0.25 0.25 0.25&quot;/&gt;
+    			&lt;/frequencies&gt;
+    		&lt;/frequencyModel&gt;
+    	&lt;/frequencies&gt;
+    	&lt;rateAC&gt;
+    		&lt;parameter id=&quot;F81_Gene2.ac&quot; value=&quot;1.0&quot;/&gt;
+    	&lt;/rateAC&gt;
+    	&lt;rateAG&gt;
+    		&lt;parameter id=&quot;F81_Gene2.ag&quot; value=&quot;1.0&quot;/&gt;
+    	&lt;/rateAG&gt;
+    	&lt;rateAT&gt;
+    		&lt;parameter id=&quot;F81_Gene2.at&quot; value=&quot;1.0&quot;/&gt;
+    	&lt;/rateAT&gt;
+    	&lt;rateCG&gt;
+    		&lt;parameter id=&quot;F81_Gene2.cg&quot; value=&quot;1.0&quot;/&gt;
+    	&lt;/rateCG&gt;
+    	&lt;rateGT&gt;
+    		&lt;parameter id=&quot;F81_Gene2.gt&quot; value=&quot;1.0&quot;/&gt;
+    	&lt;/rateGT&gt;
+    &lt;/gtrModel&gt;
+</code></pre>
+
+<p>We can infer from this that the F81 model can be specified in any BEAST version by first specifying the GTR model, and then setting all rates to 1.0 and also setting all base frequencies to be equal &ldquo;All Equal&rdquo; (i.e. each equal to 0.25). And you would specify this information in the Site Model panel in BEAUti. You would also need to make sure that the priors were not included for these parameters, since they will be fixed; so you do that by commenting out the rate priors within the XML file. Accordingly, you would also need to delete the rate parameters from the log, because you won&rsquo;t need to log those parameters since you won&rsquo;t be estimating them.</p>
+
+<p>~J</p>
+
+<p><em><strong>Additional Reading</strong></em></p>
+
+<p>**Substitution model basics from Wikipedia: **<a href="https://en.wikipedia.org/wiki/Substitution_model">substitution model</a>, <a href="https://en.wikipedia.org/wiki/Models_of_DNA_evolution">models of DNA evolution</a>  </p>
+
+<p><strong>Beast users google group threads:</strong></p>
+
+<ul>
+<li><a href="https://groups.google.com/forum/#!topic/beast-users/_zCoCTSkWRs">BEAUti can set 40 models?</a></li>
+<li><a href="https://groups.google.com/forum/#!topic/beast-users/FqmhFT0UOnU">F81 mutation model?</a></li>
+</ul>
+
+<p><strong>BEAST2 website FAQ:</strong> <a href="http://www.beast2.org/wiki/index.php/FAQ#How_to_make_use_of_other_substitution_models_not_given_in_Beauti.3F_Specifically.2C_Jukes-Cantor_model.3F">link</a></p>
+
+<p><strong>PartitionFinder website: </strong><a href="http://www.robertlanfear.com/partitionfinder/">PartitionFinder</a></p>
+
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <a href="/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+          </li>
+          <li>
+            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="/images/hugo-logo.png" width="22" height="22"></a>
+          </li>
+        <p class="m-0 text-center text-white">Copyright &copy; 2018 Justin C. Bagley</p>
+        </ul>
+      </footer>
+
+    </div>
+    
+
+
+
+<script src="//cdn.bootcss.com/highlight.js/9.11.0/highlight.min.js"></script>
+
+
+
+<script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/r.min.js"></script>
+<script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/yaml.min.js"></script>
+<script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+
+
+
+    
+
+    
+  </body>
+</html>
+

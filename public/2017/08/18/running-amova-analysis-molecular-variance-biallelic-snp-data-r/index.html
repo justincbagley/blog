@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.44" />
+
+
+<title>Running AMOVA (analysis of molecular variance) on biallelic SNP data in R - blog</title>
+<meta property="og:title" content="Running AMOVA (analysis of molecular variance) on biallelic SNP data in R - blog">
+
+
+
+  
+
+
+
+
+
+
+
+
+<link href='//cdn.bootcss.com/highlight.js/9.11.0/styles/github.min.css' rel='stylesheet' type='text/css' />
+
+
+
+<link rel="stylesheet" href="/css/fonts.css" media="all">
+<link rel="stylesheet" href="/css/main.css" media="all">
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/" class="nav-logo">
+    <img src="/images/jselfie_logo.png"
+         width="50"
+         height="50"
+         alt="Logo">
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="/about/">About</a></li>
+    
+    <li><a href="https://github.com/justincbagley">GitHub</a></li>
+    
+    <li><a href="https://www.linkedin.com/in/justin-c-bagley-2a8a0523">LinkedIn</a></li>
+    
+    <li><a href="https://www.researchgate.net/profile/Justin_Bagley2">ResearchGate</a></li>
+    
+    <li><a href="https://twitter.com/justincbagley">Twitter</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">9 min read</span>
+    
+
+    <h1 class="article-title">Running AMOVA (analysis of molecular variance) on biallelic SNP data in R</h1>
+
+    
+    <span class="article-date">2017/08/18</span>
+    
+
+    <div class="article-content">
+      
+
+<!-- ![R language for statistical computing](/images/R-logo-image.png =80x) -->
+
+<p><img src="/images/R-logo-image.png" alt="R language for statistical computing" width="150px"/></p>
+
+<h2 id="amova-in-r">AMOVA in R</h2>
+
+<p>Resources for conducting population genetic and phylogenetic analyses in the R computing environment are continually improving, and to date several packages have provided functions for estimating phi-statistics and hierarchical patterns of population variance partitioning using AMOVA (analysis of molecular variance; Quattro et al. 1992). The <a href="http://www.genetics.org/content/genetics/131/2/479.full.pdf">paper</a> for the AMOVA method, penned by population geneticists Joe Quattro, Peter Smouse, and Laurent Excoffier, now <a href="https://scholar.google.com/scholar?hl=en&amp;q=analysis+molecular+variance+Quattro+1992&amp;btnG=&amp;as_sdt=1%2C47&amp;as_sdtp=">has &gt;12,000 citations</a>, making it one of the most used and cited methods of all time in evolutionary genetic analysis; many people continue using this method, including me. What is interesting about recent packages is that they allow us to do AMOVA rather easily on SNP data, and today I&rsquo;m going to show you some code for conducting AMOVA in R on biallelic SNPs.</p>
+
+<p><img src="/images/Hypostomus-sp2_picture-800x400.jpg" alt="Photo Credit: P. Aquino" />
+<em>Hypostomus</em> sp. 2</p>
+
+<p>I&rsquo;ll be using an example of SNP sites from ddRAD-seq analyses of _Hypostomus _suckermouth armored catfishes (sp. 2, pictured <em>at left</em>), that are hierarchically spatially distributed as individuals, within sites (populations), within three drainage basins in central Brazil. We are going to start from SNPs, get the SNPs into R using the packages <a href="http://adegenet.r-forge.r-project.org">adegenet</a> (Jombart 2008; Jombart and Ahmed 2011; Jombart et al. 2015) and <a href="http://grunwaldlab.cgrb.oregonstate.edu/poppr-r-package-population-genetics">poppr</a> (Kamvar et al. 2014, 2015), and then conduct some data massaging/prepwork before conducting final AMOVA analyses using the same packages. The analyses will experiment with the effects on AMOVA results of varying the missing data level threshold in poppr&rsquo;s AMOVA function (i.e. the &ldquo;cutoff&rdquo; option within &lsquo;<a href="https://www.rdocumentation.org/packages/poppr/versions/2.3.0/topics/poppr.amova">poppr.amova</a>&rsquo; function).</p>
+
+<h2 id="practical">Practical</h2>
+
+<h5 id="setup-load-r-packages">SETUP: Load R packages</h5>
+
+<p>First, let&rsquo;s open <a href="https://cran.r-project.org">R</a> (I&rsquo;m using R version 3.3.2 (2016-10-31) &ndash; &ldquo;Sincere Pumpkin Patch&rdquo;) and set up the workspace by loading adegenet and poppr; let&rsquo;s also load the APE library just in case we need it. If you don&rsquo;t have R, then download the latest version for Windows <a href="https://cran.r-project.org/bin/windows/">here</a>, and download the latest version for Mac OS X <a href="https://cran.r-project.org/bin/macosx/">here</a>. If you have R but don&rsquo;t have the packages, then install them from within R by typing install. packages(&ldquo;name&rdquo;) where name is the name of the package.</p>
+
+<pre><code>library(adegenet)
+library(poppr) ## Ignore 'OMP parallel support' info...
+library(ape)
+</code></pre>
+
+<h5 id="setup-read-in-the-data">SETUP: Read in the data</h5>
+
+<p>Next, we&rsquo;ll read in the data and process it (see next code section <em>below</em>). We will start by reading my SNP data into R from a file with an &ldquo;.str&rdquo; extension in the current working directory, in which the data are stored in STRUCTURE format. This data file contains a moderate number of SNPs (representing 1 SNP per RAD tag) from central Brazilian _Hypostomus _suckermouth armored catfish populations, and it was originally output by pyRAD following data assembly and SNP calling. Here, in my case, the data were produced by NGS sequencing on a ddRAD-seq genomic library that included outgroup samples, in order to facilitate downstream phylogenomic analyses. However, we need to make sure that we only do AMOVA on the ingroup data, because we are interested in patterns of hierarchical genetic structure in the focal species, and not in focal species + outgroup. Including outgroup individuals would in fact bias the results. So, we must start by reading in a data file that contains only ingroup _Hypostomus _individuals, and <em><em>no outgroup individuals</em></em> (hence the &ldquo;noout&rdquo; code in the file name).</p>
+
+<p><strong>I will do this <em>below</em> using the following four steps:</strong>
+  * Step #1: read in the data as a genind object
+  * Step #2: convert the data frame from a genind object to a genclone object using the &lsquo;as.genclone&rsquo; function of poppr (note: as.genclone is available as of poppr v2.2.1, but may or may not be available in later versions of the package)
+  * Step #3: read in a hierarchy file
+  * Step #4: recreate the genclone object after specifying the hierarchy to the genind object as the strata.</p>
+
+<p>Here is the code&hellip;</p>
+
+<p><strong>Step #1</strong></p>
+
+<pre><code>###### READ STRUCTURE DATA INTO R AS GENIND OBJECT
+Hyp.genind.noout = import2genind('hypostomus_noout.str', onerowperind=F, n.ind=40, n.loc=226, row.marknames=NULL, col.lab=1, ask=F)
+</code></pre>
+
+<p><strong>Step #2</strong></p>
+
+<pre><code>## CONVERT GENIND OBJECT TO A GENCLONE OBJECT
+Hyp.genclone.noout = as.genclone(Hyp.genind.noout)
+</code></pre>
+
+<p><strong>Step #3</strong></p>
+
+<p>The name of my hierarchy file is &ldquo;Hyp_3hier_ind-pop-drain_assignments.txt&rdquo; and the first 10 lines of this file looks as follows:</p>
+
+<pre><code>ind pop drain
+
+1 1 6 3
+
+2 2 1 1
+
+3 3 7 1
+
+4 4 7 1
+
+5 5 1 1
+
+6 6 9 3
+
+7 7 10 1
+
+8 8 10 1
+
+9 9 1 1
+
+10 10 10 1
+</code></pre>
+
+<p>Here is the code for the hierarchy file:</p>
+
+<pre><code>## READ IN HIERARCHY FILE
+##--Input a hierarchy file that specifies individual number, population number, and factor/group
+##--number. The name of my hierarchy file is &quot;Hyp_3hier_ind-pop-drain_assignments.txt&quot;; I read it in using
+##--the 'read.table' function. 
+Hyp.hier.noout = read.table('Hyp_3hier_ind-pop-drain_NOOUT_assignments.txt', header=T)
+</code></pre>
+
+<p><strong>Step #4</strong></p>
+
+<p>Now we can add the hierarchy information in one of two ways:</p>
+
+<pre><code>## Example #1:
+Hyp.gc.strat.noout = as.genclone(Hyp.genind.noout, strata=Hyp.hier.noout)
+
+## Example #2
+strata(Hyp.genind.noout) = Hyp.hier.noout[-1]
+pop(Hyp.genind.noout) = c(6, 1, 7, 7, 1, 9, 10, 10, 1, 10, 10, 10, 11, 11, 11, 11, 1, 1, 1, 12, 1, 8, 9, 9, 14, 2, 2, 2, 2, 2, 2, 2, 3, 3, 4, 5, 5, 6, 6, 6)
+Hyp.gc.strat.noout = as.genclone(Hyp.genind.noout)
+</code></pre>
+
+<p>The purpose of showing these steps in this order is to demonstrate that we can easily convert from genind to genclone; <strong>however, it is better&ndash;in fact, necessary&ndash;that we do this for AMOVA while adding information about the hierarchical relationships (population hierarchy) of the dataset</strong>. In the last commands, under Step #4 &ldquo;Example #2&rdquo;, the individual information is already present in the genind object, we just needed to add the population and hierarchy information.</p>
+
+<h5 id="analysis-amovas"><strong>ANALYSIS: AMOVAs</strong></h5>
+
+<p>OK, that&rsquo;s it for processing! Now, we&rsquo;re ready to conduct AMOVAs and get some results for our <em>Hypostomus</em> populations. As noted above, we will run separate AMOVA analyses using different cutoff values for missing data. <strong>This &ldquo;cutoff&rdquo; value sets the level at which missing data will be ignored or modified during calculations.</strong> It&rsquo;s somewhat counterintuitive, but a <em>low value</em> will specify a low missing data threshold and thus identify and <em>remove more</em> sites with missing data from the analysis, leaving potentially many _fewer _sites for analysis. By comparison, a high cutoff value will result in leaving more sites for analysis, depending on the distribution of missing data in the data frame. In my case, as you&rsquo;ll see below, a 95% cutoff value removed 0 loci. <strong>But let&rsquo;s see if changing the cutoff value from 30% (analyzing fewer sites) to 95% (analyzing more sites) changes the outcome for the _Hypostomus _headwater fish system.</strong></p>
+
+<p><strong>Here is the code for doing the AMOVAs and significance tests (to get p-values):</strong></p>
+
+<pre><code>## AMOVA TESTS (not including outgroup individuals)
+
+## Do Hyp AMOVA with 0.3 (30%) missing data cutoff (leaves fewer sites):
+Hyp.drain.amova.res = poppr.amova(Hyp.gc.strat.noout, ~drain/pop, cutoff=0.3)
+Hyp.drain.amova.res
+Hyp.drain.amova.test = randtest(Hyp.drain.amova.res)
+str(Hyp.drain.amova.test)
+plot(Hyp.drain.amova.test)
+Hyp.drain.amova.test
+
+## Do Hyp AMOVA with all the data, by using an 0.95 (95%) missing data cutoff (leaves more sites):
+Hyp.drain.amova.res.95 = poppr.amova(Hyp.gc.strat.noout, ~drain/pop, cutoff=0.95)
+Hyp.drain.amova.res.95
+Hyp.drain.amova.test.95 = randtest(Hyp.drain.amova.res.95)
+str(Hyp.drain.amova.test.95)
+plot(Hyp.drain.amova.test.95)
+Hyp.drain.amova.test.95
+</code></pre>
+
+<p>When I ran the above code and called R to print the basic AMOVA results to screen for both models (by typing &ldquo;Hyp.drain.amova.res&rdquo; or &ldquo;Hip.drain.amova.res.95&rdquo; and then pressing Enter), the basic pattern of change in the number of sites in the analyses was as follows: 338 of the 3,829 total SNPs in the dataset were removed due to having 30% missing data (or more, but this is very unlikely; see <em>below</em>) during the 30% cutoff analysis, and 0 SNPs were removed due to missing data in the 95% cutoff analysis (results not shown).</p>
+
+<h5 id="results">RESULTS!</h5>
+
+<p>Now, let&rsquo;s look at the results of variance partitioning, as well as the significance of the variation within and between groups, as they would be pictured in the R console (GUI) window:</p>
+
+<p><strong>30% cutoff AMOVA results</strong></p>
+
+<pre><code>## 30% cutoff covariance and Phi-statistics results:
+...
+$componentsofcovariance
+                                             Sigma          %
+Variations  Between drain               5.10788445  27.509734
+Variations  Between pop Within drain    3.42570578  18.449958
+Variations  Between samples Within pop  9.93798617  53.523403
+Variations  Within samples              0.09597662   0.516905
+Total variations                       18.56755302 100.000000
+
+$statphi
+                        Phi
+Phi-samples-total 0.9948309
+Phi-samples-pop   0.9904348
+Phi-pop-drain     0.2545164
+Phi-drain-total   0.2750973
+</code></pre>
+
+<pre><code>## 30% cutoff significance test results:
+                        Test        Obs    Std.Obs   Alter Pvalue
+1  Variations within samples 0.09597662 -15.327787    less   0.01
+2 Variations between samples 9.93798617   6.716293 greater   0.01
+3     Variations between pop 3.42570578   2.566409 greater   0.02
+4   Variations between drain 5.10788445   4.266484    less   1.00
+</code></pre>
+
+<p><img src="/images/Hyp.drain_.amova_.test_NOOUT_poppr_AMOVA_result_plot.jpg" alt="Results plot: Hypostomus drainage AMOVA with 30% missing data cutoff." /></p>
+
+<p><strong>95% cutoff AMOVA results</strong></p>
+
+<pre><code>## 95% cutoff covariance and Phi-statistics results:
+...
+$componentsofcovariance
+                                             Sigma          %
+Variations  Between drain               5.10788445  27.509734
+Variations  Between pop Within drain    3.42570578  18.449958
+Variations  Between samples Within pop  9.93798617  53.523403
+Variations  Within samples              0.09597662   0.516905
+Total variations                       18.56755302 100.000000
+
+$statphi
+                        Phi
+Phi-samples-total 0.9948309
+Phi-samples-pop   0.9904348
+Phi-pop-drain     0.2545164
+Phi-drain-total   0.2750973
+
+## 95% cutoff significance test results:
+                        Test        Obs    Std.Obs   Alter Pvalue
+1  Variations within samples 0.09597662 -16.617535    less   0.01
+2 Variations between samples 9.93798617   7.826314 greater   0.01
+3     Variations between pop 3.42570578   3.095911 greater   0.01
+4   Variations between drain 5.10788445   3.725359    less   1.00
+</code></pre>
+
+<p><img src="/images/Hyp.drain_.amova_.test_.95_NOOUT_poppr_AMOVA_result_plot.jpg" alt="Results plot: Hypostomus drainage AMOVA with 95% missing data cutoff." /></p>
+
+<h2 id="conclusions">Conclusions</h2>
+
+<p><strong>Overall, these results showcase two main findings</strong>.</p>
+
+<p><strong>First, we can reject the null hypothesis of panmixia in favor of significant genetic structuring within and between individuals, as well as at the level of populations within drainages (p &lt; 0.05), with ~99.5% of the variance in the data being present at these three levels</strong>. However, there is support for random gene flow between populations in different drainages, and in large part this is due to the fact the the genetic populations (e.g. admixture groups from fastSTRUCTURE) or &ldquo;clades&rdquo; (inferred from phylogenomic analyses using maximum likelihood) in the sample occur in multiple drainage basins.</p>
+
+<p><strong>Second, the data are sufficient in number and variability so that AMOVAs on these data are robust to up to 30% (and above) missing data per locus</strong>. This makes sense, given that, in pyRAD, these data were stringently filtered so that each RAD tag would contain no more than 30% missing data.</p>
+
+<p>I hope that you have enjoyed doing AMOVA with me! Also, I hope this helps you conduct AMOVA on your phylogeographic or population genomic dataset, in the R environment. Cheers,</p>
+
+<p>~J</p>
+
+<h5 id="references">References</h5>
+
+<p>Excoffier L, Smouse PE, Quattro JM (1992) Analysis of molecular variance inferred from metric distances among DNA haplotypes: application to human mitochondrial DNA restriction data. Genetics, 131(2), 479-491.</p>
+
+<p>Jombart T (2008). adegenet: a R package for the multivariate analysis of genetic markers. Bioinformatics, 24(11), 1403-1405.</p>
+
+<p>Jombart T, Ahmed I (2011) adegenet 1.3-1: new tools for the analysis of genome-wide SNP data. Bioinformatics, 27(21), 3070-3071.</p>
+
+<p>Jombart T, Collins C (2015) A tutorial for discriminant analysis of principal components (DAPC) using adegenet 2.0.0. Imp Coll London-MRC Cent Outbreak Anal Model, 43.</p>
+
+<p>Kamvar ZN, Tabima JF, Grünwald NJ (2014) Poppr: an R package for genetic analysis of populations with clonal, partially clonal, and/or sexual reproduction. PeerJ, 2, e281. doi:10.7717/peerj.281</p>
+
+<p>Kamvar ZN, Brooks JC and Grünwald NJ (2015) Novel R tools for analysis of genome-wide population genetic data with emphasis on clonality. Frontiers in Genetics, 6, 208. doi:10.3389/fgene.2015.00208</p>
+
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <a href="/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+          </li>
+          <li>
+            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="/images/hugo-logo.png" width="22" height="22"></a>
+          </li>
+        <p class="m-0 text-center text-white">Copyright &copy; 2018 Justin C. Bagley</p>
+        </ul>
+      </footer>
+
+    </div>
+    
+
+
+
+<script src="//cdn.bootcss.com/highlight.js/9.11.0/highlight.min.js"></script>
+
+
+
+<script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/r.min.js"></script>
+<script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/yaml.min.js"></script>
+<script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+
+
+
+    
+<script src="/js/math-code.js"></script>
+<script async src="//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+
+    
+  </body>
+</html>
+

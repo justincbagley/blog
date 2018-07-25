@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cran on blog</title>
+    <link>/tags/cran/</link>
+    <description>Recent content in Cran on blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 06 Apr 2016 15:43:16 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/cran/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Automatically install or update all phylogenetics packages in R</title>
+      <link>/2016/04/06/simultaneously-install-phylogenetics-packages-in-r/</link>
+      <pubDate>Wed, 06 Apr 2016 15:43:16 +0000</pubDate>
+      
+      <guid>/2016/04/06/simultaneously-install-phylogenetics-packages-in-r/</guid>
+      <description>In case you are unaware of this trick, it is possible to simultaneously install or update all of the phylogenetics packages available in R in one fail swoop.
+A number of different CRAN Task Views have been created summarizing R packages and utilities for different fields of analysis or research. Luckily, there is not only a compilation of these located on the CRAN-R website here, but also Brian O&amp;rsquo;Meara (@omearabrian #omearabrian) has developed a nice CRAN Task View entitled &amp;ldquo;Phylogenetics, Especially Comparative Methods.</description>
+    </item>
+    
+  </channel>
+</rss>

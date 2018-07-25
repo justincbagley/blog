@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Markdown on blog</title>
+    <link>/tags/markdown/</link>
+    <description>Recent content in Markdown on blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 16 Jul 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>First blogdown post</title>
+      <link>/2018/07/16/first-blogdown-post/</link>
+      <pubDate>Mon, 16 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/07/16/first-blogdown-post/</guid>
+      <description>Post This is my first blogdown post, written in Markdown from within the R console in RStudio Version 1.1.453 (released this year, available here). As I have no content prepared for this post, I&amp;rsquo;ll just throw in a couple of quotes from some of my favorite evolutionary biologists instead, as follows:
+ “There is grandeur in this view of life, with its several powers, having been originally breathed by the Creator into a few forms or into one; and that, whilst this planet has gone cycling on according to the fixed law of gravity, from so simple a beginning endless forms most beautiful and most wonderful have been and are being evolved.</description>
+    </item>
+    
+  </channel>
+</rss>

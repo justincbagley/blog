@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Snp on blog</title>
+    <link>/tags/snp/</link>
+    <description>Recent content in Snp on blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 25 Jul 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/snp/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to find common variants in multiple VCF files</title>
+      <link>/2018/07/25/how-to-find-common-variants-in-multiple-vcf-files/</link>
+      <pubDate>Wed, 25 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/07/25/how-to-find-common-variants-in-multiple-vcf-files/</guid>
+      <description>&amp;ldquo;What are the SNPs or variants that are shared in common between two VCF files I created (e.g. from different SNP discovery pipelines, or two treatments of an experiment)?&amp;rdquo;, you might ask.
+Below, I provide a post based on my recent answer to this ResearchGate question that provides some solutions for this problem.
+First, the vcftools --diff &amp;lt;filename&amp;gt; --diff-site option would work for this specific case. This option for the --diff flag is listed in the documentation as having the following function:</description>
+    </item>
+    
+  </channel>
+</rss>

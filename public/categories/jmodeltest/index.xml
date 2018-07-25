@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jmodeltest on blog</title>
+    <link>/categories/jmodeltest/</link>
+    <description>Recent content in Jmodeltest on blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 06 Aug 2011 14:20:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/jmodeltest/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>jmodeltest will not run with single quotes around tip names</title>
+      <link>/2011/08/06/jmodeltest-will-not-run-with-single-quotes-around-tip-names/</link>
+      <pubDate>Sat, 06 Aug 2011 14:20:00 +0000</pubDate>
+      
+      <guid>/2011/08/06/jmodeltest-will-not-run-with-single-quotes-around-tip-names/</guid>
+      <description>A little while ago, I discovered a common error in jmodeltest is the error message that the number of sites appears to be wrong. I recently encountered this issue again. This is caused by single quotation marks on either side of tip names in a NEXUS file, which is a common form of the output / exported NEXUS file from DNASP. So, once you export a NEXUS from DNASP, say after doing some population level genetic analyses or after defining sequence groups for setting up structure in ARLEQUIN, you should simply open your NEXUS file in a word processor or text editor and use the &amp;ldquo;Replace&amp;rdquo; command to remove all quotation marks from your file.</description>
+    </item>
+    
+    <item>
+      <title>Evolution, phylogenetics, and phylogenetic model selection: jmodeltest vs. DT_ModSel</title>
+      <link>/2011/08/05/evolution-phylogenetics-and-phylogenetic-model-selection-jmodeltest-vs-dt_modsel/</link>
+      <pubDate>Fri, 05 Aug 2011 18:50:00 +0000</pubDate>
+      
+      <guid>/2011/08/05/evolution-phylogenetics-and-phylogenetic-model-selection-jmodeltest-vs-dt_modsel/</guid>
+      <description>Evolution is the central unifying theme in all biology&amp;ndash;&amp;ldquo;Nothing makes sense in biology except in the light of evolution,&amp;rdquo; said Dobzhansky. Two of the most important contributions of Darwin to this field were (1) acceptance and priority of the reality and importance of individual variation (selection acts on individuals, evolutionary changes surface in populations&amp;hellip;) and (2) the first phylogenetic tree with the accompanying hypothesis that all organisms share a common ancestry that can be visualized as a hierarchical branching design.</description>
+    </item>
+    
+  </channel>
+</rss>

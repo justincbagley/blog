@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.44" />
+
+
+<title>Picking a custom search engine for your website - blog</title>
+<meta property="og:title" content="Picking a custom search engine for your website - blog">
+
+
+
+  
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/css/fonts.css" media="all">
+<link rel="stylesheet" href="/css/main.css" media="all">
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/" class="nav-logo">
+    <img src="/images/jselfie_logo.png"
+         width="50"
+         height="50"
+         alt="Logo">
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="/about/">About</a></li>
+    
+    <li><a href="https://github.com/justincbagley">GitHub</a></li>
+    
+    <li><a href="https://www.linkedin.com/in/justin-c-bagley-2a8a0523">LinkedIn</a></li>
+    
+    <li><a href="https://www.researchgate.net/profile/Justin_Bagley2">ResearchGate</a></li>
+    
+    <li><a href="https://twitter.com/justincbagley">Twitter</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">3 min read</span>
+    
+
+    <h1 class="article-title">Picking a custom search engine for your website</h1>
+
+    
+    <span class="article-date">2018/07/25</span>
+    
+
+    <div class="article-content">
+      <p><em>First, if you&rsquo;d like to and see this blog entry in its original context, then read my original <a href="https://stackoverflow.com">stackoverflow</a> answer <a href="https://stackoverflow.com/questions/42247025/google-custom-search-engine-alternatives">here</a>.</em></p>
+
+<p>So, according to blogdown authors (<a href="https://bookdown.org/yihui/blogdown/">Xie et al. 2018</a>), it&rsquo;s been said before that,</p>
+
+<blockquote>
+<p><em>&ldquo;If you don’t have a website nowadays, you don’t exist&rdquo;</em>
+&ndash;Carlos Scheidegger.</p>
+</blockquote>
+
+<p>A quick search online returns blog posts and sites with several variations on this them (e.g. <a href="https://www.capgemini.com/2010/01/if-you-are-not-in-google-you-dont-exist/">here</a> and <a href="https://checkin.hrs.com/en/if-you-re-not-online-you-don-t-exist-interview-how-well-equipped-is-the-hotel-industry-for-the-digital-era">here</a>) acknowledging the axiomatic importance of an online presence these days.</p>
+
+<p>Recently, I decided to rewrite my personal academic <a href="https://justinbagley.org">website</a>, a site that I had based on Wordpress (with only two theme changes!) from 2011 to earlier in 2018, in <a href="https://getbootstrap.com">Bootstrap 4</a>. I will write a separate blog post on how I made the transition, which was a major step towards <em>getting with the times</em> for me, and fortunately not too painful.</p>
+
+<p><strong>The present post is about search engines&hellip;</strong></p>
+
+<p>Specifically, while redoing my site, I realized that I would have to find/write code, or install plugins, to customize my site and make it more interactive. One of the first things I realized would not be automatically available to me (as it was in Wordpress themes) was a functional search bar. Thus the search for hopefully easy, client-side search engine code began. During this process, I&rsquo;ve learned about at least three different classes of options from a development standpoint&ndash;outsourced (custom), back-end (requiring a server), and client-side (no server). And I&rsquo;ve also found several options listed <em>below</em>, which we can divide into paid <em>versus</em> free/open-source options:</p>
+
+<p><strong>1. Paid or Free-trial-with-premium options:</strong></p>
+
+<p>These options are generally limited to a couple of hundred pages and 1000-2000 page views per month, and the free versions will crawl your site on a sparse timetable (e.g. monthly) and provide limited functionality. Paid versions are IMHO <em>very expensive</em> and more appropriate for business/company sites (websites that generate income and have large numbers of visitors). All of these intend to be simple and scalable for the average user, and to solve additional problems other than search (e.g. related to SEO).</p>
+
+<ul>
+<li><a href="https://www.cludo.com/site-search-features/">Cludo Site Search</a></li>
+<li><a href="https://www.algolia.com/products/search">Algolia Search</a></li>
+<li><a href="https://swiftype.com/site-search">Swiftype Site Search</a></li>
+<li><a href="https://aws.amazon.com/cloudsearch/">Amazon Cloudsearch</a></li>
+</ul>
+
+<p><strong>2. Free/open source custom search options:</strong></p>
+
+<ul>
+<li><a href="http://lucene.apache.org/solr/">Solr</a> - an Apache project built on Apache Lucene (<em>requires a server</em> and working with APIs; see system requirements in the documentation<a href="http://lucene.apache.org/solr/guide/7_4/solr-tutorial.html">here</a>, specifically <a href="https://lucene.apache.org/solr/7_4_0//SYSTEM_REQUIREMENTS.html">here</a>)</li>
+<li><a href="https://developers.google.com/custom-search/json-api/v1/overview">Google Custom Search JSON API</a> - integrates with Custom Search Engine and allows obtaining search results without ads</li>
+<li><a href="http://www.tipue.com/search/">Tipue Search</a>, jQuery site search code which is meant to be used with json files built with their <a href="http://www.tipue.com/beaty/">Beaty</a> tool</li>
+<li><a href="http://elasticlunr.com">Elasticlunr.js</a> - full text site search engine written in Javascript (requires working with configuration files and APIs)</li>
+</ul>
+
+<p><strong>My choice</strong></p>
+
+<p>In the end, I decided to start with <a href="https://cse.google.com/cse/">Google Custom Search</a> free edition (with Google&rsquo;s ads/promotions at the top of my search results; you can pay to have them remove the advertisements), while using test pages to try out other options. By doing this, I&rsquo;ve been able to quickly and rather painlessly add custom search bars to the footer of all pages for my website that search only my site and my blog. IMHO, I think the result is very resourceful, easy to find on page (obvious to reader), and does not interfere with my nice permanent or sticky top-navbar designs.</p>
+
+<p>My next step is that I am planning to test <a href="http://elasticlunr.com">elasticlunr.js</a> to provide a fully client-side search option. I would love to hear from others who have implemented elasticlunr about their experiences, or from anyone who has encountered a better client-side option.</p>
+
+<p>Good luck!</p>
+
+<p>~J</p>
+
+<p><strong>References</strong></p>
+
+<p>Xie Y, Thomas A, Hill AP (2018). Blogdown: creating websites with R markdown. CRC Press. Available at: <a href="https://bookdown.org/yihui/blogdown/">https://bookdown.org/yihui/blogdown/</a>.</p>
+
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <a href="/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+          </li>
+          <li>
+            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="/images/hugo-logo.png" width="22" height="22"></a>
+          </li>
+        <p class="m-0 text-center text-white">Copyright &copy; 2018 Justin C. Bagley</p>
+        </ul>
+      </footer>
+
+    </div>
+    
+
+    
+
+    
+  </body>
+</html>
+

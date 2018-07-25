@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ape on blog</title>
+    <link>/tags/ape/</link>
+    <description>Recent content in Ape on blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 01 Mar 2016 21:43:35 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/ape/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Dealing with negative phylogenetic branch lengths in BEAST starting trees</title>
+      <link>/2016/03/01/dealing-negative-phylogenetic-branch-lengths-beast-starting-trees/</link>
+      <pubDate>Tue, 01 Mar 2016 21:43:35 +0000</pubDate>
+      
+      <guid>/2016/03/01/dealing-negative-phylogenetic-branch-lengths-beast-starting-trees/</guid>
+      <description>Negative branch lengths and the BEAST When conducting phylogenetic analyses, you will from time to time encounter negative branch lengths. Negative branch lengths are a nuisance because they can cause substantial visualization problems or keep analyses (e.g. downstream analyses in other programs) from running.
+For example, it will be desirable in many cases to add a starting tree to input files for datasets with phylogeographical sampling (e.g. multiple individuals in a standard BEAST analysis, or a *BEAST species tree analysis with multiple individuals sampled per species/population modeled).</description>
+    </item>
+    
+    <item>
+      <title>Update: &#39;new&#39; functions for generating starting trees for BEAST or *BEAST in R</title>
+      <link>/2015/08/30/update-new-functions-for-generating-starting-trees-for-beast-or-starbeast-in-r/</link>
+      <pubDate>Sun, 30 Aug 2015 02:55:29 +0000</pubDate>
+      
+      <guid>/2015/08/30/update-new-functions-for-generating-starting-trees-for-beast-or-starbeast-in-r/</guid>
+      <description>Background
+In a previous blog post, which has received quite a bit of attention, I detailed how to get &amp;ldquo;off to a good start&amp;rdquo; by generating a starting tree for your BEAST analyses. The goal was to work from a tree with branch lengths in units of substitutions per site and to finish with an ultrametric, time-calibrated tree topology with node ages matching calibration points (e.g. fossil ages) you intended to use in BEAST.</description>
+    </item>
+    
+    <item>
+      <title>R functions for working with phylogenetic trees in packages ape, geiger, and caper: Part I</title>
+      <link>/2011/11/22/r-functions-for-working-with-phylogenetic-trees-in-packages-ape-geiger-and-caper-part-i/</link>
+      <pubDate>Tue, 22 Nov 2011 08:15:00 +0000</pubDate>
+      
+      <guid>/2011/11/22/r-functions-for-working-with-phylogenetic-trees-in-packages-ape-geiger-and-caper-part-i/</guid>
+      <description>OK, in this post I will be reviewing some R functions for phylogenetics, walking you through some ways of working with phylogenies within the R environment. First, install R (http://cran.r-project.org/) on your computer. Also install the phylogenetics packages APE (http://cran.r-project.org/web/packages/ape/index.html), geiger (http://cran.r-project.org/web/packages/geiger/index.html) and caper (http://cran.r-project.org/web/packages/caper/index.html) on your machine using links at these URLs, or using the &amp;lsquo;Install packages&amp;rsquo; option within the &amp;lsquo;Packages&amp;rsquo; dropdown menu of the R gui), in the appropriate library folder (e.</description>
+    </item>
+    
+  </channel>
+</rss>

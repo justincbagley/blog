@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Phylogeography on blog</title>
+    <link>/categories/phylogeography/</link>
+    <description>Recent content in Phylogeography on blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 01 Sep 2015 02:41:34 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/phylogeography/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A funny thing about IMa2 output (a lost 2011 blog post)</title>
+      <link>/2015/09/01/funny-thing-ima2-output/</link>
+      <pubDate>Tue, 01 Sep 2015 02:41:34 +0000</pubDate>
+      
+      <guid>/2015/09/01/funny-thing-ima2-output/</guid>
+      <description>Recently, I discovered something that I wrote about four years ago during the first part of my PhD, just 2 years or so after IMa2 had come out [around a year or so after Hey (2010)]. Back then, I was a little unhappy about the way parameters were coded, but now looking back, it&amp;rsquo;s actually kind of funny, so I decided to post this as a blog entry. I mean, I&amp;rsquo;ve published with this method and have a much better understanding of it now.</description>
+    </item>
+    
+    <item>
+      <title>New BEAST2 Tutorial that Rocks!</title>
+      <link>/2014/12/27/new-beast2-tutorial-rocks/</link>
+      <pubDate>Sat, 27 Dec 2014 17:02:23 +0000</pubDate>
+      
+      <guid>/2014/12/27/new-beast2-tutorial-rocks/</guid>
+      <description>There are few things that are more useful or necessary in evolutionary biology these days than learning new computational skills, including how to run software programs. For this, there are a variety of sources of information: journal articles (methods papers/sections), library books, online books (e-Books), workshops, online tutorials, and internet blogs like this one. Tutorials are among the best of these options given their practical focus, and because they often include step-by-step instructions with screenshots showing how to interact with GUIs, etc.</description>
+    </item>
+    
+    <item>
+      <title>Updated links to BEAST 1.7.5 phylogeography tutorials</title>
+      <link>/2014/08/07/updated-links-beast-1-7-5-phylogeography-tutorials/</link>
+      <pubDate>Thu, 07 Aug 2014 20:59:25 +0000</pubDate>
+      
+      <guid>/2014/08/07/updated-links-beast-1-7-5-phylogeography-tutorials/</guid>
+      <description>As you know, BEAST is being developed by two separate groups of biologists and computer scientists, those working on beast 1.7&amp;frasl;8 and those devleoping Beast2. BEAST is essentially the main evolutionary analysis program now for phylogenetics, historical biogeography, species delimitation, and different phylogeography approaches; so it matters when there is an update. This is just a quick post to highlight that changes to BEAST 1.7.5 phylogeography tutorials have been made, in case you didn&amp;rsquo;t get word of this through recent emails.</description>
+    </item>
+    
+    <item>
+      <title>Statistical phylogeography tutorial #1: Coalescent simulations in Mesquite Part I</title>
+      <link>/2011/09/22/statistical-phylogeography-tutorial-1-coalescent-simulations-in-mesquite-part-i/</link>
+      <pubDate>Thu, 22 Sep 2011 16:51:00 +0000</pubDate>
+      
+      <guid>/2011/09/22/statistical-phylogeography-tutorial-1-coalescent-simulations-in-mesquite-part-i/</guid>
+      <description>Part I. Draft 9/22/11
+WARNING: The following is based on my current understanding and use of Mesquite to perform coalescent simulations for phylogeographical hypotheses testing and is correct to the best of my knowledge, but I do not guarantee its accuracy. Also, you may not perform these analyses in the exact way or order that I have performed them. The following is based on a number of previously-published studies (e.g. Knowles 2001; Knowles &amp;amp; Maddison 2002; Carstens et al.</description>
+    </item>
+    
+    <item>
+      <title>How to use MIGRATE-N for phylogeography</title>
+      <link>/2010/09/04/how-to-use-migrate-n-for-phylogeography/</link>
+      <pubDate>Sat, 04 Sep 2010 00:38:00 +0000</pubDate>
+      
+      <guid>/2010/09/04/how-to-use-migrate-n-for-phylogeography/</guid>
+      <description>Introduction to MIGRATE-N One thing that makes this a great time to be involved in phylogeography is the exploding amount of data and quantitative methods available to workers. An important advance in the past 10 years has been the introduction of likelihood- and Bayesian inference-based methods for modeling gene flow, and for comparing models of gene flow, in population genetics. In particular, model-based coalescent methods are highly attractive. A method (or class of methods) that stems from statistical population genetics and is useful in phylogeography involves using coalescent gene genealogy samplers to estimate parameters based on variation across a huge number of gene trees representing estimates of probable ancestral patterns.</description>
+    </item>
+    
+  </channel>
+</rss>

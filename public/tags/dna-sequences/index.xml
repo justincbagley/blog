@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dna Sequences on blog</title>
+    <link>/tags/dna-sequences/</link>
+    <description>Recent content in Dna Sequences on blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 17 Sep 2015 15:06:20 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/dna-sequences/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Detecting trait-dependent shifts in DNA sequence evolution with traitRate</title>
+      <link>/2015/09/17/detecting-trait-dependent-shifts-dna-sequence-evolution-traitrate/</link>
+      <pubDate>Thu, 17 Sep 2015 15:06:20 +0000</pubDate>
+      
+      <guid>/2015/09/17/detecting-trait-dependent-shifts-dna-sequence-evolution-traitrate/</guid>
+      <description>These days, we evo-biologists studying macroevolution tend to be interested in riding different waves of research and methods, and one of these is focused on understanding shifts in diversification rates as inferred from phylogenies and trait data. This is a hot topic in my opinion, and the focus is on understanding the causes and rates of spectacular adaptive and non-adaptive radiations of species in different systems across the glob.
+But did you know it was possible to test for trait-dependent shifts in evolution of species DNA sequences or genomes?</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Snps on blog</title>
+    <link>/tags/snps/</link>
+    <description>Recent content in Snps on blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 13 Sep 2017 11:40:35 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/snps/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Analyzing ddRADseq Data in SNAPP</title>
+      <link>/2017/09/13/gist-ddradseq-data-snapp/</link>
+      <pubDate>Wed, 13 Sep 2017 11:40:35 +0000</pubDate>
+      
+      <guid>/2017/09/13/gist-ddradseq-data-snapp/</guid>
+      <description>](https://gist.github.com)
+Oh, SNAPP&amp;hellip;
+Over the last year, as I&amp;rsquo;ve become increasingly comfortable with GitHub, I&amp;rsquo;ve naturally shifted all of my note writing to Markdown language. During the process, I&amp;rsquo;ve started frequently jotting down useful notes related to analysis, code, or scientific computing as &amp;ldquo;Gists&amp;rdquo; on GitHub. In contrast to most repositories, Gists are small snippets of code or notes and are posted at gist.github.com rather than github.com. To date, I have published 8 Gists on topics as broad as Pandoc, ∂a∂i, SNAPP, and Markdown.</description>
+    </item>
+    
+    <item>
+      <title>Running AMOVA (analysis of molecular variance) on biallelic SNP data in R</title>
+      <link>/2017/08/18/running-amova-analysis-molecular-variance-biallelic-snp-data-r/</link>
+      <pubDate>Fri, 18 Aug 2017 19:16:27 +0000</pubDate>
+      
+      <guid>/2017/08/18/running-amova-analysis-molecular-variance-biallelic-snp-data-r/</guid>
+      <description>AMOVA in R Resources for conducting population genetic and phylogenetic analyses in the R computing environment are continually improving, and to date several packages have provided functions for estimating phi-statistics and hierarchical patterns of population variance partitioning using AMOVA (analysis of molecular variance; Quattro et al. 1992). The paper for the AMOVA method, penned by population geneticists Joe Quattro, Peter Smouse, and Laurent Excoffier, now has &amp;gt;12,000 citations, making it one of the most used and cited methods of all time in evolutionary genetic analysis; many people continue using this method, including me.</description>
+    </item>
+    
+    <item>
+      <title>Where to outsource next-generation sequencing runs for de novo SNP discovery for phylogenetics and phylogeography</title>
+      <link>/2013/11/27/outsource-next-generation-sequencing-runs-de-novo-snp-discovery-phylogenetics-phylogeography/</link>
+      <pubDate>Wed, 27 Nov 2013 04:33:44 +0000</pubDate>
+      
+      <guid>/2013/11/27/outsource-next-generation-sequencing-runs-de-novo-snp-discovery-phylogenetics-phylogeography/</guid>
+      <description>Intro Given their high density throughout the genome, single nucleotide polymorphisms (SNPs) have become a popular marker for population genetics and phylogenetics analyses in evolutionary biology (in addition to applications in QTL mapping, association studies etc.). The rapid advance of next-generation sequencing (NGS) has created several new ways of generating 100s to hundreds of thousands of variable SNPs quickly and cost-effectively. In this post, I am compiling a list of North American facilities with capabilities for de novo genome-scale data generation and marker (i.</description>
+    </item>
+    
+  </channel>
+</rss>

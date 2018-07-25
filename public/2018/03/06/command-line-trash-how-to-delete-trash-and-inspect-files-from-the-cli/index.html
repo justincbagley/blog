@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.44" />
+
+
+<title>Command line trash: how to delete, trash, and inspect files from the CLI - blog</title>
+<meta property="og:title" content="Command line trash: how to delete, trash, and inspect files from the CLI - blog">
+
+
+
+  
+
+
+
+
+
+
+
+
+<link href='//cdn.bootcss.com/highlight.js/9.11.0/styles/github.min.css' rel='stylesheet' type='text/css' />
+
+
+
+<link rel="stylesheet" href="/css/fonts.css" media="all">
+<link rel="stylesheet" href="/css/main.css" media="all">
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/" class="nav-logo">
+    <img src="/images/jselfie_logo.png"
+         width="50"
+         height="50"
+         alt="Logo">
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="/about/">About</a></li>
+    
+    <li><a href="https://github.com/justincbagley">GitHub</a></li>
+    
+    <li><a href="https://www.linkedin.com/in/justin-c-bagley-2a8a0523">LinkedIn</a></li>
+    
+    <li><a href="https://www.researchgate.net/profile/Justin_Bagley2">ResearchGate</a></li>
+    
+    <li><a href="https://twitter.com/justincbagley">Twitter</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">3 min read</span>
+    
+
+    <h1 class="article-title">Command line trash: how to delete, trash, and inspect files from the CLI</h1>
+
+    
+    <span class="article-date">2018/03/06</span>
+    
+
+    <div class="article-content">
+      <p>As many of you know, I use a UNIX/Mac system, and I spend a great deal of time working from the command line on UNIX and LINUX. One thing that everyone learns when they&rsquo;re learning the UNIX/LINUX command line is that the &ldquo;rm&rdquo; command is a powerful and versatile option for deleting files. However, when we delete files with rm, they never come back, and thus they cannot be inspected afterward. Adding the &ldquo;-i&rdquo; flag (e.g. &ldquo;rm -i ) is an extremely useful safety feature for regular or recursive (i.e. folder-and-everything-in-it) deleting that will cause you to be prompted for confirmation that you <em>really</em> want to permanently delete the target file(s) or directory; however, this can be a bit of a nuisance.</p>
+
+<p>One thing that I figured out a while back was that several people have been interested in this issue. And, as a result of their efforts, there is some free software out there that can provide an alternative to rm, by providing &ldquo;trash&rdquo; functions. One such software is called &ldquo;trash&rdquo;, was written by Ali Rantakari (available <a href="http://hasseg.org/trash/">here</a>), and is easily installed from <a href="https://brew.sh">Homebrew</a> as follows:</p>
+
+<pre><code>$ brew install trash
+</code></pre>
+
+<p>The install is very fast, and you can immediately start using trash to send files or directories to the Trash bin on your Mac. The basic syntax is &ldquo;trash <file>&rdquo;, or &ldquo;trash <file> <file> <dir>&rdquo; for multiple targets. For example,</p>
+
+<pre><code>$ ## Trashing example:
+$ echo &quot;&quot; &gt; file.txt
+$ trash ./file.txt
+</code></pre>
+
+<p>After &ldquo;trashing&rdquo; files from the command line, you may want to inspect the Trash to make sure the files actually made it to the trash bin, or to see what&rsquo;s there before clearing the bin. Of course, this is trivial with point-and-click approach; but you can still often avoid several unnecessary clicks or trips back and forth to the Trash by using the following code, especially in the case that you&rsquo;re already working from the command line anyway:</p>
+
+<pre><code>$ ## Inspecting the Trash:
+$ ## cd into Trash and have a look (simple and detailed views) with ls command:
+$ cd ~/.Trash/
+$ ls .
+$ ls -al .
+</code></pre>
+
+<p>It&rsquo;s also a good idea to remove files from the Trash selectively when working from the command line, rather than deleting all of the files in the Trash. At least, it&rsquo;s possible to imagine scenarios where this would be a better idea than the default &ldquo;Empty Trash&rdquo; menu option.</p>
+
+<p>Here&rsquo;s how to delete a specific file:</p>
+
+<pre><code>$ ## Delete a single file:
+$ rm ~/.Trash/&lt;file&gt;
+</code></pre>
+
+<p>Here&rsquo;s how to delete a specific directory:</p>
+
+<pre><code>$ ## Delete single directory:
+$ rm -rf ~/.Trash/&lt;path/to/dir&gt;
+</code></pre>
+
+<p>And, finally, here&rsquo;s how you can use a wildcard to quickly delete <em>all</em> files from the Trash simultaneously (with no hope of recovery):</p>
+
+<pre><code>$ ## Delete *all* files in the Trash:
+$ rm -rf ~/.Trash/*
+</code></pre>
+
+<p>I hope this helps someone improve their usage of the command line. However, remember that, &ldquo;With great power comes great responsibility&rdquo; ~ Uncle Ben (<a href="https://en.wikipedia.org/wiki/Spider-Man_(2002_film)"><em>Spider-Man</em></a>, 2002). Always remember that inappropriate use of rm commands such as those above can wipe out 1) precious files you didn&rsquo;t mean to delete but that wound up in the Trash, or 2) whole sets of files inside a directory. This mainly applies to the &ldquo;-r&rdquo; and &ldquo;-R&rdquo; flags for recursive deletion, which will not only delete an entire folder and all of it&rsquo;s contents; but it&rsquo;s a good thing to keep in mind.</p>
+
+<p>~J</p>
+
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <a href="/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+          </li>
+          <li>
+            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="/images/hugo-logo.png" width="22" height="22"></a>
+          </li>
+        <p class="m-0 text-center text-white">Copyright &copy; 2018 Justin C. Bagley</p>
+        </ul>
+      </footer>
+
+    </div>
+    
+
+
+
+<script src="//cdn.bootcss.com/highlight.js/9.11.0/highlight.min.js"></script>
+
+
+
+<script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/r.min.js"></script>
+<script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/yaml.min.js"></script>
+<script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+
+
+
+    
+<script src="/js/math-code.js"></script>
+<script async src="//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+
+    
+  </body>
+</html>
+

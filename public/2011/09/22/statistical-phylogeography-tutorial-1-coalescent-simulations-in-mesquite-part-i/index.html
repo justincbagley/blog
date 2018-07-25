@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.44" />
+
+
+<title>Statistical phylogeography tutorial #1: Coalescent simulations in Mesquite Part I - blog</title>
+<meta property="og:title" content="Statistical phylogeography tutorial #1: Coalescent simulations in Mesquite Part I - blog">
+
+
+
+  
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/css/fonts.css" media="all">
+<link rel="stylesheet" href="/css/main.css" media="all">
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/" class="nav-logo">
+    <img src="/images/jselfie_logo.png"
+         width="50"
+         height="50"
+         alt="Logo">
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="/about/">About</a></li>
+    
+    <li><a href="https://github.com/justincbagley">GitHub</a></li>
+    
+    <li><a href="https://www.linkedin.com/in/justin-c-bagley-2a8a0523">LinkedIn</a></li>
+    
+    <li><a href="https://www.researchgate.net/profile/Justin_Bagley2">ResearchGate</a></li>
+    
+    <li><a href="https://twitter.com/justincbagley">Twitter</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">11 min read</span>
+    
+
+    <h1 class="article-title">Statistical phylogeography tutorial #1: Coalescent simulations in Mesquite Part I</h1>
+
+    
+    <span class="article-date">2011/09/22</span>
+    
+
+    <div class="article-content">
+      <p><strong>Part I. Draft 9/22/11</strong></p>
+
+<p>WARNING: The following is based on my current understanding and use of <a href="http://mesquiteproject.wikispaces.com">Mesquite</a> to perform coalescent simulations for phylogeographical hypotheses testing and is correct to the best of my knowledge, but I do not guarantee its accuracy. Also, you may not perform these analyses in the exact way or order that I have performed them. The following is based on a number of previously-published studies (e.g. Knowles 2001; Knowles &amp; Maddison 2002; Carstens et al. 2004, 2005; Spellman &amp; Klicka 2006; Shepard &amp; Burbrink 2009). If you use my tutorial to conduct analyses, please (1) <a href="http://www.justinbagley.org/contact">email me</a> or post to this blog and let me know (thanks!), (2) properly cite Mesquite documentation (see the new <a href="http://mesquiteproject.wikispaces.com">wikispaces website</a>), and (3) report any errors you might find in my tutorial to me immediately, please. If you think you find a bug in Mesquite, report that to its developers.</p>
+
+<p><strong>Data and getting started</strong></p>
+
+<p>Assume sequences are each alleles, i.e. unique haplotypes, in a file with NEXUS format, with known locality information (preferably, including geographical coordinates) that you have mapped in space in relation to geography. Also assume your data are haploid and come from a non-recombining genome region (although multi-locus analyses are possible, published studies using reehe analyses described below have mostly worked with mtDNA; I am still learning the multi-locus approaches and I will post on them later, probably in a Part III). Now, open your DNA sequence matrix in Mesquite (&ldquo;File &gt; Open File&rdquo;).</p>
+
+<p><em>NOTE</em>: the version of Mesquite I am using as of this writing is 2.73, but many functions of the following simulations stem back to Mesquite 1.05; this also goes for the newer versions of the program.</p>
+
+<p><strong>Import your gene tree</strong></p>
+
+<p>Import a file with a tree representing your best estimate of the gene tree representing relationships among the localities/alleles in your sample. In many cases, this will be a &lsquo;best&rsquo; tree with branch lengths from a <a href="http://www.ihes.fr/~carbone/MaximumLikelihood2.pdf">maximum likelihood</a> search (e.g. using GARLI, PAUP*, PHYML, etc.) or <a href="https://en.wikipedia.org/wiki/Bayesian_inference_in_phylogeny">Bayesian inference analysis</a>. Make sure tip names along the tree match the taxon names in the data matrix and include contents while importing (&ldquo;Taxa&amp;Trees &gt; Import File with Trees &gt; Include Contents&rdquo;). Change the Tree Window settings to show your branch lengths (Click the &ldquo;Drawing&rdquo; menu and choose &ldquo;Branches Proportional to Lengths&rdquo;).</p>
+
+<p>Remove outgroup taxa, if any, by opening the list of taxa (double click on it, or right click on the list name and select &ldquo;List &amp; Manage Taxa&rdquo;), selecting unwanted taxa, and then choosing &ldquo;delete selected taxa&rdquo; from the &ldquo;List&rdquo; dropdown menu.</p>
+
+<p><strong>Taxon blocks</strong></p>
+
+<p>OK, now you have a block of taxa representing the genes in your original set of sequences. The default name will be Taxa. Change this to &ldquo;genes&rdquo;. [NOTE: I use this name throughout, so be sure to follow this step to make this post easier reading.]</p>
+
+<p>You need a block of taxa (or several such blocks) representing the populations or species containing your genes during the simulations. Make as many as you need. I have found it easiest to give each one a name starting with &ldquo;species&hellip;&rdquo;. Name each species/population; usually I do this with acronyms for geographical areas or populations.</p>
+
+<p><strong>Setting up your gene-species associations</strong></p>
+
+<p>Now you need to specify an association between the genes and the species/populations blocks. To do this, click &ldquo;Choose New Association&rdquo;&hellip; from the Taxa&amp;Trees menu. Usually, you would edit the taxa association after choosing the containing taxa (species/populations) as the first block and choosing the genes taxa block when prompted to select taxa a second time. After going through this series of two pop-up windows, you will be prompted to name the association. I often don the association with a simple name using the names of the blocks themselves, like &ldquo;genes-species_2areas.&rdquo; Next, you would usually select to edit the new association from the perspective of the containing taxa.</p>
+
+<p><strong>Set up your hypotheses, conduct the simulations, and look at the output/trees</strong></p>
+
+<p>Now that you have your ML tree (or Bayesian tree) and your species/population blocks and their associations worked out, you can create user-defined trees for Mesquite to use during your coalescent simulations. Mesquite is flexible for this task, allowing users to manipulate default or imported trees in a number of ways. For example, you can insert nodes, change tree depth, prune branches, alter branch lengths by different kinds of transformations, specify branch widths (e.g. different effective population sizes through time, for modeling population expansions or bottlenecks), and more.</p>
+
+<p>However, as exciting as this prospect may be, you must first decide which type of coalescent simulation(s) you would like to run. There are at least two options, again highlighting the flexibility of the simulation framework provided by Mesquite. You can (A) simulate gene trees and measure their discord in relation to species/population trees, then compare this discord (over all simulated trees, i.e. creating a distribution) to the observed discord between the same species/population trees and your gene tree topology (following the above, I am thinking of an ML tree). Alternatively, you can (B) simulate data sets that have the same characteristics as your data (i.e. under the same substitution model that you might select for the data using a program like <a href="https://github.com/ddarriba/jmodeltest2">jModelTest 2</a>, DT_ModSel, or <a href="http://www.robertlanfear.com/partitionfinder/">PartitionFinder</a>), constrain them with your species/population trees, and use them to generate gene trees for computing a test statistic distribution similar to that in (A) to be compared to the value of the test statistic computed when comparing the observed data (gene tree) against the species/population trees. In this tutorial, I cover procedure (A). I will tackle (B) later (in a future Part II post). OK, so to accomplish (A) you need to:</p>
+
+<ul>
+<li><strong>(A1)</strong> generate your population trees,<br /></li>
+<li><strong>(A2)</strong> evaluate the fit between your gene tree (here on, I am assuming you are using an ML tree) and each population tree using the test statistic,<br /></li>
+<li><strong>(A3)</strong> generate sets of simulated trees along the population tree representing individual collection localities (&lsquo;populations&rsquo;),<br /></li>
+<li>and <strong>(A4)</strong> then fit your simulated trees within each population tree and compare the observed test statistic from (A1) with the distribution of test statistic values calculated for each simulated tree with respect to each population tree.</li>
+</ul>
+
+<p>There are several different ways to do this, but the following is suggested.</p>
+
+<ul>
+<li><strong>(A1)</strong> Pick one block of species/population taxa and create a new block of trees for those taxa from &ldquo;Default Trees&rdquo; (&ldquo;Taxa&amp;Trees &gt; Make New Trees Block from &gt; Default Trees&rdquo;&hellip; then choose the corresponding species taxa block for the tips). Rearrange the branches to the desired species/population tree for those taxa. Don&rsquo;t necessarily worry about branch lengths.<br /></li>
+<li><strong>(A2)</strong> Go ahead and fit your ML tree (gene tree) into this population tree. Have the population tree of interest open in a Tree Window by selecting &ldquo;Analysis &gt; Visual Tree Analysis &gt; Contained Gene (or Other) Trees.&rdquo; Because the ML tree was the first tree imported, it is the first in the list Mesquite keeps for the current project and will automatically be chosen and fit into the population tree. Thisyields an awesome looking diagram where the population tree has thick blue branches, the gene tree has green branches, and a scale bar is provided in units of your tree&rsquo;s branch lengths. Click on &ldquo;File &gt; Save Tree as PDF&rdquo; and specify a place to save an editable file of your nice new diagram (you can manually edit this file in Adobe Illustrator e.g. for changing the scale bar values).<br /></li>
+<li><strong>(A3)</strong> Now, generate your simulated gene trees over the Fragmented Ancestor model. If the species/population tree you just worked with in the paragraph above didn&rsquo;t have tips representing each sampled population, then create a species/population tree representing the Framented Ancestor model by creating a new block of taxa representing each population (name it &ldquo;species_2areas&rdquo; or something like that), specifying a genes-species association between this new block and your genes (haplotypes; e.g. named &ldquo;genes-species_2areas&rdquo;), and creating a new block of trees with a default bush topology for this species taxa block. Choose to view the new tree block in a Tree Window. [On to simulating the trees we want&hellip;] Now create a new block of trees from simulation. Click Taxa&amp;Trees &gt; Make New Trees Block from &gt; Simulated Trees &gt; Coalescence in Current Tree with Migration&hellip;. Then, when prompted (Mesquite asks &ldquo;Select taxa (for new trees block)&rdquo;), select &ldquo;genes&rdquo; (the block of taxa containing your tips/haplotypes)&hellip; The next thing you will be prompted to provide is the taxa association that will be used to generate the simulated trees. Choose the association you created between genes and the Fragmented Ancestor model (e.g. &ldquo;genes-species_15pops&rdquo;). The next decisions will be made through a simulation window (in our case, headed: &ldquo;Coalescence With Migration&rdquo;). Here, you will need to specify the gene tree depth at which you will be simulating the trees, the probability of migration per individual per generation (e.g. 7.7753E-07, which I computed using several steps following analyses of one data set in <a href="http://popgen.sc.fsu.edu/Migrate/Migrate-n.html">MIGRATE-N</a>), and (if you want; this is not required) the generation at which to produce a burst of migration during the simulation (i.e. at which generation to begin factoring migration among populations into the simulation; in my case, I specified 22000 generations, corresponding to the Last Glacial Maximum [LGM], assuming a generation time of 1 year for Alfaro cultratus and two other poeciliid fish species). You will then need to specify the number of trees to simulate (I used 500 recently, and so did Shepard &amp; Burbrink 2009; Spellman &amp; Klicka 2006 used 1000 simulated trees). Start the simulation. A window will pop up and update you on the program&rsquo;s progress (&ldquo;Adding tree to trees block 234&rdquo;). This could take a few minutes or an hour, depending on how large your data matrix is and whether you allow the program to do an exponential approximation or not. Wait patiently&hellip; go get a snack&hellip; call your mom&hellip; surf Netflix&hellip; etc. When the simulation is over, Mesquite will say, &ldquo;The trees are now ready [Simulated Trees; name of tree block: &ldquo;Simulated Trees&rdquo;]. Would you like to open a tree window to display them?&rdquo; The answer is Yes. Click Yes.<br /></li>
+</ul>
+
+<p>Mesquite will open a new Tree Window that you can take a look at your simulated trees within. Click Drawing &gt; Branches Proportional to Lengths. Leave the tree form on Square tree (rectangular), or if you are adventurous click Drawing &gt; Tree Form &gt; Curvogram (Maddison and Knowles&rsquo; favorite). Click the arrow button to go to the next tree&hellip; and repeat several times to look at the variation in your trees. They&rsquo;re really different right? This is because each individual gene tree reflects an independent, individual realization of a stochastic process of lineage sorting and the level of migration you input into the model. This simulation assumes constant population size from root to tips, and random mating.</p>
+
+<p>OK, now to <strong>(A4)</strong>. You need to fit your simulated trees into a population tree of interest that is NOT the Fragmented Ancestor model, in order to calculate some statistics of fit. So, if you don&rsquo;t have one, follow the steps above to generate a population tree (taxa block, association with &ldquo;genes&rdquo;, and tree block) that fits this criterion.</p>
+
+<p>[pause]</p>
+
+<p>OK, now make sure your population tree is open in a Tree Window. Use the Visual Tree Analysis procedure mentioned above to fit the new block of simulated gene trees (Default name: &ldquo;Simulated Trees&rdquo;) into the population tree (i.e. call visual tree analysis and specify &ldquo;Simulated Trees&rdquo; block). This will produce the awesome blue and gree gene tree-species/population tree diagram again. You may want to save this as a PDF. Now all of your simulated gene trees can be viewed within the population tree. Surf through a few of them to see what they look like in this orientation.</p>
+
+<p>To <strong>finalize step (A4)</strong>, we need to create a histogram chart representing the distribution of a statistic-of-fit calculated for all of the simulated gene trees with respect to the population tree and save the results. Pick a statistic, either Slatkin&rsquo;s &ldquo;s&rdquo; or the number of deep coalescences (nDC). I like nDC. Click &ldquo;Analysis &gt; New Bar &amp; Line Chart for &gt; Trees&rdquo; and specify that you want to show a chart of values for the &ldquo;genes&rdquo; block. Click on &ldquo;Stored Trees&rdquo; when you see the &ldquo;Source of trees (Tree chart)&rdquo; window. Then choose &ldquo;Deep Coalescences (gene tree)&rdquo; for the &ldquo;Value to calculate for trees.&rdquo; For &ldquo;Contained (gene) tree interpretation&rdquo;, click &ldquo;OK&rdquo; to use the defaults. Mesquite will ask you which tree block to use. Now, at the &ldquo;Use which tree block?&rdquo; window, select &ldquo;Simulated Trees.&rdquo; Then the last thing Mesquite will ask you is which association to use. Select the association between &ldquo;genes&rdquo; and your population tree (e.g. &ldquo;genes-species_2areas&rdquo;) and create the chart from the block of Simulated Trees.</p>
+
+<p><strong>The last step</strong></p>
+
+<p>The final step in the analysis is to compare your observed test statistic to the distribution you just generated and derive a p-value (analogous to a one-tailed t-test). We are interested in whether the observed value falls below 95% of the null distribution. You could generate the p-value in a statistics software program using a normal distribution with the mean and variance (output by Mesquite) of the given distribution, or use percentiles.</p>
+
+<p><em>More later&hellip;</em></p>
+
+<p>Best,</p>
+
+<p>~ J</p>
+
+<p><strong>References</strong></p>
+
+<p>Knowles (2001); Knowles &amp; Maddison (2002); Carstens et al. (2004, 2005); Spellman &amp; Klicka (2006); Shepard &amp; Burbrink (2009); &hellip;I&rsquo;ll add these references one day when I have time.</p>
+
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <a href="/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+          </li>
+          <li>
+            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="/images/hugo-logo.png" width="22" height="22"></a>
+          </li>
+        <p class="m-0 text-center text-white">Copyright &copy; 2018 Justin C. Bagley</p>
+        </ul>
+      </footer>
+
+    </div>
+    
+
+    
+
+    
+  </body>
+</html>
+

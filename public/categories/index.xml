@@ -2,20 +2,687 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on blog</title>
-    <link>/blog/categories/</link>
+    <link>/categories/</link>
     <description>Recent content in Categories on blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Fri, 18 Aug 2017 19:16:27 +0000</lastBuildDate>
     
-	<atom:link href="/blog/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>R</title>
-      <link>/blog/categories/r/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      <title>Adegenet</title>
+      <link>/categories/adegenet/</link>
+      <pubDate>Fri, 18 Aug 2017 19:16:27 +0000</pubDate>
       
-      <guid>/blog/categories/r/</guid>
+      <guid>/categories/adegenet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ape</title>
+      <link>/categories/ape/</link>
+      <pubDate>Tue, 22 Nov 2011 08:15:00 +0000</pubDate>
+      
+      <guid>/categories/ape/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bash</title>
+      <link>/categories/bash/</link>
+      <pubDate>Sat, 10 Mar 2018 23:17:05 +0000</pubDate>
+      
+      <guid>/categories/bash/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bayesian</title>
+      <link>/categories/bayesian/</link>
+      <pubDate>Tue, 11 Oct 2016 19:52:55 +0000</pubDate>
+      
+      <guid>/categories/bayesian/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Beagle</title>
+      <link>/categories/beagle/</link>
+      <pubDate>Thu, 17 Aug 2017 18:18:35 +0000</pubDate>
+      
+      <guid>/categories/beagle/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Beast</title>
+      <link>/categories/beast/</link>
+      <pubDate>Thu, 17 Aug 2017 18:18:35 +0000</pubDate>
+      
+      <guid>/categories/beast/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Beauti</title>
+      <link>/categories/beauti/</link>
+      <pubDate>Tue, 11 Oct 2016 19:52:55 +0000</pubDate>
+      
+      <guid>/categories/beauti/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Blog Posts</title>
+      <link>/categories/blog-posts/</link>
+      <pubDate>Mon, 16 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/blog-posts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Blogdown</title>
+      <link>/categories/blogdown/</link>
+      <pubDate>Mon, 16 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/blogdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Books</title>
+      <link>/categories/books/</link>
+      <pubDate>Wed, 30 Apr 2014 18:04:38 +0000</pubDate>
+      
+      <guid>/categories/books/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Byu</title>
+      <link>/categories/byu/</link>
+      <pubDate>Wed, 11 Dec 2013 19:58:27 +0000</pubDate>
+      
+      <guid>/categories/byu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>California</title>
+      <link>/categories/california/</link>
+      <pubDate>Mon, 11 Nov 2013 05:40:53 +0000</pubDate>
+      
+      <guid>/categories/california/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Charles Darwin</title>
+      <link>/categories/charles-darwin/</link>
+      <pubDate>Tue, 26 Dec 2017 17:28:55 +0000</pubDate>
+      
+      <guid>/categories/charles-darwin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Climate</title>
+      <link>/categories/climate/</link>
+      <pubDate>Wed, 28 Jun 2017 01:49:20 +0000</pubDate>
+      
+      <guid>/categories/climate/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Code</title>
+      <link>/categories/code/</link>
+      <pubDate>Wed, 25 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/code/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Command Line</title>
+      <link>/categories/command-line/</link>
+      <pubDate>Wed, 25 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/command-line/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Compiling Software</title>
+      <link>/categories/compiling-software/</link>
+      <pubDate>Mon, 26 Mar 2018 03:11:07 +0000</pubDate>
+      
+      <guid>/categories/compiling-software/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Darwin</title>
+      <link>/categories/darwin/</link>
+      <pubDate>Tue, 26 Dec 2017 17:28:55 +0000</pubDate>
+      
+      <guid>/categories/darwin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Analysis</title>
+      <link>/categories/data-analysis/</link>
+      <pubDate>Wed, 25 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/data-analysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ddocent</title>
+      <link>/categories/ddocent/</link>
+      <pubDate>Sat, 10 Mar 2018 23:17:05 +0000</pubDate>
+      
+      <guid>/categories/ddocent/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ddrad Seq</title>
+      <link>/categories/ddrad-seq/</link>
+      <pubDate>Sat, 10 Mar 2018 23:17:05 +0000</pubDate>
+      
+      <guid>/categories/ddrad-seq/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Development</title>
+      <link>/categories/development/</link>
+      <pubDate>Wed, 25 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Education</title>
+      <link>/categories/education/</link>
+      <pubDate>Mon, 18 Nov 2013 00:22:53 +0000</pubDate>
+      
+      <guid>/categories/education/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Freshwater Fishes</title>
+      <link>/categories/freshwater-fishes/</link>
+      <pubDate>Mon, 11 Nov 2013 05:40:53 +0000</pubDate>
+      
+      <guid>/categories/freshwater-fishes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gene Trees</title>
+      <link>/categories/gene-trees/</link>
+      <pubDate>Thu, 22 Sep 2011 16:51:00 +0000</pubDate>
+      
+      <guid>/categories/gene-trees/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gis</title>
+      <link>/categories/gis/</link>
+      <pubDate>Wed, 28 Jun 2017 01:49:20 +0000</pubDate>
+      
+      <guid>/categories/gis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gist</title>
+      <link>/categories/gist/</link>
+      <pubDate>Sun, 17 Sep 2017 18:23:01 +0000</pubDate>
+      
+      <guid>/categories/gist/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Github</title>
+      <link>/categories/github/</link>
+      <pubDate>Sun, 17 Sep 2017 18:23:01 +0000</pubDate>
+      
+      <guid>/categories/github/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ima2</title>
+      <link>/categories/ima2/</link>
+      <pubDate>Tue, 01 Sep 2015 02:41:34 +0000</pubDate>
+      
+      <guid>/categories/ima2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Java</title>
+      <link>/categories/java/</link>
+      <pubDate>Thu, 17 Aug 2017 18:18:35 +0000</pubDate>
+      
+      <guid>/categories/java/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jmodeltest</title>
+      <link>/categories/jmodeltest/</link>
+      <pubDate>Sat, 06 Aug 2011 14:20:00 +0000</pubDate>
+      
+      <guid>/categories/jmodeltest/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linux</title>
+      <link>/categories/linux/</link>
+      <pubDate>Mon, 26 Mar 2018 03:11:07 +0000</pubDate>
+      
+      <guid>/categories/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mac</title>
+      <link>/categories/mac/</link>
+      <pubDate>Tue, 06 Mar 2018 04:14:15 +0000</pubDate>
+      
+      <guid>/categories/mac/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Macroecology</title>
+      <link>/categories/macroecology/</link>
+      <pubDate>Wed, 28 Jun 2017 01:49:20 +0000</pubDate>
+      
+      <guid>/categories/macroecology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mesquite</title>
+      <link>/categories/mesquite/</link>
+      <pubDate>Thu, 07 Aug 2014 18:11:18 +0000</pubDate>
+      
+      <guid>/categories/mesquite/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Migrate N</title>
+      <link>/categories/migrate-n/</link>
+      <pubDate>Tue, 13 Sep 2011 14:56:00 +0000</pubDate>
+      
+      <guid>/categories/migrate-n/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Miniconda</title>
+      <link>/categories/miniconda/</link>
+      <pubDate>Sun, 17 Sep 2017 18:23:01 +0000</pubDate>
+      
+      <guid>/categories/miniconda/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Model Selection</title>
+      <link>/categories/model-selection/</link>
+      <pubDate>Fri, 05 Aug 2011 18:50:00 +0000</pubDate>
+      
+      <guid>/categories/model-selection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Molecular Clocks</title>
+      <link>/categories/molecular-clocks/</link>
+      <pubDate>Thu, 01 Sep 2011 23:38:00 +0000</pubDate>
+      
+      <guid>/categories/molecular-clocks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Molecular Evolution</title>
+      <link>/categories/molecular-evolution/</link>
+      <pubDate>Tue, 11 Oct 2016 19:52:55 +0000</pubDate>
+      
+      <guid>/categories/molecular-evolution/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Morphological Data</title>
+      <link>/categories/morphological-data/</link>
+      <pubDate>Tue, 08 Sep 2015 03:07:12 +0000</pubDate>
+      
+      <guid>/categories/morphological-data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Next Generation Sequencing</title>
+      <link>/categories/next-generation-sequencing/</link>
+      <pubDate>Wed, 27 Nov 2013 04:33:44 +0000</pubDate>
+      
+      <guid>/categories/next-generation-sequencing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Peerj</title>
+      <link>/categories/peerj/</link>
+      <pubDate>Wed, 07 Mar 2018 05:32:23 +0000</pubDate>
+      
+      <guid>/categories/peerj/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Phylogenetics</title>
+      <link>/categories/phylogenetics/</link>
+      <pubDate>Wed, 06 Apr 2016 15:43:16 +0000</pubDate>
+      
+      <guid>/categories/phylogenetics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Phylogeny</title>
+      <link>/categories/phylogeny/</link>
+      <pubDate>Fri, 05 Aug 2011 18:50:00 +0000</pubDate>
+      
+      <guid>/categories/phylogeny/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Phylogeography</title>
+      <link>/categories/phylogeography/</link>
+      <pubDate>Tue, 01 Sep 2015 02:41:34 +0000</pubDate>
+      
+      <guid>/categories/phylogeography/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Phyloseminar</title>
+      <link>/categories/phyloseminar/</link>
+      <pubDate>Tue, 03 Dec 2013 19:19:42 +0000</pubDate>
+      
+      <guid>/categories/phyloseminar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Poppr</title>
+      <link>/categories/poppr/</link>
+      <pubDate>Fri, 18 Aug 2017 19:16:27 +0000</pubDate>
+      
+      <guid>/categories/poppr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Population Genomics</title>
+      <link>/categories/population-genomics/</link>
+      <pubDate>Fri, 18 Aug 2017 19:16:27 +0000</pubDate>
+      
+      <guid>/categories/population-genomics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Preprints</title>
+      <link>/categories/preprints/</link>
+      <pubDate>Wed, 07 Mar 2018 05:32:23 +0000</pubDate>
+      
+      <guid>/categories/preprints/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Programming</title>
+      <link>/categories/programming/</link>
+      <pubDate>Fri, 18 Aug 2017 19:16:27 +0000</pubDate>
+      
+      <guid>/categories/programming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pyrad</title>
+      <link>/categories/pyrad/</link>
+      <pubDate>Sun, 17 Sep 2017 18:23:01 +0000</pubDate>
+      
+      <guid>/categories/pyrad/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>/categories/python/</link>
+      <pubDate>Sun, 17 Sep 2017 18:23:01 +0000</pubDate>
+      
+      <guid>/categories/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R</title>
+      <link>/categories/r/</link>
+      <pubDate>Mon, 16 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rad Seq</title>
+      <link>/categories/rad-seq/</link>
+      <pubDate>Sun, 17 Sep 2017 18:23:01 +0000</pubDate>
+      
+      <guid>/categories/rad-seq/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Samtools</title>
+      <link>/categories/samtools/</link>
+      <pubDate>Sat, 10 Mar 2018 23:17:05 +0000</pubDate>
+      
+      <guid>/categories/samtools/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Scientific Journals and Publishing</title>
+      <link>/categories/scientific-journals-and-publishing/</link>
+      <pubDate>Wed, 25 Nov 2015 12:47:36 +0000</pubDate>
+      
+      <guid>/categories/scientific-journals-and-publishing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Scientific Names</title>
+      <link>/categories/scientific-names/</link>
+      <pubDate>Wed, 02 Sep 2015 02:38:32 +0000</pubDate>
+      
+      <guid>/categories/scientific-names/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shell Scripts</title>
+      <link>/categories/shell-scripts/</link>
+      <pubDate>Wed, 13 Sep 2017 11:40:35 +0000</pubDate>
+      
+      <guid>/categories/shell-scripts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Snapp</title>
+      <link>/categories/snapp/</link>
+      <pubDate>Wed, 13 Sep 2017 11:40:35 +0000</pubDate>
+      
+      <guid>/categories/snapp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Snps</title>
+      <link>/categories/snps/</link>
+      <pubDate>Wed, 25 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/snps/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Software</title>
+      <link>/categories/software/</link>
+      <pubDate>Wed, 25 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/software/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Species Delimitation</title>
+      <link>/categories/species-delimitation/</link>
+      <pubDate>Fri, 11 Mar 2016 12:00:01 +0000</pubDate>
+      
+      <guid>/categories/species-delimitation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Species Trees</title>
+      <link>/categories/species-trees/</link>
+      <pubDate>Wed, 13 Sep 2017 11:40:35 +0000</pubDate>
+      
+      <guid>/categories/species-trees/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ssh</title>
+      <link>/categories/ssh/</link>
+      <pubDate>Sun, 17 Sep 2017 18:23:01 +0000</pubDate>
+      
+      <guid>/categories/ssh/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Supercomputers</title>
+      <link>/categories/supercomputers/</link>
+      <pubDate>Mon, 26 Mar 2018 03:11:07 +0000</pubDate>
+      
+      <guid>/categories/supercomputers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Taxonomy</title>
+      <link>/categories/taxonomy/</link>
+      <pubDate>Wed, 02 Sep 2015 02:38:32 +0000</pubDate>
+      
+      <guid>/categories/taxonomy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Terminal</title>
+      <link>/categories/terminal/</link>
+      <pubDate>Wed, 06 Apr 2016 15:22:18 +0000</pubDate>
+      
+      <guid>/categories/terminal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tweets</title>
+      <link>/categories/tweets/</link>
+      <pubDate>Wed, 02 Sep 2015 02:38:32 +0000</pubDate>
+      
+      <guid>/categories/tweets/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Unix</title>
+      <link>/categories/unix/</link>
+      <pubDate>Tue, 06 Mar 2018 03:49:42 +0000</pubDate>
+      
+      <guid>/categories/unix/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Website</title>
+      <link>/categories/website/</link>
+      <pubDate>Wed, 25 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/website/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Windows</title>
+      <link>/categories/windows/</link>
+      <pubDate>Thu, 17 Aug 2017 18:18:35 +0000</pubDate>
+      
+      <guid>/categories/windows/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Xcode</title>
+      <link>/categories/xcode/</link>
+      <pubDate>Tue, 06 Mar 2018 04:14:15 +0000</pubDate>
+      
+      <guid>/categories/xcode/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Xml</title>
+      <link>/categories/xml/</link>
+      <pubDate>Tue, 11 Oct 2016 19:52:55 +0000</pubDate>
+      
+      <guid>/categories/xml/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>\Beast</title>
+      <link>/categories/%5Cbeast/</link>
+      <pubDate>Fri, 11 Mar 2016 12:00:01 +0000</pubDate>
+      
+      <guid>/categories/%5Cbeast/</guid>
       <description></description>
     </item>
     

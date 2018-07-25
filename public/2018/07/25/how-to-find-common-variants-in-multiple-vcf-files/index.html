@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.44" />
+
+
+<title>How to find common variants in multiple VCF files - blog</title>
+<meta property="og:title" content="How to find common variants in multiple VCF files - blog">
+
+
+
+  
+
+
+
+
+
+
+
+
+<link href='//cdn.bootcss.com/highlight.js/9.11.0/styles/github.min.css' rel='stylesheet' type='text/css' />
+
+
+
+<link rel="stylesheet" href="/css/fonts.css" media="all">
+<link rel="stylesheet" href="/css/main.css" media="all">
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/" class="nav-logo">
+    <img src="/images/jselfie_logo.png"
+         width="50"
+         height="50"
+         alt="Logo">
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="/about/">About</a></li>
+    
+    <li><a href="https://github.com/justincbagley">GitHub</a></li>
+    
+    <li><a href="https://www.linkedin.com/in/justin-c-bagley-2a8a0523">LinkedIn</a></li>
+    
+    <li><a href="https://www.researchgate.net/profile/Justin_Bagley2">ResearchGate</a></li>
+    
+    <li><a href="https://twitter.com/justincbagley">Twitter</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">2 min read</span>
+    
+
+    <h1 class="article-title">How to find common variants in multiple VCF files</h1>
+
+    
+    <span class="article-date">2018/07/25</span>
+    
+
+    <div class="article-content">
+      <p>&ldquo;What are the SNPs or variants that are shared in common between two VCF files I created (e.g. from different SNP discovery pipelines, or two treatments of an experiment)?&rdquo;, you might ask.</p>
+
+<p>Below, I provide a post based on my recent answer to this <a href="https://www.researchgate.net/post/NGS_Analysis_How_can_I_detect_the_common_variants_in_two_VCF_files">ResearchGate question</a> that provides some solutions for this problem.</p>
+
+<p>First, the <code>vcftools --diff  &lt;filename&gt; --diff-site</code> option would work for this specific case. This option for the <code>--diff</code> flag is listed in the <a href="http://vcftools.sourceforge.net/man_latest.html#COMPARISON%20OPTIONS">documentation</a> as having the following function:</p>
+
+<blockquote>
+<p>&ldquo;Outputs the sites that are common / unique to each file. The output file has the suffix &ldquo;.diff.sites_in_files&rdquo;.&rdquo;</p>
+</blockquote>
+
+<p>To mention other options, <code>bcftools</code> is supposedly faster at this, and if you use bcftools what you want is the intersection function, isec. On mac or Linux with <code>bcftools</code> installed, you could use something like the following (where $ is the command line prompt) to get the list of SNPs at the intersection of two or more VCF files:</p>
+
+<pre><code>$ bcftools isec -n +2 file1.vcf.gz file2.vcf.gz | bgzip -c &gt; isec_file1-v-2_out.vcf.gz
+</code></pre>
+
+<p>Alternatively, if you wanted just statistics on the numbers of SNPs/variants or genotypes in common between files, you could use the <code>vcf-compare</code> tool that comes with vcftools. See the documentation <a href="http://vcftools.sourceforge.net/perl_module.html#vcf-compare">here</a>.</p>
+
+<p>Once you had the output of running these programs in hand, it would then be possible to do a number of things, such as report common/different SNPs between runs or treatments, conduct statistical anlaysis, or create a Venn diagram of common/different SNPs between multiple VCF files to visualize the differences. Hope this helps someone.</p>
+
+<p>~J</p>
+
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <a href="/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+          </li>
+          <li>
+            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="/images/hugo-logo.png" width="22" height="22"></a>
+          </li>
+        <p class="m-0 text-center text-white">Copyright &copy; 2018 Justin C. Bagley</p>
+        </ul>
+      </footer>
+
+    </div>
+    
+
+
+
+<script src="//cdn.bootcss.com/highlight.js/9.11.0/highlight.min.js"></script>
+
+
+
+<script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/r.min.js"></script>
+<script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/yaml.min.js"></script>
+<script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+
+
+
+    
+<script src="/js/math-code.js"></script>
+<script async src="//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+
+    
+  </body>
+</html>
+

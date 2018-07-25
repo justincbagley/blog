@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Trash on blog</title>
+    <link>/tags/trash/</link>
+    <description>Recent content in Trash on blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 06 Mar 2018 03:49:42 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/trash/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Command line trash: how to delete, trash, and inspect files from the CLI</title>
+      <link>/2018/03/06/command-line-trash-how-to-delete-trash-and-inspect-files-from-the-cli/</link>
+      <pubDate>Tue, 06 Mar 2018 03:49:42 +0000</pubDate>
+      
+      <guid>/2018/03/06/command-line-trash-how-to-delete-trash-and-inspect-files-from-the-cli/</guid>
+      <description>As many of you know, I use a UNIX/Mac system, and I spend a great deal of time working from the command line on UNIX and LINUX. One thing that everyone learns when they&amp;rsquo;re learning the UNIX/LINUX command line is that the &amp;ldquo;rm&amp;rdquo; command is a powerful and versatile option for deleting files. However, when we delete files with rm, they never come back, and thus they cannot be inspected afterward.</description>
+    </item>
+    
+  </channel>
+</rss>

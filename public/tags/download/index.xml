@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Download on blog</title>
+    <link>/tags/download/</link>
+    <description>Recent content in Download on blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 10 Mar 2016 12:16:25 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/download/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Getting BEAST v1.8.3 running! Beagle, CUDA, Java, and LINUX</title>
+      <link>/2016/03/10/getting-beast-v1-8-3-running-java-cuda-beagle-linux/</link>
+      <pubDate>Thu, 10 Mar 2016 12:16:25 +0000</pubDate>
+      
+      <guid>/2016/03/10/getting-beast-v1-8-3-running-java-cuda-beagle-linux/</guid>
+      <description>OK, I recently posted here about the new BEAST v1.8.3 release to let people know it was available (just echoing the announcement from Andrew Rambaut). Not sure about you, but when I get ahold of a new version of BEAST, I generally get it set up in my file system and try to run it. It&amp;rsquo;s good to go into this type of thing with a little dose of skepticism, as in my experience new versions of BEAST contain bug fixes but also seem to introduce new bugs or problems that you can run into.</description>
+    </item>
+    
+    <item>
+      <title>New version of Tracer - Tracer v1.6 - now available!</title>
+      <link>/2013/12/11/new-version-tracer-tracer-1-6-now-available/</link>
+      <pubDate>Wed, 11 Dec 2013 20:02:10 +0000</pubDate>
+      
+      <guid>/2013/12/11/new-version-tracer-tracer-1-6-now-available/</guid>
+      <description>OK, heads up everyone using BEAST, or interested in summarizing and analyzing the results of Bayesian analyses in other software programs! There is a new version of the program Tracer available at Andrew Rambaut&amp;rsquo;s website. You can obtain the new version of Tracer, Tracer v1.6 by downloading the appropriate version here. The new version supports several new features, and here is a list of the new stuff they&amp;rsquo;ve added to the program, taken from the website:</description>
+    </item>
+    
+  </channel>
+</rss>

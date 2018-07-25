@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gmyc on blog</title>
+    <link>/tags/gmyc/</link>
+    <description>Recent content in Gmyc on blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 07 Mar 2014 16:05:31 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/gmyc/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>New web server update for Bayesian PTP species delimitation on single-locus gene trees - and more!</title>
+      <link>/2014/03/07/new-web-server-update-bayesian-ptp-species-delimitation-single-gene-tree/</link>
+      <pubDate>Fri, 07 Mar 2014 16:05:31 +0000</pubDate>
+      
+      <guid>/2014/03/07/new-web-server-update-bayesian-ptp-species-delimitation-single-gene-tree/</guid>
+      <description>Recently, biologists have been developing statistically more rigorous methods that &amp;lsquo;put the teeth into&amp;rsquo; species delimitation, including species discovery approaches, and provide what appears to be new steps towards more automated means of taking advantage of DNA sequence data for these purposes. This is critical given the current biodiversity crisis.
+Among the new methods, two sets of methods take similar approaches to delimit species from one or multiple phylogenetic trees. These methods, the general mixed Yule-coalescent (GMYC) model and the Poisson tree process (PTP) model, were initially developed to use coalescent or non-coalescent statistical algorithms to delimit species on single-locus gene trees, e.</description>
+    </item>
+    
+  </channel>
+</rss>

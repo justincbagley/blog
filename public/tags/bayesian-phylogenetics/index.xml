@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bayesian Phylogenetics on blog</title>
+    <link>/tags/bayesian-phylogenetics/</link>
+    <description>Recent content in Bayesian Phylogenetics on blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 01 Sep 2011 23:38:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/bayesian-phylogenetics/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>BEAST and the BEAST basics: molecular clocks and how to input rates into BEAST</title>
+      <link>/2011/09/01/beast-and-the-beast-basics-molecular-clocks-and-how-to-input-rates-into-beast/</link>
+      <pubDate>Thu, 01 Sep 2011 23:38:00 +0000</pubDate>
+      
+      <guid>/2011/09/01/beast-and-the-beast-basics-molecular-clocks-and-how-to-input-rates-into-beast/</guid>
+      <description>BEAST basics **A brief introduction to BEAST ** BEAST is a powerful computer program for evolutionary analysis developed by Andrew Rambaut and Alexei Drummond, as well as Marc Suchard, Simon Ho, Joseph Heled, and others. BEAST was originally designed to provide a Bayesian Markov chain Monte Carlo (MCMC) method for simultaneously co-estimating phylogenies and divergence times (times to the most recent common ancestor, TMRCAs) from DNA sequence data (or amino acids) for one or multiple loci.</description>
+    </item>
+    
+  </channel>
+</rss>

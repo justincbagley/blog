@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gene Tree on blog</title>
+    <link>/tags/gene-tree/</link>
+    <description>Recent content in Gene Tree on blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 22 Sep 2011 16:51:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/gene-tree/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Statistical phylogeography tutorial #1: Coalescent simulations in Mesquite Part I</title>
+      <link>/2011/09/22/statistical-phylogeography-tutorial-1-coalescent-simulations-in-mesquite-part-i/</link>
+      <pubDate>Thu, 22 Sep 2011 16:51:00 +0000</pubDate>
+      
+      <guid>/2011/09/22/statistical-phylogeography-tutorial-1-coalescent-simulations-in-mesquite-part-i/</guid>
+      <description>Part I. Draft 9/22/11
+WARNING: The following is based on my current understanding and use of Mesquite to perform coalescent simulations for phylogeographical hypotheses testing and is correct to the best of my knowledge, but I do not guarantee its accuracy. Also, you may not perform these analyses in the exact way or order that I have performed them. The following is based on a number of previously-published studies (e.g. Knowles 2001; Knowles &amp;amp; Maddison 2002; Carstens et al.</description>
+    </item>
+    
+  </channel>
+</rss>

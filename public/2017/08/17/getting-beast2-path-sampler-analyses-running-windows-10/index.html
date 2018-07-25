@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.44" />
+
+
+<title>Getting BEAST2 Path Sampler analyses running on Windows 10 - blog</title>
+<meta property="og:title" content="Getting BEAST2 Path Sampler analyses running on Windows 10 - blog">
+
+
+
+  
+
+
+
+
+
+
+
+
+<link href='//cdn.bootcss.com/highlight.js/9.11.0/styles/github.min.css' rel='stylesheet' type='text/css' />
+
+
+
+<link rel="stylesheet" href="/css/fonts.css" media="all">
+<link rel="stylesheet" href="/css/main.css" media="all">
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/" class="nav-logo">
+    <img src="/images/jselfie_logo.png"
+         width="50"
+         height="50"
+         alt="Logo">
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="/about/">About</a></li>
+    
+    <li><a href="https://github.com/justincbagley">GitHub</a></li>
+    
+    <li><a href="https://www.linkedin.com/in/justin-c-bagley-2a8a0523">LinkedIn</a></li>
+    
+    <li><a href="https://www.researchgate.net/profile/Justin_Bagley2">ResearchGate</a></li>
+    
+    <li><a href="https://twitter.com/justincbagley">Twitter</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">5 min read</span>
+    
+
+    <h1 class="article-title">Getting BEAST2 Path Sampler analyses running on Windows 10</h1>
+
+    
+    <span class="article-date">2017/08/17</span>
+    
+
+    <div class="article-content">
+      
+
+<p><img src="/images/BEAST2_PathSampler_logo_inAppStore.png" title="BEAST2 PathSampler in AppStore" alt="BEAST2 PathSampler in AppStore" width="130px"></p>
+
+<p><em>BEAST2 PathSampler</em></p>
+
+<p><strong>I am a relatively big Mac (UNIX) and Linux fan, as many of you know.</strong> So, my standard approach to running <a href="http://beast.community">BEAST</a> or <a href="http://beast2.org/">BEAST2</a> is to use my Mac for local setup and testing and then employ shell scripts (effective wrappers) that I&rsquo;ve developed to automate final run setup and queuing on a Linux supercomputing cluster. However, there are times, especially when running path sampling (PS) analysis (Larillot and Phillipe 2006; Baele et al. 2012; <a href="https://www.biostat.washington.edu/sites/default/files/modules//2016_SISMID_13_10.pdf">Baele 2016 lecture</a>) to estimate log-marginal likelihoods of BEAST models, when I tend to run into issues on the supercomputer. These are often memory problems (e.g. step memory limits), input XML reading errors, and other issues, and oddly they can happen when attempting to run PS XML files that pass local run tests. In these times (but only with small numbers of models, to date), <strong>I turn to running PS analysis locally using the <a href="https://www.beast2.org/2014/07/14/path-sampling-with-a-gui/">Path Sampler</a> GUI version (image <em>at upper left</em>), and I use as many computers as I have at my disposal!</strong></p>
+
+<p>Today, I wanted to speed up parallel PS runs by adding a <strong>2.2 GHz <a href="https://www.google.com/search?client=safari&amp;rls=en&amp;q=lenovo+windows+10+laptop&amp;ie=UTF-8&amp;oe=UTF-8">Lenovo Windows 10 laptop</a></strong> that came available, but which did not have BEAST or <a href="https://github.com/beagle-dev/beagle-lib">BEAGLE</a> installed! So, I eased back into the waters of (1) Windows BEAST setup, and more generally (2) setting up Windows for analyzing scientific data, in general&ndash;two things that I essentially hadn&rsquo;t done since the early/mid part of my PhD, before I switched to Mac.</p>
+
+<p><em>This post briefly explains how I got BEAST Path Sampler working with the BEAGLE API/scientific computing library on <a href="https://www.microsoft.com/en-us/windows/">Windows 10</a>.</em></p>
+
+<h5 id="steps"><strong>Steps</strong></h5>
+
+<p><strong>The 7 steps I followed to setup BEAST2 and BEAGLE on Windows:</strong></p>
+
+<ol>
+<li><a href="http://www.dropbox.com/s/61z48jvruzkwkku/BEAGLE-2.1.msi"><img src="/images/BEAGLE_2.1_dropbox_installer_file.png" alt="BEAGLE 2.1 Dropbox installer" /></a>Install/update Oracle Java <a href="http://www.oracle.com/technetwork/java/javase/downloads/java-archive-downloads-javase7-521261.html">1.7</a> and <a href="http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html">1.8</a> runtime environments.</li>
+<li>Install BEAGLE v2.1 using <a href="http://www.dropbox.com/s/61z48jvruzkwkku/BEAGLE-2.1.msi">binary installer</a> (.msi file, image/link <em>at left</em>) from the <a href="https://github.com/beagle-dev/">beagle-dev GitHub account</a>.</li>
+<li>Install BEAST2 v2.4.7 for Windows by downloading and saving .zip file <a href="https://github.com/CompEvol/beast2/releases/download/v2.4.7/BEAST.v2.4.7.Windows.zip">here</a>.</li>
+<li>Install latest <a href="http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html">Java SE Development Kit</a> (jdk8) for 64bit Windows.</li>
+<li>Set global, and user, Path environmental variables to include libhmsbeagle and the path to an appropriate Java bin folder (recommended starting point: JRE bin; <em>see below</em>).</li>
+<li>Open BEAUti v2.4.7 and manage packages (adding most available packages), then closing and reopening BEAUti to check.</li>
+<li>Test the installs by conducting runs with BEAST and Path Sampler!</li>
+</ol>
+
+<h5 id="details"><strong>Details</strong></h5>
+
+<p><strong>Steps #1-4</strong></p>
+
+<p>Steps #1–4 were accomplished using standard methods, for example following installer prompts to designate a drive and agree to the license, etc. For BEAST + BEAGLE install alone, step #4 above might not be considered obligatory by others. In any event, we subsequently set the path to the latest JRE. However, there are indications from discussions in online forums that using JDK may have helped some users overcome issues. And, in my experience it seems it is always better to install the JDKs as well, so that you can point to them if needed. Thus, I consider step #4 to be recommended (just to be on the safe side).</p>
+
+<p><strong>Step #5</strong></p>
+
+<p>[<img src="/images/Windows10_control_panel.png" alt="Windows10 Control Panel" />]</p>
+
+<p>The only part of this procedure that really required any extra thinking and work at all was step #5. Here, all you have to remember is <em>that much can be done on Windows through</em> <a href="https://support.microsoft.com/en-us/help/13764/windows-where-is-control-panel"><em>Control Panel</em></a>! You simply</p>
+
+<ol>
+<li>Go to Advanced system settings by navigating to <a href="https://support.microsoft.com/en-us/help/13764/windows-where-is-control-panel">Control Panel</a> &gt; System and Settings &gt; System &gt; Advanced system settings (on left pane)</li>
+<li>Click on &ldquo;Environmental Variables&rdquo; at the bottom of the pop-up window that is displayed.</li>
+<li>Set the User and System &ldquo;Path&rdquo; variables in the list so that libhmsbeagle (BEAGLE directory; where BEAGLE was installed) is part of the path.<br />
+
+<ol>
+<li>Do this by selecting Path, then adding &ldquo;; C:\path\to\libhmsbeagle&rdquo; to the end of the current/default Path (that is, separate the original path from the libhmsbeagle path you are adding, by using a semicolon).</li>
+<li>Do this under User variables and under System variables.</li>
+</ol></li>
+</ol>
+
+<p>On the machine that I used, the BEAGLE path was</p>
+
+<pre><code>C:\Program Files (x86)\Common Files\libhmsbeagle\ 
+</code></pre>
+
+<p>and the Java bin path was</p>
+
+<pre><code>C:\Program Files (x86)\Java\jre1.8.0_144\bin 
+</code></pre>
+
+<p>(corresponding to the very latest JRE available (follow link given under Step #1 above). If you follow my steps now, and do a standard install of this software, check me on this, but you should be able to use the same path settings as these.</p>
+
+<p><strong>Steps #6 and #7</strong></p>
+
+<p>The final two steps are quite easy. For step #6, you can easily accomplish this from within the BEAUti v2.4.7 GUI by</p>
+
+<ol>
+<li>Opening the GUI,</li>
+<li>Clicking on File &gt; Manage Packages,</li>
+<li>Choosing and installing packages of interest,</li>
+<li>Then closing and reopening (look back in the package manager) to check that everything was in fact installed or updated.</li>
+</ol>
+
+<p>Step #7 also is quite easy, because it just involves playing with example files and making sure everything runs fine. However, you want to make sure to do two things here&ndash;check that BEAST software and utilities are opening and running fine, and _also _make sure that BEAGLE is found and utilized by BEAST and its packages.</p>
+
+<h5 id="troubleshooting"><strong>Troubleshooting</strong></h5>
+
+<p>If you get an error that says, &ldquo;Failed to load BEAGLE library: no hmsbeagle-jni in java.library.path,&rdquo; then you are potentially about to <em>go down the rabbit hole</em> to fix that issue!! Your best bet is to follow my general procedure above, update Java, and make sure you set a path variable for Java <em>in addition</em> to BEAGLE lib. If this doesn&rsquo;t work, uninstall and reinstall BEAGLE, then reset the path. In the event of any issue with BEAST, I always recommend consulting recent discussions on the beast-users group discussion boards for additional information. In this case, it may help to see <a href="https://groups.google.com/forum/#!searchin/beast-users/-Djava.library.path$20beagle%7Csort:relevance/beast-users/GdBaFiJq1QA/cMq9h3XnBpAJ">this relevant post</a>* on the <a href="https://groups.google.com/forum/#!forum/beast-users">beast-users</a> Google Group (<em>full disclosure</em>: I have not tested the suggestions there).</p>
+
+<p><strong>I hope that someone finds this useful! Cheers, and good luck with BEAST! Also, thanks to the developers for working hard to provide great BEAST software that works on Mac, Linux, <em>and</em> Windows!</strong></p>
+
+<p>~J</p>
+
+<h5 id="references">References</h5>
+
+<p>Baele G, Lemey P, Vansteelandt S (2013) Make the most of your samples: Bayes factor estimators for high-dimensional models of sequence evolution. _BMC _<em>Evol. Biol.</em> 14, 85.</p>
+
+<p>Lartillot N, Philippe H (2006) Computing Bayes factors using thermodynamic integration. <em>Syst. Biol.</em> 55, 195-207.</p>
+
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <a href="/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+          </li>
+          <li>
+            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="/images/hugo-logo.png" width="22" height="22"></a>
+          </li>
+        <p class="m-0 text-center text-white">Copyright &copy; 2018 Justin C. Bagley</p>
+        </ul>
+      </footer>
+
+    </div>
+    
+
+
+
+<script src="//cdn.bootcss.com/highlight.js/9.11.0/highlight.min.js"></script>
+
+
+
+<script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/r.min.js"></script>
+<script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/yaml.min.js"></script>
+<script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+
+
+
+    
+<script src="/js/math-code.js"></script>
+<script async src="//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+
+    
+  </body>
+</html>
+

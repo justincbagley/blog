@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Model Selection on blog</title>
+    <link>/tags/model-selection/</link>
+    <description>Recent content in Model Selection on blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 06 Aug 2011 14:20:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/model-selection/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>jmodeltest will not run with single quotes around tip names</title>
+      <link>/2011/08/06/jmodeltest-will-not-run-with-single-quotes-around-tip-names/</link>
+      <pubDate>Sat, 06 Aug 2011 14:20:00 +0000</pubDate>
+      
+      <guid>/2011/08/06/jmodeltest-will-not-run-with-single-quotes-around-tip-names/</guid>
+      <description>A little while ago, I discovered a common error in jmodeltest is the error message that the number of sites appears to be wrong. I recently encountered this issue again. This is caused by single quotation marks on either side of tip names in a NEXUS file, which is a common form of the output / exported NEXUS file from DNASP. So, once you export a NEXUS from DNASP, say after doing some population level genetic analyses or after defining sequence groups for setting up structure in ARLEQUIN, you should simply open your NEXUS file in a word processor or text editor and use the &amp;ldquo;Replace&amp;rdquo; command to remove all quotation marks from your file.</description>
+    </item>
+    
+  </channel>
+</rss>

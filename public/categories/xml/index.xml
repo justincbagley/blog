@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Xml on blog</title>
+    <link>/categories/xml/</link>
+    <description>Recent content in Xml on blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 11 Oct 2016 19:52:55 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/xml/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Setting DNA substitution models in BEAST</title>
+      <link>/2016/10/11/setting-dna-substitution-models-beast/</link>
+      <pubDate>Tue, 11 Oct 2016 19:52:55 +0000</pubDate>
+      
+      <guid>/2016/10/11/setting-dna-substitution-models-beast/</guid>
+      <description>JC model of sequence evolution from TreeThinkers.
+BEAST (Bayesian Evolutionary Analysis Sampling Trees) software provides a growing set of clear options for specifying evolutionary models of DNA substitution for alignments loaded into the program. However, the set of models that are readily available and &amp;ldquo;spelled out&amp;rdquo; in drop-down menus in the BEAUti (Bayesian Evolutionary Analysis Utility) GUI is much smaller compared to the standard set of 11 substitution schemes considered by other software programs for model selection (giving rise to a total of 88 models in jModelTest, or 56 models in PartitionFinder).</description>
+    </item>
+    
+    <item>
+      <title>So you got a starting tree?  How to add it to your BEAST2 xml file and make it work for you</title>
+      <link>/2014/02/17/got-starting-tree-add-beast2-xml-file-make-work/</link>
+      <pubDate>Mon, 17 Feb 2014 04:46:23 +0000</pubDate>
+      
+      <guid>/2014/02/17/got-starting-tree-add-beast2-xml-file-make-work/</guid>
+      <description>I have now for several months been happily using BEAST2 instead of Beast 1.7.5 or 1.8.x&amp;ndash;I&amp;rsquo;m converted! Thus far, datasets have run surprisingly smoothly, but for some recent analyses I have tried to jump-start things and ensure proper likelihood values at the onset of runs by including a starting tree in my xml input file.
+Previously, I blogged about just how you might create such a starting tree that fits one or multiple calibration points in a BEAST analysis, by using penalized likelihood analysis (r8s) in R.</description>
+    </item>
+    
+  </channel>
+</rss>

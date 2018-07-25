@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Freshwater Fishes on blog</title>
+    <link>/categories/freshwater-fishes/</link>
+    <description>Recent content in Freshwater Fishes on blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 11 Nov 2013 05:40:53 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/freshwater-fishes/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>California freshwater fish distribution resources</title>
+      <link>/2013/11/11/california-freshwater-fish-distribution-resources/</link>
+      <pubDate>Mon, 11 Nov 2013 05:40:53 +0000</pubDate>
+      
+      <guid>/2013/11/11/california-freshwater-fish-distribution-resources/</guid>
+      <description>California Fish Databases / datasets
+Fans of North American freshwater fishes will be interested to know that there are several online resources for obtaining information about California&amp;rsquo;s native and introduced freshwater fish fauna. I recently discovered two of these resources, the Native Fish Species By Location - California Fish Site of the California Freshwater Fish Laboratory, led by Lisa Thompson, and the California fish distribution datasets from The Nature Conservancy&amp;rsquo;s (TNC) Hexagon Project (Data Basin Gallery), developed by Peter Moyle and Paul Randall at UC Davis.</description>
+    </item>
+    
+  </channel>
+</rss>

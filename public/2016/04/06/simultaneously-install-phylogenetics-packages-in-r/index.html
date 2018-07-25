@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.44" />
+
+
+<title>Automatically install or update all phylogenetics packages in R - blog</title>
+<meta property="og:title" content="Automatically install or update all phylogenetics packages in R - blog">
+
+
+
+  
+
+
+
+
+
+
+
+
+<link href='//cdn.bootcss.com/highlight.js/9.11.0/styles/github.min.css' rel='stylesheet' type='text/css' />
+
+
+
+<link rel="stylesheet" href="/css/fonts.css" media="all">
+<link rel="stylesheet" href="/css/main.css" media="all">
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/" class="nav-logo">
+    <img src="/images/jselfie_logo.png"
+         width="50"
+         height="50"
+         alt="Logo">
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="/about/">About</a></li>
+    
+    <li><a href="https://github.com/justincbagley">GitHub</a></li>
+    
+    <li><a href="https://www.linkedin.com/in/justin-c-bagley-2a8a0523">LinkedIn</a></li>
+    
+    <li><a href="https://www.researchgate.net/profile/Justin_Bagley2">ResearchGate</a></li>
+    
+    <li><a href="https://twitter.com/justincbagley">Twitter</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">2 min read</span>
+    
+
+    <h1 class="article-title">Automatically install or update all phylogenetics packages in R</h1>
+
+    
+    <span class="article-date">2016/04/06</span>
+    
+
+    <div class="article-content">
+      <!-- ![R language for statistical computing](/images/R-logo-image.png =80x) -->
+
+<p><img src="/images/R-logo-image.png" alt="R language for statistical computing" width="150px"/></p>
+
+<p>In case you are unaware of this trick, it is possible to simultaneously install or update all of the phylogenetics packages available in R in one fail swoop.</p>
+
+<p>A number of different CRAN Task Views have been created summarizing R packages and utilities for different fields of analysis or research. Luckily, there is not only a compilation of these located on the CRAN-R website <a href="https://cran.r-project.org/web/views/">here</a>, but also <a href="https://twitter.com/omearabrian">Brian O&rsquo;Meara</a> (@omearabrian #omearabrian) has developed a nice CRAN Task View entitled &ldquo;Phylogenetics, Especially Comparative Methods.&rdquo; This means that you can view all of the software for phylogenetics and phylogenetic comparative methods in R at one time from the corresponding <a href="https://cran.r-project.org/web/views/Phylogenetics.html">Phylogenetics website</a>. Here is what these websites look like:</p>
+
+<p><a href="/images/CRAN_Task_Views_screenshot-1024x542.png"><img src="/images/CRAN_Task_Views_screenshot-768x407.png" alt="CRAN_Task_Views_screenshot" /></a>
+<a href="/images/Omeara_Phylogenetics_ctv-1024x543.png"><img src="/images/Omeara_Phylogenetics_ctv-768x407.png" alt="Omeara_Phylogenetics_ctv" /></a></p>
+
+<p>The most important thing, though, is that you can automatically install the entire Phylogenetics, Especially Comparative Methods view! Here&rsquo;s how you do it! First, open R, download the <a href="https://cran.r-project.org/web/packages/ctv/index.html">ctv package</a>(ctv stands for &ldquo;CRAN Task Views&rdquo;), then load the ctv library by typing:</p>
+
+<pre><code>library(ctv)
+</code></pre>
+
+<p>Next, you can install the Phylogenetics, Especially Comparative Methods view using the &lsquo;install.views&rsquo; function, and later you can update this view using the &lsquo;update.views&rsquo; function. If this is your first time using R for phylogenetics, you will not have any of the phylogenetics software, so you will do the following to install the view:</p>
+
+<pre><code>install.views('Phylogenetics')
+</code></pre>
+
+<p>If you have already been working with phylogenies in R and have some of the related packages installed, you will want to use update.views as follows:</p>
+
+<pre><code>update.views('Phylogenetics')
+</code></pre>
+
+<p>This will check through all of the packages in the Phylogenetics, Especially Comparative Methods view and update packages you already have installed, while also installing for the first time any packages that are missing. Here, an important note to make is that you must 1) be connected to the internet to do this, and 2) realize that this could take a substantial amount of time to install all of the packages. So, only do this when you have time!!</p>
+
+<p>~J</p>
+
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <a href="/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+          </li>
+          <li>
+            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="/images/hugo-logo.png" width="22" height="22"></a>
+          </li>
+        <p class="m-0 text-center text-white">Copyright &copy; 2018 Justin C. Bagley</p>
+        </ul>
+      </footer>
+
+    </div>
+    
+
+
+
+<script src="//cdn.bootcss.com/highlight.js/9.11.0/highlight.min.js"></script>
+
+
+
+<script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/r.min.js"></script>
+<script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/yaml.min.js"></script>
+<script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+
+
+
+    
+
+    
+  </body>
+</html>
+

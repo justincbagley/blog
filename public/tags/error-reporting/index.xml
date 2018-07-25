@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Error Reporting on blog</title>
+    <link>/tags/error-reporting/</link>
+    <description>Recent content in Error Reporting on blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 17 Dec 2015 13:04:58 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/error-reporting/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Update: BEAST v2.3.2 released!</title>
+      <link>/2015/12/17/update-beast-v2-3-2-released/</link>
+      <pubDate>Thu, 17 Dec 2015 13:04:58 +0000</pubDate>
+      
+      <guid>/2015/12/17/update-beast-v2-3-2-released/</guid>
+      <description>BEAST2 logo
+Hi guys, OK, in case you haven&amp;rsquo;t heard, there is a new version of BEAST2, so make sure that you go get that update on GitHub. According to Remco Bouckaert, the new version, v2.3.2, improves the ability of the user to interact with data in BEAUti, and it also improves the efficiency of some BEAST functions, particularly the MRCAPrior. Moreover, LogCombiner has been fixed to ensure logcombiner burn in editing finished properly, and LogAnalyser now has one line per file mode.</description>
+    </item>
+    
+  </channel>
+</rss>

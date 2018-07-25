@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications on blog</title>
+    <link>/tags/publications/</link>
+    <description>Recent content in Publications on blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 23 Nov 2015 02:30:32 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/publications/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Bagley&#39;s Law of Scientific Publication Access</title>
+      <link>/2015/11/23/bagleys-law-scientific-publication-access/</link>
+      <pubDate>Mon, 23 Nov 2015 02:30:32 +0000</pubDate>
+      
+      <guid>/2015/11/23/bagleys-law-scientific-publication-access/</guid>
+      <description>Find Open Access scholarly articles online for free
+The topic is peer-reviewed scientific articles (primary or secondary literature). Also, we&amp;rsquo;ll assume that you&amp;rsquo;re not searching for a paper from an Open Access publisher. Let&amp;rsquo;s also assume that library holdings / subscriptions at your institution have gaps&amp;ndash;they do not cover every journal in your field over every possible time period.
+Then, Bagley&amp;rsquo;s Law of Scientific Publication Access is:
+ &amp;ldquo;When you need an article, you will not have free access to it, but you will have access to plenty of articles that you don&amp;rsquo;t want and you don&amp;rsquo;t need.</description>
+    </item>
+    
+    <item>
+      <title>Lower Central America phylogeography: review paper gets 100 views in 2 days on Academia.edu!</title>
+      <link>/2014/02/08/lower-central-america-phylogeography-review-paper-gets-100-views-2-days-academia-edu/</link>
+      <pubDate>Sat, 08 Feb 2014 07:54:08 +0000</pubDate>
+      
+      <guid>/2014/02/08/lower-central-america-phylogeography-review-paper-gets-100-views-2-days-academia-edu/</guid>
+      <description>Hopefully, it is a sign that your new paper is going to get cited when it starts getting attention immediately after it becomes available online. This appears to be happening with our new review of the phylogeographic literature from the lower Central American Neotropics, entitled &amp;ldquo;Phylogeography and biogeography of the lower Central American Neotropics: diversification between two continents and between two seas&amp;rdquo; (Bagley &amp;amp; Johnson 2014, Biological Reviews). I just put this paper up on Academia.</description>
+    </item>
+    
+  </channel>
+</rss>

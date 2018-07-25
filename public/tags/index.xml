@@ -2,39 +2,2649 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on blog</title>
-    <link>/blog/tags/</link>
+    <link>/tags/</link>
     <description>Recent content in Tags on blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 23 Jul 2015 21:13:14 -0500</lastBuildDate>
+    <lastBuildDate>Sat, 08 Feb 2014 07:54:08 +0000</lastBuildDate>
     
-	<atom:link href="/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Plot</title>
-      <link>/blog/tags/plot/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      <title>Academia.edu</title>
+      <link>/tags/academia.edu/</link>
+      <pubDate>Sat, 08 Feb 2014 07:54:08 +0000</pubDate>
       
-      <guid>/blog/tags/plot/</guid>
+      <guid>/tags/academia.edu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Adegenet</title>
+      <link>/tags/adegenet/</link>
+      <pubDate>Fri, 18 Aug 2017 19:16:27 +0000</pubDate>
+      
+      <guid>/tags/adegenet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Alex Pyron</title>
+      <link>/tags/alex-pyron/</link>
+      <pubDate>Tue, 08 Sep 2015 03:07:12 +0000</pubDate>
+      
+      <guid>/tags/alex-pyron/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Alignment</title>
+      <link>/tags/alignment/</link>
+      <pubDate>Wed, 13 Sep 2017 11:40:35 +0000</pubDate>
+      
+      <guid>/tags/alignment/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ambiguity Code</title>
+      <link>/tags/ambiguity-code/</link>
+      <pubDate>Tue, 08 Sep 2015 03:07:12 +0000</pubDate>
+      
+      <guid>/tags/ambiguity-code/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Amova</title>
+      <link>/tags/amova/</link>
+      <pubDate>Fri, 18 Aug 2017 19:16:27 +0000</pubDate>
+      
+      <guid>/tags/amova/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ape</title>
+      <link>/tags/ape/</link>
+      <pubDate>Tue, 01 Mar 2016 21:43:35 +0000</pubDate>
+      
+      <guid>/tags/ape/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Aphorisms</title>
+      <link>/tags/aphorisms/</link>
+      <pubDate>Wed, 25 Nov 2015 12:47:36 +0000</pubDate>
+      
+      <guid>/tags/aphorisms/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Api</title>
+      <link>/tags/api/</link>
+      <pubDate>Wed, 25 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/api/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Apt</title>
+      <link>/tags/apt/</link>
+      <pubDate>Mon, 26 Mar 2018 03:11:07 +0000</pubDate>
+      
+      <guid>/tags/apt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Article</title>
+      <link>/tags/article/</link>
+      <pubDate>Wed, 07 Mar 2018 05:32:23 +0000</pubDate>
+      
+      <guid>/tags/article/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Axioms</title>
+      <link>/tags/axioms/</link>
+      <pubDate>Wed, 25 Nov 2015 12:47:36 +0000</pubDate>
+      
+      <guid>/tags/axioms/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bagleys Law</title>
+      <link>/tags/bagleys-law/</link>
+      <pubDate>Mon, 23 Nov 2015 02:30:32 +0000</pubDate>
+      
+      <guid>/tags/bagleys-law/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bayes Factor</title>
+      <link>/tags/bayes-factor/</link>
+      <pubDate>Fri, 11 Mar 2016 12:00:01 +0000</pubDate>
+      
+      <guid>/tags/bayes-factor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bayes Factor Species Delimitation</title>
+      <link>/tags/bayes-factor-species-delimitation/</link>
+      <pubDate>Fri, 11 Mar 2016 12:00:01 +0000</pubDate>
+      
+      <guid>/tags/bayes-factor-species-delimitation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bayesian</title>
+      <link>/tags/bayesian/</link>
+      <pubDate>Tue, 01 Sep 2015 02:41:34 +0000</pubDate>
+      
+      <guid>/tags/bayesian/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bayesian Phylogenetics</title>
+      <link>/tags/bayesian-phylogenetics/</link>
+      <pubDate>Thu, 01 Sep 2011 23:38:00 +0000</pubDate>
+      
+      <guid>/tags/bayesian-phylogenetics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bayesian Skygrid</title>
+      <link>/tags/bayesian-skygrid/</link>
+      <pubDate>Wed, 11 Dec 2013 20:02:10 +0000</pubDate>
+      
+      <guid>/tags/bayesian-skygrid/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bcftools</title>
+      <link>/tags/bcftools/</link>
+      <pubDate>Wed, 25 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/bcftools/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Beagle</title>
+      <link>/tags/beagle/</link>
+      <pubDate>Thu, 17 Aug 2017 18:18:35 +0000</pubDate>
+      
+      <guid>/tags/beagle/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Beast</title>
+      <link>/tags/beast/</link>
+      <pubDate>Wed, 13 Sep 2017 11:40:35 +0000</pubDate>
+      
+      <guid>/tags/beast/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Beast2</title>
+      <link>/tags/beast2/</link>
+      <pubDate>Wed, 13 Sep 2017 11:40:35 +0000</pubDate>
+      
+      <guid>/tags/beast2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Beauti</title>
+      <link>/tags/beauti/</link>
+      <pubDate>Wed, 13 Sep 2017 11:40:35 +0000</pubDate>
+      
+      <guid>/tags/beauti/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bfd</title>
+      <link>/tags/bfd/</link>
+      <pubDate>Fri, 11 Mar 2016 12:00:01 +0000</pubDate>
+      
+      <guid>/tags/bfd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Biallelic Snps</title>
+      <link>/tags/biallelic-snps/</link>
+      <pubDate>Fri, 18 Aug 2017 19:16:27 +0000</pubDate>
+      
+      <guid>/tags/biallelic-snps/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bioconda</title>
+      <link>/tags/bioconda/</link>
+      <pubDate>Mon, 26 Mar 2018 03:11:07 +0000</pubDate>
+      
+      <guid>/tags/bioconda/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Books</title>
+      <link>/tags/books/</link>
+      <pubDate>Wed, 30 Apr 2014 18:04:38 +0000</pubDate>
+      
+      <guid>/tags/books/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bootstrap</title>
+      <link>/tags/bootstrap/</link>
+      <pubDate>Wed, 25 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/bootstrap/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Branch Lengths</title>
+      <link>/tags/branch-lengths/</link>
+      <pubDate>Tue, 01 Mar 2016 21:43:35 +0000</pubDate>
+      
+      <guid>/tags/branch-lengths/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Brian Omeara</title>
+      <link>/tags/brian-omeara/</link>
+      <pubDate>Wed, 06 Apr 2016 15:43:16 +0000</pubDate>
+      
+      <guid>/tags/brian-omeara/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bryan Carstens</title>
+      <link>/tags/bryan-carstens/</link>
+      <pubDate>Wed, 27 Nov 2013 01:05:02 +0000</pubDate>
+      
+      <guid>/tags/bryan-carstens/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>C</title>
+      <link>/tags/c/</link>
+      <pubDate>Tue, 06 Mar 2018 04:14:15 +0000</pubDate>
+      
+      <guid>/tags/c/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Calibration Points</title>
+      <link>/tags/calibration-points/</link>
+      <pubDate>Sun, 30 Aug 2015 02:55:29 +0000</pubDate>
+      
+      <guid>/tags/calibration-points/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Caper</title>
+      <link>/tags/caper/</link>
+      <pubDate>Tue, 22 Nov 2011 08:15:00 +0000</pubDate>
+      
+      <guid>/tags/caper/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Characiformes</title>
+      <link>/tags/characiformes/</link>
+      <pubDate>Wed, 02 Sep 2015 02:38:32 +0000</pubDate>
+      
+      <guid>/tags/characiformes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Charles Darwin</title>
+      <link>/tags/charles-darwin/</link>
+      <pubDate>Tue, 26 Dec 2017 17:28:55 +0000</pubDate>
+      
+      <guid>/tags/charles-darwin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Christmas</title>
+      <link>/tags/christmas/</link>
+      <pubDate>Tue, 26 Dec 2017 17:28:55 +0000</pubDate>
+      
+      <guid>/tags/christmas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Chronogram</title>
+      <link>/tags/chronogram/</link>
+      <pubDate>Sun, 30 Aug 2015 02:55:29 +0000</pubDate>
+      
+      <guid>/tags/chronogram/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Chronopl</title>
+      <link>/tags/chronopl/</link>
+      <pubDate>Thu, 10 Oct 2013 20:35:00 +0000</pubDate>
+      
+      <guid>/tags/chronopl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cleaning</title>
+      <link>/tags/cleaning/</link>
+      <pubDate>Sat, 20 Sep 2014 19:39:38 +0000</pubDate>
+      
+      <guid>/tags/cleaning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Climate</title>
+      <link>/tags/climate/</link>
+      <pubDate>Wed, 28 Jun 2017 01:49:20 +0000</pubDate>
+      
+      <guid>/tags/climate/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cluster</title>
+      <link>/tags/cluster/</link>
+      <pubDate>Wed, 13 Mar 2013 14:05:00 +0000</pubDate>
+      
+      <guid>/tags/cluster/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Coalescent</title>
+      <link>/tags/coalescent/</link>
+      <pubDate>Thu, 22 Sep 2011 16:51:00 +0000</pubDate>
+      
+      <guid>/tags/coalescent/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Coalescent Based Species Delimitation</title>
+      <link>/tags/coalescent-based-species-delimitation/</link>
+      <pubDate>Fri, 07 Mar 2014 16:05:31 +0000</pubDate>
+      
+      <guid>/tags/coalescent-based-species-delimitation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Coalescent Model</title>
+      <link>/tags/coalescent-model/</link>
+      <pubDate>Fri, 07 Mar 2014 16:05:31 +0000</pubDate>
+      
+      <guid>/tags/coalescent-model/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cochranes Aphorism</title>
+      <link>/tags/cochranes-aphorism/</link>
+      <pubDate>Wed, 25 Nov 2015 12:47:36 +0000</pubDate>
+      
+      <guid>/tags/cochranes-aphorism/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Code</title>
+      <link>/tags/code/</link>
+      <pubDate>Wed, 30 Apr 2014 18:04:38 +0000</pubDate>
+      
+      <guid>/tags/code/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Command Line</title>
+      <link>/tags/command-line/</link>
+      <pubDate>Mon, 26 Mar 2018 03:11:07 +0000</pubDate>
+      
+      <guid>/tags/command-line/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Common Names</title>
+      <link>/tags/common-names/</link>
+      <pubDate>Wed, 02 Sep 2015 02:38:32 +0000</pubDate>
+      
+      <guid>/tags/common-names/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Community Ecology</title>
+      <link>/tags/community-ecology/</link>
+      <pubDate>Wed, 30 Apr 2014 18:04:38 +0000</pubDate>
+      
+      <guid>/tags/community-ecology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Comparative Methods</title>
+      <link>/tags/comparative-methods/</link>
+      <pubDate>Thu, 17 Sep 2015 15:06:20 +0000</pubDate>
+      
+      <guid>/tags/comparative-methods/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Compute</title>
+      <link>/tags/compute/</link>
+      <pubDate>Wed, 13 Mar 2013 14:05:00 +0000</pubDate>
+      
+      <guid>/tags/compute/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Conda</title>
+      <link>/tags/conda/</link>
+      <pubDate>Mon, 26 Mar 2018 03:11:07 +0000</pubDate>
+      
+      <guid>/tags/conda/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Condarc</title>
+      <link>/tags/condarc/</link>
+      <pubDate>Sat, 10 Mar 2018 23:17:05 +0000</pubDate>
+      
+      <guid>/tags/condarc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Conference</title>
+      <link>/tags/conference/</link>
+      <pubDate>Wed, 27 Nov 2013 01:05:02 +0000</pubDate>
+      
+      <guid>/tags/conference/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Configuration</title>
+      <link>/tags/configuration/</link>
+      <pubDate>Sat, 10 Mar 2018 23:17:05 +0000</pubDate>
+      
+      <guid>/tags/configuration/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cpu</title>
+      <link>/tags/cpu/</link>
+      <pubDate>Wed, 06 Apr 2016 15:22:18 +0000</pubDate>
+      
+      <guid>/tags/cpu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cran</title>
+      <link>/tags/cran/</link>
+      <pubDate>Wed, 06 Apr 2016 15:43:16 +0000</pubDate>
+      
+      <guid>/tags/cran/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ctv</title>
+      <link>/tags/ctv/</link>
+      <pubDate>Wed, 06 Apr 2016 15:43:16 +0000</pubDate>
+      
+      <guid>/tags/ctv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cuda</title>
+      <link>/tags/cuda/</link>
+      <pubDate>Thu, 10 Mar 2016 12:16:25 +0000</pubDate>
+      
+      <guid>/tags/cuda/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dambe</title>
+      <link>/tags/dambe/</link>
+      <pubDate>Sun, 23 Aug 2015 13:58:21 +0000</pubDate>
+      
+      <guid>/tags/dambe/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data</title>
+      <link>/tags/data/</link>
+      <pubDate>Fri, 18 Aug 2017 19:16:27 +0000</pubDate>
+      
+      <guid>/tags/data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Collection</title>
+      <link>/tags/data-collection/</link>
+      <pubDate>Wed, 27 Nov 2013 04:33:44 +0000</pubDate>
+      
+      <guid>/tags/data-collection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Layers</title>
+      <link>/tags/data-layers/</link>
+      <pubDate>Wed, 28 Jun 2017 01:49:20 +0000</pubDate>
+      
+      <guid>/tags/data-layers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Mining</title>
+      <link>/tags/data-mining/</link>
+      <pubDate>Wed, 28 Jun 2017 01:49:20 +0000</pubDate>
+      
+      <guid>/tags/data-mining/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ddocent</title>
+      <link>/tags/ddocent/</link>
+      <pubDate>Sat, 10 Mar 2018 23:17:05 +0000</pubDate>
+      
+      <guid>/tags/ddocent/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ddrad Seq</title>
+      <link>/tags/ddrad-seq/</link>
+      <pubDate>Sun, 17 Sep 2017 18:23:01 +0000</pubDate>
+      
+      <guid>/tags/ddrad-seq/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Delete</title>
+      <link>/tags/delete/</link>
+      <pubDate>Tue, 06 Mar 2018 03:49:42 +0000</pubDate>
+      
+      <guid>/tags/delete/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Development</title>
+      <link>/tags/development/</link>
+      <pubDate>Wed, 25 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Divergence Dating</title>
+      <link>/tags/divergence-dating/</link>
+      <pubDate>Fri, 07 Aug 2015 01:12:00 +0000</pubDate>
+      
+      <guid>/tags/divergence-dating/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Divergence Times</title>
+      <link>/tags/divergence-times/</link>
+      <pubDate>Sun, 30 Aug 2015 02:55:29 +0000</pubDate>
+      
+      <guid>/tags/divergence-times/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dna</title>
+      <link>/tags/dna/</link>
+      <pubDate>Wed, 27 Nov 2013 04:33:44 +0000</pubDate>
+      
+      <guid>/tags/dna/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dna Polymorphism</title>
+      <link>/tags/dna-polymorphism/</link>
+      <pubDate>Sun, 04 Sep 2011 06:53:00 +0000</pubDate>
+      
+      <guid>/tags/dna-polymorphism/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dna Sequence</title>
+      <link>/tags/dna-sequence/</link>
+      <pubDate>Sun, 04 Sep 2011 06:53:00 +0000</pubDate>
+      
+      <guid>/tags/dna-sequence/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dna Sequences</title>
+      <link>/tags/dna-sequences/</link>
+      <pubDate>Thu, 17 Sep 2015 15:06:20 +0000</pubDate>
+      
+      <guid>/tags/dna-sequences/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Download</title>
+      <link>/tags/download/</link>
+      <pubDate>Thu, 10 Mar 2016 12:16:25 +0000</pubDate>
+      
+      <guid>/tags/download/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ecology</title>
+      <link>/tags/ecology/</link>
+      <pubDate>Wed, 28 Jun 2017 01:49:20 +0000</pubDate>
+      
+      <guid>/tags/ecology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Error</title>
+      <link>/tags/error/</link>
+      <pubDate>Mon, 26 Mar 2018 03:11:07 +0000</pubDate>
+      
+      <guid>/tags/error/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Error Reporting</title>
+      <link>/tags/error-reporting/</link>
+      <pubDate>Thu, 17 Dec 2015 13:04:58 +0000</pubDate>
+      
+      <guid>/tags/error-reporting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Evolutionary Analysis</title>
+      <link>/tags/evolutionary-analysis/</link>
+      <pubDate>Sat, 27 Dec 2014 17:02:23 +0000</pubDate>
+      
+      <guid>/tags/evolutionary-analysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Exelixis Lab</title>
+      <link>/tags/exelixis-lab/</link>
+      <pubDate>Fri, 07 Mar 2014 16:05:31 +0000</pubDate>
+      
+      <guid>/tags/exelixis-lab/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Explore</title>
+      <link>/tags/explore/</link>
+      <pubDate>Tue, 26 Dec 2017 17:28:55 +0000</pubDate>
+      
+      <guid>/tags/explore/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>F81</title>
+      <link>/tags/f81/</link>
+      <pubDate>Tue, 11 Oct 2016 19:52:55 +0000</pubDate>
+      
+      <guid>/tags/f81/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fasta</title>
+      <link>/tags/fasta/</link>
+      <pubDate>Tue, 29 Oct 2013 15:36:00 +0000</pubDate>
+      
+      <guid>/tags/fasta/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fastq</title>
+      <link>/tags/fastq/</link>
+      <pubDate>Wed, 13 Sep 2017 11:40:35 +0000</pubDate>
+      
+      <guid>/tags/fastq/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fastqc</title>
+      <link>/tags/fastqc/</link>
+      <pubDate>Wed, 13 Sep 2017 11:40:35 +0000</pubDate>
+      
+      <guid>/tags/fastqc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>File</title>
+      <link>/tags/file/</link>
+      <pubDate>Sat, 10 Mar 2018 23:17:05 +0000</pubDate>
+      
+      <guid>/tags/file/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Force Quit</title>
+      <link>/tags/force-quit/</link>
+      <pubDate>Wed, 06 Apr 2016 15:22:18 +0000</pubDate>
+      
+      <guid>/tags/force-quit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fossils</title>
+      <link>/tags/fossils/</link>
+      <pubDate>Fri, 07 Aug 2015 01:12:00 +0000</pubDate>
+      
+      <guid>/tags/fossils/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Free</title>
+      <link>/tags/free/</link>
+      <pubDate>Wed, 25 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/free/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Function</title>
+      <link>/tags/function/</link>
+      <pubDate>Wed, 25 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/function/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gamma</title>
+      <link>/tags/gamma/</link>
+      <pubDate>Tue, 11 Oct 2016 19:52:55 +0000</pubDate>
+      
+      <guid>/tags/gamma/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gcc</title>
+      <link>/tags/gcc/</link>
+      <pubDate>Tue, 06 Mar 2018 04:14:15 +0000</pubDate>
+      
+      <guid>/tags/gcc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Geiger</title>
+      <link>/tags/geiger/</link>
+      <pubDate>Tue, 22 Nov 2011 08:15:00 +0000</pubDate>
+      
+      <guid>/tags/geiger/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gene Flow</title>
+      <link>/tags/gene-flow/</link>
+      <pubDate>Tue, 13 Sep 2011 14:56:00 +0000</pubDate>
+      
+      <guid>/tags/gene-flow/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gene Tree</title>
+      <link>/tags/gene-tree/</link>
+      <pubDate>Thu, 22 Sep 2011 16:51:00 +0000</pubDate>
+      
+      <guid>/tags/gene-tree/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Generaldatatype</title>
+      <link>/tags/generaldatatype/</link>
+      <pubDate>Tue, 08 Sep 2015 03:07:12 +0000</pubDate>
+      
+      <guid>/tags/generaldatatype/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Genetic Divergence</title>
+      <link>/tags/genetic-divergence/</link>
+      <pubDate>Sun, 04 Sep 2011 06:53:00 +0000</pubDate>
+      
+      <guid>/tags/genetic-divergence/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Geospatial</title>
+      <link>/tags/geospatial/</link>
+      <pubDate>Wed, 28 Jun 2017 01:49:20 +0000</pubDate>
+      
+      <guid>/tags/geospatial/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gis</title>
+      <link>/tags/gis/</link>
+      <pubDate>Wed, 28 Jun 2017 01:49:20 +0000</pubDate>
+      
+      <guid>/tags/gis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gist</title>
+      <link>/tags/gist/</link>
+      <pubDate>Sun, 17 Sep 2017 18:23:01 +0000</pubDate>
+      
+      <guid>/tags/gist/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Github</title>
+      <link>/tags/github/</link>
+      <pubDate>Wed, 13 Sep 2017 11:40:35 +0000</pubDate>
+      
+      <guid>/tags/github/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gmyc</title>
+      <link>/tags/gmyc/</link>
+      <pubDate>Fri, 07 Mar 2014 16:05:31 +0000</pubDate>
+      
+      <guid>/tags/gmyc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Grep</title>
+      <link>/tags/grep/</link>
+      <pubDate>Tue, 01 Mar 2016 21:43:35 +0000</pubDate>
+      
+      <guid>/tags/grep/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gtr</title>
+      <link>/tags/gtr/</link>
+      <pubDate>Tue, 11 Oct 2016 19:52:55 +0000</pubDate>
+      
+      <guid>/tags/gtr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Header</title>
+      <link>/tags/header/</link>
+      <pubDate>Tue, 06 Mar 2018 04:14:15 +0000</pubDate>
+      
+      <guid>/tags/header/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hky</title>
+      <link>/tags/hky/</link>
+      <pubDate>Tue, 11 Oct 2016 19:52:55 +0000</pubDate>
+      
+      <guid>/tags/hky/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hms Beagle</title>
+      <link>/tags/hms-beagle/</link>
+      <pubDate>Tue, 26 Dec 2017 17:28:55 +0000</pubDate>
+      
+      <guid>/tags/hms-beagle/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hypothesis</title>
+      <link>/tags/hypothesis/</link>
+      <pubDate>Mon, 16 Aug 2010 01:56:00 +0000</pubDate>
+      
+      <guid>/tags/hypothesis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Im</title>
+      <link>/tags/im/</link>
+      <pubDate>Tue, 01 Sep 2015 02:41:34 +0000</pubDate>
+      
+      <guid>/tags/im/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ima2</title>
+      <link>/tags/ima2/</link>
+      <pubDate>Tue, 01 Sep 2015 02:41:34 +0000</pubDate>
+      
+      <guid>/tags/ima2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Incomplete Lineage Sorting</title>
+      <link>/tags/incomplete-lineage-sorting/</link>
+      <pubDate>Tue, 19 Jul 2011 04:20:00 +0000</pubDate>
+      
+      <guid>/tags/incomplete-lineage-sorting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Input File</title>
+      <link>/tags/input-file/</link>
+      <pubDate>Tue, 29 Oct 2013 15:36:00 +0000</pubDate>
+      
+      <guid>/tags/input-file/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Inspect</title>
+      <link>/tags/inspect/</link>
+      <pubDate>Tue, 06 Mar 2018 03:49:42 +0000</pubDate>
+      
+      <guid>/tags/inspect/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Install</title>
+      <link>/tags/install/</link>
+      <pubDate>Mon, 26 Mar 2018 03:11:07 +0000</pubDate>
+      
+      <guid>/tags/install/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Installation</title>
+      <link>/tags/installation/</link>
+      <pubDate>Sun, 17 Sep 2017 18:23:01 +0000</pubDate>
+      
+      <guid>/tags/installation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Intersection</title>
+      <link>/tags/intersection/</link>
+      <pubDate>Wed, 25 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/intersection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Invariant Sites</title>
+      <link>/tags/invariant-sites/</link>
+      <pubDate>Tue, 11 Oct 2016 19:52:55 +0000</pubDate>
+      
+      <guid>/tags/invariant-sites/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Isec</title>
+      <link>/tags/isec/</link>
+      <pubDate>Wed, 25 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/isec/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Java</title>
+      <link>/tags/java/</link>
+      <pubDate>Sun, 17 Sep 2017 18:23:01 +0000</pubDate>
+      
+      <guid>/tags/java/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jc69</title>
+      <link>/tags/jc69/</link>
+      <pubDate>Tue, 11 Oct 2016 19:52:55 +0000</pubDate>
+      
+      <guid>/tags/jc69/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jiajie Zhang</title>
+      <link>/tags/jiajie-zhang/</link>
+      <pubDate>Fri, 07 Mar 2014 16:05:31 +0000</pubDate>
+      
+      <guid>/tags/jiajie-zhang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jmodeltest</title>
+      <link>/tags/jmodeltest/</link>
+      <pubDate>Sat, 06 Aug 2011 14:20:00 +0000</pubDate>
+      
+      <guid>/tags/jmodeltest/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jody Hey</title>
+      <link>/tags/jody-hey/</link>
+      <pubDate>Tue, 01 Sep 2015 02:41:34 +0000</pubDate>
+      
+      <guid>/tags/jody-hey/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Journals</title>
+      <link>/tags/journals/</link>
+      <pubDate>Mon, 23 Nov 2015 02:30:32 +0000</pubDate>
+      
+      <guid>/tags/journals/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Justin Bagley</title>
+      <link>/tags/justin-bagley/</link>
+      <pubDate>Sat, 08 Feb 2014 07:54:08 +0000</pubDate>
+      
+      <guid>/tags/justin-bagley/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>K80</title>
+      <link>/tags/k80/</link>
+      <pubDate>Tue, 11 Oct 2016 19:52:55 +0000</pubDate>
+      
+      <guid>/tags/k80/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kill</title>
+      <link>/tags/kill/</link>
+      <pubDate>Wed, 06 Apr 2016 15:22:18 +0000</pubDate>
+      
+      <guid>/tags/kill/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lacey Knowles</title>
+      <link>/tags/lacey-knowles/</link>
+      <pubDate>Tue, 19 Jul 2011 04:20:00 +0000</pubDate>
+      
+      <guid>/tags/lacey-knowles/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lamarc</title>
+      <link>/tags/lamarc/</link>
+      <pubDate>Fri, 13 Dec 2013 19:04:34 +0000</pubDate>
+      
+      <guid>/tags/lamarc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Libiconv</title>
+      <link>/tags/libiconv/</link>
+      <pubDate>Mon, 26 Mar 2018 03:11:07 +0000</pubDate>
+      
+      <guid>/tags/libiconv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Library</title>
+      <link>/tags/library/</link>
+      <pubDate>Mon, 26 Mar 2018 03:11:07 +0000</pubDate>
+      
+      <guid>/tags/library/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Likelihood</title>
+      <link>/tags/likelihood/</link>
+      <pubDate>Fri, 11 Mar 2016 12:00:01 +0000</pubDate>
+      
+      <guid>/tags/likelihood/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linux</title>
+      <link>/tags/linux/</link>
+      <pubDate>Wed, 25 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lists</title>
+      <link>/tags/lists/</link>
+      <pubDate>Sun, 27 Oct 2013 19:25:00 +0000</pubDate>
+      
+      <guid>/tags/lists/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lower Central America</title>
+      <link>/tags/lower-central-america/</link>
+      <pubDate>Sat, 08 Feb 2014 07:54:08 +0000</pubDate>
+      
+      <guid>/tags/lower-central-america/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mac</title>
+      <link>/tags/mac/</link>
+      <pubDate>Wed, 06 Apr 2016 15:22:18 +0000</pubDate>
+      
+      <guid>/tags/mac/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Macbook Pro</title>
+      <link>/tags/macbook-pro/</link>
+      <pubDate>Sat, 20 Sep 2014 19:39:38 +0000</pubDate>
+      
+      <guid>/tags/macbook-pro/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Macroecology</title>
+      <link>/tags/macroecology/</link>
+      <pubDate>Wed, 28 Jun 2017 01:49:20 +0000</pubDate>
+      
+      <guid>/tags/macroecology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Macroevolution</title>
+      <link>/tags/macroevolution/</link>
+      <pubDate>Thu, 17 Sep 2015 15:06:20 +0000</pubDate>
+      
+      <guid>/tags/macroevolution/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Manuscript</title>
+      <link>/tags/manuscript/</link>
+      <pubDate>Wed, 07 Mar 2018 05:32:23 +0000</pubDate>
+      
+      <guid>/tags/manuscript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Maps</title>
+      <link>/tags/maps/</link>
+      <pubDate>Wed, 28 Jun 2017 01:49:20 +0000</pubDate>
+      
+      <guid>/tags/maps/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Marginal Likelihood Estimate</title>
+      <link>/tags/marginal-likelihood-estimate/</link>
+      <pubDate>Fri, 11 Mar 2016 12:00:01 +0000</pubDate>
+      
+      <guid>/tags/marginal-likelihood-estimate/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Markdown</title>
+      <link>/tags/markdown/</link>
+      <pubDate>Mon, 16 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/markdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mary Kuhner</title>
+      <link>/tags/mary-kuhner/</link>
+      <pubDate>Fri, 13 Dec 2013 19:04:34 +0000</pubDate>
+      
+      <guid>/tags/mary-kuhner/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Maximum Likelihood</title>
+      <link>/tags/maximum-likelihood/</link>
+      <pubDate>Thu, 17 Sep 2015 15:06:20 +0000</pubDate>
+      
+      <guid>/tags/maximum-likelihood/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Meeting</title>
+      <link>/tags/meeting/</link>
+      <pubDate>Fri, 07 Aug 2015 01:12:00 +0000</pubDate>
+      
+      <guid>/tags/meeting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Memory</title>
+      <link>/tags/memory/</link>
+      <pubDate>Sat, 10 Mar 2018 23:17:05 +0000</pubDate>
+      
+      <guid>/tags/memory/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mesquite</title>
+      <link>/tags/mesquite/</link>
+      <pubDate>Sun, 23 Aug 2015 13:58:21 +0000</pubDate>
+      
+      <guid>/tags/mesquite/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Micropterus</title>
+      <link>/tags/micropterus/</link>
+      <pubDate>Tue, 03 Aug 2010 22:49:00 +0000</pubDate>
+      
+      <guid>/tags/micropterus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Migrate N</title>
+      <link>/tags/migrate-n/</link>
+      <pubDate>Fri, 13 Dec 2013 19:04:34 +0000</pubDate>
+      
+      <guid>/tags/migrate-n/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Migration</title>
+      <link>/tags/migration/</link>
+      <pubDate>Tue, 13 Sep 2011 14:56:00 +0000</pubDate>
+      
+      <guid>/tags/migration/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Miniconda</title>
+      <link>/tags/miniconda/</link>
+      <pubDate>Sun, 17 Sep 2017 18:23:01 +0000</pubDate>
+      
+      <guid>/tags/miniconda/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mkv Model</title>
+      <link>/tags/mkv-model/</link>
+      <pubDate>Tue, 08 Sep 2015 03:07:12 +0000</pubDate>
+      
+      <guid>/tags/mkv-model/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Model Selection</title>
+      <link>/tags/model-selection/</link>
+      <pubDate>Sat, 06 Aug 2011 14:20:00 +0000</pubDate>
+      
+      <guid>/tags/model-selection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Models</title>
+      <link>/tags/models/</link>
+      <pubDate>Tue, 13 Sep 2011 14:56:00 +0000</pubDate>
+      
+      <guid>/tags/models/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Molecular Clock</title>
+      <link>/tags/molecular-clock/</link>
+      <pubDate>Fri, 07 Aug 2015 01:12:00 +0000</pubDate>
+      
+      <guid>/tags/molecular-clock/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Molecular Clocks</title>
+      <link>/tags/molecular-clocks/</link>
+      <pubDate>Thu, 01 Sep 2011 23:38:00 +0000</pubDate>
+      
+      <guid>/tags/molecular-clocks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Molecular Ecology</title>
+      <link>/tags/molecular-ecology/</link>
+      <pubDate>Wed, 25 Nov 2015 12:47:36 +0000</pubDate>
+      
+      <guid>/tags/molecular-ecology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Molecular Evolution</title>
+      <link>/tags/molecular-evolution/</link>
+      <pubDate>Thu, 17 Sep 2015 15:06:20 +0000</pubDate>
+      
+      <guid>/tags/molecular-evolution/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Morphological Data</title>
+      <link>/tags/morphological-data/</link>
+      <pubDate>Tue, 08 Sep 2015 03:07:12 +0000</pubDate>
+      
+      <guid>/tags/morphological-data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Murphology</title>
+      <link>/tags/murphology/</link>
+      <pubDate>Mon, 23 Nov 2015 02:30:32 +0000</pubDate>
+      
+      <guid>/tags/murphology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Murphys Law</title>
+      <link>/tags/murphys-law/</link>
+      <pubDate>Mon, 23 Nov 2015 02:30:32 +0000</pubDate>
+      
+      <guid>/tags/murphys-law/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nasa</title>
+      <link>/tags/nasa/</link>
+      <pubDate>Wed, 28 Jun 2017 01:49:20 +0000</pubDate>
+      
+      <guid>/tags/nasa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Naturalist</title>
+      <link>/tags/naturalist/</link>
+      <pubDate>Tue, 26 Dec 2017 17:28:55 +0000</pubDate>
+      
+      <guid>/tags/naturalist/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nexml</title>
+      <link>/tags/nexml/</link>
+      <pubDate>Sun, 23 Aug 2015 13:58:21 +0000</pubDate>
+      
+      <guid>/tags/nexml/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Next Generation Sequencing</title>
+      <link>/tags/next-generation-sequencing/</link>
+      <pubDate>Wed, 27 Nov 2013 04:33:44 +0000</pubDate>
+      
+      <guid>/tags/next-generation-sequencing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nexus</title>
+      <link>/tags/nexus/</link>
+      <pubDate>Wed, 13 Sep 2017 11:40:35 +0000</pubDate>
+      
+      <guid>/tags/nexus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ngs</title>
+      <link>/tags/ngs/</link>
+      <pubDate>Wed, 27 Nov 2013 04:33:44 +0000</pubDate>
+      
+      <guid>/tags/ngs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nick Swenson</title>
+      <link>/tags/nick-swenson/</link>
+      <pubDate>Wed, 30 Apr 2014 18:04:38 +0000</pubDate>
+      
+      <guid>/tags/nick-swenson/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Noaa</title>
+      <link>/tags/noaa/</link>
+      <pubDate>Wed, 28 Jun 2017 01:49:20 +0000</pubDate>
+      
+      <guid>/tags/noaa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nodes</title>
+      <link>/tags/nodes/</link>
+      <pubDate>Wed, 13 Mar 2013 14:05:00 +0000</pubDate>
+      
+      <guid>/tags/nodes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Occurrences</title>
+      <link>/tags/occurrences/</link>
+      <pubDate>Wed, 28 Jun 2017 01:49:20 +0000</pubDate>
+      
+      <guid>/tags/occurrences/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Online Access</title>
+      <link>/tags/online-access/</link>
+      <pubDate>Mon, 23 Nov 2015 02:30:32 +0000</pubDate>
+      
+      <guid>/tags/online-access/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Open Access</title>
+      <link>/tags/open-access/</link>
+      <pubDate>Mon, 23 Nov 2015 02:30:32 +0000</pubDate>
+      
+      <guid>/tags/open-access/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Open Source</title>
+      <link>/tags/open-source/</link>
+      <pubDate>Wed, 25 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/open-source/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Output</title>
+      <link>/tags/output/</link>
+      <pubDate>Tue, 01 Sep 2015 02:41:34 +0000</pubDate>
+      
+      <guid>/tags/output/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Outsourcing</title>
+      <link>/tags/outsourcing/</link>
+      <pubDate>Wed, 27 Nov 2013 04:33:44 +0000</pubDate>
+      
+      <guid>/tags/outsourcing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Packages</title>
+      <link>/tags/packages/</link>
+      <pubDate>Wed, 06 Apr 2016 15:43:16 +0000</pubDate>
+      
+      <guid>/tags/packages/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Papers</title>
+      <link>/tags/papers/</link>
+      <pubDate>Sat, 08 Feb 2014 07:54:08 +0000</pubDate>
+      
+      <guid>/tags/papers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Parameters</title>
+      <link>/tags/parameters/</link>
+      <pubDate>Tue, 01 Sep 2015 02:41:34 +0000</pubDate>
+      
+      <guid>/tags/parameters/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Path Sampler</title>
+      <link>/tags/path-sampler/</link>
+      <pubDate>Thu, 17 Aug 2017 18:18:35 +0000</pubDate>
+      
+      <guid>/tags/path-sampler/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Path Sampling</title>
+      <link>/tags/path-sampling/</link>
+      <pubDate>Thu, 17 Aug 2017 18:18:35 +0000</pubDate>
+      
+      <guid>/tags/path-sampling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Paup</title>
+      <link>/tags/paup/</link>
+      <pubDate>Tue, 19 Jul 2011 04:20:00 +0000</pubDate>
+      
+      <guid>/tags/paup/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pcms</title>
+      <link>/tags/pcms/</link>
+      <pubDate>Wed, 30 Apr 2014 18:04:38 +0000</pubDate>
+      
+      <guid>/tags/pcms/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Peerj</title>
+      <link>/tags/peerj/</link>
+      <pubDate>Wed, 07 Mar 2018 05:32:23 +0000</pubDate>
+      
+      <guid>/tags/peerj/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Penalized Likelihood</title>
+      <link>/tags/penalized-likelihood/</link>
+      <pubDate>Sun, 30 Aug 2015 02:55:29 +0000</pubDate>
+      
+      <guid>/tags/penalized-likelihood/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Peter Beerli</title>
+      <link>/tags/peter-beerli/</link>
+      <pubDate>Sat, 04 Sep 2010 00:38:00 +0000</pubDate>
+      
+      <guid>/tags/peter-beerli/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Phd Student</title>
+      <link>/tags/phd-student/</link>
+      <pubDate>Tue, 01 Sep 2015 02:41:34 +0000</pubDate>
+      
+      <guid>/tags/phd-student/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Phrynomics</title>
+      <link>/tags/phrynomics/</link>
+      <pubDate>Wed, 13 Sep 2017 11:40:35 +0000</pubDate>
+      
+      <guid>/tags/phrynomics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Phylogenetic Comparative Methods</title>
+      <link>/tags/phylogenetic-comparative-methods/</link>
+      <pubDate>Wed, 30 Apr 2014 18:04:38 +0000</pubDate>
+      
+      <guid>/tags/phylogenetic-comparative-methods/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Phylogenetic Trees</title>
+      <link>/tags/phylogenetic-trees/</link>
+      <pubDate>Tue, 22 Nov 2011 08:15:00 +0000</pubDate>
+      
+      <guid>/tags/phylogenetic-trees/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Phylogenetics</title>
+      <link>/tags/phylogenetics/</link>
+      <pubDate>Wed, 06 Apr 2016 15:43:16 +0000</pubDate>
+      
+      <guid>/tags/phylogenetics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Phylogeny</title>
+      <link>/tags/phylogeny/</link>
+      <pubDate>Tue, 01 Mar 2016 21:43:35 +0000</pubDate>
+      
+      <guid>/tags/phylogeny/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Phylogeography</title>
+      <link>/tags/phylogeography/</link>
+      <pubDate>Thu, 07 Aug 2014 20:59:25 +0000</pubDate>
+      
+      <guid>/tags/phylogeography/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pid</title>
+      <link>/tags/pid/</link>
+      <pubDate>Wed, 06 Apr 2016 15:22:18 +0000</pubDate>
+      
+      <guid>/tags/pid/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Poppr</title>
+      <link>/tags/poppr/</link>
+      <pubDate>Fri, 18 Aug 2017 19:16:27 +0000</pubDate>
+      
+      <guid>/tags/poppr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Posterior Distribution</title>
+      <link>/tags/posterior-distribution/</link>
+      <pubDate>Tue, 01 Sep 2015 02:41:34 +0000</pubDate>
+      
+      <guid>/tags/posterior-distribution/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Preprint</title>
+      <link>/tags/preprint/</link>
+      <pubDate>Wed, 07 Mar 2018 05:32:23 +0000</pubDate>
+      
+      <guid>/tags/preprint/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Prior Selection</title>
+      <link>/tags/prior-selection/</link>
+      <pubDate>Tue, 13 Sep 2011 14:56:00 +0000</pubDate>
+      
+      <guid>/tags/prior-selection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Priors</title>
+      <link>/tags/priors/</link>
+      <pubDate>Tue, 13 Sep 2011 14:56:00 +0000</pubDate>
+      
+      <guid>/tags/priors/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Process</title>
+      <link>/tags/process/</link>
+      <pubDate>Wed, 06 Apr 2016 15:22:18 +0000</pubDate>
+      
+      <guid>/tags/process/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ptp</title>
+      <link>/tags/ptp/</link>
+      <pubDate>Fri, 07 Mar 2014 16:05:31 +0000</pubDate>
+      
+      <guid>/tags/ptp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Publications</title>
+      <link>/tags/publications/</link>
+      <pubDate>Mon, 23 Nov 2015 02:30:32 +0000</pubDate>
+      
+      <guid>/tags/publications/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pyrad</title>
+      <link>/tags/pyrad/</link>
+      <pubDate>Sun, 17 Sep 2017 18:23:01 +0000</pubDate>
+      
+      <guid>/tags/pyrad/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>/tags/python/</link>
+      <pubDate>Sun, 17 Sep 2017 18:23:01 +0000</pubDate>
+      
+      <guid>/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Qgis</title>
+      <link>/tags/qgis/</link>
+      <pubDate>Wed, 28 Jun 2017 01:49:20 +0000</pubDate>
+      
+      <guid>/tags/qgis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R</title>
+      <link>/tags/r/</link>
+      <pubDate>Mon, 26 Mar 2018 03:11:07 +0000</pubDate>
+      
+      <guid>/tags/r/</guid>
       <description></description>
     </item>
     
     <item>
       <title>R Markdown</title>
-      <link>/blog/tags/r-markdown/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      <link>/tags/r-markdown/</link>
+      <pubDate>Mon, 16 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>/blog/tags/r-markdown/</guid>
+      <guid>/tags/r-markdown/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Regression</title>
-      <link>/blog/tags/regression/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      <title>Rad Seq</title>
+      <link>/tags/rad-seq/</link>
+      <pubDate>Sun, 17 Sep 2017 18:23:01 +0000</pubDate>
       
-      <guid>/blog/tags/regression/</guid>
+      <guid>/tags/rad-seq/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rainbow</title>
+      <link>/tags/rainbow/</link>
+      <pubDate>Sat, 10 Mar 2018 23:17:05 +0000</pubDate>
+      
+      <guid>/tags/rainbow/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rate Shifts</title>
+      <link>/tags/rate-shifts/</link>
+      <pubDate>Thu, 17 Sep 2015 15:06:20 +0000</pubDate>
+      
+      <guid>/tags/rate-shifts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Resource Management</title>
+      <link>/tags/resource-management/</link>
+      <pubDate>Wed, 13 Mar 2013 14:05:00 +0000</pubDate>
+      
+      <guid>/tags/resource-management/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Review Paper</title>
+      <link>/tags/review-paper/</link>
+      <pubDate>Sat, 08 Feb 2014 07:54:08 +0000</pubDate>
+      
+      <guid>/tags/review-paper/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rm</title>
+      <link>/tags/rm/</link>
+      <pubDate>Tue, 06 Mar 2018 03:49:42 +0000</pubDate>
+      
+      <guid>/tags/rm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Safe Sleep</title>
+      <link>/tags/safe-sleep/</link>
+      <pubDate>Sat, 20 Sep 2014 19:39:38 +0000</pubDate>
+      
+      <guid>/tags/safe-sleep/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Samtools</title>
+      <link>/tags/samtools/</link>
+      <pubDate>Sat, 10 Mar 2018 23:17:05 +0000</pubDate>
+      
+      <guid>/tags/samtools/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Scientific Names</title>
+      <link>/tags/scientific-names/</link>
+      <pubDate>Wed, 02 Sep 2015 02:38:32 +0000</pubDate>
+      
+      <guid>/tags/scientific-names/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Scientific Papers</title>
+      <link>/tags/scientific-papers/</link>
+      <pubDate>Wed, 25 Nov 2015 12:47:36 +0000</pubDate>
+      
+      <guid>/tags/scientific-papers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sdm</title>
+      <link>/tags/sdm/</link>
+      <pubDate>Wed, 28 Jun 2017 01:49:20 +0000</pubDate>
+      
+      <guid>/tags/sdm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Search</title>
+      <link>/tags/search/</link>
+      <pubDate>Wed, 25 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/search/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Search Engine</title>
+      <link>/tags/search-engine/</link>
+      <pubDate>Wed, 25 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/search-engine/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Server</title>
+      <link>/tags/server/</link>
+      <pubDate>Wed, 07 Mar 2018 05:32:23 +0000</pubDate>
+      
+      <guid>/tags/server/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shell Script</title>
+      <link>/tags/shell-script/</link>
+      <pubDate>Wed, 13 Sep 2017 11:40:35 +0000</pubDate>
+      
+      <guid>/tags/shell-script/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Simulations</title>
+      <link>/tags/simulations/</link>
+      <pubDate>Thu, 22 Sep 2011 16:51:00 +0000</pubDate>
+      
+      <guid>/tags/simulations/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Single Nucleotide Polymorphisms</title>
+      <link>/tags/single-nucleotide-polymorphisms/</link>
+      <pubDate>Fri, 18 Aug 2017 19:16:27 +0000</pubDate>
+      
+      <guid>/tags/single-nucleotide-polymorphisms/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sleepimage</title>
+      <link>/tags/sleepimage/</link>
+      <pubDate>Sat, 20 Sep 2014 19:39:38 +0000</pubDate>
+      
+      <guid>/tags/sleepimage/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Snapp</title>
+      <link>/tags/snapp/</link>
+      <pubDate>Wed, 13 Sep 2017 11:40:35 +0000</pubDate>
+      
+      <guid>/tags/snapp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Snp</title>
+      <link>/tags/snp/</link>
+      <pubDate>Wed, 25 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/snp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Snps</title>
+      <link>/tags/snps/</link>
+      <pubDate>Wed, 13 Sep 2017 11:40:35 +0000</pubDate>
+      
+      <guid>/tags/snps/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Software</title>
+      <link>/tags/software/</link>
+      <pubDate>Wed, 25 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/software/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Software Update</title>
+      <link>/tags/software-update/</link>
+      <pubDate>Fri, 28 Aug 2015 23:20:27 +0000</pubDate>
+      
+      <guid>/tags/software-update/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Solution</title>
+      <link>/tags/solution/</link>
+      <pubDate>Mon, 26 Mar 2018 03:11:07 +0000</pubDate>
+      
+      <guid>/tags/solution/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Species</title>
+      <link>/tags/species/</link>
+      <pubDate>Wed, 28 Jun 2017 01:49:20 +0000</pubDate>
+      
+      <guid>/tags/species/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Species Delimitation</title>
+      <link>/tags/species-delimitation/</link>
+      <pubDate>Fri, 07 Mar 2014 16:05:31 +0000</pubDate>
+      
+      <guid>/tags/species-delimitation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Species Distribution Modeling</title>
+      <link>/tags/species-distribution-modeling/</link>
+      <pubDate>Wed, 28 Jun 2017 01:49:20 +0000</pubDate>
+      
+      <guid>/tags/species-distribution-modeling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Species Trees</title>
+      <link>/tags/species-trees/</link>
+      <pubDate>Thu, 10 Oct 2013 20:35:00 +0000</pubDate>
+      
+      <guid>/tags/species-trees/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ssh</title>
+      <link>/tags/ssh/</link>
+      <pubDate>Wed, 13 Mar 2013 14:05:00 +0000</pubDate>
+      
+      <guid>/tags/ssh/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Stackoverflow</title>
+      <link>/tags/stackoverflow/</link>
+      <pubDate>Wed, 25 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/stackoverflow/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Starbeast</title>
+      <link>/tags/starbeast/</link>
+      <pubDate>Fri, 11 Mar 2016 12:00:01 +0000</pubDate>
+      
+      <guid>/tags/starbeast/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Starting Tree</title>
+      <link>/tags/starting-tree/</link>
+      <pubDate>Mon, 17 Feb 2014 04:46:23 +0000</pubDate>
+      
+      <guid>/tags/starting-tree/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Statistical Phylogeography</title>
+      <link>/tags/statistical-phylogeography/</link>
+      <pubDate>Thu, 22 Sep 2011 16:51:00 +0000</pubDate>
+      
+      <guid>/tags/statistical-phylogeography/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Stdio.h</title>
+      <link>/tags/stdio.h/</link>
+      <pubDate>Tue, 06 Mar 2018 04:14:15 +0000</pubDate>
+      
+      <guid>/tags/stdio.h/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Stupid</title>
+      <link>/tags/stupid/</link>
+      <pubDate>Wed, 02 Sep 2015 02:38:32 +0000</pubDate>
+      
+      <guid>/tags/stupid/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Submission</title>
+      <link>/tags/submission/</link>
+      <pubDate>Wed, 07 Mar 2018 05:32:23 +0000</pubDate>
+      
+      <guid>/tags/submission/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Substitution Models</title>
+      <link>/tags/substitution-models/</link>
+      <pubDate>Tue, 11 Oct 2016 19:52:55 +0000</pubDate>
+      
+      <guid>/tags/substitution-models/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Substitution Rate</title>
+      <link>/tags/substitution-rate/</link>
+      <pubDate>Thu, 01 Sep 2011 23:38:00 +0000</pubDate>
+      
+      <guid>/tags/substitution-rate/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Supercomputer</title>
+      <link>/tags/supercomputer/</link>
+      <pubDate>Mon, 26 Mar 2018 03:11:07 +0000</pubDate>
+      
+      <guid>/tags/supercomputer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Supercomputers</title>
+      <link>/tags/supercomputers/</link>
+      <pubDate>Sun, 17 Sep 2017 18:23:01 +0000</pubDate>
+      
+      <guid>/tags/supercomputers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Swenson</title>
+      <link>/tags/swenson/</link>
+      <pubDate>Wed, 30 Apr 2014 18:04:38 +0000</pubDate>
+      
+      <guid>/tags/swenson/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sym</title>
+      <link>/tags/sym/</link>
+      <pubDate>Tue, 11 Oct 2016 19:52:55 +0000</pubDate>
+      
+      <guid>/tags/sym/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Symposium</title>
+      <link>/tags/symposium/</link>
+      <pubDate>Wed, 27 Nov 2013 01:05:02 +0000</pubDate>
+      
+      <guid>/tags/symposium/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Systematics</title>
+      <link>/tags/systematics/</link>
+      <pubDate>Mon, 16 Aug 2010 01:56:00 +0000</pubDate>
+      
+      <guid>/tags/systematics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Talk</title>
+      <link>/tags/talk/</link>
+      <pubDate>Wed, 27 Nov 2013 01:05:02 +0000</pubDate>
+      
+      <guid>/tags/talk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tamura</title>
+      <link>/tags/tamura/</link>
+      <pubDate>Tue, 11 Oct 2016 19:52:55 +0000</pubDate>
+      
+      <guid>/tags/tamura/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tar</title>
+      <link>/tags/tar/</link>
+      <pubDate>Mon, 26 Mar 2018 03:11:07 +0000</pubDate>
+      
+      <guid>/tags/tar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Terminal</title>
+      <link>/tags/terminal/</link>
+      <pubDate>Wed, 06 Apr 2016 15:22:18 +0000</pubDate>
+      
+      <guid>/tags/terminal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Test</title>
+      <link>/tags/test/</link>
+      <pubDate>Mon, 16 Aug 2010 01:56:00 +0000</pubDate>
+      
+      <guid>/tags/test/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Theta</title>
+      <link>/tags/theta/</link>
+      <pubDate>Sat, 04 Sep 2010 00:38:00 +0000</pubDate>
+      
+      <guid>/tags/theta/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tigerfish</title>
+      <link>/tags/tigerfish/</link>
+      <pubDate>Wed, 02 Sep 2015 02:38:32 +0000</pubDate>
+      
+      <guid>/tags/tigerfish/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Time Tree</title>
+      <link>/tags/time-tree/</link>
+      <pubDate>Sun, 30 Aug 2015 02:55:29 +0000</pubDate>
+      
+      <guid>/tags/time-tree/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Todo</title>
+      <link>/tags/todo/</link>
+      <pubDate>Wed, 07 Mar 2018 05:32:23 +0000</pubDate>
+      
+      <guid>/tags/todo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Total Evidence Dating</title>
+      <link>/tags/total-evidence-dating/</link>
+      <pubDate>Tue, 08 Sep 2015 03:07:12 +0000</pubDate>
+      
+      <guid>/tags/total-evidence-dating/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Trace</title>
+      <link>/tags/trace/</link>
+      <pubDate>Fri, 11 Mar 2016 12:00:01 +0000</pubDate>
+      
+      <guid>/tags/trace/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tracer</title>
+      <link>/tags/tracer/</link>
+      <pubDate>Fri, 11 Mar 2016 12:00:01 +0000</pubDate>
+      
+      <guid>/tags/tracer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tracy Heath</title>
+      <link>/tags/tracy-heath/</link>
+      <pubDate>Sat, 27 Dec 2014 17:02:23 +0000</pubDate>
+      
+      <guid>/tags/tracy-heath/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Traitrate</title>
+      <link>/tags/traitrate/</link>
+      <pubDate>Thu, 17 Sep 2015 15:06:20 +0000</pubDate>
+      
+      <guid>/tags/traitrate/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Trash</title>
+      <link>/tags/trash/</link>
+      <pubDate>Tue, 06 Mar 2018 03:49:42 +0000</pubDate>
+      
+      <guid>/tags/trash/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tree</title>
+      <link>/tags/tree/</link>
+      <pubDate>Mon, 17 Feb 2014 04:46:23 +0000</pubDate>
+      
+      <guid>/tags/tree/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Trees</title>
+      <link>/tags/trees/</link>
+      <pubDate>Tue, 22 Nov 2011 08:15:00 +0000</pubDate>
+      
+      <guid>/tags/trees/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Trn</title>
+      <link>/tags/trn/</link>
+      <pubDate>Tue, 11 Oct 2016 19:52:55 +0000</pubDate>
+      
+      <guid>/tags/trn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tutorial</title>
+      <link>/tags/tutorial/</link>
+      <pubDate>Sun, 30 Aug 2015 02:55:29 +0000</pubDate>
+      
+      <guid>/tags/tutorial/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tweet</title>
+      <link>/tags/tweet/</link>
+      <pubDate>Wed, 02 Sep 2015 02:38:32 +0000</pubDate>
+      
+      <guid>/tags/tweet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Twitter</title>
+      <link>/tags/twitter/</link>
+      <pubDate>Wed, 02 Sep 2015 02:38:32 +0000</pubDate>
+      
+      <guid>/tags/twitter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Unix</title>
+      <link>/tags/unix/</link>
+      <pubDate>Wed, 25 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/unix/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Update</title>
+      <link>/tags/update/</link>
+      <pubDate>Thu, 10 Mar 2016 12:16:25 +0000</pubDate>
+      
+      <guid>/tags/update/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>User</title>
+      <link>/tags/user/</link>
+      <pubDate>Mon, 26 Mar 2018 03:11:07 +0000</pubDate>
+      
+      <guid>/tags/user/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Variant</title>
+      <link>/tags/variant/</link>
+      <pubDate>Wed, 25 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/variant/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vcf</title>
+      <link>/tags/vcf/</link>
+      <pubDate>Wed, 25 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/vcf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vcf Compare</title>
+      <link>/tags/vcf-compare/</link>
+      <pubDate>Wed, 25 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/vcf-compare/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vcftools</title>
+      <link>/tags/vcftools/</link>
+      <pubDate>Wed, 25 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/vcftools/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Video</title>
+      <link>/tags/video/</link>
+      <pubDate>Wed, 27 Nov 2013 01:05:02 +0000</pubDate>
+      
+      <guid>/tags/video/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Views</title>
+      <link>/tags/views/</link>
+      <pubDate>Wed, 06 Apr 2016 15:43:16 +0000</pubDate>
+      
+      <guid>/tags/views/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Voyage</title>
+      <link>/tags/voyage/</link>
+      <pubDate>Tue, 26 Dec 2017 17:28:55 +0000</pubDate>
+      
+      <guid>/tags/voyage/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Web Server</title>
+      <link>/tags/web-server/</link>
+      <pubDate>Fri, 07 Mar 2014 16:05:31 +0000</pubDate>
+      
+      <guid>/tags/web-server/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Website</title>
+      <link>/tags/website/</link>
+      <pubDate>Wed, 25 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/website/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Websites</title>
+      <link>/tags/websites/</link>
+      <pubDate>Thu, 07 Aug 2014 20:59:25 +0000</pubDate>
+      
+      <guid>/tags/websites/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wget</title>
+      <link>/tags/wget/</link>
+      <pubDate>Mon, 26 Mar 2018 03:11:07 +0000</pubDate>
+      
+      <guid>/tags/wget/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Worldclim</title>
+      <link>/tags/worldclim/</link>
+      <pubDate>Wed, 28 Jun 2017 01:49:20 +0000</pubDate>
+      
+      <guid>/tags/worldclim/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Writing</title>
+      <link>/tags/writing/</link>
+      <pubDate>Wed, 25 Nov 2015 12:47:36 +0000</pubDate>
+      
+      <guid>/tags/writing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wwf</title>
+      <link>/tags/wwf/</link>
+      <pubDate>Wed, 28 Jun 2017 01:49:20 +0000</pubDate>
+      
+      <guid>/tags/wwf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Xml</title>
+      <link>/tags/xml/</link>
+      <pubDate>Tue, 08 Sep 2015 03:07:12 +0000</pubDate>
+      
+      <guid>/tags/xml/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>\Beast</title>
+      <link>/tags/%5Cbeast/</link>
+      <pubDate>Fri, 11 Mar 2016 12:00:01 +0000</pubDate>
+      
+      <guid>/tags/%5Cbeast/</guid>
       <description></description>
     </item>
     

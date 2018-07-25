@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Models on blog</title>
+    <link>/tags/models/</link>
+    <description>Recent content in Models on blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 13 Sep 2011 14:56:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/models/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Migrate-N and phylogeography: Bayesian priors and run settings</title>
+      <link>/2011/09/13/migrate-n-and-phylogeography-bayesian-priors-and-run-settings/</link>
+      <pubDate>Tue, 13 Sep 2011 14:56:00 +0000</pubDate>
+      
+      <guid>/2011/09/13/migrate-n-and-phylogeography-bayesian-priors-and-run-settings/</guid>
+      <description>In a previous post I discussed using Migrate-N for phylogeography (e.g. migration model testing, run settings, general tips). I mentioned that Migrate-N runs maximum likelihood (ML) and Bayesian algorithms and I discussed those a little bit, including how to run under different estimation modes. While Bayesian analysis is likely to be preferred for several reasons, a common critique of Bayesian methods in statistical population genetics and elsewhere is that it is difficult to set the prior information for each run.</description>
+    </item>
+    
+  </channel>
+</rss>

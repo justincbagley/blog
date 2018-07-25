@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Species Trees on blog</title>
+    <link>/tags/species-trees/</link>
+    <description>Recent content in Species Trees on blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 10 Oct 2013 20:35:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/species-trees/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Off to a good start: how to generate starting trees for BEAST analyses using R</title>
+      <link>/2013/10/10/off-to-a-good-start-how-to-generate-starting-trees-for-beast-analyses-using-r/</link>
+      <pubDate>Thu, 10 Oct 2013 20:35:00 +0000</pubDate>
+      
+      <guid>/2013/10/10/off-to-a-good-start-how-to-generate-starting-trees-for-beast-analyses-using-r/</guid>
+      <description>BEAST and user trees
+The program BEAST (e.g. latest release version v1.8.0; or v2.1.1; Drummond et al. 2012) is increasingly more and more popular and important in the fields of evolutionary biology and the biology of infectious diseases. When conducting MCMC simulations to simultaneously make phylogenetic inference and estimate divergence times, and/or coalescent model parameters (summary statistics) in BEAST, it is usually necessary, and desirable, to provide some form of calibrated tree priors.</description>
+    </item>
+    
+  </channel>
+</rss>

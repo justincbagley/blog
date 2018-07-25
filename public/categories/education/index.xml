@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Education on blog</title>
+    <link>/categories/education/</link>
+    <description>Recent content in Education on blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 18 Nov 2013 00:22:53 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/education/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Software Carpentry: providing training and open-access material for self-paced instruction in software skills for researchers</title>
+      <link>/2013/11/18/software-carpentry-providing-training-open-access-material-self-paced-instruction-software-skills-researchers/</link>
+      <pubDate>Mon, 18 Nov 2013 00:22:53 +0000</pubDate>
+      
+      <guid>/2013/11/18/software-carpentry-providing-training-open-access-material-self-paced-instruction-software-skills-researchers/</guid>
+      <description>Software Carpentry
+Meet Software Carpentry. On a volunteer basis, members of this company teach basic software proficiencies to scientists in any field, including biology, physical sciences, engineering and medicine. They also provide a large amount of training tools, e.g. videos, online, all for free! This company walks the talk about open-access material for self-paced instruction in software skills. Moreover, their products are professional. Software Carpentry carries loads of experience gained since their 1998 founding, and from their current participation in the Mozilla Science Lab.</description>
+    </item>
+    
+  </channel>
+</rss>

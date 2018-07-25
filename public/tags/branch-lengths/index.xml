@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Branch Lengths on blog</title>
+    <link>/tags/branch-lengths/</link>
+    <description>Recent content in Branch Lengths on blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 01 Mar 2016 21:43:35 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/branch-lengths/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Dealing with negative phylogenetic branch lengths in BEAST starting trees</title>
+      <link>/2016/03/01/dealing-negative-phylogenetic-branch-lengths-beast-starting-trees/</link>
+      <pubDate>Tue, 01 Mar 2016 21:43:35 +0000</pubDate>
+      
+      <guid>/2016/03/01/dealing-negative-phylogenetic-branch-lengths-beast-starting-trees/</guid>
+      <description>Negative branch lengths and the BEAST When conducting phylogenetic analyses, you will from time to time encounter negative branch lengths. Negative branch lengths are a nuisance because they can cause substantial visualization problems or keep analyses (e.g. downstream analyses in other programs) from running.
+For example, it will be desirable in many cases to add a starting tree to input files for datasets with phylogeographical sampling (e.g. multiple individuals in a standard BEAST analysis, or a *BEAST species tree analysis with multiple individuals sampled per species/population modeled).</description>
+    </item>
+    
+  </channel>
+</rss>

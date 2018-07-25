@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data on blog</title>
+    <link>/tags/data/</link>
+    <description>Recent content in Data on blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 18 Aug 2017 19:16:27 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/data/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Running AMOVA (analysis of molecular variance) on biallelic SNP data in R</title>
+      <link>/2017/08/18/running-amova-analysis-molecular-variance-biallelic-snp-data-r/</link>
+      <pubDate>Fri, 18 Aug 2017 19:16:27 +0000</pubDate>
+      
+      <guid>/2017/08/18/running-amova-analysis-molecular-variance-biallelic-snp-data-r/</guid>
+      <description>AMOVA in R Resources for conducting population genetic and phylogenetic analyses in the R computing environment are continually improving, and to date several packages have provided functions for estimating phi-statistics and hierarchical patterns of population variance partitioning using AMOVA (analysis of molecular variance; Quattro et al. 1992). The paper for the AMOVA method, penned by population geneticists Joe Quattro, Peter Smouse, and Laurent Excoffier, now has &amp;gt;12,000 citations, making it one of the most used and cited methods of all time in evolutionary genetic analysis; many people continue using this method, including me.</description>
+    </item>
+    
+    <item>
+      <title>Data mining resources for species distribution modeling and macroecology</title>
+      <link>/2017/06/28/data-mining-resources-for-species-distribution-modeling-and-macroecology/</link>
+      <pubDate>Wed, 28 Jun 2017 01:49:20 +0000</pubDate>
+      
+      <guid>/2017/06/28/data-mining-resources-for-species-distribution-modeling-and-macroecology/</guid>
+      <description>Research projects in ecology, evolution, and conservation biology increasingly rely upon ecological modeling and GIS data and tools for manipulating and analyzing spatially linked data from across a variety of spatial scales. Of particular importance are species distribution modeling (SDM; also known as Ecological Niche Models, or ENMs, or Environmental Niche Models) and niche divergence tools, geospatial data layers representing Earth environments from a variety of perspectives and scales, and GIS and mapping software.</description>
+    </item>
+    
+  </channel>
+</rss>

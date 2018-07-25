@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mesquite on blog</title>
+    <link>/categories/mesquite/</link>
+    <description>Recent content in Mesquite on blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 07 Aug 2014 18:11:18 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/mesquite/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Mesquite website down yesterday, today... and tomorrow?</title>
+      <link>/2014/08/07/mesquite-website-yesterday-today-tomorrow/</link>
+      <pubDate>Thu, 07 Aug 2014 18:11:18 +0000</pubDate>
+      
+      <guid>/2014/08/07/mesquite-website-yesterday-today-tomorrow/</guid>
+      <description>Mesquite is a very popular modular software for comparative evolutionary analyses involving phylogenies, one that I have used for a long time and actually like a lot.
+A couple of weeks ago, in response to a reviewer who asked for me to use the latest version of Mesquite, version 2.75, instead of 2.74 (which I used for the analyses in the ms), I recently updated Mesquite to build 556. Then, yesterday, I realized that I had deleted a couple of module folders (e.</description>
+    </item>
+    
+    <item>
+      <title>Statistical phylogeography tutorial #1: Coalescent simulations in Mesquite Part I</title>
+      <link>/2011/09/22/statistical-phylogeography-tutorial-1-coalescent-simulations-in-mesquite-part-i/</link>
+      <pubDate>Thu, 22 Sep 2011 16:51:00 +0000</pubDate>
+      
+      <guid>/2011/09/22/statistical-phylogeography-tutorial-1-coalescent-simulations-in-mesquite-part-i/</guid>
+      <description>Part I. Draft 9/22/11
+WARNING: The following is based on my current understanding and use of Mesquite to perform coalescent simulations for phylogeographical hypotheses testing and is correct to the best of my knowledge, but I do not guarantee its accuracy. Also, you may not perform these analyses in the exact way or order that I have performed them. The following is based on a number of previously-published studies (e.g. Knowles 2001; Knowles &amp;amp; Maddison 2002; Carstens et al.</description>
+    </item>
+    
+  </channel>
+</rss>

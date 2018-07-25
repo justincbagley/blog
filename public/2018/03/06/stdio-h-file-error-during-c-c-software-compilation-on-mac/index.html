@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.44" />
+
+
+<title>stdio.h file error during C/C&#43;&#43; software compilation on Mac - blog</title>
+<meta property="og:title" content="stdio.h file error during C/C&#43;&#43; software compilation on Mac - blog">
+
+
+
+  
+
+
+
+
+
+
+
+
+<link href='//cdn.bootcss.com/highlight.js/9.11.0/styles/github.min.css' rel='stylesheet' type='text/css' />
+
+
+
+<link rel="stylesheet" href="/css/fonts.css" media="all">
+<link rel="stylesheet" href="/css/main.css" media="all">
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/" class="nav-logo">
+    <img src="/images/jselfie_logo.png"
+         width="50"
+         height="50"
+         alt="Logo">
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="/about/">About</a></li>
+    
+    <li><a href="https://github.com/justincbagley">GitHub</a></li>
+    
+    <li><a href="https://www.linkedin.com/in/justin-c-bagley-2a8a0523">LinkedIn</a></li>
+    
+    <li><a href="https://www.researchgate.net/profile/Justin_Bagley2">ResearchGate</a></li>
+    
+    <li><a href="https://twitter.com/justincbagley">Twitter</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">2 min read</span>
+    
+
+    <h1 class="article-title">stdio.h file error during C/C&#43;&#43; software compilation on Mac</h1>
+
+    
+    <span class="article-date">2018/03/06</span>
+    
+
+    <div class="article-content">
+      <p><img src="/images/errorstop-300x300-150x150.png" alt="Error - STOP!" /></p>
+
+<p>Recently, back in February of 2018, I updated <a href="https://developer.apple.com/xcode/">Xcode</a> and installed the macOS High Sierra Supplemental Update as well. I was <em>quite</em> unhappy to find out that, following these updates, compiling software written in C/C++ using gcc (which was up to date!) seemed to be failing with a &ldquo;stdio.h&rdquo; file not found error, as follows:</p>
+
+<pre><code>...fatal error: stdio.h: No such file or directory
+#import&lt;stdio.h&gt;;
+       ^
+1 error generated.
+...
+</code></pre>
+
+<p>The missing file was the same in multiple cases, for multiple software programs that I think included both the species tree inference software <a href="https://www.asc.ohio-state.edu/kubatko.2/software/SVDquartets/">SVDquartets</a> and the popgen/selection forward-time simulation program <a href="http://sfscode.sourceforge.net/SFS_CODE/index/index.html">SFS_CODE</a>. The &ldquo;.h&rdquo; extension indicates that the compiler could not find an important header file, a kind of file that provides declarations and macros for the main source code of C/C++ software. Luckily, after zooming around online threads, I found the following very straightforward solution <a href="https://github.com/frida/frida/issues/338">here</a>: simply reinstall Xcode Command Line Tools. I did this by typing the following into Terminal and hitting return&hellip;</p>
+
+<pre><code>$ xcode-select --install
+</code></pre>
+
+<p>Next, I clicked &ldquo;Install&rdquo; and a window indicated when the install was complete. I then checked the install in Terminal by doing &ldquo;$ xcode-select -p&rdquo;&hellip;and voila! When I retried make in the software&rsquo;s distribution or src folder (e.g. the distribution folder in the case of SFS_CODE), I was at last able to get the software to build correctly and produce working executables. I hope this helps someone else who might run across the same or a similar problem.</p>
+
+<p>~J</p>
+
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <a href="/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+          </li>
+          <li>
+            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="/images/hugo-logo.png" width="22" height="22"></a>
+          </li>
+        <p class="m-0 text-center text-white">Copyright &copy; 2018 Justin C. Bagley</p>
+        </ul>
+      </footer>
+
+    </div>
+    
+
+
+
+<script src="//cdn.bootcss.com/highlight.js/9.11.0/highlight.min.js"></script>
+
+
+
+<script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/r.min.js"></script>
+<script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/yaml.min.js"></script>
+<script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+
+
+
+    
+<script src="/js/math-code.js"></script>
+<script async src="//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+
+    
+  </body>
+</html>
+

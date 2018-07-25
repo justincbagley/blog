@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Scientific Journals and Publishing on blog</title>
+    <link>/categories/scientific-journals-and-publishing/</link>
+    <description>Recent content in Scientific Journals and Publishing on blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 25 Nov 2015 12:47:36 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/scientific-journals-and-publishing/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cochrane&#39;s Aphorism for Molecular Ecologists</title>
+      <link>/2015/11/25/cochranes-aphorism-for-molecular-ecologists/</link>
+      <pubDate>Wed, 25 Nov 2015 12:47:36 +0000</pubDate>
+      
+      <guid>/2015/11/25/cochranes-aphorism-for-molecular-ecologists/</guid>
+      <description>An apparently commonly cited axiom in evidence-based medical science and statistics is &amp;ldquo;Cochrane&amp;rsquo;s Aphorism&amp;rdquo;, named for Archie Cochrane.
+Cochrane&amp;rsquo;s Aphorism states:
+ &amp;ldquo;Before ordering a test, decide what you will do if it is (1) positive or (2) negative. If both answers are the same, don&amp;rsquo;t take the
+test.&amp;rdquo;
+–Archie Cochrane
+ This quote is probably best known among doctors and nurses as an aid in making decisions about ordering laboratory tests for additional evidence, which published studies have shown is prone to overuse, redundancy, and sometimes also egregious errors.</description>
+    </item>
+    
+    <item>
+      <title>Bagley&#39;s Law of Scientific Publication Access</title>
+      <link>/2015/11/23/bagleys-law-scientific-publication-access/</link>
+      <pubDate>Mon, 23 Nov 2015 02:30:32 +0000</pubDate>
+      
+      <guid>/2015/11/23/bagleys-law-scientific-publication-access/</guid>
+      <description>Find Open Access scholarly articles online for free
+The topic is peer-reviewed scientific articles (primary or secondary literature). Also, we&amp;rsquo;ll assume that you&amp;rsquo;re not searching for a paper from an Open Access publisher. Let&amp;rsquo;s also assume that library holdings / subscriptions at your institution have gaps&amp;ndash;they do not cover every journal in your field over every possible time period.
+Then, Bagley&amp;rsquo;s Law of Scientific Publication Access is:
+ &amp;ldquo;When you need an article, you will not have free access to it, but you will have access to plenty of articles that you don&amp;rsquo;t want and you don&amp;rsquo;t need.</description>
+    </item>
+    
+  </channel>
+</rss>

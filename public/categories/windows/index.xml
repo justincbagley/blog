@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Windows on blog</title>
+    <link>/categories/windows/</link>
+    <description>Recent content in Windows on blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 17 Aug 2017 18:18:35 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/windows/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Getting BEAST2 Path Sampler analyses running on Windows 10</title>
+      <link>/2017/08/17/getting-beast2-path-sampler-analyses-running-windows-10/</link>
+      <pubDate>Thu, 17 Aug 2017 18:18:35 +0000</pubDate>
+      
+      <guid>/2017/08/17/getting-beast2-path-sampler-analyses-running-windows-10/</guid>
+      <description>BEAST2 PathSampler
+I am a relatively big Mac (UNIX) and Linux fan, as many of you know. So, my standard approach to running BEAST or BEAST2 is to use my Mac for local setup and testing and then employ shell scripts (effective wrappers) that I&amp;rsquo;ve developed to automate final run setup and queuing on a Linux supercomputing cluster. However, there are times, especially when running path sampling (PS) analysis (Larillot and Phillipe 2006; Baele et al.</description>
+    </item>
+    
+  </channel>
+</rss>

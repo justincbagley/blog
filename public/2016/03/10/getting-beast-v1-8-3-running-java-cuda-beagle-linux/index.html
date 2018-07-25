@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.44" />
+
+
+<title>Getting BEAST v1.8.3 running! Beagle, CUDA, Java, and LINUX - blog</title>
+<meta property="og:title" content="Getting BEAST v1.8.3 running! Beagle, CUDA, Java, and LINUX - blog">
+
+
+
+  
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/css/fonts.css" media="all">
+<link rel="stylesheet" href="/css/main.css" media="all">
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/" class="nav-logo">
+    <img src="/images/jselfie_logo.png"
+         width="50"
+         height="50"
+         alt="Logo">
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="/about/">About</a></li>
+    
+    <li><a href="https://github.com/justincbagley">GitHub</a></li>
+    
+    <li><a href="https://www.linkedin.com/in/justin-c-bagley-2a8a0523">LinkedIn</a></li>
+    
+    <li><a href="https://www.researchgate.net/profile/Justin_Bagley2">ResearchGate</a></li>
+    
+    <li><a href="https://twitter.com/justincbagley">Twitter</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">7 min read</span>
+    
+
+    <h1 class="article-title">Getting BEAST v1.8.3 running! Beagle, CUDA, Java, and LINUX</h1>
+
+    
+    <span class="article-date">2016/03/10</span>
+    
+
+    <div class="article-content">
+      <p>OK, I recently posted <a href="http://www.justinbagley.org/2083/new-version-beast-v1-8-3-released">here</a> about the new BEAST v1.8.3 release to let people know it was available (just echoing the announcement from Andrew Rambaut). Not sure about you, but when I get ahold of a new version of BEAST, I generally get it set up in my file system and try to run it. It&rsquo;s good to go into this type of thing with a little dose of skepticism, as in my experience new versions of BEAST contain bug fixes but also seem to introduce new bugs or problems that you can run into. I think this is why some users avoid the latest updates; I mean, I still see papers publishing analyses using BEAST 1.6.1, for example, which was released a couple of years ago. At any rate, a test run can be very illuminating, so I downloaded the updated BEAST distribution and tried testing a very simple xml input file that should definitely have run. Unfortunately, I found that BEAST wasn&rsquo;t running &ldquo;out of the box&rdquo; for me. Luckily, this was due to issues having nothing to do with the new version of BEAST!</p>
+
+<p>Here, I&rsquo;m going to detail how I encountered and overcame issues installing and running the new BEAST version. I hope this helps others set up BEAST on their computers and get it going. I&rsquo;m going to start with the download, then touch on Java, CUDA, Beagle, and putting BEAST on a LINUX-based supercomputing cluster. Some actions I&rsquo;ll cover may require admin privileges. If you don&rsquo;t feel like reading the whole post, here is a brief summary:</p>
+
+<p>Before using the new version of BEAST,</p>
+
+<ol>
+<li>update Java,</li>
+<li>update your Beagle library,</li>
+<li>update NVIDIA CUDA drivers, and</li>
+<li>put the UNIX/LINUX version of the updated BEAST software up on LINUX-based supercomputers and use it&hellip;</li>
+</ol>
+
+<p>While this is probably a good enough reminder for veteran users, BEAST beginners will want to read the _whole post that follows _if the topic of installing and running BEAST on mac or UNIX/LINUX is of interest.</p>
+
+<p><em><strong>Assumption: updated version of Java</strong></em></p>
+
+<p><em>NOTE:</em> Everything we&rsquo;ll go through below assumes that you have the most recent version of Java running on mac. Without an updated Java version, you might complete some of these installs and updates only to find that BEAST would fail to run on your system. So, before proceeding through the rest of the post, I recommend that you first stop and verify your version of java by <a href="https://www.java.com/en/download/installed.jsp">clicking here</a>, clicking &ldquo;Verify Java version&rdquo; button, and doing an install/update as needed based on the results&hellip;</p>
+
+<p>Also note that having older version of Java on your system <a href="https://groups.google.com/forum/?fromgroups#!topic/beast-users/rJdnQo6EHA0">could pose problems for running BEAST</a> (=beast-users Google group thread).</p>
+
+<p><em><strong>Problems from the start because of my mac</strong></em></p>
+
+<p>Given I use mac, I installed BEAST by downloading the 1.8.3 dmg file from the <a href="https://github.com/beast-dev/beast-mcmc/releases/tag/v1.8.3">BEAST v1.8.3 GitHub site</a> (see screenshots of site and links <em>below</em>) and opening it, then moving the new software files to a folder in my Applications directory.</p>
+
+<p><img src="/images/BEAST183_GitHub_links-e1457609581420-768x444.png" alt="BEAST183_GitHub" /></p>
+
+<p><img src="/images/BEAST183_GitHub_links-e1457609581420-768x444.png" alt="BEAST183 GitHub links" /></p>
+
+<p>My first attempt with BEAST v1.8.3 failed and resulted in several warnings and errors, one of the most significant of which was an exhortation to download the newest version of the Beagle library. I don&rsquo;t have a screenshot of the error, but it occurred near the top of the run log&hellip; (look for something that starts like this: &ldquo;WARNING: &hellip;&ldquo;). The moral of the story here is that when you get a new version of BEAST, you should automatically check to make sure you have an updated version of Beagle.</p>
+
+<p><em><strong>Updating Beagle&hellip;and CUDA drivers on mac</strong></em></p>
+
+<p><a href="https://github.com/beagle-dev/beagle-lib">Beagle</a> is a free, open source application programming interface (API) and library for phylogenetic inference calculations developed by Mark Suchard and Andrew Rambaut, and colleagues. The Beagle library was designed to help ease the computational burden of phylogenetic modeling with codon-based/partitioned models. By drawing on Graphical Processing Units (GPUs) and cores using Beagle, the authors found a vast increase in computation time for Bayesian phylogenetic inference, relative to runs using CPUs for computation (see papers describing the method/library <a href="http://tree.bio.ed.ac.uk/publications/390/">here</a> and <a href="http://sysbio.oxfordjournals.org/content/61/1/170.full.pdf+html">here</a>).</p>
+
+<p>Fortunately, updating Beagle is very simple. To do this, I went to the Beagle download site on GitHub, and, according to the properties of my Macbook Pro laptop, I downloaded the appropriate binary installers by clicking on the &ldquo;<a href="https://www.dropbox.com/s/11kgt2jlq3lzln3/BEAGLE-2.1.2.pkg">BEAGLE v2.1.2 for Mac OS X 10.6 and later</a>&rdquo; link, as shown in the screenshots <em>below right</em>.</p>
+
+<p><img src="/images/Beagle_readme_and_links-e1457609868462-768x466.png" alt="Beagle_readme_and_links" />
+<img src="/images/Beagle_lib_GitHub_front-e1457609837139-768x455.png" alt="Beagle_lib_GitHub_front" /></p>
+
+<p>Surprisingly, this took me to Dropbox (screenshot <em>below</em>), so you may need to create a Dropbox account to download the file. I already use Dropbox, so I just signed in and clicked &ldquo;Download&rdquo; to get the &ldquo;BEAGLE-2.1.2.pkg&rdquo; file. Once you have this file on mac, all you need to do is double click on it and click through the install windows. </p>
+
+<p><img src="/images/Beagle_Dropbox-e1457609900660-768x607.png" alt="Beagle_Dropbox" /></p>
+
+<p>It is tempting to assume that installing Beagle would be sufficient; however, this may not be the case. Why is that? Well, you&rsquo;ll probably want to run Beagle using a GPU, and so you will want to do one more step. If you look at the install instructions for Beagle, for example by clicking the &ldquo;<a href="https://github.com/beagle-dev/beagle-lib/wiki/MacInstallInstructions">Instructions for installing BEAGLE on Mac OS X</a>&rdquo; link for mac users, you will find that, beyond getting the most recent Beagle version, the authors recommend that you proceed in a second step to install/update the NVIDIA CUDA drivers for mac. You just simply go <a href="http://www.nvidia.com/object/mac-driver-archive.html">here</a> to get the updated drivers (top of list; screenshot <em>below right</em>), download and click on the new file to install CUDA. If you already have olderCUDA drivers on your mac, there&rsquo;s no need to uninstall or worry about potential issues with a new install (e.g. &ldquo;installing over&rdquo; previous versions); this is irrelevant for mac users, but I am unfamiliar with potential related issues on windows.</p>
+
+<p><img src="/images/CUDA_download-e1457609934135-768x386.png" alt="CUDA_download" /></p>
+
+<p>After installing the above Beagle and CUDA updates, my test file ran when trying BEAST v1.8.3 on my MacBook Pro! So, that was great news!! </p>
+
+<p>However, I don&rsquo;t actually run my final BEAST runs locally. I run BEAST on an enormous supercomputing cluster at the Brigham Young University <a href="https://marylou.byu.edu">Fulton Supercomputing Lab</a>. So, my next step was prepping and setting BEAST up on our cluster.</p>
+
+<p><strong>Setting the new BEAST up on a LINUX-based supercomputing cluster</strong></p>
+
+<p>As general comments, let me say that, with administrator access, you&rsquo;ll be able to do more and do it faster when you install new programs. But without superuser privileges you probably won&rsquo;t be able to follow the Beagle library install instructions for Linux given on GitHub, word for word. In this case, if you are also trying to get BEAST v1.8.3 / Beagle 2.1.2 up on a Linux-based supercomputing cluster, I recommend that you get with your cluster administrator or maintenance group and request that they do the install for you (first beagle, then BEAST). This would be the best practice.</p>
+
+<p>However, for those of you interested in a shortcut, t<em>he quickest and dirtiest way to proceed</em> if you already have an earlier version of Beagle installed on your cluster would be to simply skip the Beagle update, and add the new BEAST to your supercomputing account and run it. I tested whether the new version of BEAST would run with an older version of Beagle and found that it ran just fine!</p>
+
+<p>Either way, whether you update Beagle or not, you will want to update BEAST on your cluster by downloading the UNIX/LINUX binary and installing it. Remember, you can get the appropriate UNIX/LINUX download from the <a href="https://github.com/beast-dev/beast-mcmc/releases/tag/v1.8.3">BEAST v1.8.3 GitHub site</a>. Here, the correct file is the one with the &ldquo;.tgz&rdquo; extension (the site doesn&rsquo;t tell you this is for UNIX, but it is; the file with the &ldquo;.zip&rdquo; extension is for Windows machines). This will be opened and converted to a &ldquo;.tar&rdquo; file on mac, so you will just need to double click on that and install from there to get the new software folder. Then move the folder to the appropriate user or lib directory on your supercomputer and remember to point to it in your run scripts.</p>
+
+<p>~J</p>
+
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <a href="/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+          </li>
+          <li>
+            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="/images/hugo-logo.png" width="22" height="22"></a>
+          </li>
+        <p class="m-0 text-center text-white">Copyright &copy; 2018 Justin C. Bagley</p>
+        </ul>
+      </footer>
+
+    </div>
+    
+
+    
+
+    
+  </body>
+</html>
+

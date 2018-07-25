@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hms Beagle on blog</title>
+    <link>/tags/hms-beagle/</link>
+    <description>Recent content in Hms Beagle on blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 26 Dec 2017 17:28:55 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/hms-beagle/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A Very Darwin Christmas: Reminder to Evolutionary Biologists to Never Stop Exploring!</title>
+      <link>/2017/12/26/a-very-darwin-christmas-reminder-to-evolutionary-biologists-to-never-stop-exploring/</link>
+      <pubDate>Tue, 26 Dec 2017 17:28:55 +0000</pubDate>
+      
+      <guid>/2017/12/26/a-very-darwin-christmas-reminder-to-evolutionary-biologists-to-never-stop-exploring/</guid>
+      <description>To all of my colleagues, friends, and peeps in Evolutionary Biology, here is a belated Merry Christmas pic of #Darwin.
+Given his devotion to understanding nature, Charles Darwin gave up two years of his life to work as a naturalist aboard the HMS Beagle; the trip took ~5 yrs instead; and he logged this entry in his journal/book on his voyage while hoping to return to England soon (it would take several more months to actually make it back):</description>
+    </item>
+    
+  </channel>
+</rss>

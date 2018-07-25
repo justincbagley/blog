@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gcc on blog</title>
+    <link>/tags/gcc/</link>
+    <description>Recent content in Gcc on blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 06 Mar 2018 04:14:15 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/gcc/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>stdio.h file error during C/C&#43;&#43; software compilation on Mac</title>
+      <link>/2018/03/06/stdio-h-file-error-during-c-c-software-compilation-on-mac/</link>
+      <pubDate>Tue, 06 Mar 2018 04:14:15 +0000</pubDate>
+      
+      <guid>/2018/03/06/stdio-h-file-error-during-c-c-software-compilation-on-mac/</guid>
+      <description>Recently, back in February of 2018, I updated Xcode and installed the macOS High Sierra Supplemental Update as well. I was quite unhappy to find out that, following these updates, compiling software written in C/C++ using gcc (which was up to date!) seemed to be failing with a &amp;ldquo;stdio.h&amp;rdquo; file not found error, as follows:
+...fatal error: stdio.h: No such file or directory #import&amp;lt;stdio.h&amp;gt;; ^ 1 error generated. ...  The missing file was the same in multiple cases, for multiple software programs that I think included both the species tree inference software SVDquartets and the popgen/selection forward-time simulation program SFS_CODE.</description>
+    </item>
+    
+  </channel>
+</rss>

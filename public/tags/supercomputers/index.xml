@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Supercomputers on blog</title>
+    <link>/tags/supercomputers/</link>
+    <description>Recent content in Supercomputers on blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 17 Sep 2017 18:23:01 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/supercomputers/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How To Setup A Linux Supercomputer for RAD-seq</title>
+      <link>/2017/09/17/linux-supercomputer-rad-seq/</link>
+      <pubDate>Sun, 17 Sep 2017 18:23:01 +0000</pubDate>
+      
+      <guid>/2017/09/17/linux-supercomputer-rad-seq/</guid>
+      <description>Here, I&amp;rsquo;m sharing a Gist that I recently wrote, and just updated today, about setting up an account on a Linux supercomputer for analyzing RAD-seq data (e.g. from ddRAD-seq, 2bRAD methods).
+Here&amp;rsquo;s the Gist&amp;hellip;
+https://gist.github.com/justincbagley/84f5dae6f35926c0c30bfc1cbd82eb24
+Cheers ~J</description>
+    </item>
+    
+    <item>
+      <title>SSH clients and Linux command line for interacting with supercomputers during evolutionary analysis</title>
+      <link>/2013/03/13/ssh-clients-and-linux-command-line-for-interacting-with-supercomputers-during-evolutionary-analysis/</link>
+      <pubDate>Wed, 13 Mar 2013 14:05:00 +0000</pubDate>
+      
+      <guid>/2013/03/13/ssh-clients-and-linux-command-line-for-interacting-with-supercomputers-during-evolutionary-analysis/</guid>
+      <description>At the time of this writing, I am fortunate to be doing my PhD at BYU, which is a great environment to work on biogeography, systematics and evolution mainly because of the great people with similar interests that seem to always be attracted to the place. However, I am also very fortunate that at my institution we have excellent infrastructure and internal resources for conducting the highest quality research in molecular evolution and ecology.</description>
+    </item>
+    
+  </channel>
+</rss>

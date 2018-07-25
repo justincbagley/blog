@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Micropterus on blog</title>
+    <link>/tags/micropterus/</link>
+    <description>Recent content in Micropterus on blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 03 Aug 2010 22:49:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/micropterus/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Recent stuff - latest Micropterus sequences on GenBank</title>
+      <link>/2010/08/03/recent-stuff-latest-micropterus-sequences-on-genbank/</link>
+      <pubDate>Tue, 03 Aug 2010 22:49:00 +0000</pubDate>
+      
+      <guid>/2010/08/03/recent-stuff-latest-micropterus-sequences-on-genbank/</guid>
+      <description>Micropterus GenBank accessions
+http://www.ncbi.nlm.nih.gov/nuccore/DQ536425.1
+http://www.ncbi.nlm.nih.gov/nuccore/AF479273.1
+http://www.ncbi.nlm.nih.gov/nuccore/DQ451324.1
+TreeBase
+http://www.treebase.org/treebase-web/home.html;jsessionid=78F8E41715F6EC6FCC617320D767E872</description>
+    </item>
+    
+  </channel>
+</rss>

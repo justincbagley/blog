@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Phylogenetics on blog</title>
+    <link>/tags/phylogenetics/</link>
+    <description>Recent content in Phylogenetics on blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 06 Apr 2016 15:43:16 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/phylogenetics/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Automatically install or update all phylogenetics packages in R</title>
+      <link>/2016/04/06/simultaneously-install-phylogenetics-packages-in-r/</link>
+      <pubDate>Wed, 06 Apr 2016 15:43:16 +0000</pubDate>
+      
+      <guid>/2016/04/06/simultaneously-install-phylogenetics-packages-in-r/</guid>
+      <description>In case you are unaware of this trick, it is possible to simultaneously install or update all of the phylogenetics packages available in R in one fail swoop.
+A number of different CRAN Task Views have been created summarizing R packages and utilities for different fields of analysis or research. Luckily, there is not only a compilation of these located on the CRAN-R website here, but also Brian O&amp;rsquo;Meara (@omearabrian #omearabrian) has developed a nice CRAN Task View entitled &amp;ldquo;Phylogenetics, Especially Comparative Methods.</description>
+    </item>
+    
+    <item>
+      <title>New BEAST2 Tutorial that Rocks!</title>
+      <link>/2014/12/27/new-beast2-tutorial-rocks/</link>
+      <pubDate>Sat, 27 Dec 2014 17:02:23 +0000</pubDate>
+      
+      <guid>/2014/12/27/new-beast2-tutorial-rocks/</guid>
+      <description>There are few things that are more useful or necessary in evolutionary biology these days than learning new computational skills, including how to run software programs. For this, there are a variety of sources of information: journal articles (methods papers/sections), library books, online books (e-Books), workshops, online tutorials, and internet blogs like this one. Tutorials are among the best of these options given their practical focus, and because they often include step-by-step instructions with screenshots showing how to interact with GUIs, etc.</description>
+    </item>
+    
+    <item>
+      <title>New book on phylogenetic comparative analysis in R</title>
+      <link>/2014/04/30/new-book-phylogenetic-comparative-analysis-r/</link>
+      <pubDate>Wed, 30 Apr 2014 18:04:38 +0000</pubDate>
+      
+      <guid>/2014/04/30/new-book-phylogenetic-comparative-analysis-r/</guid>
+      <description>I just found out about this and it is definitely going on my Want List. Springer has just this year published Nick Swenson&amp;rsquo;s new book entitled Functional and Phylogenetic Ecology in R. This book looks very useful for anyone interested in phylogenetic analysis of ecological adaptation or diversity using the R environment. Check it out and buy it direct from Spring here.
+One cool thing about this book is that it provides examples on integrating R code with code/programs from Python and C.</description>
+    </item>
+    
+    <item>
+      <title>A comprehensive list of phylogenetics packages for R</title>
+      <link>/2013/10/27/a-comprehensive-list-of-phylogenetics-packages-for-r/</link>
+      <pubDate>Sun, 27 Oct 2013 19:25:00 +0000</pubDate>
+      
+      <guid>/2013/10/27/a-comprehensive-list-of-phylogenetics-packages-for-r/</guid>
+      <description>The packages
+Here is my comprehensive list of phylogenetics packages for R, with links to their websites (for some, links to support pages or more detailed information are provided in subsequent sections). The requirement for inclusion in the list is at least one function related to manipulation or analysis of phylogenetic data. Please E-mail me if you know of another program to add, or if you are developing a new package for phylogenetics in R.</description>
+    </item>
+    
+    <item>
+      <title>R functions for working with phylogenetic trees in packages ape, geiger, and caper: Part I</title>
+      <link>/2011/11/22/r-functions-for-working-with-phylogenetic-trees-in-packages-ape-geiger-and-caper-part-i/</link>
+      <pubDate>Tue, 22 Nov 2011 08:15:00 +0000</pubDate>
+      
+      <guid>/2011/11/22/r-functions-for-working-with-phylogenetic-trees-in-packages-ape-geiger-and-caper-part-i/</guid>
+      <description>OK, in this post I will be reviewing some R functions for phylogenetics, walking you through some ways of working with phylogenies within the R environment. First, install R (http://cran.r-project.org/) on your computer. Also install the phylogenetics packages APE (http://cran.r-project.org/web/packages/ape/index.html), geiger (http://cran.r-project.org/web/packages/geiger/index.html) and caper (http://cran.r-project.org/web/packages/caper/index.html) on your machine using links at these URLs, or using the &amp;lsquo;Install packages&amp;rsquo; option within the &amp;lsquo;Packages&amp;rsquo; dropdown menu of the R gui), in the appropriate library folder (e.</description>
+    </item>
+    
+  </channel>
+</rss>

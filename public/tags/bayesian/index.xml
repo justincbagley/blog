@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bayesian on blog</title>
+    <link>/tags/bayesian/</link>
+    <description>Recent content in Bayesian on blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 01 Sep 2015 02:41:34 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/bayesian/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A funny thing about IMa2 output (a lost 2011 blog post)</title>
+      <link>/2015/09/01/funny-thing-ima2-output/</link>
+      <pubDate>Tue, 01 Sep 2015 02:41:34 +0000</pubDate>
+      
+      <guid>/2015/09/01/funny-thing-ima2-output/</guid>
+      <description>Recently, I discovered something that I wrote about four years ago during the first part of my PhD, just 2 years or so after IMa2 had come out [around a year or so after Hey (2010)]. Back then, I was a little unhappy about the way parameters were coded, but now looking back, it&amp;rsquo;s actually kind of funny, so I decided to post this as a blog entry. I mean, I&amp;rsquo;ve published with this method and have a much better understanding of it now.</description>
+    </item>
+    
+    <item>
+      <title>New BEAST2 Tutorial that Rocks!</title>
+      <link>/2014/12/27/new-beast2-tutorial-rocks/</link>
+      <pubDate>Sat, 27 Dec 2014 17:02:23 +0000</pubDate>
+      
+      <guid>/2014/12/27/new-beast2-tutorial-rocks/</guid>
+      <description>There are few things that are more useful or necessary in evolutionary biology these days than learning new computational skills, including how to run software programs. For this, there are a variety of sources of information: journal articles (methods papers/sections), library books, online books (e-Books), workshops, online tutorials, and internet blogs like this one. Tutorials are among the best of these options given their practical focus, and because they often include step-by-step instructions with screenshots showing how to interact with GUIs, etc.</description>
+    </item>
+    
+  </channel>
+</rss>

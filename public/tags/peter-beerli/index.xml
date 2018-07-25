@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Peter Beerli on blog</title>
+    <link>/tags/peter-beerli/</link>
+    <description>Recent content in Peter Beerli on blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 04 Sep 2010 00:38:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/peter-beerli/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to use MIGRATE-N for phylogeography</title>
+      <link>/2010/09/04/how-to-use-migrate-n-for-phylogeography/</link>
+      <pubDate>Sat, 04 Sep 2010 00:38:00 +0000</pubDate>
+      
+      <guid>/2010/09/04/how-to-use-migrate-n-for-phylogeography/</guid>
+      <description>Introduction to MIGRATE-N One thing that makes this a great time to be involved in phylogeography is the exploding amount of data and quantitative methods available to workers. An important advance in the past 10 years has been the introduction of likelihood- and Bayesian inference-based methods for modeling gene flow, and for comparing models of gene flow, in population genetics. In particular, model-based coalescent methods are highly attractive. A method (or class of methods) that stems from statistical population genetics and is useful in phylogeography involves using coalescent gene genealogy samplers to estimate parameters based on variation across a huge number of gene trees representing estimates of probable ancestral patterns.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cuda on blog</title>
+    <link>/tags/cuda/</link>
+    <description>Recent content in Cuda on blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 10 Mar 2016 12:16:25 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/cuda/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Getting BEAST v1.8.3 running! Beagle, CUDA, Java, and LINUX</title>
+      <link>/2016/03/10/getting-beast-v1-8-3-running-java-cuda-beagle-linux/</link>
+      <pubDate>Thu, 10 Mar 2016 12:16:25 +0000</pubDate>
+      
+      <guid>/2016/03/10/getting-beast-v1-8-3-running-java-cuda-beagle-linux/</guid>
+      <description>OK, I recently posted here about the new BEAST v1.8.3 release to let people know it was available (just echoing the announcement from Andrew Rambaut). Not sure about you, but when I get ahold of a new version of BEAST, I generally get it set up in my file system and try to run it. It&amp;rsquo;s good to go into this type of thing with a little dose of skepticism, as in my experience new versions of BEAST contain bug fixes but also seem to introduce new bugs or problems that you can run into.</description>
+    </item>
+    
+  </channel>
+</rss>

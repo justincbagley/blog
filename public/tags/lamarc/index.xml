@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lamarc on blog</title>
+    <link>/tags/lamarc/</link>
+    <description>Recent content in Lamarc on blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 13 Dec 2013 19:04:34 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/lamarc/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>New version of Lamarc--Lamarc v2.1.9--now available!</title>
+      <link>/2013/12/13/new-version-lamarc-lamarc-v2-1-9-now-available/</link>
+      <pubDate>Fri, 13 Dec 2013 19:04:34 +0000</pubDate>
+      
+      <guid>/2013/12/13/new-version-lamarc-lamarc-v2-1-9-now-available/</guid>
+      <description>Yet again, a new version of an important piece of software for molecular ecologists, evolutionary biologists, and biogeographers has just become available. Mary Kuhner and colleagues have just released a new version of the software program Lamarc, a program that originally only implemented likelihood analysis but now implements ML and Bayesian algorithms for estimating population migration rates (gene flow), population sizes, exponential growth rates and recombination rates. You can download the most up-to-date version of Lamarc, Lamarc v2.</description>
+    </item>
+    
+  </channel>
+</rss>

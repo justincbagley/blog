@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bayesian Skygrid on blog</title>
+    <link>/tags/bayesian-skygrid/</link>
+    <description>Recent content in Bayesian Skygrid on blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Dec 2013 20:02:10 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/bayesian-skygrid/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>New version of Tracer - Tracer v1.6 - now available!</title>
+      <link>/2013/12/11/new-version-tracer-tracer-1-6-now-available/</link>
+      <pubDate>Wed, 11 Dec 2013 20:02:10 +0000</pubDate>
+      
+      <guid>/2013/12/11/new-version-tracer-tracer-1-6-now-available/</guid>
+      <description>OK, heads up everyone using BEAST, or interested in summarizing and analyzing the results of Bayesian analyses in other software programs! There is a new version of the program Tracer available at Andrew Rambaut&amp;rsquo;s website. You can obtain the new version of Tracer, Tracer v1.6 by downloading the appropriate version here. The new version supports several new features, and here is a list of the new stuff they&amp;rsquo;ve added to the program, taken from the website:</description>
+    </item>
+    
+  </channel>
+</rss>

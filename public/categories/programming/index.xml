@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Programming on blog</title>
+    <link>/categories/programming/</link>
+    <description>Recent content in Programming on blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 18 Aug 2017 19:16:27 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/programming/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Running AMOVA (analysis of molecular variance) on biallelic SNP data in R</title>
+      <link>/2017/08/18/running-amova-analysis-molecular-variance-biallelic-snp-data-r/</link>
+      <pubDate>Fri, 18 Aug 2017 19:16:27 +0000</pubDate>
+      
+      <guid>/2017/08/18/running-amova-analysis-molecular-variance-biallelic-snp-data-r/</guid>
+      <description>AMOVA in R Resources for conducting population genetic and phylogenetic analyses in the R computing environment are continually improving, and to date several packages have provided functions for estimating phi-statistics and hierarchical patterns of population variance partitioning using AMOVA (analysis of molecular variance; Quattro et al. 1992). The paper for the AMOVA method, penned by population geneticists Joe Quattro, Peter Smouse, and Laurent Excoffier, now has &amp;gt;12,000 citations, making it one of the most used and cited methods of all time in evolutionary genetic analysis; many people continue using this method, including me.</description>
+    </item>
+    
+    <item>
+      <title>Off to a good start: how to generate starting trees for BEAST analyses using R</title>
+      <link>/2013/10/10/off-to-a-good-start-how-to-generate-starting-trees-for-beast-analyses-using-r/</link>
+      <pubDate>Thu, 10 Oct 2013 20:35:00 +0000</pubDate>
+      
+      <guid>/2013/10/10/off-to-a-good-start-how-to-generate-starting-trees-for-beast-analyses-using-r/</guid>
+      <description>BEAST and user trees
+The program BEAST (e.g. latest release version v1.8.0; or v2.1.1; Drummond et al. 2012) is increasingly more and more popular and important in the fields of evolutionary biology and the biology of infectious diseases. When conducting MCMC simulations to simultaneously make phylogenetic inference and estimate divergence times, and/or coalescent model parameters (summary statistics) in BEAST, it is usually necessary, and desirable, to provide some form of calibrated tree priors.</description>
+    </item>
+    
+  </channel>
+</rss>

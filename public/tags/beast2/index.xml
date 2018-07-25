@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Beast2 on blog</title>
+    <link>/tags/beast2/</link>
+    <description>Recent content in Beast2 on blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 13 Sep 2017 11:40:35 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/beast2/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Analyzing ddRADseq Data in SNAPP</title>
+      <link>/2017/09/13/gist-ddradseq-data-snapp/</link>
+      <pubDate>Wed, 13 Sep 2017 11:40:35 +0000</pubDate>
+      
+      <guid>/2017/09/13/gist-ddradseq-data-snapp/</guid>
+      <description>](https://gist.github.com)
+Oh, SNAPP&amp;hellip;
+Over the last year, as I&amp;rsquo;ve become increasingly comfortable with GitHub, I&amp;rsquo;ve naturally shifted all of my note writing to Markdown language. During the process, I&amp;rsquo;ve started frequently jotting down useful notes related to analysis, code, or scientific computing as &amp;ldquo;Gists&amp;rdquo; on GitHub. In contrast to most repositories, Gists are small snippets of code or notes and are posted at gist.github.com rather than github.com. To date, I have published 8 Gists on topics as broad as Pandoc, ∂a∂i, SNAPP, and Markdown.</description>
+    </item>
+    
+    <item>
+      <title>Getting BEAST2 Path Sampler analyses running on Windows 10</title>
+      <link>/2017/08/17/getting-beast2-path-sampler-analyses-running-windows-10/</link>
+      <pubDate>Thu, 17 Aug 2017 18:18:35 +0000</pubDate>
+      
+      <guid>/2017/08/17/getting-beast2-path-sampler-analyses-running-windows-10/</guid>
+      <description>BEAST2 PathSampler
+I am a relatively big Mac (UNIX) and Linux fan, as many of you know. So, my standard approach to running BEAST or BEAST2 is to use my Mac for local setup and testing and then employ shell scripts (effective wrappers) that I&amp;rsquo;ve developed to automate final run setup and queuing on a Linux supercomputing cluster. However, there are times, especially when running path sampling (PS) analysis (Larillot and Phillipe 2006; Baele et al.</description>
+    </item>
+    
+    <item>
+      <title>Get the latest version of BEAST - v2.3.0 - then ask, &#34;Do you need it?&#34;</title>
+      <link>/2015/08/28/get-the-latest-version-of-beast-v2-3-0-then-ask-do-you-need-it/</link>
+      <pubDate>Fri, 28 Aug 2015 23:20:27 +0000</pubDate>
+      
+      <guid>/2015/08/28/get-the-latest-version-of-beast-v2-3-0-then-ask-do-you-need-it/</guid>
+      <description>Hi BEAST users subscribed to justinbagley.org. As what is for many of you an academic summer starts winding down its backslope, this is a little reminder that you should try and finish all the BEAST analyses you&amp;rsquo;ve been putting off, and in case you haven&amp;rsquo;t done so already you should consider updating to the latest version of BEAST2, v2.3.0, which was released in June. Make sure you also update to the most up-to-date java version too; don&amp;rsquo;t worry, after the update BEAST v2.</description>
+    </item>
+    
+    <item>
+      <title>Update to latest version of BEAST2 - v2.2.1</title>
+      <link>/2015/03/26/update-latest-version-beast2-v2-2-1/</link>
+      <pubDate>Thu, 26 Mar 2015 01:34:21 +0000</pubDate>
+      
+      <guid>/2015/03/26/update-latest-version-beast2-v2-2-1/</guid>
+      <description>Hi BEAST users subscribed to justinbagley.org. Here&amp;rsquo;s a note to serve as a little reminder that, when you have a moment, you should update your BEAST2 software package to the latest version, v2.2.1, which was released last week.
+As always, the new BEAST2 version works with the most up-to-date versions of java (e.g. version 8 update 31 from January, or version 8 update 40), which you no doubt have recently downloaded since they came out in the past three months.</description>
+    </item>
+    
+    <item>
+      <title>New BEAST2 Tutorial that Rocks!</title>
+      <link>/2014/12/27/new-beast2-tutorial-rocks/</link>
+      <pubDate>Sat, 27 Dec 2014 17:02:23 +0000</pubDate>
+      
+      <guid>/2014/12/27/new-beast2-tutorial-rocks/</guid>
+      <description>There are few things that are more useful or necessary in evolutionary biology these days than learning new computational skills, including how to run software programs. For this, there are a variety of sources of information: journal articles (methods papers/sections), library books, online books (e-Books), workshops, online tutorials, and internet blogs like this one. Tutorials are among the best of these options given their practical focus, and because they often include step-by-step instructions with screenshots showing how to interact with GUIs, etc.</description>
+    </item>
+    
+    <item>
+      <title>So you got a starting tree?  How to add it to your BEAST2 xml file and make it work for you</title>
+      <link>/2014/02/17/got-starting-tree-add-beast2-xml-file-make-work/</link>
+      <pubDate>Mon, 17 Feb 2014 04:46:23 +0000</pubDate>
+      
+      <guid>/2014/02/17/got-starting-tree-add-beast2-xml-file-make-work/</guid>
+      <description>I have now for several months been happily using BEAST2 instead of Beast 1.7.5 or 1.8.x&amp;ndash;I&amp;rsquo;m converted! Thus far, datasets have run surprisingly smoothly, but for some recent analyses I have tried to jump-start things and ensure proper likelihood values at the onset of runs by including a starting tree in my xml input file.
+Previously, I blogged about just how you might create such a starting tree that fits one or multiple calibration points in a BEAST analysis, by using penalized likelihood analysis (r8s) in R.</description>
+    </item>
+    
+  </channel>
+</rss>

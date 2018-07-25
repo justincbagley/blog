@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Caper on blog</title>
+    <link>/tags/caper/</link>
+    <description>Recent content in Caper on blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 22 Nov 2011 08:15:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/caper/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>R functions for working with phylogenetic trees in packages ape, geiger, and caper: Part I</title>
+      <link>/2011/11/22/r-functions-for-working-with-phylogenetic-trees-in-packages-ape-geiger-and-caper-part-i/</link>
+      <pubDate>Tue, 22 Nov 2011 08:15:00 +0000</pubDate>
+      
+      <guid>/2011/11/22/r-functions-for-working-with-phylogenetic-trees-in-packages-ape-geiger-and-caper-part-i/</guid>
+      <description>OK, in this post I will be reviewing some R functions for phylogenetics, walking you through some ways of working with phylogenies within the R environment. First, install R (http://cran.r-project.org/) on your computer. Also install the phylogenetics packages APE (http://cran.r-project.org/web/packages/ape/index.html), geiger (http://cran.r-project.org/web/packages/geiger/index.html) and caper (http://cran.r-project.org/web/packages/caper/index.html) on your machine using links at these URLs, or using the &amp;lsquo;Install packages&amp;rsquo; option within the &amp;lsquo;Packages&amp;rsquo; dropdown menu of the R gui), in the appropriate library folder (e.</description>
+    </item>
+    
+  </channel>
+</rss>

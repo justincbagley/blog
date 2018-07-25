@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Scientific Names on blog</title>
+    <link>/tags/scientific-names/</link>
+    <description>Recent content in Scientific Names on blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 02 Sep 2015 02:38:32 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/scientific-names/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Stupid common names: Tigerfish</title>
+      <link>/2015/09/02/tigerfish-have-stupidcommonnames/</link>
+      <pubDate>Wed, 02 Sep 2015 02:38:32 +0000</pubDate>
+      
+      <guid>/2015/09/02/tigerfish-have-stupidcommonnames/</guid>
+      <description>I posted this little graphic earlier @justincbagley to support the exposition of stupid common names on Twitter today (hashtag #stupidcommonnames).
+A guilty pleasure, but I had so much fun in the very short time I spent making it that I decided to also post it here. Go check the rest of the stupid common names other scientists have identified and have a good laugh. &amp;ldquo;Tigerfish&amp;rdquo;, or &amp;ldquo;Tiger Fish&amp;rdquo; is definitely a stupid name: these fish don&amp;rsquo;t look like tigers, aren&amp;rsquo;t codistributed with tigers, don&amp;rsquo;t interact with tigers, and generally aren&amp;rsquo;t really formally associated with tigers (or any other mammals, except human sport fishermen) in any way.</description>
+    </item>
+    
+  </channel>
+</rss>

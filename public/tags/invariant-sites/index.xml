@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Invariant Sites on blog</title>
+    <link>/tags/invariant-sites/</link>
+    <description>Recent content in Invariant Sites on blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 11 Oct 2016 19:52:55 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/invariant-sites/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Setting DNA substitution models in BEAST</title>
+      <link>/2016/10/11/setting-dna-substitution-models-beast/</link>
+      <pubDate>Tue, 11 Oct 2016 19:52:55 +0000</pubDate>
+      
+      <guid>/2016/10/11/setting-dna-substitution-models-beast/</guid>
+      <description>JC model of sequence evolution from TreeThinkers.
+BEAST (Bayesian Evolutionary Analysis Sampling Trees) software provides a growing set of clear options for specifying evolutionary models of DNA substitution for alignments loaded into the program. However, the set of models that are readily available and &amp;ldquo;spelled out&amp;rdquo; in drop-down menus in the BEAUti (Bayesian Evolutionary Analysis Utility) GUI is much smaller compared to the standard set of 11 substitution schemes considered by other software programs for model selection (giving rise to a total of 88 models in jModelTest, or 56 models in PartitionFinder).</description>
+    </item>
+    
+  </channel>
+</rss>

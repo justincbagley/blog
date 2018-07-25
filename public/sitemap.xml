@@ -1,378 +1,2612 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-<url>
-	<loc>https://justinbagley.rbind.io/</loc>
-	<lastmod>2018-07-18T05:36:43+00:00</lastmod>
-	<priority>1.00</priority>
-</url>
-<url>
-	<loc>https://justinbagley.rbind.io/about/</loc>
-	<lastmod>2018-07-18T05:36:43+00:00</lastmod>
-	<priority>0.80</priority>
-</url>
-<url>
-	<loc>https://justinbagley.rbind.io/2018/07/16/first-blogdown-post/</loc>
-	<lastmod>2018-07-18T05:36:43+00:00</lastmod>
-	<priority>0.80</priority>
-</url>
-<url>
-	<loc>https://justinbagley.rbind.io/2018/03/26/installing-r-for-user-on-a-centos-linux-supercomputer-account/</loc>
-	<lastmod>2018-07-18T05:36:43+00:00</lastmod>
-	<priority>0.80</priority>
-</url>
-<url>
-	<loc>https://justinbagley.rbind.io/2018/03/10/ddocent-install-successes-failures-on-linux-supercomputers/</loc>
-	<lastmod>2018-07-18T05:36:43+00:00</lastmod>
-	<priority>0.80</priority>
-</url>
-<url>
-	<loc>https://justinbagley.rbind.io/2018/03/07/testing-hypotheses-of-panamanian-frog-fish-diversification-now-out-peerj-preprints/</loc>
-	<lastmod>2018-07-18T05:36:43+00:00</lastmod>
-	<priority>0.80</priority>
-</url>
-<url>
-	<loc>https://justinbagley.rbind.io/2018/03/06/stdio-h-file-error-during-c-c-software-compilation-on-mac/</loc>
-	<lastmod>2018-07-18T05:36:43+00:00</lastmod>
-	<priority>0.80</priority>
-</url>
-<url>
-	<loc>https://justinbagley.rbind.io/2018/03/06/command-line-trash-how-to-delete-trash-and-inspect-files-from-the-cli/</loc>
-	<lastmod>2018-07-18T05:36:43+00:00</lastmod>
-	<priority>0.80</priority>
-</url>
-<url>
-	<loc>https://justinbagley.rbind.io/2017/12/26/a-very-darwin-christmas-reminder-to-evolutionary-biologists-to-never-stop-exploring/</loc>
-	<lastmod>2018-07-18T05:36:43+00:00</lastmod>
-	<priority>0.80</priority>
-</url>
-<url>
-	<loc>https://justinbagley.rbind.io/2017/09/17/linux-supercomputer-rad-seq/</loc>
-	<lastmod>2018-07-18T05:36:43+00:00</lastmod>
-	<priority>0.80</priority>
-</url>
-<url>
-	<loc>https://justinbagley.rbind.io/2017/09/13/gist-ddradseq-data-snapp/</loc>
-	<lastmod>2018-07-18T05:36:43+00:00</lastmod>
-	<priority>0.80</priority>
-</url>
-<url>
-	<loc>https://justinbagley.rbind.io/2017/08/18/running-amova-analysis-molecular-variance-biallelic-snp-data-r/</loc>
-	<lastmod>2018-07-18T05:36:43+00:00</lastmod>
-	<priority>0.80</priority>
-</url>
-<url>
-	<loc>https://justinbagley.rbind.io/2017/08/17/getting-beast2-path-sampler-analyses-running-windows-10/</loc>
-	<lastmod>2018-07-18T05:36:43+00:00</lastmod>
-	<priority>0.80</priority>
-</url>
-<url>
-	<loc>https://justinbagley.rbind.io/2017/06/28/data-mining-resources-for-species-distribution-modeling-and-macroecology/</loc>
-	<lastmod>2018-07-18T05:36:43+00:00</lastmod>
-	<priority>0.80</priority>
-</url>
-<url>
-	<loc>https://justinbagley.rbind.io/2016/10/11/setting-dna-substitution-models-beast/</loc>
-	<lastmod>2018-07-18T05:36:43+00:00</lastmod>
-	<priority>0.80</priority>
-</url>
-<url>
-	<loc>https://justinbagley.rbind.io/2016/04/06/simultaneously-install-phylogenetics-packages-in-r/</loc>
-	<lastmod>2018-07-18T05:36:43+00:00</lastmod>
-	<priority>0.80</priority>
-</url>
-<url>
-	<loc>https://justinbagley.rbind.io/2016/04/06/kill-r-process-without-forcing-r-quit-mac/</loc>
-	<lastmod>2018-07-18T05:36:43+00:00</lastmod>
-	<priority>0.80</priority>
-</url>
-<url>
-	<loc>https://justinbagley.rbind.io/2016/03/11/latest-beast-trace-beautiful-thing-ive-seen-today/</loc>
-	<lastmod>2018-07-18T05:36:43+00:00</lastmod>
-	<priority>0.80</priority>
-</url>
-<url>
-	<loc>https://justinbagley.rbind.io/2016/03/10/getting-beast-v1-8-3-running-java-cuda-beagle-linux/</loc>
-	<lastmod>2018-07-18T05:36:43+00:00</lastmod>
-	<priority>0.80</priority>
-</url>
-<url>
-	<loc>https://justinbagley.rbind.io/2016/03/01/dealing-negative-phylogenetic-branch-lengths-beast-starting-trees/</loc>
-	<lastmod>2018-07-18T05:36:43+00:00</lastmod>
-	<priority>0.80</priority>
-</url>
-<url>
-	<loc>https://justinbagley.rbind.io/2016/02/22/new-version-beast-v1-8-3-released/</loc>
-	<lastmod>2018-07-18T05:36:43+00:00</lastmod>
-	<priority>0.80</priority>
-</url>
-<url>
-	<loc>https://justinbagley.rbind.io/2015/12/17/update-beast-v2-3-2-released/</loc>
-	<lastmod>2018-07-18T05:36:43+00:00</lastmod>
-	<priority>0.80</priority>
-</url>
-<url>
-	<loc>https://justinbagley.rbind.io/2015/12/02/update-beast-v2-3-1/</loc>
-	<lastmod>2018-07-18T05:36:43+00:00</lastmod>
-	<priority>0.80</priority>
-</url>
-<url>
-	<loc>https://justinbagley.rbind.io/2015/11/25/cochranes-aphorism-for-molecular-ecologists/</loc>
-	<lastmod>2018-07-18T05:36:43+00:00</lastmod>
-	<priority>0.80</priority>
-</url>
-<url>
-	<loc>https://justinbagley.rbind.io/2015/11/23/bagleys-law-scientific-publication-access/</loc>
-	<lastmod>2018-07-18T05:36:43+00:00</lastmod>
-	<priority>0.80</priority>
-</url>
-<url>
-	<loc>https://justinbagley.rbind.io/2015/09/17/detecting-trait-dependent-shifts-dna-sequence-evolution-traitrate/</loc>
-	<lastmod>2018-07-18T05:36:43+00:00</lastmod>
-	<priority>0.80</priority>
-</url>
-<url>
-	<loc>https://justinbagley.rbind.io/2015/09/08/coding-general-data-types-with-ambiguities-in-beast-input-files/</loc>
-	<lastmod>2018-07-18T05:36:43+00:00</lastmod>
-	<priority>0.80</priority>
-</url>
-<url>
-	<loc>https://justinbagley.rbind.io/2015/09/02/tigerfish-have-stupidcommonnames/</loc>
-	<lastmod>2018-07-18T05:36:43+00:00</lastmod>
-	<priority>0.80</priority>
-</url>
-<url>
-	<loc>https://justinbagley.rbind.io/2015/09/01/funny-thing-ima2-output/</loc>
-	<lastmod>2018-07-18T05:36:43+00:00</lastmod>
-	<priority>0.80</priority>
-</url>
-<url>
-	<loc>https://justinbagley.rbind.io/2015/08/30/update-new-functions-for-generating-starting-trees-for-beast-or-starbeast-in-r/</loc>
-	<lastmod>2018-07-18T05:36:43+00:00</lastmod>
-	<priority>0.80</priority>
-</url>
-<url>
-	<loc>https://justinbagley.rbind.io/2015/08/28/get-the-latest-version-of-beast-v2-3-0-then-ask-do-you-need-it/</loc>
-	<lastmod>2018-07-18T05:36:43+00:00</lastmod>
-	<priority>0.80</priority>
-</url>
-<url>
-	<loc>https://justinbagley.rbind.io/2015/08/23/update-mesquite-plugin-reading-writing-nexml-format/</loc>
-	<lastmod>2018-07-18T05:36:43+00:00</lastmod>
-	<priority>0.80</priority>
-</url>
-<url>
-	<loc>https://justinbagley.rbind.io/2015/08/07/meeting-opportunity-dating-species-divergences-using-rocks-clocks/</loc>
-	<lastmod>2018-07-18T05:36:43+00:00</lastmod>
-	<priority>0.80</priority>
-</url>
-<url>
-	<loc>https://justinbagley.rbind.io/2015/03/26/update-latest-version-beast2-v2-2-1/</loc>
-	<lastmod>2018-07-18T05:36:43+00:00</lastmod>
-	<priority>0.80</priority>
-</url>
-<url>
-	<loc>https://justinbagley.rbind.io/2014/12/27/new-beast2-tutorial-rocks/</loc>
-	<lastmod>2018-07-18T05:36:43+00:00</lastmod>
-	<priority>0.80</priority>
-</url>
-<url>
-	<loc>https://justinbagley.rbind.io/2014/12/26/quickly-get-post-burnin-trees-beast-output-without-using-log-combiner-tree-annotator/</loc>
-	<lastmod>2018-07-18T05:36:43+00:00</lastmod>
-	<priority>0.80</priority>
-</url>
-<url>
-	<loc>https://justinbagley.rbind.io/2014/09/20/give-mac-relief-remove-sleepimage-file-using-terminal/</loc>
-	<lastmod>2018-07-18T05:36:43+00:00</lastmod>
-	<priority>0.80</priority>
-</url>
-<url>
-	<loc>https://justinbagley.rbind.io/2014/08/07/updated-links-beast-1-7-5-phylogeography-tutorials/</loc>
-	<lastmod>2018-07-18T05:36:43+00:00</lastmod>
-	<priority>0.80</priority>
-</url>
-<url>
-	<loc>https://justinbagley.rbind.io/2014/08/07/mesquite-website-yesterday-today-tomorrow/</loc>
-	<lastmod>2018-07-18T05:36:43+00:00</lastmod>
-	<priority>0.80</priority>
-</url>
-<url>
-	<loc>https://justinbagley.rbind.io/2014/04/30/new-book-phylogenetic-comparative-analysis-r/</loc>
-	<lastmod>2018-07-18T05:36:43+00:00</lastmod>
-	<priority>0.80</priority>
-</url>
-<url>
-	<loc>https://justinbagley.rbind.io/2014/04/30/cool-new-paper-phylogenetic-community-diversity-costa-rican-ants/</loc>
-	<lastmod>2018-07-18T05:36:43+00:00</lastmod>
-	<priority>0.80</priority>
-</url>
-<url>
-	<loc>https://justinbagley.rbind.io/2014/03/07/new-web-server-update-bayesian-ptp-species-delimitation-single-gene-tree/</loc>
-	<lastmod>2018-07-18T05:36:43+00:00</lastmod>
-	<priority>0.80</priority>
-</url>
-<url>
-	<loc>https://justinbagley.rbind.io/2014/02/17/got-starting-tree-add-beast2-xml-file-make-work/</loc>
-	<lastmod>2018-07-18T05:36:43+00:00</lastmod>
-	<priority>0.80</priority>
-</url>
-<url>
-	<loc>https://justinbagley.rbind.io/2014/02/08/lower-central-america-phylogeography-review-paper-gets-100-views-2-days-academia-edu/</loc>
-	<lastmod>2018-07-18T05:36:43+00:00</lastmod>
-	<priority>0.80</priority>
-</url>
-<url>
-	<loc>https://justinbagley.rbind.io/2013/12/13/new-version-lamarc-lamarc-v2-1-9-now-available/</loc>
-	<lastmod>2018-07-18T05:36:43+00:00</lastmod>
-	<priority>0.80</priority>
-</url>
-<url>
-	<loc>https://justinbagley.rbind.io/2013/12/11/new-version-tracer-tracer-1-6-now-available/</loc>
-	<lastmod>2018-07-18T05:36:43+00:00</lastmod>
-	<priority>0.80</priority>
-</url>
-<url>
-	<loc>https://justinbagley.rbind.io/2013/12/11/luke-mahler-visits-byu/</loc>
-	<lastmod>2018-07-18T05:36:43+00:00</lastmod>
-	<priority>0.80</priority>
-</url>
-<url>
-	<loc>https://justinbagley.rbind.io/2013/12/03/new-phyloseminar-adding-fossil-data-phylogenies/</loc>
-	<lastmod>2018-07-18T05:36:43+00:00</lastmod>
-	<priority>0.80</priority>
-</url>
-<url>
-	<loc>https://justinbagley.rbind.io/2013/11/27/outsource-next-generation-sequencing-runs-de-novo-snp-discovery-phylogenetics-phylogeography/</loc>
-	<lastmod>2018-07-18T05:36:43+00:00</lastmod>
-	<priority>0.80</priority>
-</url>
-<url>
-	<loc>https://justinbagley.rbind.io/2013/11/27/bryan-carstenss-phylogeography-talk-2012-molecular-ecology-symposium-1st-congress-evolutionary-biology-ottawa-canada/</loc>
-	<lastmod>2018-07-18T05:36:43+00:00</lastmod>
-	<priority>0.80</priority>
-</url>
-<url>
-	<loc>https://justinbagley.rbind.io/2013/11/18/software-carpentry-providing-training-open-access-material-self-paced-instruction-software-skills-researchers/</loc>
-	<lastmod>2018-07-18T05:36:43+00:00</lastmod>
-	<priority>0.80</priority>
-</url>
-<url>
-	<loc>https://justinbagley.rbind.io/2013/11/12/tracy-heath-visits-byu-biology-dept/</loc>
-	<lastmod>2018-07-18T05:36:43+00:00</lastmod>
-	<priority>0.80</priority>
-</url>
-<url>
-	<loc>https://justinbagley.rbind.io/2013/11/11/california-freshwater-fish-distribution-resources/</loc>
-	<lastmod>2018-07-18T05:36:43+00:00</lastmod>
-	<priority>0.80</priority>
-</url>
-<url>
-	<loc>https://justinbagley.rbind.io/2013/10/29/beastgen-a-new-program-for-creating-nexus-fasta-and-beast-xml-input-files-for-phylogenetics-software/</loc>
-	<lastmod>2018-07-18T05:36:43+00:00</lastmod>
-	<priority>0.80</priority>
-</url>
-<url>
-	<loc>https://justinbagley.rbind.io/2013/10/27/symphony-of-science-the-greatest-show-on-earth-a-music-video-about-e/</loc>
-	<lastmod>2018-07-18T05:36:43+00:00</lastmod>
-	<priority>0.80</priority>
-</url>
-<url>
-	<loc>https://justinbagley.rbind.io/2013/10/27/a-comprehensive-list-of-phylogenetics-packages-for-r/</loc>
-	<lastmod>2018-07-18T05:36:43+00:00</lastmod>
-	<priority>0.80</priority>
-</url>
-<url>
-	<loc>https://justinbagley.rbind.io/2013/10/25/do-journal-guidelines-discouraging-single-locus-papers-reflect-an-attitude-that-contributes-to-a-file-drawer-problem-in-phylogeography-and-phylogenetics/</loc>
-	<lastmod>2018-07-18T05:36:43+00:00</lastmod>
-	<priority>0.80</priority>
-</url>
-<url>
-	<loc>https://justinbagley.rbind.io/2013/10/10/off-to-a-good-start-how-to-generate-starting-trees-for-beast-analyses-using-r/</loc>
-	<lastmod>2018-07-18T05:36:43+00:00</lastmod>
-	<priority>0.80</priority>
-</url>
-<url>
-	<loc>https://justinbagley.rbind.io/2013/03/13/ssh-clients-and-linux-command-line-for-interacting-with-supercomputers-during-evolutionary-analysis/</loc>
-	<lastmod>2018-07-18T05:36:43+00:00</lastmod>
-	<priority>0.80</priority>
-</url>
-<url>
-	<loc>https://justinbagley.rbind.io/2011/11/22/r-functions-for-working-with-phylogenetic-trees-in-packages-ape-geiger-and-caper-part-i/</loc>
-	<lastmod>2018-07-18T05:36:43+00:00</lastmod>
-	<priority>0.80</priority>
-</url>
-<url>
-	<loc>https://justinbagley.rbind.io/2011/09/22/statistical-phylogeography-tutorial-1-coalescent-simulations-in-mesquite-part-i/</loc>
-	<lastmod>2018-07-18T05:36:43+00:00</lastmod>
-	<priority>0.80</priority>
-</url>
-<url>
-	<loc>https://justinbagley.rbind.io/2011/09/13/migrate-n-and-phylogeography-bayesian-priors-and-run-settings/</loc>
-	<lastmod>2018-07-18T05:36:43+00:00</lastmod>
-	<priority>0.80</priority>
-</url>
-<url>
-	<loc>https://justinbagley.rbind.io/2011/09/04/dna-polymorphism-indices-and-sampling/</loc>
-	<lastmod>2018-07-18T05:36:43+00:00</lastmod>
-	<priority>0.80</priority>
-</url>
-<url>
-	<loc>https://justinbagley.rbind.io/2011/09/01/beast-and-the-beast-basics-molecular-clocks-and-how-to-input-rates-into-beast/</loc>
-	<lastmod>2018-07-18T05:36:43+00:00</lastmod>
-	<priority>0.80</priority>
-</url>
-<url>
-	<loc>https://justinbagley.rbind.io/2011/08/12/estimated-cytb-and-rps7-mutation-rates-for-heterandria/</loc>
-	<lastmod>2018-07-18T05:36:43+00:00</lastmod>
-	<priority>0.80</priority>
-</url>
-<url>
-	<loc>https://justinbagley.rbind.io/2011/08/06/jmodeltest-will-not-run-with-single-quotes-around-tip-names/</loc>
-	<lastmod>2018-07-18T05:36:43+00:00</lastmod>
-	<priority>0.80</priority>
-</url>
-<url>
-	<loc>https://justinbagley.rbind.io/2011/08/05/new-garli-web-server-for-runs-in-the-cloud/</loc>
-	<lastmod>2018-07-18T05:36:43+00:00</lastmod>
-	<priority>0.80</priority>
-</url>
-<url>
-	<loc>https://justinbagley.rbind.io/2011/08/05/evolution-phylogenetics-and-phylogenetic-model-selection-jmodeltest-vs-dt_modsel/</loc>
-	<lastmod>2018-07-18T05:36:43+00:00</lastmod>
-	<priority>0.80</priority>
-</url>
-<url>
-	<loc>https://justinbagley.rbind.io/2011/07/19/in-only-so-many-words/</loc>
-	<lastmod>2018-07-18T05:36:43+00:00</lastmod>
-	<priority>0.80</priority>
-</url>
-<url>
-	<loc>https://justinbagley.rbind.io/2011/07/19/one-way-to-evaluate-incomplete-lineage-sorting-in-your-phylogenetic-or-phylogeographic-data/</loc>
-	<lastmod>2018-07-18T05:36:43+00:00</lastmod>
-	<priority>0.80</priority>
-</url>
-<url>
-	<loc>https://justinbagley.rbind.io/2010/09/04/how-to-use-migrate-n-for-phylogeography/</loc>
-	<lastmod>2018-07-18T05:36:43+00:00</lastmod>
-	<priority>0.80</priority>
-</url>
-<url>
-	<loc>https://justinbagley.rbind.io/2010/08/16/phylogenetic-hypotheses-testing/</loc>
-	<lastmod>2018-07-18T05:36:43+00:00</lastmod>
-	<priority>0.80</priority>
-</url>
-<url>
-	<loc>https://justinbagley.rbind.io/2010/08/07/phylogenetic-signal/</loc>
-	<lastmod>2018-07-18T05:36:43+00:00</lastmod>
-	<priority>0.80</priority>
-</url>
-<url>
-	<loc>https://justinbagley.rbind.io/2010/08/03/recent-stuff-latest-micropterus-sequences-on-genbank/</loc>
-	<lastmod>2018-07-18T05:36:43+00:00</lastmod>
-	<priority>0.80</priority>
-</url>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/2018/07/25/how-to-find-common-variants-in-multiple-vcf-files/</loc>
+    <lastmod>2018-07-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2018/07/25/picking-a-custom-search-engine-for-your-website/</loc>
+    <lastmod>2018-07-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/about/</loc>
+    <lastmod>2018-07-16T12:44:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2018/07/16/first-blogdown-post/</loc>
+    <lastmod>2018-07-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2018/03/26/installing-r-for-user-on-a-centos-linux-supercomputer-account/</loc>
+    <lastmod>2018-03-26T03:11:07+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2018/03/10/ddocent-install-successes-failures-on-linux-supercomputers/</loc>
+    <lastmod>2018-03-10T23:17:05+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2018/03/07/testing-hypotheses-of-panamanian-frog-fish-diversification-now-out-peerj-preprints/</loc>
+    <lastmod>2018-03-07T05:32:23+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2018/03/06/stdio-h-file-error-during-c-c-software-compilation-on-mac/</loc>
+    <lastmod>2018-03-06T04:14:15+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2018/03/06/command-line-trash-how-to-delete-trash-and-inspect-files-from-the-cli/</loc>
+    <lastmod>2018-03-06T03:49:42+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2017/12/26/a-very-darwin-christmas-reminder-to-evolutionary-biologists-to-never-stop-exploring/</loc>
+    <lastmod>2017-12-26T17:28:55+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2017/09/17/linux-supercomputer-rad-seq/</loc>
+    <lastmod>2017-09-17T18:23:01+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2017/09/13/gist-ddradseq-data-snapp/</loc>
+    <lastmod>2017-09-13T11:40:35+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2017/08/18/running-amova-analysis-molecular-variance-biallelic-snp-data-r/</loc>
+    <lastmod>2017-08-18T19:16:27+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2017/08/17/getting-beast2-path-sampler-analyses-running-windows-10/</loc>
+    <lastmod>2017-08-17T18:18:35+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2017/06/28/data-mining-resources-for-species-distribution-modeling-and-macroecology/</loc>
+    <lastmod>2017-06-28T01:49:20+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2016/10/11/setting-dna-substitution-models-beast/</loc>
+    <lastmod>2016-10-11T19:52:55+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2016/04/06/simultaneously-install-phylogenetics-packages-in-r/</loc>
+    <lastmod>2016-04-06T15:43:16+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2016/04/06/kill-r-process-without-forcing-r-quit-mac/</loc>
+    <lastmod>2016-04-06T15:22:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2016/03/11/latest-beast-trace-beautiful-thing-ive-seen-today/</loc>
+    <lastmod>2016-03-11T12:00:01+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2016/03/10/getting-beast-v1-8-3-running-java-cuda-beagle-linux/</loc>
+    <lastmod>2016-03-10T12:16:25+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2016/03/01/dealing-negative-phylogenetic-branch-lengths-beast-starting-trees/</loc>
+    <lastmod>2016-03-01T21:43:35+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2016/02/22/new-version-beast-v1-8-3-released/</loc>
+    <lastmod>2016-02-22T17:10:32+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2015/12/17/update-beast-v2-3-2-released/</loc>
+    <lastmod>2015-12-17T13:04:58+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2015/12/02/update-beast-v2-3-1/</loc>
+    <lastmod>2015-12-02T12:25:54+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2015/11/25/cochranes-aphorism-for-molecular-ecologists/</loc>
+    <lastmod>2015-11-25T12:47:36+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2015/11/23/bagleys-law-scientific-publication-access/</loc>
+    <lastmod>2015-11-23T02:30:32+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2015/09/17/detecting-trait-dependent-shifts-dna-sequence-evolution-traitrate/</loc>
+    <lastmod>2015-09-17T15:06:20+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2015/09/08/coding-general-data-types-with-ambiguities-in-beast-input-files/</loc>
+    <lastmod>2015-09-08T03:07:12+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2015/09/02/tigerfish-have-stupidcommonnames/</loc>
+    <lastmod>2015-09-02T02:38:32+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2015/09/01/funny-thing-ima2-output/</loc>
+    <lastmod>2015-09-01T02:41:34+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2015/08/30/update-new-functions-for-generating-starting-trees-for-beast-or-starbeast-in-r/</loc>
+    <lastmod>2015-08-30T02:55:29+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2015/08/28/get-the-latest-version-of-beast-v2-3-0-then-ask-do-you-need-it/</loc>
+    <lastmod>2015-08-28T23:20:27+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2015/08/23/update-mesquite-plugin-reading-writing-nexml-format/</loc>
+    <lastmod>2015-08-23T13:58:21+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2015/08/07/meeting-opportunity-dating-species-divergences-using-rocks-clocks/</loc>
+    <lastmod>2015-08-07T01:12:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2015/03/26/update-latest-version-beast2-v2-2-1/</loc>
+    <lastmod>2015-03-26T01:34:21+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2014/12/27/new-beast2-tutorial-rocks/</loc>
+    <lastmod>2014-12-27T17:02:23+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2014/12/26/quickly-get-post-burnin-trees-beast-output-without-using-log-combiner-tree-annotator/</loc>
+    <lastmod>2014-12-26T11:06:40+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2014/09/20/give-mac-relief-remove-sleepimage-file-using-terminal/</loc>
+    <lastmod>2014-09-20T19:39:38+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2014/08/07/updated-links-beast-1-7-5-phylogeography-tutorials/</loc>
+    <lastmod>2014-08-07T20:59:25+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2014/08/07/mesquite-website-yesterday-today-tomorrow/</loc>
+    <lastmod>2014-08-07T18:11:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2014/04/30/new-book-phylogenetic-comparative-analysis-r/</loc>
+    <lastmod>2014-04-30T18:04:38+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2014/04/30/cool-new-paper-phylogenetic-community-diversity-costa-rican-ants/</loc>
+    <lastmod>2014-04-30T17:30:36+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2014/03/07/new-web-server-update-bayesian-ptp-species-delimitation-single-gene-tree/</loc>
+    <lastmod>2014-03-07T16:05:31+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2014/02/17/got-starting-tree-add-beast2-xml-file-make-work/</loc>
+    <lastmod>2014-02-17T04:46:23+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2014/02/08/lower-central-america-phylogeography-review-paper-gets-100-views-2-days-academia-edu/</loc>
+    <lastmod>2014-02-08T07:54:08+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2013/12/13/new-version-lamarc-lamarc-v2-1-9-now-available/</loc>
+    <lastmod>2013-12-13T19:04:34+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2013/12/11/new-version-tracer-tracer-1-6-now-available/</loc>
+    <lastmod>2013-12-11T20:02:10+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2013/12/11/luke-mahler-visits-byu/</loc>
+    <lastmod>2013-12-11T19:58:27+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2013/12/03/new-phyloseminar-adding-fossil-data-phylogenies/</loc>
+    <lastmod>2013-12-03T19:19:42+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2013/11/27/outsource-next-generation-sequencing-runs-de-novo-snp-discovery-phylogenetics-phylogeography/</loc>
+    <lastmod>2013-11-27T04:33:44+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2013/11/27/bryan-carstenss-phylogeography-talk-2012-molecular-ecology-symposium-1st-congress-evolutionary-biology-ottawa-canada/</loc>
+    <lastmod>2013-11-27T01:05:02+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2013/11/18/software-carpentry-providing-training-open-access-material-self-paced-instruction-software-skills-researchers/</loc>
+    <lastmod>2013-11-18T00:22:53+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2013/11/12/tracy-heath-visits-byu-biology-dept/</loc>
+    <lastmod>2013-11-12T00:09:21+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2013/11/11/california-freshwater-fish-distribution-resources/</loc>
+    <lastmod>2013-11-11T05:40:53+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2013/10/29/beastgen-a-new-program-for-creating-nexus-fasta-and-beast-xml-input-files-for-phylogenetics-software/</loc>
+    <lastmod>2013-10-29T15:36:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2013/10/27/symphony-of-science-the-greatest-show-on-earth-a-music-video-about-e/</loc>
+    <lastmod>2013-10-27T19:55:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2013/10/27/a-comprehensive-list-of-phylogenetics-packages-for-r/</loc>
+    <lastmod>2013-10-27T19:25:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2013/10/25/do-journal-guidelines-discouraging-single-locus-papers-reflect-an-attitude-that-contributes-to-a-file-drawer-problem-in-phylogeography-and-phylogenetics/</loc>
+    <lastmod>2013-10-25T06:22:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2013/10/10/off-to-a-good-start-how-to-generate-starting-trees-for-beast-analyses-using-r/</loc>
+    <lastmod>2013-10-10T20:35:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2013/03/13/ssh-clients-and-linux-command-line-for-interacting-with-supercomputers-during-evolutionary-analysis/</loc>
+    <lastmod>2013-03-13T14:05:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2011/11/22/r-functions-for-working-with-phylogenetic-trees-in-packages-ape-geiger-and-caper-part-i/</loc>
+    <lastmod>2011-11-22T08:15:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2011/09/22/statistical-phylogeography-tutorial-1-coalescent-simulations-in-mesquite-part-i/</loc>
+    <lastmod>2011-09-22T16:51:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2011/09/13/migrate-n-and-phylogeography-bayesian-priors-and-run-settings/</loc>
+    <lastmod>2011-09-13T14:56:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2011/09/04/dna-polymorphism-indices-and-sampling/</loc>
+    <lastmod>2011-09-04T06:53:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2011/09/01/beast-and-the-beast-basics-molecular-clocks-and-how-to-input-rates-into-beast/</loc>
+    <lastmod>2011-09-01T23:38:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2011/08/12/estimated-cytb-and-rps7-mutation-rates-for-heterandria/</loc>
+    <lastmod>2011-08-12T15:01:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2011/08/06/jmodeltest-will-not-run-with-single-quotes-around-tip-names/</loc>
+    <lastmod>2011-08-06T14:20:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2011/08/05/new-garli-web-server-for-runs-in-the-cloud/</loc>
+    <lastmod>2011-08-05T19:41:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2011/08/05/evolution-phylogenetics-and-phylogenetic-model-selection-jmodeltest-vs-dt_modsel/</loc>
+    <lastmod>2011-08-05T18:50:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2011/07/19/in-only-so-many-words/</loc>
+    <lastmod>2011-07-19T13:52:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2011/07/19/one-way-to-evaluate-incomplete-lineage-sorting-in-your-phylogenetic-or-phylogeographic-data/</loc>
+    <lastmod>2011-07-19T04:20:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2010/09/04/how-to-use-migrate-n-for-phylogeography/</loc>
+    <lastmod>2010-09-04T00:38:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2010/08/16/phylogenetic-hypotheses-testing/</loc>
+    <lastmod>2010-08-16T01:56:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2010/08/07/phylogenetic-signal/</loc>
+    <lastmod>2010-08-07T22:21:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2010/08/03/recent-stuff-latest-micropterus-sequences-on-genbank/</loc>
+    <lastmod>2010-08-03T22:49:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/academia.edu/</loc>
+    <lastmod>2014-02-08T07:54:08+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/adegenet/</loc>
+    <lastmod>2017-08-18T19:16:27+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/adegenet/</loc>
+    <lastmod>2017-08-18T19:16:27+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/alex-pyron/</loc>
+    <lastmod>2015-09-08T03:07:12+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/alignment/</loc>
+    <lastmod>2017-09-13T11:40:35+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/ambiguity-code/</loc>
+    <lastmod>2015-09-08T03:07:12+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/amova/</loc>
+    <lastmod>2017-08-18T19:16:27+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/ape/</loc>
+    <lastmod>2011-11-22T08:15:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/ape/</loc>
+    <lastmod>2016-03-01T21:43:35+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/aphorisms/</loc>
+    <lastmod>2015-11-25T12:47:36+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/api/</loc>
+    <lastmod>2018-07-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/apt/</loc>
+    <lastmod>2018-03-26T03:11:07+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/article/</loc>
+    <lastmod>2018-03-07T05:32:23+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/axioms/</loc>
+    <lastmod>2015-11-25T12:47:36+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/bagleys-law/</loc>
+    <lastmod>2015-11-23T02:30:32+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/bash/</loc>
+    <lastmod>2018-03-10T23:17:05+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/bayes-factor/</loc>
+    <lastmod>2016-03-11T12:00:01+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/bayes-factor-species-delimitation/</loc>
+    <lastmod>2016-03-11T12:00:01+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/bayesian/</loc>
+    <lastmod>2016-10-11T19:52:55+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/bayesian/</loc>
+    <lastmod>2015-09-01T02:41:34+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/bayesian-phylogenetics/</loc>
+    <lastmod>2011-09-01T23:38:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/bayesian-skygrid/</loc>
+    <lastmod>2013-12-11T20:02:10+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/bcftools/</loc>
+    <lastmod>2018-07-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/beagle/</loc>
+    <lastmod>2017-08-17T18:18:35+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/beagle/</loc>
+    <lastmod>2017-08-17T18:18:35+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/beast/</loc>
+    <lastmod>2017-08-17T18:18:35+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/beast/</loc>
+    <lastmod>2017-09-13T11:40:35+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/beast2/</loc>
+    <lastmod>2017-09-13T11:40:35+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/beauti/</loc>
+    <lastmod>2016-10-11T19:52:55+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/beauti/</loc>
+    <lastmod>2017-09-13T11:40:35+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/bfd/</loc>
+    <lastmod>2016-03-11T12:00:01+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/biallelic-snps/</loc>
+    <lastmod>2017-08-18T19:16:27+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/bioconda/</loc>
+    <lastmod>2018-03-26T03:11:07+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/blog-posts/</loc>
+    <lastmod>2018-07-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/blogdown/</loc>
+    <lastmod>2018-07-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/books/</loc>
+    <lastmod>2014-04-30T18:04:38+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/books/</loc>
+    <lastmod>2014-04-30T18:04:38+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/bootstrap/</loc>
+    <lastmod>2018-07-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/branch-lengths/</loc>
+    <lastmod>2016-03-01T21:43:35+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/brian-omeara/</loc>
+    <lastmod>2016-04-06T15:43:16+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/bryan-carstens/</loc>
+    <lastmod>2013-11-27T01:05:02+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/byu/</loc>
+    <lastmod>2013-12-11T19:58:27+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/c/</loc>
+    <lastmod>2018-03-06T04:14:15+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/calibration-points/</loc>
+    <lastmod>2015-08-30T02:55:29+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/california/</loc>
+    <lastmod>2013-11-11T05:40:53+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/caper/</loc>
+    <lastmod>2011-11-22T08:15:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+    <lastmod>2017-08-18T19:16:27+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/characiformes/</loc>
+    <lastmod>2015-09-02T02:38:32+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/charles-darwin/</loc>
+    <lastmod>2017-12-26T17:28:55+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/charles-darwin/</loc>
+    <lastmod>2017-12-26T17:28:55+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/christmas/</loc>
+    <lastmod>2017-12-26T17:28:55+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/chronogram/</loc>
+    <lastmod>2015-08-30T02:55:29+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/chronopl/</loc>
+    <lastmod>2013-10-10T20:35:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/cleaning/</loc>
+    <lastmod>2014-09-20T19:39:38+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/climate/</loc>
+    <lastmod>2017-06-28T01:49:20+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/climate/</loc>
+    <lastmod>2017-06-28T01:49:20+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/cluster/</loc>
+    <lastmod>2013-03-13T14:05:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/coalescent/</loc>
+    <lastmod>2011-09-22T16:51:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/coalescent-based-species-delimitation/</loc>
+    <lastmod>2014-03-07T16:05:31+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/coalescent-model/</loc>
+    <lastmod>2014-03-07T16:05:31+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/cochranes-aphorism/</loc>
+    <lastmod>2015-11-25T12:47:36+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/code/</loc>
+    <lastmod>2018-07-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/code/</loc>
+    <lastmod>2014-04-30T18:04:38+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/command-line/</loc>
+    <lastmod>2018-07-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/command-line/</loc>
+    <lastmod>2018-03-26T03:11:07+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/common-names/</loc>
+    <lastmod>2015-09-02T02:38:32+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/community-ecology/</loc>
+    <lastmod>2014-04-30T18:04:38+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/comparative-methods/</loc>
+    <lastmod>2015-09-17T15:06:20+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/compiling-software/</loc>
+    <lastmod>2018-03-26T03:11:07+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/compute/</loc>
+    <lastmod>2013-03-13T14:05:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/conda/</loc>
+    <lastmod>2018-03-26T03:11:07+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/condarc/</loc>
+    <lastmod>2018-03-10T23:17:05+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/conference/</loc>
+    <lastmod>2013-11-27T01:05:02+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/configuration/</loc>
+    <lastmod>2018-03-10T23:17:05+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/cpu/</loc>
+    <lastmod>2016-04-06T15:22:18+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/cran/</loc>
+    <lastmod>2016-04-06T15:43:16+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/ctv/</loc>
+    <lastmod>2016-04-06T15:43:16+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/cuda/</loc>
+    <lastmod>2016-03-10T12:16:25+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/dambe/</loc>
+    <lastmod>2015-08-23T13:58:21+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/darwin/</loc>
+    <lastmod>2017-12-26T17:28:55+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/data/</loc>
+    <lastmod>2017-08-18T19:16:27+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/data-analysis/</loc>
+    <lastmod>2018-07-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/data-collection/</loc>
+    <lastmod>2013-11-27T04:33:44+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/data-layers/</loc>
+    <lastmod>2017-06-28T01:49:20+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/data-mining/</loc>
+    <lastmod>2017-06-28T01:49:20+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/ddocent/</loc>
+    <lastmod>2018-03-10T23:17:05+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/ddocent/</loc>
+    <lastmod>2018-03-10T23:17:05+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/ddrad-seq/</loc>
+    <lastmod>2018-03-10T23:17:05+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/ddrad-seq/</loc>
+    <lastmod>2017-09-17T18:23:01+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/delete/</loc>
+    <lastmod>2018-03-06T03:49:42+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/development/</loc>
+    <lastmod>2018-07-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/development/</loc>
+    <lastmod>2018-07-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/divergence-dating/</loc>
+    <lastmod>2015-08-07T01:12:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/divergence-times/</loc>
+    <lastmod>2015-08-30T02:55:29+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/dna/</loc>
+    <lastmod>2013-11-27T04:33:44+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/dna-polymorphism/</loc>
+    <lastmod>2011-09-04T06:53:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/dna-sequence/</loc>
+    <lastmod>2011-09-04T06:53:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/dna-sequences/</loc>
+    <lastmod>2015-09-17T15:06:20+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/download/</loc>
+    <lastmod>2016-03-10T12:16:25+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/ecology/</loc>
+    <lastmod>2017-06-28T01:49:20+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/education/</loc>
+    <lastmod>2013-11-18T00:22:53+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/error/</loc>
+    <lastmod>2018-03-26T03:11:07+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/error-reporting/</loc>
+    <lastmod>2015-12-17T13:04:58+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/evolutionary-analysis/</loc>
+    <lastmod>2014-12-27T17:02:23+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/exelixis-lab/</loc>
+    <lastmod>2014-03-07T16:05:31+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/explore/</loc>
+    <lastmod>2017-12-26T17:28:55+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/f81/</loc>
+    <lastmod>2016-10-11T19:52:55+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/fasta/</loc>
+    <lastmod>2013-10-29T15:36:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/fastq/</loc>
+    <lastmod>2017-09-13T11:40:35+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/fastqc/</loc>
+    <lastmod>2017-09-13T11:40:35+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/file/</loc>
+    <lastmod>2018-03-10T23:17:05+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/force-quit/</loc>
+    <lastmod>2016-04-06T15:22:18+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/fossils/</loc>
+    <lastmod>2015-08-07T01:12:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/free/</loc>
+    <lastmod>2018-07-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/freshwater-fishes/</loc>
+    <lastmod>2013-11-11T05:40:53+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/function/</loc>
+    <lastmod>2018-07-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/gamma/</loc>
+    <lastmod>2016-10-11T19:52:55+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/gcc/</loc>
+    <lastmod>2018-03-06T04:14:15+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/geiger/</loc>
+    <lastmod>2011-11-22T08:15:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/gene-flow/</loc>
+    <lastmod>2011-09-13T14:56:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/gene-tree/</loc>
+    <lastmod>2011-09-22T16:51:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/gene-trees/</loc>
+    <lastmod>2011-09-22T16:51:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/generaldatatype/</loc>
+    <lastmod>2015-09-08T03:07:12+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/genetic-divergence/</loc>
+    <lastmod>2011-09-04T06:53:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/geospatial/</loc>
+    <lastmod>2017-06-28T01:49:20+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/gis/</loc>
+    <lastmod>2017-06-28T01:49:20+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/gis/</loc>
+    <lastmod>2017-06-28T01:49:20+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/gist/</loc>
+    <lastmod>2017-09-17T18:23:01+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/gist/</loc>
+    <lastmod>2017-09-17T18:23:01+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/github/</loc>
+    <lastmod>2017-09-17T18:23:01+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/github/</loc>
+    <lastmod>2017-09-13T11:40:35+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/gmyc/</loc>
+    <lastmod>2014-03-07T16:05:31+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/grep/</loc>
+    <lastmod>2016-03-01T21:43:35+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/gtr/</loc>
+    <lastmod>2016-10-11T19:52:55+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/header/</loc>
+    <lastmod>2018-03-06T04:14:15+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/hky/</loc>
+    <lastmod>2016-10-11T19:52:55+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/hms-beagle/</loc>
+    <lastmod>2017-12-26T17:28:55+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/hypothesis/</loc>
+    <lastmod>2010-08-16T01:56:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/im/</loc>
+    <lastmod>2015-09-01T02:41:34+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/ima2/</loc>
+    <lastmod>2015-09-01T02:41:34+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/ima2/</loc>
+    <lastmod>2015-09-01T02:41:34+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/incomplete-lineage-sorting/</loc>
+    <lastmod>2011-07-19T04:20:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/input-file/</loc>
+    <lastmod>2013-10-29T15:36:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/inspect/</loc>
+    <lastmod>2018-03-06T03:49:42+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/install/</loc>
+    <lastmod>2018-03-26T03:11:07+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/installation/</loc>
+    <lastmod>2017-09-17T18:23:01+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/intersection/</loc>
+    <lastmod>2018-07-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/invariant-sites/</loc>
+    <lastmod>2016-10-11T19:52:55+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/isec/</loc>
+    <lastmod>2018-07-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/java/</loc>
+    <lastmod>2017-08-17T18:18:35+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/java/</loc>
+    <lastmod>2017-09-17T18:23:01+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/jc69/</loc>
+    <lastmod>2016-10-11T19:52:55+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/jiajie-zhang/</loc>
+    <lastmod>2014-03-07T16:05:31+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/jmodeltest/</loc>
+    <lastmod>2011-08-06T14:20:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/jmodeltest/</loc>
+    <lastmod>2011-08-06T14:20:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/jody-hey/</loc>
+    <lastmod>2015-09-01T02:41:34+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/journals/</loc>
+    <lastmod>2015-11-23T02:30:32+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/justin-bagley/</loc>
+    <lastmod>2014-02-08T07:54:08+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/k80/</loc>
+    <lastmod>2016-10-11T19:52:55+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/kill/</loc>
+    <lastmod>2016-04-06T15:22:18+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/lacey-knowles/</loc>
+    <lastmod>2011-07-19T04:20:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/lamarc/</loc>
+    <lastmod>2013-12-13T19:04:34+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/libiconv/</loc>
+    <lastmod>2018-03-26T03:11:07+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/library/</loc>
+    <lastmod>2018-03-26T03:11:07+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/likelihood/</loc>
+    <lastmod>2016-03-11T12:00:01+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/linux/</loc>
+    <lastmod>2018-03-26T03:11:07+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/linux/</loc>
+    <lastmod>2018-07-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/lists/</loc>
+    <lastmod>2013-10-27T19:25:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/lower-central-america/</loc>
+    <lastmod>2014-02-08T07:54:08+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/mac/</loc>
+    <lastmod>2018-03-06T04:14:15+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/mac/</loc>
+    <lastmod>2016-04-06T15:22:18+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/macbook-pro/</loc>
+    <lastmod>2014-09-20T19:39:38+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/macroecology/</loc>
+    <lastmod>2017-06-28T01:49:20+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/macroecology/</loc>
+    <lastmod>2017-06-28T01:49:20+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/macroevolution/</loc>
+    <lastmod>2015-09-17T15:06:20+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/manuscript/</loc>
+    <lastmod>2018-03-07T05:32:23+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/maps/</loc>
+    <lastmod>2017-06-28T01:49:20+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/marginal-likelihood-estimate/</loc>
+    <lastmod>2016-03-11T12:00:01+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/markdown/</loc>
+    <lastmod>2018-07-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/mary-kuhner/</loc>
+    <lastmod>2013-12-13T19:04:34+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/maximum-likelihood/</loc>
+    <lastmod>2015-09-17T15:06:20+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/meeting/</loc>
+    <lastmod>2015-08-07T01:12:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/memory/</loc>
+    <lastmod>2018-03-10T23:17:05+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/mesquite/</loc>
+    <lastmod>2014-08-07T18:11:18+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/mesquite/</loc>
+    <lastmod>2015-08-23T13:58:21+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/micropterus/</loc>
+    <lastmod>2010-08-03T22:49:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/migrate-n/</loc>
+    <lastmod>2011-09-13T14:56:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/migrate-n/</loc>
+    <lastmod>2013-12-13T19:04:34+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/migration/</loc>
+    <lastmod>2011-09-13T14:56:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/miniconda/</loc>
+    <lastmod>2017-09-17T18:23:01+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/miniconda/</loc>
+    <lastmod>2017-09-17T18:23:01+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/mkv-model/</loc>
+    <lastmod>2015-09-08T03:07:12+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/model-selection/</loc>
+    <lastmod>2011-08-05T18:50:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/model-selection/</loc>
+    <lastmod>2011-08-06T14:20:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/models/</loc>
+    <lastmod>2011-09-13T14:56:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/molecular-clock/</loc>
+    <lastmod>2015-08-07T01:12:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/molecular-clocks/</loc>
+    <lastmod>2011-09-01T23:38:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/molecular-clocks/</loc>
+    <lastmod>2011-09-01T23:38:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/molecular-ecology/</loc>
+    <lastmod>2015-11-25T12:47:36+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/molecular-evolution/</loc>
+    <lastmod>2016-10-11T19:52:55+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/molecular-evolution/</loc>
+    <lastmod>2015-09-17T15:06:20+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/morphological-data/</loc>
+    <lastmod>2015-09-08T03:07:12+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/morphological-data/</loc>
+    <lastmod>2015-09-08T03:07:12+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/murphology/</loc>
+    <lastmod>2015-11-23T02:30:32+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/murphys-law/</loc>
+    <lastmod>2015-11-23T02:30:32+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/nasa/</loc>
+    <lastmod>2017-06-28T01:49:20+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/naturalist/</loc>
+    <lastmod>2017-12-26T17:28:55+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/nexml/</loc>
+    <lastmod>2015-08-23T13:58:21+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/next-generation-sequencing/</loc>
+    <lastmod>2013-11-27T04:33:44+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/next-generation-sequencing/</loc>
+    <lastmod>2013-11-27T04:33:44+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/nexus/</loc>
+    <lastmod>2017-09-13T11:40:35+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/ngs/</loc>
+    <lastmod>2013-11-27T04:33:44+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/nick-swenson/</loc>
+    <lastmod>2014-04-30T18:04:38+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/noaa/</loc>
+    <lastmod>2017-06-28T01:49:20+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/nodes/</loc>
+    <lastmod>2013-03-13T14:05:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/occurrences/</loc>
+    <lastmod>2017-06-28T01:49:20+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/online-access/</loc>
+    <lastmod>2015-11-23T02:30:32+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/open-access/</loc>
+    <lastmod>2015-11-23T02:30:32+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/open-source/</loc>
+    <lastmod>2018-07-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/output/</loc>
+    <lastmod>2015-09-01T02:41:34+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/outsourcing/</loc>
+    <lastmod>2013-11-27T04:33:44+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/packages/</loc>
+    <lastmod>2016-04-06T15:43:16+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/papers/</loc>
+    <lastmod>2014-02-08T07:54:08+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/parameters/</loc>
+    <lastmod>2015-09-01T02:41:34+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/path-sampler/</loc>
+    <lastmod>2017-08-17T18:18:35+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/path-sampling/</loc>
+    <lastmod>2017-08-17T18:18:35+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/paup/</loc>
+    <lastmod>2011-07-19T04:20:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/pcms/</loc>
+    <lastmod>2014-04-30T18:04:38+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/peerj/</loc>
+    <lastmod>2018-03-07T05:32:23+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/peerj/</loc>
+    <lastmod>2018-03-07T05:32:23+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/penalized-likelihood/</loc>
+    <lastmod>2015-08-30T02:55:29+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/peter-beerli/</loc>
+    <lastmod>2010-09-04T00:38:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/phd-student/</loc>
+    <lastmod>2015-09-01T02:41:34+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/phrynomics/</loc>
+    <lastmod>2017-09-13T11:40:35+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/phylogenetic-comparative-methods/</loc>
+    <lastmod>2014-04-30T18:04:38+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/phylogenetic-trees/</loc>
+    <lastmod>2011-11-22T08:15:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/phylogenetics/</loc>
+    <lastmod>2016-04-06T15:43:16+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/phylogenetics/</loc>
+    <lastmod>2016-04-06T15:43:16+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/phylogeny/</loc>
+    <lastmod>2011-08-05T18:50:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/phylogeny/</loc>
+    <lastmod>2016-03-01T21:43:35+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/phylogeography/</loc>
+    <lastmod>2015-09-01T02:41:34+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/phylogeography/</loc>
+    <lastmod>2014-08-07T20:59:25+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/phyloseminar/</loc>
+    <lastmod>2013-12-03T19:19:42+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/pid/</loc>
+    <lastmod>2016-04-06T15:22:18+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/poppr/</loc>
+    <lastmod>2017-08-18T19:16:27+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/poppr/</loc>
+    <lastmod>2017-08-18T19:16:27+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/population-genomics/</loc>
+    <lastmod>2017-08-18T19:16:27+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/posterior-distribution/</loc>
+    <lastmod>2015-09-01T02:41:34+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2018-07-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/preprint/</loc>
+    <lastmod>2018-03-07T05:32:23+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/preprints/</loc>
+    <lastmod>2018-03-07T05:32:23+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/prior-selection/</loc>
+    <lastmod>2011-09-13T14:56:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/priors/</loc>
+    <lastmod>2011-09-13T14:56:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/process/</loc>
+    <lastmod>2016-04-06T15:22:18+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/programming/</loc>
+    <lastmod>2017-08-18T19:16:27+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/ptp/</loc>
+    <lastmod>2014-03-07T16:05:31+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/publications/</loc>
+    <lastmod>2015-11-23T02:30:32+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/pyrad/</loc>
+    <lastmod>2017-09-17T18:23:01+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/pyrad/</loc>
+    <lastmod>2017-09-17T18:23:01+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/python/</loc>
+    <lastmod>2017-09-17T18:23:01+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/python/</loc>
+    <lastmod>2017-09-17T18:23:01+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/qgis/</loc>
+    <lastmod>2017-06-28T01:49:20+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/r/</loc>
+    <lastmod>2018-07-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/r/</loc>
+    <lastmod>2018-03-26T03:11:07+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/r-markdown/</loc>
+    <lastmod>2018-07-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/rad-seq/</loc>
+    <lastmod>2017-09-17T18:23:01+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/rad-seq/</loc>
+    <lastmod>2017-09-17T18:23:01+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/rainbow/</loc>
+    <lastmod>2018-03-10T23:17:05+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/rate-shifts/</loc>
+    <lastmod>2015-09-17T15:06:20+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/resource-management/</loc>
+    <lastmod>2013-03-13T14:05:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/review-paper/</loc>
+    <lastmod>2014-02-08T07:54:08+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/rm/</loc>
+    <lastmod>2018-03-06T03:49:42+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/safe-sleep/</loc>
+    <lastmod>2014-09-20T19:39:38+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/samtools/</loc>
+    <lastmod>2018-03-10T23:17:05+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/samtools/</loc>
+    <lastmod>2018-03-10T23:17:05+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/scientific-journals-and-publishing/</loc>
+    <lastmod>2015-11-25T12:47:36+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/scientific-names/</loc>
+    <lastmod>2015-09-02T02:38:32+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/scientific-names/</loc>
+    <lastmod>2015-09-02T02:38:32+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/scientific-papers/</loc>
+    <lastmod>2015-11-25T12:47:36+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/sdm/</loc>
+    <lastmod>2017-06-28T01:49:20+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/search/</loc>
+    <lastmod>2018-07-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/search-engine/</loc>
+    <lastmod>2018-07-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/server/</loc>
+    <lastmod>2018-03-07T05:32:23+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/shell-script/</loc>
+    <lastmod>2017-09-13T11:40:35+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/shell-scripts/</loc>
+    <lastmod>2017-09-13T11:40:35+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/simulations/</loc>
+    <lastmod>2011-09-22T16:51:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/single-nucleotide-polymorphisms/</loc>
+    <lastmod>2017-08-18T19:16:27+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/sleepimage/</loc>
+    <lastmod>2014-09-20T19:39:38+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/snapp/</loc>
+    <lastmod>2017-09-13T11:40:35+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/snapp/</loc>
+    <lastmod>2017-09-13T11:40:35+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/snp/</loc>
+    <lastmod>2018-07-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/snps/</loc>
+    <lastmod>2018-07-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/snps/</loc>
+    <lastmod>2017-09-13T11:40:35+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/software/</loc>
+    <lastmod>2018-07-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/software/</loc>
+    <lastmod>2018-07-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/software-update/</loc>
+    <lastmod>2015-08-28T23:20:27+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/solution/</loc>
+    <lastmod>2018-03-26T03:11:07+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/species/</loc>
+    <lastmod>2017-06-28T01:49:20+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/species-delimitation/</loc>
+    <lastmod>2016-03-11T12:00:01+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/species-delimitation/</loc>
+    <lastmod>2014-03-07T16:05:31+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/species-distribution-modeling/</loc>
+    <lastmod>2017-06-28T01:49:20+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/species-trees/</loc>
+    <lastmod>2017-09-13T11:40:35+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/species-trees/</loc>
+    <lastmod>2013-10-10T20:35:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/ssh/</loc>
+    <lastmod>2017-09-17T18:23:01+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/ssh/</loc>
+    <lastmod>2013-03-13T14:05:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/stackoverflow/</loc>
+    <lastmod>2018-07-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/starbeast/</loc>
+    <lastmod>2016-03-11T12:00:01+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/starting-tree/</loc>
+    <lastmod>2014-02-17T04:46:23+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/statistical-phylogeography/</loc>
+    <lastmod>2011-09-22T16:51:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/stdio.h/</loc>
+    <lastmod>2018-03-06T04:14:15+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/stupid/</loc>
+    <lastmod>2015-09-02T02:38:32+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/submission/</loc>
+    <lastmod>2018-03-07T05:32:23+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/substitution-models/</loc>
+    <lastmod>2016-10-11T19:52:55+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/substitution-rate/</loc>
+    <lastmod>2011-09-01T23:38:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/supercomputer/</loc>
+    <lastmod>2018-03-26T03:11:07+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/supercomputers/</loc>
+    <lastmod>2018-03-26T03:11:07+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/supercomputers/</loc>
+    <lastmod>2017-09-17T18:23:01+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/swenson/</loc>
+    <lastmod>2014-04-30T18:04:38+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/sym/</loc>
+    <lastmod>2016-10-11T19:52:55+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/symposium/</loc>
+    <lastmod>2013-11-27T01:05:02+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/systematics/</loc>
+    <lastmod>2010-08-16T01:56:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2014-02-08T07:54:08+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/talk/</loc>
+    <lastmod>2013-11-27T01:05:02+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/tamura/</loc>
+    <lastmod>2016-10-11T19:52:55+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/tar/</loc>
+    <lastmod>2018-03-26T03:11:07+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/taxonomy/</loc>
+    <lastmod>2015-09-02T02:38:32+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/terminal/</loc>
+    <lastmod>2016-04-06T15:22:18+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/terminal/</loc>
+    <lastmod>2016-04-06T15:22:18+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/test/</loc>
+    <lastmod>2010-08-16T01:56:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/theta/</loc>
+    <lastmod>2010-09-04T00:38:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/tigerfish/</loc>
+    <lastmod>2015-09-02T02:38:32+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/time-tree/</loc>
+    <lastmod>2015-08-30T02:55:29+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/todo/</loc>
+    <lastmod>2018-03-07T05:32:23+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/total-evidence-dating/</loc>
+    <lastmod>2015-09-08T03:07:12+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/trace/</loc>
+    <lastmod>2016-03-11T12:00:01+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/tracer/</loc>
+    <lastmod>2016-03-11T12:00:01+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/tracy-heath/</loc>
+    <lastmod>2014-12-27T17:02:23+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/traitrate/</loc>
+    <lastmod>2015-09-17T15:06:20+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/trash/</loc>
+    <lastmod>2018-03-06T03:49:42+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/tree/</loc>
+    <lastmod>2014-02-17T04:46:23+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/trees/</loc>
+    <lastmod>2011-11-22T08:15:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/trn/</loc>
+    <lastmod>2016-10-11T19:52:55+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/tutorial/</loc>
+    <lastmod>2015-08-30T02:55:29+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/tweet/</loc>
+    <lastmod>2015-09-02T02:38:32+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/tweets/</loc>
+    <lastmod>2015-09-02T02:38:32+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/twitter/</loc>
+    <lastmod>2015-09-02T02:38:32+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/unix/</loc>
+    <lastmod>2018-03-06T03:49:42+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/unix/</loc>
+    <lastmod>2018-07-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/update/</loc>
+    <lastmod>2016-03-10T12:16:25+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/user/</loc>
+    <lastmod>2018-03-26T03:11:07+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/variant/</loc>
+    <lastmod>2018-07-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/vcf/</loc>
+    <lastmod>2018-07-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/vcf-compare/</loc>
+    <lastmod>2018-07-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/vcftools/</loc>
+    <lastmod>2018-07-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/video/</loc>
+    <lastmod>2013-11-27T01:05:02+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/views/</loc>
+    <lastmod>2016-04-06T15:43:16+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/voyage/</loc>
+    <lastmod>2017-12-26T17:28:55+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/web-server/</loc>
+    <lastmod>2014-03-07T16:05:31+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/website/</loc>
+    <lastmod>2018-07-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/website/</loc>
+    <lastmod>2018-07-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/websites/</loc>
+    <lastmod>2014-08-07T20:59:25+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/wget/</loc>
+    <lastmod>2018-03-26T03:11:07+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/windows/</loc>
+    <lastmod>2017-08-17T18:18:35+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/worldclim/</loc>
+    <lastmod>2017-06-28T01:49:20+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/writing/</loc>
+    <lastmod>2015-11-25T12:47:36+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/wwf/</loc>
+    <lastmod>2017-06-28T01:49:20+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/xcode/</loc>
+    <lastmod>2018-03-06T04:14:15+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/xml/</loc>
+    <lastmod>2016-10-11T19:52:55+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/xml/</loc>
+    <lastmod>2015-09-08T03:07:12+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/%5Cbeast/</loc>
+    <lastmod>2016-03-11T12:00:01+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/%5Cbeast/</loc>
+    <lastmod>2016-03-11T12:00:01+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2018-07-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
 </urlset>

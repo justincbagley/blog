@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Website on blog</title>
+    <link>/tags/website/</link>
+    <description>Recent content in Website on blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 25 Jul 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/website/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Picking a custom search engine for your website</title>
+      <link>/2018/07/25/picking-a-custom-search-engine-for-your-website/</link>
+      <pubDate>Wed, 25 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/07/25/picking-a-custom-search-engine-for-your-website/</guid>
+      <description>First, if you&amp;rsquo;d like to and see this blog entry in its original context, then read my original stackoverflow answer here.
+So, according to blogdown authors (Xie et al. 2018), it&amp;rsquo;s been said before that,
+ &amp;ldquo;If you don’t have a website nowadays, you don’t exist&amp;rdquo; &amp;ndash;Carlos Scheidegger.
+ A quick search online returns blog posts and sites with several variations on this them (e.g. here and here) acknowledging the axiomatic importance of an online presence these days.</description>
+    </item>
+    
+    <item>
+      <title>Testing hypotheses of Panamanian frog &amp; fish diversification - now out @ PeerJ Preprints</title>
+      <link>/2018/03/07/testing-hypotheses-of-panamanian-frog-fish-diversification-now-out-peerj-preprints/</link>
+      <pubDate>Wed, 07 Mar 2018 05:32:23 +0000</pubDate>
+      
+      <guid>/2018/03/07/testing-hypotheses-of-panamanian-frog-fish-diversification-now-out-peerj-preprints/</guid>
+      <description>Thanks to PeerJ Preprints I am very pleased to be able to report two pieces of positive news for today:
+  **Our new preprint, which presents the results of a comparative phylogeography study, is now published online at PeerJ Preprints (as of yesterday) and ** I had a very positive experience submitting my preprint to this service.   
+The Paper
+One reason I&amp;rsquo;m excited about this new paper is that it addresses a highly relevant issue in evolutionary biology: inferring mechanisms underpinning biotic assembly and diversification in Neotropical species assemblages.</description>
+    </item>
+    
+  </channel>
+</rss>

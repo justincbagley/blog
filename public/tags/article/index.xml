@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Article on blog</title>
+    <link>/tags/article/</link>
+    <description>Recent content in Article on blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 07 Mar 2018 05:32:23 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/article/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Testing hypotheses of Panamanian frog &amp; fish diversification - now out @ PeerJ Preprints</title>
+      <link>/2018/03/07/testing-hypotheses-of-panamanian-frog-fish-diversification-now-out-peerj-preprints/</link>
+      <pubDate>Wed, 07 Mar 2018 05:32:23 +0000</pubDate>
+      
+      <guid>/2018/03/07/testing-hypotheses-of-panamanian-frog-fish-diversification-now-out-peerj-preprints/</guid>
+      <description>Thanks to PeerJ Preprints I am very pleased to be able to report two pieces of positive news for today:
+  **Our new preprint, which presents the results of a comparative phylogeography study, is now published online at PeerJ Preprints (as of yesterday) and ** I had a very positive experience submitting my preprint to this service.   
+The Paper
+One reason I&amp;rsquo;m excited about this new paper is that it addresses a highly relevant issue in evolutionary biology: inferring mechanisms underpinning biotic assembly and diversification in Neotropical species assemblages.</description>
+    </item>
+    
+    <item>
+      <title>Bagley&#39;s Law of Scientific Publication Access</title>
+      <link>/2015/11/23/bagleys-law-scientific-publication-access/</link>
+      <pubDate>Mon, 23 Nov 2015 02:30:32 +0000</pubDate>
+      
+      <guid>/2015/11/23/bagleys-law-scientific-publication-access/</guid>
+      <description>Find Open Access scholarly articles online for free
+The topic is peer-reviewed scientific articles (primary or secondary literature). Also, we&amp;rsquo;ll assume that you&amp;rsquo;re not searching for a paper from an Open Access publisher. Let&amp;rsquo;s also assume that library holdings / subscriptions at your institution have gaps&amp;ndash;they do not cover every journal in your field over every possible time period.
+Then, Bagley&amp;rsquo;s Law of Scientific Publication Access is:
+ &amp;ldquo;When you need an article, you will not have free access to it, but you will have access to plenty of articles that you don&amp;rsquo;t want and you don&amp;rsquo;t need.</description>
+    </item>
+    
+  </channel>
+</rss>

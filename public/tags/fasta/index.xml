@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fasta on blog</title>
+    <link>/tags/fasta/</link>
+    <description>Recent content in Fasta on blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 29 Oct 2013 15:36:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/fasta/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>BEASTGen: a new program for creating NEXUS, FASTA and BEAST XML input files for phylogenetics software</title>
+      <link>/2013/10/29/beastgen-a-new-program-for-creating-nexus-fasta-and-beast-xml-input-files-for-phylogenetics-software/</link>
+      <pubDate>Tue, 29 Oct 2013 15:36:00 +0000</pubDate>
+      
+      <guid>/2013/10/29/beastgen-a-new-program-for-creating-nexus-fasta-and-beast-xml-input-files-for-phylogenetics-software/</guid>
+      <description>Andrew Rambaut has released the first version of a new software program, BEASTGen, that transforms phylogenetic data between the standard NEXUS, FASTA and BEAST XML formats. Could this mean that we are one step closer to calming many graduate students&amp;rsquo; (and other people&amp;rsquo;s) woes over this issue?
+The new software can be downloaded from the BEAST Google code website, at https://code.google.com/p/beast-mcmc/downloads/detail?name=BEASTGen_v1.0.tgz.
+Andrew has also written a brief set of instructions that can be found on the BEAST website, at http://beast.</description>
+    </item>
+    
+  </channel>
+</rss>

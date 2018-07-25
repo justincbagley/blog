@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tutorial on blog</title>
+    <link>/tags/tutorial/</link>
+    <description>Recent content in Tutorial on blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 30 Aug 2015 02:55:29 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/tutorial/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Update: &#39;new&#39; functions for generating starting trees for BEAST or *BEAST in R</title>
+      <link>/2015/08/30/update-new-functions-for-generating-starting-trees-for-beast-or-starbeast-in-r/</link>
+      <pubDate>Sun, 30 Aug 2015 02:55:29 +0000</pubDate>
+      
+      <guid>/2015/08/30/update-new-functions-for-generating-starting-trees-for-beast-or-starbeast-in-r/</guid>
+      <description>Background
+In a previous blog post, which has received quite a bit of attention, I detailed how to get &amp;ldquo;off to a good start&amp;rdquo; by generating a starting tree for your BEAST analyses. The goal was to work from a tree with branch lengths in units of substitutions per site and to finish with an ultrametric, time-calibrated tree topology with node ages matching calibration points (e.g. fossil ages) you intended to use in BEAST.</description>
+    </item>
+    
+    <item>
+      <title>New BEAST2 Tutorial that Rocks!</title>
+      <link>/2014/12/27/new-beast2-tutorial-rocks/</link>
+      <pubDate>Sat, 27 Dec 2014 17:02:23 +0000</pubDate>
+      
+      <guid>/2014/12/27/new-beast2-tutorial-rocks/</guid>
+      <description>There are few things that are more useful or necessary in evolutionary biology these days than learning new computational skills, including how to run software programs. For this, there are a variety of sources of information: journal articles (methods papers/sections), library books, online books (e-Books), workshops, online tutorials, and internet blogs like this one. Tutorials are among the best of these options given their practical focus, and because they often include step-by-step instructions with screenshots showing how to interact with GUIs, etc.</description>
+    </item>
+    
+    <item>
+      <title>Alternative ways to quickly get post-burnin trees from BEAST output from the command line</title>
+      <link>/2014/12/26/quickly-get-post-burnin-trees-beast-output-without-using-log-combiner-tree-annotator/</link>
+      <pubDate>Fri, 26 Dec 2014 11:06:40 +0000</pubDate>
+      
+      <guid>/2014/12/26/quickly-get-post-burnin-trees-beast-output-without-using-log-combiner-tree-annotator/</guid>
+      <description>Evolutionary biologists generally use nice java-written utility programs that come in the standard BEAST distribution to obtain post-burnin trees for summarizing the results of a converged BEAST run (or *BEAST run) that reached stationarity. Usually, only 5,000 to 20,000 trees are necessary for this, and these are typically obtained by cutting out &amp;lsquo;burnin&amp;rsquo; trees and then &amp;ldquo;thinning&amp;rdquo; trees from &amp;ldquo;.trees&amp;rdquo; output files using LogCombiner until the desired number of trees is reached.</description>
+    </item>
+    
+    <item>
+      <title>Updated links to BEAST 1.7.5 phylogeography tutorials</title>
+      <link>/2014/08/07/updated-links-beast-1-7-5-phylogeography-tutorials/</link>
+      <pubDate>Thu, 07 Aug 2014 20:59:25 +0000</pubDate>
+      
+      <guid>/2014/08/07/updated-links-beast-1-7-5-phylogeography-tutorials/</guid>
+      <description>As you know, BEAST is being developed by two separate groups of biologists and computer scientists, those working on beast 1.7&amp;frasl;8 and those devleoping Beast2. BEAST is essentially the main evolutionary analysis program now for phylogenetics, historical biogeography, species delimitation, and different phylogeography approaches; so it matters when there is an update. This is just a quick post to highlight that changes to BEAST 1.7.5 phylogeography tutorials have been made, in case you didn&amp;rsquo;t get word of this through recent emails.</description>
+    </item>
+    
+    <item>
+      <title>Statistical phylogeography tutorial #1: Coalescent simulations in Mesquite Part I</title>
+      <link>/2011/09/22/statistical-phylogeography-tutorial-1-coalescent-simulations-in-mesquite-part-i/</link>
+      <pubDate>Thu, 22 Sep 2011 16:51:00 +0000</pubDate>
+      
+      <guid>/2011/09/22/statistical-phylogeography-tutorial-1-coalescent-simulations-in-mesquite-part-i/</guid>
+      <description>Part I. Draft 9/22/11
+WARNING: The following is based on my current understanding and use of Mesquite to perform coalescent simulations for phylogeographical hypotheses testing and is correct to the best of my knowledge, but I do not guarantee its accuracy. Also, you may not perform these analyses in the exact way or order that I have performed them. The following is based on a number of previously-published studies (e.g. Knowles 2001; Knowles &amp;amp; Maddison 2002; Carstens et al.</description>
+    </item>
+    
+    <item>
+      <title>BEAST and the BEAST basics: molecular clocks and how to input rates into BEAST</title>
+      <link>/2011/09/01/beast-and-the-beast-basics-molecular-clocks-and-how-to-input-rates-into-beast/</link>
+      <pubDate>Thu, 01 Sep 2011 23:38:00 +0000</pubDate>
+      
+      <guid>/2011/09/01/beast-and-the-beast-basics-molecular-clocks-and-how-to-input-rates-into-beast/</guid>
+      <description>BEAST basics **A brief introduction to BEAST ** BEAST is a powerful computer program for evolutionary analysis developed by Andrew Rambaut and Alexei Drummond, as well as Marc Suchard, Simon Ho, Joseph Heled, and others. BEAST was originally designed to provide a Bayesian Markov chain Monte Carlo (MCMC) method for simultaneously co-estimating phylogenies and divergence times (times to the most recent common ancestor, TMRCAs) from DNA sequence data (or amino acids) for one or multiple loci.</description>
+    </item>
+    
+  </channel>
+</rss>

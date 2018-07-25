@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.44" />
+
+
+<title>Update Mesquite with plugin for reading and writing NeXML format - blog</title>
+<meta property="og:title" content="Update Mesquite with plugin for reading and writing NeXML format - blog">
+
+
+
+  
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/css/fonts.css" media="all">
+<link rel="stylesheet" href="/css/main.css" media="all">
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/" class="nav-logo">
+    <img src="/images/jselfie_logo.png"
+         width="50"
+         height="50"
+         alt="Logo">
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="/about/">About</a></li>
+    
+    <li><a href="https://github.com/justincbagley">GitHub</a></li>
+    
+    <li><a href="https://www.linkedin.com/in/justin-c-bagley-2a8a0523">LinkedIn</a></li>
+    
+    <li><a href="https://www.researchgate.net/profile/Justin_Bagley2">ResearchGate</a></li>
+    
+    <li><a href="https://twitter.com/justincbagley">Twitter</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">3 min read</span>
+    
+
+    <h1 class="article-title">Update Mesquite with plugin for reading and writing NeXML format</h1>
+
+    
+    <span class="article-date">2015/08/23</span>
+    
+
+    <div class="article-content">
+      <p>In case you were unaware, there is a community-driven &ldquo;NeXML&rdquo; movement in computational phylogenetics, led by several bioinformaticians including Rutger Vos who are attempting to harness technologies and advantages of the XML format for transforming NEXUS flat files (an older standard for storing systematic data) into a format that is more easily processed and manipulated. See <a href="http://nexml.org">NeXML.org</a> for more info on this technology and for softwares that allow reading and writing NeXML etc. Another good resource to consult is the <a href="https://github.com/nexml/nexml/wiki/NeXML-Manual#Guide_to_Resources">NeXML manual on GitHub</a>.</p>
+
+<p>However, given NEXUS format was popularized by the Maddison brothers (see for example <a href="http://sysbio.oxfordjournals.org/content/46/4/590.short">Maddison et al. 1997</a>), it is telling that they are 1) still on the cusp of things and 2) see the value of NeXML format that they have been open to helping implement a recent plugin for their modular software Mesquite, allowing the program to read and write NeXMLs. Vos is currently responsible for maintaining the plugin, which was initially developed by Wayne Maddison and Peter Midford.</p>
+
+<p>Here, I&rsquo;m going to briefly tell you how to install the &ldquo;nexml Mesquite plugin.&rdquo; Before proceeding, however, make sure you&rsquo;ve read about NeXML and familiarized yourself with the format a bit, by looking into the links above.</p>
+
+<ol>
+<li>Make sure you have the newest version of Mesquite, which is v3.0.4! Get it from the <a href="http://mesquiteproject.wikispaces.com/Installation">Download and Installation </a>section of the new <a href="http://mesquiteproject.wikispaces.com">Mesquite Project wikispaces</a> website if you don&rsquo;t have it already. Make sure Mesquite is in your Applications folder (on mac), or wherever you want it to be; note the location; and make sure Mesquite downloads into a folder named &ldquo;Mesquite_Folder.&rdquo;</li>
+<li>Download the nexml Mesquite plugin from direct FTP/Dropbox, by clicking here: <a href="https://www.dropbox.com/sh/yp8t4jvb5id879m/S7ERRMkUpw">nexml_Mesquite_plugin download</a>. </li>
+<li>The plugin downloads to a single folder, within which you will find two subfolders labeled &ldquo;mesquite&rdquo; and &ldquo;org.&rdquo; In turn, each of these subfolders has its own &ldquo;nexml&rdquo; folder. You need to copy each of these &rdquo;nexml&rdquo; folders and paste them into the subfolder with the <em>same names</em> in the &ldquo;Mesquite_Folder&rdquo; that contains Mesquite. 
+
+<ul>
+<li>* Copy and paste the &hellip;/mesquite/nexml folder into the folder located at &hellip;/Mesquite_Folder/mesquite.</li>
+<li>* Copy and paste the &hellip;/org/nexml folder into the folder located at &hellip;/Mesquite_Folder/org.</li>
+</ul></li>
+</ol>
+
+<p>OK, now you&rsquo;re done, so give it a try! Open Mesquite v3.0.4 and test it. See if you can read and write NeXML files. </p>
+
+<p>In case you don&rsquo;t have one, here is a link to a test NeXML <a href="http://treebase.org/treebase-web/search/downloadATree.html?id=12889&amp;format=nexml&amp;treeid=53749">labroids test NeXML file</a> to try. This file is from a paper on the evolution of pharyngeal jaw key innovation in labroid fishes (wrasses) by Wainwright et al. (2012). I got their NeXML from their <a href="http://treebase.org/treebase-web/search/study/summary.html?id=12889">Wainwright et al. 2012 Treebase submission</a> submission.</p>
+
+<p>PS Another program that reads and writes NeXML format is DAMBE, but I tried using it for this purpose with a test file and DAMBE crashed on me. I think it was because DAMBE had trouble handling the particular properties of my test file. Still, as it may be a bit more finicky to use DAMBE for interacting with NeXMLs, I&rsquo;ll recommend sticking with Mesquite (or downloading the java libraries from the NeXML GitHub, etc).</p>
+
+<p>Cheers!</p>
+
+<p>~J</p>
+
+<p><strong>References</strong></p>
+
+<p>Wainwright P.C., Smith W.L., Price S.A., Tang K.L., Sparks J.S., Ferry L.A., Kuhn K.L., Eytan R.I., &amp; Near T.J. 2012. The evolution of pharyngognathy: a phylogenetic and functional appraisal of the pharyngeal jaw key innovation in labroid fishes and beyond. Systematic Biology, .</p>
+
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <a href="/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+          </li>
+          <li>
+            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="/images/hugo-logo.png" width="22" height="22"></a>
+          </li>
+        <p class="m-0 text-center text-white">Copyright &copy; 2018 Justin C. Bagley</p>
+        </ul>
+      </footer>
+
+    </div>
+    
+
+    
+
+    
+  </body>
+</html>
+

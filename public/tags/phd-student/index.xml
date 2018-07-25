@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Phd Student on blog</title>
+    <link>/tags/phd-student/</link>
+    <description>Recent content in Phd Student on blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 01 Sep 2015 02:41:34 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/phd-student/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A funny thing about IMa2 output (a lost 2011 blog post)</title>
+      <link>/2015/09/01/funny-thing-ima2-output/</link>
+      <pubDate>Tue, 01 Sep 2015 02:41:34 +0000</pubDate>
+      
+      <guid>/2015/09/01/funny-thing-ima2-output/</guid>
+      <description>Recently, I discovered something that I wrote about four years ago during the first part of my PhD, just 2 years or so after IMa2 had come out [around a year or so after Hey (2010)]. Back then, I was a little unhappy about the way parameters were coded, but now looking back, it&amp;rsquo;s actually kind of funny, so I decided to post this as a blog entry. I mean, I&amp;rsquo;ve published with this method and have a much better understanding of it now.</description>
+    </item>
+    
+  </channel>
+</rss>

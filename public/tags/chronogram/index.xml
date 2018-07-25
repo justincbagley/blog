@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chronogram on blog</title>
+    <link>/tags/chronogram/</link>
+    <description>Recent content in Chronogram on blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 30 Aug 2015 02:55:29 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/chronogram/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Update: &#39;new&#39; functions for generating starting trees for BEAST or *BEAST in R</title>
+      <link>/2015/08/30/update-new-functions-for-generating-starting-trees-for-beast-or-starbeast-in-r/</link>
+      <pubDate>Sun, 30 Aug 2015 02:55:29 +0000</pubDate>
+      
+      <guid>/2015/08/30/update-new-functions-for-generating-starting-trees-for-beast-or-starbeast-in-r/</guid>
+      <description>Background
+In a previous blog post, which has received quite a bit of attention, I detailed how to get &amp;ldquo;off to a good start&amp;rdquo; by generating a starting tree for your BEAST analyses. The goal was to work from a tree with branch lengths in units of substitutions per site and to finish with an ultrametric, time-calibrated tree topology with node ages matching calibration points (e.g. fossil ages) you intended to use in BEAST.</description>
+    </item>
+    
+  </channel>
+</rss>

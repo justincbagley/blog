@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.44" />
+
+
+<title>Estimated cytb and RPS7 mutation rates for Heterandria - blog</title>
+<meta property="og:title" content="Estimated cytb and RPS7 mutation rates for Heterandria - blog">
+
+
+
+  
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/css/fonts.css" media="all">
+<link rel="stylesheet" href="/css/main.css" media="all">
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/" class="nav-logo">
+    <img src="/images/jselfie_logo.png"
+         width="50"
+         height="50"
+         alt="Logo">
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="/about/">About</a></li>
+    
+    <li><a href="https://github.com/justincbagley">GitHub</a></li>
+    
+    <li><a href="https://www.linkedin.com/in/justin-c-bagley-2a8a0523">LinkedIn</a></li>
+    
+    <li><a href="https://www.researchgate.net/profile/Justin_Bagley2">ResearchGate</a></li>
+    
+    <li><a href="https://twitter.com/justincbagley">Twitter</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">2 min read</span>
+    
+
+    <h1 class="article-title">Estimated cytb and RPS7 mutation rates for Heterandria</h1>
+
+    
+    <span class="article-date">2011/08/12</span>
+    
+
+    <div class="article-content">
+      <p>Today, I looked at results of some runs I have been doing in BEAST to estimate divergence times and other parameters for my project on Least Killifish, <em>Heterandria formosa</em> (Poeciliidae).  These analyses were multi-locus, based on cyt_b _and <em>RPS7</em> sequence data (based on a small number of subsamples of our phylogeographic sampling).  Essentially, no one knows the S7 mutation rate for freshwater fishes.  In other words, it is poorly understood.  However, by unlinking the rates of these two loci I was able to arrive at some estimates of the mutation rate of unexpressed portions of this nuclear gene based on variation in S7 intron 1 and intron 2.  In this analysis, I used a strict clock (a relaxed clock is inappropriate for genealogical data like the data we have) and a broad uniform &lsquo;fish clock&rsquo; rate prior (0.08-0.028% Myr-1) for cyt<em>b</em>; I partitioned by gene and used a codon model for cyt<em>b</em> (1+2, 3) and I ran the MCMC for 10^8 generations, linking the tree models but not the clock models.  Based on my experience reading the literature, nDNA rates in vertebrates are usually between  0.0005% and 0.005% Myr-1, so this was the prior for S7 in the  analysis (like the cyt<em>b</em> prior, this is very broad, thus more conservative and honest than a thinner interval).  BEAST estimated the mean cyt<em>b</em> rate to be somewhat high at 0.0198% Myr-1, and the mean S7 rate was 0.00282% Myr-1 (95% CIs were broad though). </p>
+
+<p>I think we will report these values in our <em>Heterandria</em> manuscript (in prep.), but I&rsquo;m going ahead and throwing the preliminary results up here in case someone is interested in S7 mutation rates. </p>
+
+<p>~ J</p>
+
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <a href="/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+          </li>
+          <li>
+            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="/images/hugo-logo.png" width="22" height="22"></a>
+          </li>
+        <p class="m-0 text-center text-white">Copyright &copy; 2018 Justin C. Bagley</p>
+        </ul>
+      </footer>
+
+    </div>
+    
+
+    
+
+    
+  </body>
+</html>
+

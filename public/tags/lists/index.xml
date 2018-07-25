@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lists on blog</title>
+    <link>/tags/lists/</link>
+    <description>Recent content in Lists on blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 27 Oct 2013 19:25:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/lists/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A comprehensive list of phylogenetics packages for R</title>
+      <link>/2013/10/27/a-comprehensive-list-of-phylogenetics-packages-for-r/</link>
+      <pubDate>Sun, 27 Oct 2013 19:25:00 +0000</pubDate>
+      
+      <guid>/2013/10/27/a-comprehensive-list-of-phylogenetics-packages-for-r/</guid>
+      <description>The packages
+Here is my comprehensive list of phylogenetics packages for R, with links to their websites (for some, links to support pages or more detailed information are provided in subsequent sections). The requirement for inclusion in the list is at least one function related to manipulation or analysis of phylogenetic data. Please E-mail me if you know of another program to add, or if you are developing a new package for phylogenetics in R.</description>
+    </item>
+    
+  </channel>
+</rss>

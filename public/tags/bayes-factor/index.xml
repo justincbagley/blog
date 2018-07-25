@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bayes Factor on blog</title>
+    <link>/tags/bayes-factor/</link>
+    <description>Recent content in Bayes Factor on blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 11 Mar 2016 12:00:01 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/bayes-factor/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Latest *BEAST trace: Most beautiful thing I&#39;ve seen today</title>
+      <link>/2016/03/11/latest-beast-trace-beautiful-thing-ive-seen-today/</link>
+      <pubDate>Fri, 11 Mar 2016 12:00:01 +0000</pubDate>
+      
+      <guid>/2016/03/11/latest-beast-trace-beautiful-thing-ive-seen-today/</guid>
+      <description>My new *BEAST (starbeast) species tree runs are converging wonderfully in BEAST v1.8.3, so I am off to a great start this morning. Here, I&amp;rsquo;m including a screenshot of the results of one of these runs, which I ran for 200 million generations using 3 normally distributed calibration points, as visualized in Tracer. Note the good posterior trace, very high ESS scores for all parameter estimates, and good use of burn-in (default 10% value works quite well in this case).</description>
+    </item>
+    
+  </channel>
+</rss>

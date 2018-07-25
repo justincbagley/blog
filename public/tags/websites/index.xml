@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Websites on blog</title>
+    <link>/tags/websites/</link>
+    <description>Recent content in Websites on blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 07 Aug 2014 20:59:25 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/websites/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Updated links to BEAST 1.7.5 phylogeography tutorials</title>
+      <link>/2014/08/07/updated-links-beast-1-7-5-phylogeography-tutorials/</link>
+      <pubDate>Thu, 07 Aug 2014 20:59:25 +0000</pubDate>
+      
+      <guid>/2014/08/07/updated-links-beast-1-7-5-phylogeography-tutorials/</guid>
+      <description>As you know, BEAST is being developed by two separate groups of biologists and computer scientists, those working on beast 1.7&amp;frasl;8 and those devleoping Beast2. BEAST is essentially the main evolutionary analysis program now for phylogenetics, historical biogeography, species delimitation, and different phylogeography approaches; so it matters when there is an update. This is just a quick post to highlight that changes to BEAST 1.7.5 phylogeography tutorials have been made, in case you didn&amp;rsquo;t get word of this through recent emails.</description>
+    </item>
+    
+  </channel>
+</rss>

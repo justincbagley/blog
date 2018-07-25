@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mkv Model on blog</title>
+    <link>/tags/mkv-model/</link>
+    <description>Recent content in Mkv Model on blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 08 Sep 2015 03:07:12 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/mkv-model/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Coding general data types with ambiguities in BEAST input files</title>
+      <link>/2015/09/08/coding-general-data-types-with-ambiguities-in-beast-input-files/</link>
+      <pubDate>Tue, 08 Sep 2015 03:07:12 +0000</pubDate>
+      
+      <guid>/2015/09/08/coding-general-data-types-with-ambiguities-in-beast-input-files/</guid>
+      <description>The generalDataType Problem BEAST allows users to specify general data types&amp;ndash;formally, tag &amp;ldquo;generalDataType&amp;rdquo;&amp;ndash;with codes representing ambiguities reflecting multiple character states. People have questions/problems creating and using these general data types, e.g. here and here. The main issues are understanding what general data types are, as well as how to code them in the BEAST XML input file so that BEAST runs without errors.
+Specifying general data types To solve the first issue, you should first know that a generalDataType tag can be specified in input files for BEAST v1 or BEAST2.</description>
+    </item>
+    
+  </channel>
+</rss>

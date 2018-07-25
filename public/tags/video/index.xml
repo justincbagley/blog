@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Video on blog</title>
+    <link>/tags/video/</link>
+    <description>Recent content in Video on blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 27 Nov 2013 01:05:02 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/video/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Bryan Carstens&#39;s phylogeography talk from the 2012 Molecular Ecology Symposium, 1st Joint Congress on Evolutionary Biology, Ottawa, Canada</title>
+      <link>/2013/11/27/bryan-carstenss-phylogeography-talk-2012-molecular-ecology-symposium-1st-congress-evolutionary-biology-ottawa-canada/</link>
+      <pubDate>Wed, 27 Nov 2013 01:05:02 +0000</pubDate>
+      
+      <guid>/2013/11/27/bryan-carstenss-phylogeography-talk-2012-molecular-ecology-symposium-1st-congress-evolutionary-biology-ottawa-canada/</guid>
+      <description>In 2012, the Evolution meetings were held in Ottawa, Canada as part of the 1st Joint Congress on Evolutionary Biology (combining meetings of the SSE, SSB, ASN, etc.). The meeting was excellent, and I remember I was present for the entire Molecular Ecology Symposium, which was moderated by Time Vines and Loren Riesberg, each of whom also gave talks, as I recall. From memory, the symposium was dominated by speakers interested in applying next-generation techniques to problems in population genetics, evolution, and adaptation, and there was also an excellent talk on long-term ecological research.</description>
+    </item>
+    
+  </channel>
+</rss>

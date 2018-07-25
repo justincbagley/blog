@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Macroecology on blog</title>
+    <link>/tags/macroecology/</link>
+    <description>Recent content in Macroecology on blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 28 Jun 2017 01:49:20 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/macroecology/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Data mining resources for species distribution modeling and macroecology</title>
+      <link>/2017/06/28/data-mining-resources-for-species-distribution-modeling-and-macroecology/</link>
+      <pubDate>Wed, 28 Jun 2017 01:49:20 +0000</pubDate>
+      
+      <guid>/2017/06/28/data-mining-resources-for-species-distribution-modeling-and-macroecology/</guid>
+      <description>Research projects in ecology, evolution, and conservation biology increasingly rely upon ecological modeling and GIS data and tools for manipulating and analyzing spatially linked data from across a variety of spatial scales. Of particular importance are species distribution modeling (SDM; also known as Ecological Niche Models, or ENMs, or Environmental Niche Models) and niche divergence tools, geospatial data layers representing Earth environments from a variety of perspectives and scales, and GIS and mapping software.</description>
+    </item>
+    
+  </channel>
+</rss>

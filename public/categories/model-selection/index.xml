@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Model Selection on blog</title>
+    <link>/categories/model-selection/</link>
+    <description>Recent content in Model Selection on blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 05 Aug 2011 18:50:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/model-selection/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Evolution, phylogenetics, and phylogenetic model selection: jmodeltest vs. DT_ModSel</title>
+      <link>/2011/08/05/evolution-phylogenetics-and-phylogenetic-model-selection-jmodeltest-vs-dt_modsel/</link>
+      <pubDate>Fri, 05 Aug 2011 18:50:00 +0000</pubDate>
+      
+      <guid>/2011/08/05/evolution-phylogenetics-and-phylogenetic-model-selection-jmodeltest-vs-dt_modsel/</guid>
+      <description>Evolution is the central unifying theme in all biology&amp;ndash;&amp;ldquo;Nothing makes sense in biology except in the light of evolution,&amp;rdquo; said Dobzhansky. Two of the most important contributions of Darwin to this field were (1) acceptance and priority of the reality and importance of individual variation (selection acts on individuals, evolutionary changes surface in populations&amp;hellip;) and (2) the first phylogenetic tree with the accompanying hypothesis that all organisms share a common ancestry that can be visualized as a hierarchical branching design.</description>
+    </item>
+    
+  </channel>
+</rss>

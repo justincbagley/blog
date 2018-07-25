@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Xml on blog</title>
+    <link>/tags/xml/</link>
+    <description>Recent content in Xml on blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 08 Sep 2015 03:07:12 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/xml/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Coding general data types with ambiguities in BEAST input files</title>
+      <link>/2015/09/08/coding-general-data-types-with-ambiguities-in-beast-input-files/</link>
+      <pubDate>Tue, 08 Sep 2015 03:07:12 +0000</pubDate>
+      
+      <guid>/2015/09/08/coding-general-data-types-with-ambiguities-in-beast-input-files/</guid>
+      <description>The generalDataType Problem BEAST allows users to specify general data types&amp;ndash;formally, tag &amp;ldquo;generalDataType&amp;rdquo;&amp;ndash;with codes representing ambiguities reflecting multiple character states. People have questions/problems creating and using these general data types, e.g. here and here. The main issues are understanding what general data types are, as well as how to code them in the BEAST XML input file so that BEAST runs without errors.
+Specifying general data types To solve the first issue, you should first know that a generalDataType tag can be specified in input files for BEAST v1 or BEAST2.</description>
+    </item>
+    
+    <item>
+      <title>So you got a starting tree?  How to add it to your BEAST2 xml file and make it work for you</title>
+      <link>/2014/02/17/got-starting-tree-add-beast2-xml-file-make-work/</link>
+      <pubDate>Mon, 17 Feb 2014 04:46:23 +0000</pubDate>
+      
+      <guid>/2014/02/17/got-starting-tree-add-beast2-xml-file-make-work/</guid>
+      <description>I have now for several months been happily using BEAST2 instead of Beast 1.7.5 or 1.8.x&amp;ndash;I&amp;rsquo;m converted! Thus far, datasets have run surprisingly smoothly, but for some recent analyses I have tried to jump-start things and ensure proper likelihood values at the onset of runs by including a starting tree in my xml input file.
+Previously, I blogged about just how you might create such a starting tree that fits one or multiple calibration points in a BEAST analysis, by using penalized likelihood analysis (r8s) in R.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dambe on blog</title>
+    <link>/tags/dambe/</link>
+    <description>Recent content in Dambe on blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 23 Aug 2015 13:58:21 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/dambe/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Update Mesquite with plugin for reading and writing NeXML format</title>
+      <link>/2015/08/23/update-mesquite-plugin-reading-writing-nexml-format/</link>
+      <pubDate>Sun, 23 Aug 2015 13:58:21 +0000</pubDate>
+      
+      <guid>/2015/08/23/update-mesquite-plugin-reading-writing-nexml-format/</guid>
+      <description>In case you were unaware, there is a community-driven &amp;ldquo;NeXML&amp;rdquo; movement in computational phylogenetics, led by several bioinformaticians including Rutger Vos who are attempting to harness technologies and advantages of the XML format for transforming NEXUS flat files (an older standard for storing systematic data) into a format that is more easily processed and manipulated. See NeXML.org for more info on this technology and for softwares that allow reading and writing NeXML etc.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fossils on blog</title>
+    <link>/tags/fossils/</link>
+    <description>Recent content in Fossils on blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 07 Aug 2015 01:12:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/fossils/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Meeting opportunity: Dating species divergences using rocks and clocks</title>
+      <link>/2015/08/07/meeting-opportunity-dating-species-divergences-using-rocks-clocks/</link>
+      <pubDate>Fri, 07 Aug 2015 01:12:00 +0000</pubDate>
+      
+      <guid>/2015/08/07/meeting-opportunity-dating-species-divergences-using-rocks-clocks/</guid>
+      <description>A seemingly infinite clock&amp;hellip; credit: Chris Limb; see link to this image at Probing question: what is a molecular clock?
+The Royal Society has announced a new scientific discussion meeting opportunity aimed at uniting experts from various fields of the life and earth sciences to share scientific ideas, methods, and results, relevant to the topic of using molecular clocks to date patterns of evolution. SO, if you can be, or plan on being, in London the 9-10 of November, 2015, and this topic interests you, you should look into this meeting!</description>
+    </item>
+    
+  </channel>
+</rss>

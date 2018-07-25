@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Byu on blog</title>
+    <link>/categories/byu/</link>
+    <description>Recent content in Byu on blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Dec 2013 19:58:27 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/byu/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Luke Mahler visits BYU</title>
+      <link>/2013/12/11/luke-mahler-visits-byu/</link>
+      <pubDate>Wed, 11 Dec 2013 19:58:27 +0000</pubDate>
+      
+      <guid>/2013/12/11/luke-mahler-visits-byu/</guid>
+      <description>I&amp;rsquo;m a little behind on my blogging (sorry!), but a few weeks ago, we had Dr. Luke Mahler here at BYU. Luke is currently a postdoctoral researcher at the UC Davis Center for Population Biology (CPB) and was selected by the graduate students for a visit here at the Department of Biology. He gave a great talk at our departmental seminar on his work on convergent evolution and the &amp;lsquo;macroevolutionary landscape&amp;rsquo; in Anolis lizards from the Greater Antilles and North American Gulf-Atlantic coast, which presents a new comparative method and was recently published in Science (check it out here).</description>
+    </item>
+    
+  </channel>
+</rss>

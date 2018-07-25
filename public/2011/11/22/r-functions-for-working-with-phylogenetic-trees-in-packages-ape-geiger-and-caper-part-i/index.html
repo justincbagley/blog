@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.44" />
+
+
+<title>R functions for working with phylogenetic trees in packages ape, geiger, and caper: Part I - blog</title>
+<meta property="og:title" content="R functions for working with phylogenetic trees in packages ape, geiger, and caper: Part I - blog">
+
+
+
+  
+
+
+
+
+
+
+
+
+<link href='//cdn.bootcss.com/highlight.js/9.11.0/styles/github.min.css' rel='stylesheet' type='text/css' />
+
+
+
+<link rel="stylesheet" href="/css/fonts.css" media="all">
+<link rel="stylesheet" href="/css/main.css" media="all">
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/" class="nav-logo">
+    <img src="/images/jselfie_logo.png"
+         width="50"
+         height="50"
+         alt="Logo">
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="/about/">About</a></li>
+    
+    <li><a href="https://github.com/justincbagley">GitHub</a></li>
+    
+    <li><a href="https://www.linkedin.com/in/justin-c-bagley-2a8a0523">LinkedIn</a></li>
+    
+    <li><a href="https://www.researchgate.net/profile/Justin_Bagley2">ResearchGate</a></li>
+    
+    <li><a href="https://twitter.com/justincbagley">Twitter</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">6 min read</span>
+    
+
+    <h1 class="article-title">R functions for working with phylogenetic trees in packages ape, geiger, and caper: Part I</h1>
+
+    
+    <span class="article-date">2011/11/22</span>
+    
+
+    <div class="article-content">
+      <p>OK, in this post I will be reviewing some R functions for phylogenetics, walking you through some ways of working with phylogenies within the R environment. First, install R (<a href="http://cran.r-project.org/">http://cran.r-project.org/</a>) on your computer. Also install the phylogenetics packages APE (<a href="http://cran.r-project.org/web/packages/ape/index.html">http://cran.r-project.org/web/packages/ape/index.html</a>), geiger (<a href="http://cran.r-project.org/web/packages/geiger/index.html">http://cran.r-project.org/web/packages/geiger/index.html</a>) and caper (<a href="http://cran.r-project.org/web/packages/caper/index.html">http://cran.r-project.org/web/packages/caper/index.html</a>) on your machine using links at these URLs, or using the &lsquo;Install packages&rsquo; option within the &lsquo;Packages&rsquo; dropdown menu of the R gui), in the appropriate library folder (e.g., C:\Program Files\R 2.xx\library&hellip;). Within the 64-bit R console on my MacBook Pro, I just go to &lsquo;Packages &amp; Data&rsquo; and click on the &lsquo;Package Installer&rsquo; to get new packages.</p>
+
+<p><strong>First steps, and getting trees into R</strong></p>
+
+<p>Now, let&rsquo;s do some stuff with phylogenetic trees in R. Our first step is to obtain trees of interest, then get them into R to play with them and to conduct analyses with them. If you have no tree, but you have a data matrix, you can construct phylogenetic trees using a variety of R packages (e.g. phangorn, bblme). For the rest of this particular post, I will assume you already have one or more phylogenies to work with.</p>
+
+<p>I will also assume you understand some basic R commands (e.g. &ldquo;gets,&rdquo; or = , and that you know bigdata[,x] is a column, etc.) already. Please read up on the basics beforehand if you haven&rsquo;t.</p>
+
+<p>Before taking our first step and reading in a treefile, we need to make sure that the packages we will be using are ready. Type library(ape) library(geiger) library(caper) to load the appropriate packages. All code below will assume that you have loaded these packages; these codes will not work without them, thus this is an important point. Also put any tree files (newick text, .NEX, .tre formats, etc.) you are interested in into your current working directory. You can find out what your current working directory is by typing getwd(), and then you can change this using setwd() and filling in the parenthesis with the location of the desired directory location (note: use forward slashes, not backslashes when typing this in). Assuming the tree file of interest is called &ldquo;bigtree.tre&rdquo;, type</p>
+
+<pre><code>bigtree = read.tree(file='bigtree.tre')
+#or you could also try:
+bigtree = read.nexus(file='bigtree.tre')
+#if you would like to read in a nexus file.
+</code></pre>
+
+<p>To view your phylogeny, type</p>
+
+<pre><code>plot(bigtree)
+</code></pre>
+
+<p>Add an axis representing your branch lengths, after the tree graph shows up in a separate window within your R gui, by typing the following code:</p>
+
+<pre><code>axisPhylo()
+#...or add a small scale bar like this:
+add.scale.bar()
+</code></pre>
+
+<p>Alternatively, to get a tree file in manually, you might insert your tree (copy and paste in standard newick format with or without branch lengths, and making sure that you have no spaces in your tip labels) in between the first set of quotation marks (&ldquo;&rdquo;) that I have left blank here:</p>
+
+<pre><code>cat('', file = 'treename.tre', sep = '\n')
+</code></pre>
+
+<p>This creates the tree file &ldquo;treename.tre&rdquo; in your working directory with your tree in it. Simply type treename , then plot(treename) to see your phylogeny. Now that your tree is in R, you probably will want to save it. To save your tree in NEXUS format, simply use the command write.nexus(&ldquo;treename&rdquo;, &ldquo;treename.nexus&rdquo;). To see a summary of the features of your tree type its name treename. To see a summary of tip labels along the phylogeny, type something like treename$tip.label. To see branch lengths, type treename$edge.length.</p>
+
+<p><strong>More basic tree features, and changing how trees look</strong></p>
+
+<p>Now that you have learned to input trees of object class &ldquo;phylo&rdquo; in R, it would be useful to know how to do some basic editing/tree handling procedures. First, you might like to know your node numbers. The fastest way to get this information any particular node is to use the following code then click near the node of interest, and watch as the value will be returned.</p>
+
+<pre><code>## For a tree named x:
+plot(x)
+identify(x)
+Click close to a node of the tree...
+$nodes
+[1] 108
+</code></pre>
+
+<p>However, you could also open your tree in Mesquite, open it in a tree window, then click on the text tab to see your tree in text format. That would also give you node numbers.</p>
+
+<p>To get all of the node numbers while visualizing your tree in R, try something like this (again for a tree named x):</p>
+
+<pre><code>plot(x)
+nodelabels(adj=c(0,-1), frame='n')
+</code></pre>
+
+<p>Another thing you might also be interested in would be plotting branch lengths along the branches, or looking at different branch length parameters. Try this (again for a tree named x):</p>
+
+<pre><code>## This code gives all of the branch lengths:
+x$edge.length
+## This code plots branch lengths along the tree:
+plot(x)
+  
+## Get the root branch length itself like this:
+x$root.edge
+</code></pre>
+
+<p><strong>Branch length transformations</strong></p>
+
+<p>One of my favorite things to do with phylogenies in R is to play around with different branch length transformations. Changing the branch lengths of your phylogeny might be something you might would want to do in a number of different ways, at different times, and with several important consequences. For example, branch length transformations allow you to alter your phylogenetic hypothesis to reflect different relative rates of evolution. Trees with different branch lengths, hence representing different evolutionary models, can then be compared with likelihood ratios or AIC scores&hellip; or placed into statistical phylogenetic models of trait data (e.g. logistic regression models or different models of character evolution), which can also subsequently be compared using model selection techniques. You might also need a bank of trees with the same topology but different branch lengths to test which set of branch lengths is most appropriate for a given analysis, or test which tree has branch lengths that provide the best fit to a certain model of interest.</p>
+
+<p>~ J</p>
+
+<p><strong>References and links</strong></p>
+
+<p>Here are some links to some content related to phylogenetics and R from the Berkeley Integrative Biology (IB) program and a couple other places, which I have drawn from and will continue to use as resources as I add more content to my blog about phylogenetics in R. I&rsquo;m going to draw up a little bibliography on the best reading in phylogenetic comparative methods as well, as I develop these new sections of the blog further&hellip;</p>
+
+<p>Berkeley resources, mostly developed by Nick Matzke (Thanks Nick!):</p>
+
+<p><a href="http://ib.berkeley.edu/courses/ib200b/IB200B_Readings.shtml#history">http://ib.berkeley.edu/courses/ib200b/IB200B_Readings.shtml#history</a></p>
+
+<p><a href="http://ib.berkeley.edu/courses/ib200a/lect/ib200a_lect14_Matzke_Bayesian_phylogenetics.pdf">http://ib.berkeley.edu/courses/ib200a/lect/ib200a_lect14_Matzke_Bayesian_phylogenetics.pdf</a></p>
+
+<p><a href="http://phylo.wikidot.com/workshop:methodological-workshop-on-biodiversity-dynamics">http://phylo.wikidot.com/workshop:methodological-workshop-on-biodiversity-dynamics</a></p>
+
+<p><a href="http://ib.berkeley.edu/courses/ib200b/labs/_ib200b_lab4_R_continuous_characters_v1.R">http://ib.berkeley.edu/courses/ib200b/labs/_ib200b_lab4_R_continuous_characters_v1.R</a></p>
+
+<p><a href="http://ib.berkeley.edu/courses/ib200b/labs/lab10/ib200b_lab10_evodevo_v2.R">http://ib.berkeley.edu/courses/ib200b/labs/lab10/ib200b_lab10_evodevo_v2.R</a></p>
+
+<p><a href="http://ib.berkeley.edu/courses/ib200b/labs/lab12/ib200b_lab12_lineages_thru_time.pdf">http://ib.berkeley.edu/courses/ib200b/labs/lab12/ib200b_lab12_lineages_thru_time.pdf</a></p>
+
+<p><a href="http://ib.berkeley.edu/courses/ib200b/labs/_dating_code_v1.R">http://ib.berkeley.edu/courses/ib200b/labs/_dating_code_v1.R</a></p>
+
+<p>Ape package installation issues: <a href="http://blog.gmane.org/gmane.comp.lang.r.phylo/month=20100601">http://blog.gmane.org/gmane.comp.lang.r.phylo/month=20100601</a></p>
+
+<p>phylo wikido stuff: <a href="http://phylo.wikidot.com/intro-to-r-continued:phylogenies-continuous-characters">http://phylo.wikidot.com/intro-to-r-continued:phylogenies-continuous-characters</a></p>
+
+<p><a href="http://phylo.wikidot.com/phylogenetically-independent-contrasts">http://phylo.wikidot.com/phylogenetically-independent-contrasts</a></p>
+
+<p>Cutting a tree at a given time interval: <a href="https://stat.ethz.ch/pipermail/r-sig-phylo/2011-July/001495.html">https://stat.ethz.ch/pipermail/r-sig-phylo/2011-July/001495.html</a></p>
+
+<p>Phylogenetic comparative methods wiki resource: <a href="http://www.r-phylo.org/wiki/Main_Page">http://www.r-phylo.org/wiki/Main_Page</a></p>
+
+<p>Charles Nunn&rsquo;s AnthroTree website, phylo branch length transformations, evolutionary models, and detecting evolutionary trends: <a href="http://nunn.rc.fas.harvard.edu/groups/pica/wiki/a6fd9/Chapter_5Modeling_Evolutionary_Change.html">http://nunn.rc.fas.harvard.edu/groups/pica/wiki/a6fd9/Chapter_5Modeling_Evolutionary_Change.html</a>, <a href="http://nunn.rc.fas.harvard.edu/groups/pica/wiki/ccf76/47_Detecting_Evolutionary_Trends_from_a_Dated_Phylogeny.html">http://nunn.rc.fas.harvard.edu/groups/pica/wiki/ccf76/47_Detecting_Evolutionary_Trends_from_a_Dated_Phylogeny.html</a></p>
+
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <a href="/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+          </li>
+          <li>
+            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="/images/hugo-logo.png" width="22" height="22"></a>
+          </li>
+        <p class="m-0 text-center text-white">Copyright &copy; 2018 Justin C. Bagley</p>
+        </ul>
+      </footer>
+
+    </div>
+    
+
+
+
+<script src="//cdn.bootcss.com/highlight.js/9.11.0/highlight.min.js"></script>
+
+
+
+<script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/r.min.js"></script>
+<script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/yaml.min.js"></script>
+<script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+
+
+
+    
+<script src="/js/math-code.js"></script>
+<script async src="//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+
+    
+  </body>
+</html>
+

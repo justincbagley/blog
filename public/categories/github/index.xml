@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Github on blog</title>
+    <link>/categories/github/</link>
+    <description>Recent content in Github on blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 17 Sep 2017 18:23:01 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/github/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How To Setup A Linux Supercomputer for RAD-seq</title>
+      <link>/2017/09/17/linux-supercomputer-rad-seq/</link>
+      <pubDate>Sun, 17 Sep 2017 18:23:01 +0000</pubDate>
+      
+      <guid>/2017/09/17/linux-supercomputer-rad-seq/</guid>
+      <description>Here, I&amp;rsquo;m sharing a Gist that I recently wrote, and just updated today, about setting up an account on a Linux supercomputer for analyzing RAD-seq data (e.g. from ddRAD-seq, 2bRAD methods).
+Here&amp;rsquo;s the Gist&amp;hellip;
+https://gist.github.com/justincbagley/84f5dae6f35926c0c30bfc1cbd82eb24
+Cheers ~J</description>
+    </item>
+    
+    <item>
+      <title>Analyzing ddRADseq Data in SNAPP</title>
+      <link>/2017/09/13/gist-ddradseq-data-snapp/</link>
+      <pubDate>Wed, 13 Sep 2017 11:40:35 +0000</pubDate>
+      
+      <guid>/2017/09/13/gist-ddradseq-data-snapp/</guid>
+      <description>](https://gist.github.com)
+Oh, SNAPP&amp;hellip;
+Over the last year, as I&amp;rsquo;ve become increasingly comfortable with GitHub, I&amp;rsquo;ve naturally shifted all of my note writing to Markdown language. During the process, I&amp;rsquo;ve started frequently jotting down useful notes related to analysis, code, or scientific computing as &amp;ldquo;Gists&amp;rdquo; on GitHub. In contrast to most repositories, Gists are small snippets of code or notes and are posted at gist.github.com rather than github.com. To date, I have published 8 Gists on topics as broad as Pandoc, ∂a∂i, SNAPP, and Markdown.</description>
+    </item>
+    
+  </channel>
+</rss>

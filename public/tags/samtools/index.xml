@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Samtools on blog</title>
+    <link>/tags/samtools/</link>
+    <description>Recent content in Samtools on blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 10 Mar 2018 23:17:05 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/samtools/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>dDocent install successes &amp; failures on Linux supercomputers</title>
+      <link>/2018/03/10/ddocent-install-successes-failures-on-linux-supercomputers/</link>
+      <pubDate>Sat, 10 Mar 2018 23:17:05 +0000</pubDate>
+      
+      <guid>/2018/03/10/ddocent-install-successes-failures-on-linux-supercomputers/</guid>
+      <description>Jon Puritz and some other developers have hacked out a nice pipeline, named dDocent (pronounced &amp;ldquo;docent&amp;rdquo;), for genomic assembly, read mapping, and SNP calling using NGS data from the RAD-seq family of sequencing strategies. dDocent is nice because it pulls together several top-of-the-line existing tools, and because it provides reference-based and de novo assembly options.
+Instructions for installing dDocent are given at the pipeline&amp;rsquo;s Bioconda Download and Install page, and are claimed to be &amp;ldquo;So easy your grandfather could do this&amp;hellip;.</description>
+    </item>
+    
+  </channel>
+</rss>

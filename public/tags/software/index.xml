@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Software on blog</title>
+    <link>/tags/software/</link>
+    <description>Recent content in Software on blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 25 Jul 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/software/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Picking a custom search engine for your website</title>
+      <link>/2018/07/25/picking-a-custom-search-engine-for-your-website/</link>
+      <pubDate>Wed, 25 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/07/25/picking-a-custom-search-engine-for-your-website/</guid>
+      <description>First, if you&amp;rsquo;d like to and see this blog entry in its original context, then read my original stackoverflow answer here.
+So, according to blogdown authors (Xie et al. 2018), it&amp;rsquo;s been said before that,
+ &amp;ldquo;If you don’t have a website nowadays, you don’t exist&amp;rdquo; &amp;ndash;Carlos Scheidegger.
+ A quick search online returns blog posts and sites with several variations on this them (e.g. here and here) acknowledging the axiomatic importance of an online presence these days.</description>
+    </item>
+    
+    <item>
+      <title>How To Setup A Linux Supercomputer for RAD-seq</title>
+      <link>/2017/09/17/linux-supercomputer-rad-seq/</link>
+      <pubDate>Sun, 17 Sep 2017 18:23:01 +0000</pubDate>
+      
+      <guid>/2017/09/17/linux-supercomputer-rad-seq/</guid>
+      <description>Here, I&amp;rsquo;m sharing a Gist that I recently wrote, and just updated today, about setting up an account on a Linux supercomputer for analyzing RAD-seq data (e.g. from ddRAD-seq, 2bRAD methods).
+Here&amp;rsquo;s the Gist&amp;hellip;
+https://gist.github.com/justincbagley/84f5dae6f35926c0c30bfc1cbd82eb24
+Cheers ~J</description>
+    </item>
+    
+    <item>
+      <title>Data mining resources for species distribution modeling and macroecology</title>
+      <link>/2017/06/28/data-mining-resources-for-species-distribution-modeling-and-macroecology/</link>
+      <pubDate>Wed, 28 Jun 2017 01:49:20 +0000</pubDate>
+      
+      <guid>/2017/06/28/data-mining-resources-for-species-distribution-modeling-and-macroecology/</guid>
+      <description>Research projects in ecology, evolution, and conservation biology increasingly rely upon ecological modeling and GIS data and tools for manipulating and analyzing spatially linked data from across a variety of spatial scales. Of particular importance are species distribution modeling (SDM; also known as Ecological Niche Models, or ENMs, or Environmental Niche Models) and niche divergence tools, geospatial data layers representing Earth environments from a variety of perspectives and scales, and GIS and mapping software.</description>
+    </item>
+    
+    <item>
+      <title>New version of BEAST--v1.8.3--released!</title>
+      <link>/2016/02/22/new-version-beast-v1-8-3-released/</link>
+      <pubDate>Mon, 22 Feb 2016 17:10:32 +0000</pubDate>
+      
+      <guid>/2016/02/22/new-version-beast-v1-8-3-released/</guid>
+      <description>BEAST v1.8.3 logo
+In case you were unaware, Andrew Rambaut has made a new version of BEAST 1, v1.8.3, available for Mac, Windows and Linux (.dmg, .zip, .tgz) at the BEAST 1 GitHub website.
+According to Andrew, new features of this version include:
+ Generalized Stepping Stone sampling for Marginal Likelihood Estimation. Continuous quantile version of uncorrelated relaxed clock as option in BEAUti [from Li &amp;amp; Drummond 2012, MBE]. Option in BEAUti to log complete histories in Markov Jump Counting.</description>
+    </item>
+    
+    <item>
+      <title>Update: BEAST v2.3.2 released!</title>
+      <link>/2015/12/17/update-beast-v2-3-2-released/</link>
+      <pubDate>Thu, 17 Dec 2015 13:04:58 +0000</pubDate>
+      
+      <guid>/2015/12/17/update-beast-v2-3-2-released/</guid>
+      <description>BEAST2 logo
+Hi guys, OK, in case you haven&amp;rsquo;t heard, there is a new version of BEAST2, so make sure that you go get that update on GitHub. According to Remco Bouckaert, the new version, v2.3.2, improves the ability of the user to interact with data in BEAUti, and it also improves the efficiency of some BEAST functions, particularly the MRCAPrior. Moreover, LogCombiner has been fixed to ensure logcombiner burn in editing finished properly, and LogAnalyser now has one line per file mode.</description>
+    </item>
+    
+    <item>
+      <title>Update to BEAST v2.3.1</title>
+      <link>/2015/12/02/update-beast-v2-3-1/</link>
+      <pubDate>Wed, 02 Dec 2015 12:25:54 +0000</pubDate>
+      
+      <guid>/2015/12/02/update-beast-v2-3-1/</guid>
+      <description>BEAST2 logo
+A couple of months ago the developers released a new version of BEAST, v2.3.1. I like to remind myself and others to update your BEAST and its utilities to this latest version, which you can download it here.
+BEAST v2.3.1 contains a number of important updates. Most notably, TreeAnnotator now has the default memory set to 4 Gb, and this will greatly help ambitious people who try to upload and summarize large numbers of trees, or the posterior distribution of trees from an analysis with many tree tips.</description>
+    </item>
+    
+    <item>
+      <title>Detecting trait-dependent shifts in DNA sequence evolution with traitRate</title>
+      <link>/2015/09/17/detecting-trait-dependent-shifts-dna-sequence-evolution-traitrate/</link>
+      <pubDate>Thu, 17 Sep 2015 15:06:20 +0000</pubDate>
+      
+      <guid>/2015/09/17/detecting-trait-dependent-shifts-dna-sequence-evolution-traitrate/</guid>
+      <description>These days, we evo-biologists studying macroevolution tend to be interested in riding different waves of research and methods, and one of these is focused on understanding shifts in diversification rates as inferred from phylogenies and trait data. This is a hot topic in my opinion, and the focus is on understanding the causes and rates of spectacular adaptive and non-adaptive radiations of species in different systems across the glob.
+But did you know it was possible to test for trait-dependent shifts in evolution of species DNA sequences or genomes?</description>
+    </item>
+    
+    <item>
+      <title>Update Mesquite with plugin for reading and writing NeXML format</title>
+      <link>/2015/08/23/update-mesquite-plugin-reading-writing-nexml-format/</link>
+      <pubDate>Sun, 23 Aug 2015 13:58:21 +0000</pubDate>
+      
+      <guid>/2015/08/23/update-mesquite-plugin-reading-writing-nexml-format/</guid>
+      <description>In case you were unaware, there is a community-driven &amp;ldquo;NeXML&amp;rdquo; movement in computational phylogenetics, led by several bioinformaticians including Rutger Vos who are attempting to harness technologies and advantages of the XML format for transforming NEXUS flat files (an older standard for storing systematic data) into a format that is more easily processed and manipulated. See NeXML.org for more info on this technology and for softwares that allow reading and writing NeXML etc.</description>
+    </item>
+    
+    <item>
+      <title>New web server update for Bayesian PTP species delimitation on single-locus gene trees - and more!</title>
+      <link>/2014/03/07/new-web-server-update-bayesian-ptp-species-delimitation-single-gene-tree/</link>
+      <pubDate>Fri, 07 Mar 2014 16:05:31 +0000</pubDate>
+      
+      <guid>/2014/03/07/new-web-server-update-bayesian-ptp-species-delimitation-single-gene-tree/</guid>
+      <description>Recently, biologists have been developing statistically more rigorous methods that &amp;lsquo;put the teeth into&amp;rsquo; species delimitation, including species discovery approaches, and provide what appears to be new steps towards more automated means of taking advantage of DNA sequence data for these purposes. This is critical given the current biodiversity crisis.
+Among the new methods, two sets of methods take similar approaches to delimit species from one or multiple phylogenetic trees. These methods, the general mixed Yule-coalescent (GMYC) model and the Poisson tree process (PTP) model, were initially developed to use coalescent or non-coalescent statistical algorithms to delimit species on single-locus gene trees, e.</description>
+    </item>
+    
+    <item>
+      <title>New version of Tracer - Tracer v1.6 - now available!</title>
+      <link>/2013/12/11/new-version-tracer-tracer-1-6-now-available/</link>
+      <pubDate>Wed, 11 Dec 2013 20:02:10 +0000</pubDate>
+      
+      <guid>/2013/12/11/new-version-tracer-tracer-1-6-now-available/</guid>
+      <description>OK, heads up everyone using BEAST, or interested in summarizing and analyzing the results of Bayesian analyses in other software programs! There is a new version of the program Tracer available at Andrew Rambaut&amp;rsquo;s website. You can obtain the new version of Tracer, Tracer v1.6 by downloading the appropriate version here. The new version supports several new features, and here is a list of the new stuff they&amp;rsquo;ve added to the program, taken from the website:</description>
+    </item>
+    
+    <item>
+      <title>BEASTGen: a new program for creating NEXUS, FASTA and BEAST XML input files for phylogenetics software</title>
+      <link>/2013/10/29/beastgen-a-new-program-for-creating-nexus-fasta-and-beast-xml-input-files-for-phylogenetics-software/</link>
+      <pubDate>Tue, 29 Oct 2013 15:36:00 +0000</pubDate>
+      
+      <guid>/2013/10/29/beastgen-a-new-program-for-creating-nexus-fasta-and-beast-xml-input-files-for-phylogenetics-software/</guid>
+      <description>Andrew Rambaut has released the first version of a new software program, BEASTGen, that transforms phylogenetic data between the standard NEXUS, FASTA and BEAST XML formats. Could this mean that we are one step closer to calming many graduate students&amp;rsquo; (and other people&amp;rsquo;s) woes over this issue?
+The new software can be downloaded from the BEAST Google code website, at https://code.google.com/p/beast-mcmc/downloads/detail?name=BEASTGen_v1.0.tgz.
+Andrew has also written a brief set of instructions that can be found on the BEAST website, at http://beast.</description>
+    </item>
+    
+    <item>
+      <title>A comprehensive list of phylogenetics packages for R</title>
+      <link>/2013/10/27/a-comprehensive-list-of-phylogenetics-packages-for-r/</link>
+      <pubDate>Sun, 27 Oct 2013 19:25:00 +0000</pubDate>
+      
+      <guid>/2013/10/27/a-comprehensive-list-of-phylogenetics-packages-for-r/</guid>
+      <description>The packages
+Here is my comprehensive list of phylogenetics packages for R, with links to their websites (for some, links to support pages or more detailed information are provided in subsequent sections). The requirement for inclusion in the list is at least one function related to manipulation or analysis of phylogenetic data. Please E-mail me if you know of another program to add, or if you are developing a new package for phylogenetics in R.</description>
+    </item>
+    
+    <item>
+      <title>BEAST and the BEAST basics: molecular clocks and how to input rates into BEAST</title>
+      <link>/2011/09/01/beast-and-the-beast-basics-molecular-clocks-and-how-to-input-rates-into-beast/</link>
+      <pubDate>Thu, 01 Sep 2011 23:38:00 +0000</pubDate>
+      
+      <guid>/2011/09/01/beast-and-the-beast-basics-molecular-clocks-and-how-to-input-rates-into-beast/</guid>
+      <description>BEAST basics **A brief introduction to BEAST ** BEAST is a powerful computer program for evolutionary analysis developed by Andrew Rambaut and Alexei Drummond, as well as Marc Suchard, Simon Ho, Joseph Heled, and others. BEAST was originally designed to provide a Bayesian Markov chain Monte Carlo (MCMC) method for simultaneously co-estimating phylogenies and divergence times (times to the most recent common ancestor, TMRCAs) from DNA sequence data (or amino acids) for one or multiple loci.</description>
+    </item>
+    
+    <item>
+      <title>jmodeltest will not run with single quotes around tip names</title>
+      <link>/2011/08/06/jmodeltest-will-not-run-with-single-quotes-around-tip-names/</link>
+      <pubDate>Sat, 06 Aug 2011 14:20:00 +0000</pubDate>
+      
+      <guid>/2011/08/06/jmodeltest-will-not-run-with-single-quotes-around-tip-names/</guid>
+      <description>A little while ago, I discovered a common error in jmodeltest is the error message that the number of sites appears to be wrong. I recently encountered this issue again. This is caused by single quotation marks on either side of tip names in a NEXUS file, which is a common form of the output / exported NEXUS file from DNASP. So, once you export a NEXUS from DNASP, say after doing some population level genetic analyses or after defining sequence groups for setting up structure in ARLEQUIN, you should simply open your NEXUS file in a word processor or text editor and use the &amp;ldquo;Replace&amp;rdquo; command to remove all quotation marks from your file.</description>
+    </item>
+    
+    <item>
+      <title>Phylogenetic hypothesis testing</title>
+      <link>/2010/08/16/phylogenetic-hypotheses-testing/</link>
+      <pubDate>Mon, 16 Aug 2010 01:56:00 +0000</pubDate>
+      
+      <guid>/2010/08/16/phylogenetic-hypotheses-testing/</guid>
+      <description>I love going online and finding new websites with useful information. Here are a few recent websites related to evolutionary analysis using phylogenetic systematics, and particularly related to phylogenetic hypothesis testing.
+ Mesquite documentation on Simulations &amp;amp; Randomization
+ http://mesquiteproject.wikispaces.com/Simulations+%26+Randomizations   Brian O&amp;rsquo;Meara&amp;rsquo;s old phylogenetics tutorial page
+ http://www.brianomeara.info/tutorials/phylogenetics   Andrew Crawford&amp;rsquo;s page - general
+ http://dna.ac/index.html   Andrew Crawford&amp;rsquo;s SOWH test instructions
+ http://dna.ac/SOWH_detailed_guide.rtf   Anderson, Goldman and Rodrigo&amp;rsquo;s SOWH test instructions</description>
+    </item>
+    
+  </channel>
+</rss>

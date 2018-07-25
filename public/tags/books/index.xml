@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Books on blog</title>
+    <link>/tags/books/</link>
+    <description>Recent content in Books on blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 30 Apr 2014 18:04:38 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/books/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>New book on phylogenetic comparative analysis in R</title>
+      <link>/2014/04/30/new-book-phylogenetic-comparative-analysis-r/</link>
+      <pubDate>Wed, 30 Apr 2014 18:04:38 +0000</pubDate>
+      
+      <guid>/2014/04/30/new-book-phylogenetic-comparative-analysis-r/</guid>
+      <description>I just found out about this and it is definitely going on my Want List. Springer has just this year published Nick Swenson&amp;rsquo;s new book entitled Functional and Phylogenetic Ecology in R. This book looks very useful for anyone interested in phylogenetic analysis of ecological adaptation or diversity using the R environment. Check it out and buy it direct from Spring here.
+One cool thing about this book is that it provides examples on integrating R code with code/programs from Python and C.</description>
+    </item>
+    
+  </channel>
+</rss>

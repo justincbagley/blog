@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Command Line on blog</title>
+    <link>/tags/command-line/</link>
+    <description>Recent content in Command Line on blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 26 Mar 2018 03:11:07 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/command-line/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>R install for user on a CentOS Linux supercomputer</title>
+      <link>/2018/03/26/installing-r-for-user-on-a-centos-linux-supercomputer-account/</link>
+      <pubDate>Mon, 26 Mar 2018 03:11:07 +0000</pubDate>
+      
+      <guid>/2018/03/26/installing-r-for-user-on-a-centos-linux-supercomputer-account/</guid>
+      <description>An up-to-date R install is a key component of any biologist&amp;rsquo;s bioinformatics toolkit. In this post, I will walk through some code that I used to solve the problem of installing the latest version of R, R v3.4.4 (the &amp;ldquo;2018-03-15, Someone to Lean On&amp;rdquo; release), at the user level on a Linux supercomputing cluster running CentOS 5/6/7. First, I&amp;rsquo;ll give some background information that will be useful for following along.</description>
+    </item>
+    
+    <item>
+      <title>Command line trash: how to delete, trash, and inspect files from the CLI</title>
+      <link>/2018/03/06/command-line-trash-how-to-delete-trash-and-inspect-files-from-the-cli/</link>
+      <pubDate>Tue, 06 Mar 2018 03:49:42 +0000</pubDate>
+      
+      <guid>/2018/03/06/command-line-trash-how-to-delete-trash-and-inspect-files-from-the-cli/</guid>
+      <description>As many of you know, I use a UNIX/Mac system, and I spend a great deal of time working from the command line on UNIX and LINUX. One thing that everyone learns when they&amp;rsquo;re learning the UNIX/LINUX command line is that the &amp;ldquo;rm&amp;rdquo; command is a powerful and versatile option for deleting files. However, when we delete files with rm, they never come back, and thus they cannot be inspected afterward.</description>
+    </item>
+    
+    <item>
+      <title>How To Setup A Linux Supercomputer for RAD-seq</title>
+      <link>/2017/09/17/linux-supercomputer-rad-seq/</link>
+      <pubDate>Sun, 17 Sep 2017 18:23:01 +0000</pubDate>
+      
+      <guid>/2017/09/17/linux-supercomputer-rad-seq/</guid>
+      <description>Here, I&amp;rsquo;m sharing a Gist that I recently wrote, and just updated today, about setting up an account on a Linux supercomputer for analyzing RAD-seq data (e.g. from ddRAD-seq, 2bRAD methods).
+Here&amp;rsquo;s the Gist&amp;hellip;
+https://gist.github.com/justincbagley/84f5dae6f35926c0c30bfc1cbd82eb24
+Cheers ~J</description>
+    </item>
+    
+    <item>
+      <title>How to kill an R process without forcing R to quit on mac</title>
+      <link>/2016/04/06/kill-r-process-without-forcing-r-quit-mac/</link>
+      <pubDate>Wed, 06 Apr 2016 15:22:18 +0000</pubDate>
+      
+      <guid>/2016/04/06/kill-r-process-without-forcing-r-quit-mac/</guid>
+      <description>From time to time, we make mistakes in programming or testing a new R script or function, only to find that R &amp;ldquo;freezes&amp;rdquo; and appears to be stuck, or working but giving the impression that it will take an eternity to complete the computation. What could be happening is that the process is based on an maximum-likelihood estimation of a parameter that requires convergence, you could have accidentally (e.g. by default) run a function that needs to visit the total number of models possible for your dataset or a certain amount of parameter space.</description>
+    </item>
+    
+    <item>
+      <title>Dealing with negative phylogenetic branch lengths in BEAST starting trees</title>
+      <link>/2016/03/01/dealing-negative-phylogenetic-branch-lengths-beast-starting-trees/</link>
+      <pubDate>Tue, 01 Mar 2016 21:43:35 +0000</pubDate>
+      
+      <guid>/2016/03/01/dealing-negative-phylogenetic-branch-lengths-beast-starting-trees/</guid>
+      <description>Negative branch lengths and the BEAST When conducting phylogenetic analyses, you will from time to time encounter negative branch lengths. Negative branch lengths are a nuisance because they can cause substantial visualization problems or keep analyses (e.g. downstream analyses in other programs) from running.
+For example, it will be desirable in many cases to add a starting tree to input files for datasets with phylogeographical sampling (e.g. multiple individuals in a standard BEAST analysis, or a *BEAST species tree analysis with multiple individuals sampled per species/population modeled).</description>
+    </item>
+    
+    <item>
+      <title>Alternative ways to quickly get post-burnin trees from BEAST output from the command line</title>
+      <link>/2014/12/26/quickly-get-post-burnin-trees-beast-output-without-using-log-combiner-tree-annotator/</link>
+      <pubDate>Fri, 26 Dec 2014 11:06:40 +0000</pubDate>
+      
+      <guid>/2014/12/26/quickly-get-post-burnin-trees-beast-output-without-using-log-combiner-tree-annotator/</guid>
+      <description>Evolutionary biologists generally use nice java-written utility programs that come in the standard BEAST distribution to obtain post-burnin trees for summarizing the results of a converged BEAST run (or *BEAST run) that reached stationarity. Usually, only 5,000 to 20,000 trees are necessary for this, and these are typically obtained by cutting out &amp;lsquo;burnin&amp;rsquo; trees and then &amp;ldquo;thinning&amp;rdquo; trees from &amp;ldquo;.trees&amp;rdquo; output files using LogCombiner until the desired number of trees is reached.</description>
+    </item>
+    
+    <item>
+      <title>Give your mac some relief: how to remove the sleepimage file using Terminal</title>
+      <link>/2014/09/20/give-mac-relief-remove-sleepimage-file-using-terminal/</link>
+      <pubDate>Sat, 20 Sep 2014 19:39:38 +0000</pubDate>
+      
+      <guid>/2014/09/20/give-mac-relief-remove-sleepimage-file-using-terminal/</guid>
+      <description>Your mac, depending on how you have it set up and how you use it, can slow on start up from restarts or hibernation due to the presence of a very large file called &amp;ldquo;sleepimage&amp;rdquo;. This is a very important file generated by Safe Sleep (on all MacBook Pros, for example) that serves the purpose of saving a state of your mac&amp;rsquo;s memory that keeps you from losing data when the computer sleeps, hibernates, restarts, or runs out of memory.</description>
+    </item>
+    
+    <item>
+      <title>SSH clients and Linux command line for interacting with supercomputers during evolutionary analysis</title>
+      <link>/2013/03/13/ssh-clients-and-linux-command-line-for-interacting-with-supercomputers-during-evolutionary-analysis/</link>
+      <pubDate>Wed, 13 Mar 2013 14:05:00 +0000</pubDate>
+      
+      <guid>/2013/03/13/ssh-clients-and-linux-command-line-for-interacting-with-supercomputers-during-evolutionary-analysis/</guid>
+      <description>At the time of this writing, I am fortunate to be doing my PhD at BYU, which is a great environment to work on biogeography, systematics and evolution mainly because of the great people with similar interests that seem to always be attracted to the place. However, I am also very fortunate that at my institution we have excellent infrastructure and internal resources for conducting the highest quality research in molecular evolution and ecology.</description>
+    </item>
+    
+  </channel>
+</rss>

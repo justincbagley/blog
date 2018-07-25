@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Phylogenetics on blog</title>
+    <link>/categories/phylogenetics/</link>
+    <description>Recent content in Phylogenetics on blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 06 Apr 2016 15:43:16 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/phylogenetics/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Automatically install or update all phylogenetics packages in R</title>
+      <link>/2016/04/06/simultaneously-install-phylogenetics-packages-in-r/</link>
+      <pubDate>Wed, 06 Apr 2016 15:43:16 +0000</pubDate>
+      
+      <guid>/2016/04/06/simultaneously-install-phylogenetics-packages-in-r/</guid>
+      <description>In case you are unaware of this trick, it is possible to simultaneously install or update all of the phylogenetics packages available in R in one fail swoop.
+A number of different CRAN Task Views have been created summarizing R packages and utilities for different fields of analysis or research. Luckily, there is not only a compilation of these located on the CRAN-R website here, but also Brian O&amp;rsquo;Meara (@omearabrian #omearabrian) has developed a nice CRAN Task View entitled &amp;ldquo;Phylogenetics, Especially Comparative Methods.</description>
+    </item>
+    
+    <item>
+      <title>Statistical phylogeography tutorial #1: Coalescent simulations in Mesquite Part I</title>
+      <link>/2011/09/22/statistical-phylogeography-tutorial-1-coalescent-simulations-in-mesquite-part-i/</link>
+      <pubDate>Thu, 22 Sep 2011 16:51:00 +0000</pubDate>
+      
+      <guid>/2011/09/22/statistical-phylogeography-tutorial-1-coalescent-simulations-in-mesquite-part-i/</guid>
+      <description>Part I. Draft 9/22/11
+WARNING: The following is based on my current understanding and use of Mesquite to perform coalescent simulations for phylogeographical hypotheses testing and is correct to the best of my knowledge, but I do not guarantee its accuracy. Also, you may not perform these analyses in the exact way or order that I have performed them. The following is based on a number of previously-published studies (e.g. Knowles 2001; Knowles &amp;amp; Maddison 2002; Carstens et al.</description>
+    </item>
+    
+    <item>
+      <title>Phylogenetic hypothesis testing</title>
+      <link>/2010/08/16/phylogenetic-hypotheses-testing/</link>
+      <pubDate>Mon, 16 Aug 2010 01:56:00 +0000</pubDate>
+      
+      <guid>/2010/08/16/phylogenetic-hypotheses-testing/</guid>
+      <description>I love going online and finding new websites with useful information. Here are a few recent websites related to evolutionary analysis using phylogenetic systematics, and particularly related to phylogenetic hypothesis testing.
+ Mesquite documentation on Simulations &amp;amp; Randomization
+ http://mesquiteproject.wikispaces.com/Simulations+%26+Randomizations   Brian O&amp;rsquo;Meara&amp;rsquo;s old phylogenetics tutorial page
+ http://www.brianomeara.info/tutorials/phylogenetics   Andrew Crawford&amp;rsquo;s page - general
+ http://dna.ac/index.html   Andrew Crawford&amp;rsquo;s SOWH test instructions
+ http://dna.ac/SOWH_detailed_guide.rtf   Anderson, Goldman and Rodrigo&amp;rsquo;s SOWH test instructions</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bayesian on blog</title>
+    <link>/categories/bayesian/</link>
+    <description>Recent content in Bayesian on blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 11 Oct 2016 19:52:55 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/bayesian/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Setting DNA substitution models in BEAST</title>
+      <link>/2016/10/11/setting-dna-substitution-models-beast/</link>
+      <pubDate>Tue, 11 Oct 2016 19:52:55 +0000</pubDate>
+      
+      <guid>/2016/10/11/setting-dna-substitution-models-beast/</guid>
+      <description>JC model of sequence evolution from TreeThinkers.
+BEAST (Bayesian Evolutionary Analysis Sampling Trees) software provides a growing set of clear options for specifying evolutionary models of DNA substitution for alignments loaded into the program. However, the set of models that are readily available and &amp;ldquo;spelled out&amp;rdquo; in drop-down menus in the BEAUti (Bayesian Evolutionary Analysis Utility) GUI is much smaller compared to the standard set of 11 substitution schemes considered by other software programs for model selection (giving rise to a total of 88 models in jModelTest, or 56 models in PartitionFinder).</description>
+    </item>
+    
+    <item>
+      <title>Latest *BEAST trace: Most beautiful thing I&#39;ve seen today</title>
+      <link>/2016/03/11/latest-beast-trace-beautiful-thing-ive-seen-today/</link>
+      <pubDate>Fri, 11 Mar 2016 12:00:01 +0000</pubDate>
+      
+      <guid>/2016/03/11/latest-beast-trace-beautiful-thing-ive-seen-today/</guid>
+      <description>My new *BEAST (starbeast) species tree runs are converging wonderfully in BEAST v1.8.3, so I am off to a great start this morning. Here, I&amp;rsquo;m including a screenshot of the results of one of these runs, which I ran for 200 million generations using 3 normally distributed calibration points, as visualized in Tracer. Note the good posterior trace, very high ESS scores for all parameter estimates, and good use of burn-in (default 10% value works quite well in this case).</description>
+    </item>
+    
+    <item>
+      <title>Migrate-N and phylogeography: Bayesian priors and run settings</title>
+      <link>/2011/09/13/migrate-n-and-phylogeography-bayesian-priors-and-run-settings/</link>
+      <pubDate>Tue, 13 Sep 2011 14:56:00 +0000</pubDate>
+      
+      <guid>/2011/09/13/migrate-n-and-phylogeography-bayesian-priors-and-run-settings/</guid>
+      <description>In a previous post I discussed using Migrate-N for phylogeography (e.g. migration model testing, run settings, general tips). I mentioned that Migrate-N runs maximum likelihood (ML) and Bayesian algorithms and I discussed those a little bit, including how to run under different estimation modes. While Bayesian analysis is likely to be preferred for several reasons, a common critique of Bayesian methods in statistical population genetics and elsewhere is that it is difficult to set the prior information for each run.</description>
+    </item>
+    
+  </channel>
+</rss>

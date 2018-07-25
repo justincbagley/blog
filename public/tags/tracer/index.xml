@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tracer on blog</title>
+    <link>/tags/tracer/</link>
+    <description>Recent content in Tracer on blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 11 Mar 2016 12:00:01 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/tracer/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Latest *BEAST trace: Most beautiful thing I&#39;ve seen today</title>
+      <link>/2016/03/11/latest-beast-trace-beautiful-thing-ive-seen-today/</link>
+      <pubDate>Fri, 11 Mar 2016 12:00:01 +0000</pubDate>
+      
+      <guid>/2016/03/11/latest-beast-trace-beautiful-thing-ive-seen-today/</guid>
+      <description>My new *BEAST (starbeast) species tree runs are converging wonderfully in BEAST v1.8.3, so I am off to a great start this morning. Here, I&amp;rsquo;m including a screenshot of the results of one of these runs, which I ran for 200 million generations using 3 normally distributed calibration points, as visualized in Tracer. Note the good posterior trace, very high ESS scores for all parameter estimates, and good use of burn-in (default 10% value works quite well in this case).</description>
+    </item>
+    
+    <item>
+      <title>New version of Tracer - Tracer v1.6 - now available!</title>
+      <link>/2013/12/11/new-version-tracer-tracer-1-6-now-available/</link>
+      <pubDate>Wed, 11 Dec 2013 20:02:10 +0000</pubDate>
+      
+      <guid>/2013/12/11/new-version-tracer-tracer-1-6-now-available/</guid>
+      <description>OK, heads up everyone using BEAST, or interested in summarizing and analyzing the results of Bayesian analyses in other software programs! There is a new version of the program Tracer available at Andrew Rambaut&amp;rsquo;s website. You can obtain the new version of Tracer, Tracer v1.6 by downloading the appropriate version here. The new version supports several new features, and here is a list of the new stuff they&amp;rsquo;ve added to the program, taken from the website:</description>
+    </item>
+    
+  </channel>
+</rss>

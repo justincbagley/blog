@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hypothesis on blog</title>
+    <link>/tags/hypothesis/</link>
+    <description>Recent content in Hypothesis on blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 16 Aug 2010 01:56:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/hypothesis/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Phylogenetic hypothesis testing</title>
+      <link>/2010/08/16/phylogenetic-hypotheses-testing/</link>
+      <pubDate>Mon, 16 Aug 2010 01:56:00 +0000</pubDate>
+      
+      <guid>/2010/08/16/phylogenetic-hypotheses-testing/</guid>
+      <description>I love going online and finding new websites with useful information. Here are a few recent websites related to evolutionary analysis using phylogenetic systematics, and particularly related to phylogenetic hypothesis testing.
+ Mesquite documentation on Simulations &amp;amp; Randomization
+ http://mesquiteproject.wikispaces.com/Simulations+%26+Randomizations   Brian O&amp;rsquo;Meara&amp;rsquo;s old phylogenetics tutorial page
+ http://www.brianomeara.info/tutorials/phylogenetics   Andrew Crawford&amp;rsquo;s page - general
+ http://dna.ac/index.html   Andrew Crawford&amp;rsquo;s SOWH test instructions
+ http://dna.ac/SOWH_detailed_guide.rtf   Anderson, Goldman and Rodrigo&amp;rsquo;s SOWH test instructions</description>
+    </item>
+    
+  </channel>
+</rss>

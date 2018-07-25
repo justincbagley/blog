@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Shell Scripts on blog</title>
+    <link>/categories/shell-scripts/</link>
+    <description>Recent content in Shell Scripts on blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 13 Sep 2017 11:40:35 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/shell-scripts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Analyzing ddRADseq Data in SNAPP</title>
+      <link>/2017/09/13/gist-ddradseq-data-snapp/</link>
+      <pubDate>Wed, 13 Sep 2017 11:40:35 +0000</pubDate>
+      
+      <guid>/2017/09/13/gist-ddradseq-data-snapp/</guid>
+      <description>](https://gist.github.com)
+Oh, SNAPP&amp;hellip;
+Over the last year, as I&amp;rsquo;ve become increasingly comfortable with GitHub, I&amp;rsquo;ve naturally shifted all of my note writing to Markdown language. During the process, I&amp;rsquo;ve started frequently jotting down useful notes related to analysis, code, or scientific computing as &amp;ldquo;Gists&amp;rdquo; on GitHub. In contrast to most repositories, Gists are small snippets of code or notes and are posted at gist.github.com rather than github.com. To date, I have published 8 Gists on topics as broad as Pandoc, ∂a∂i, SNAPP, and Markdown.</description>
+    </item>
+    
+    <item>
+      <title>Alternative ways to quickly get post-burnin trees from BEAST output from the command line</title>
+      <link>/2014/12/26/quickly-get-post-burnin-trees-beast-output-without-using-log-combiner-tree-annotator/</link>
+      <pubDate>Fri, 26 Dec 2014 11:06:40 +0000</pubDate>
+      
+      <guid>/2014/12/26/quickly-get-post-burnin-trees-beast-output-without-using-log-combiner-tree-annotator/</guid>
+      <description>Evolutionary biologists generally use nice java-written utility programs that come in the standard BEAST distribution to obtain post-burnin trees for summarizing the results of a converged BEAST run (or *BEAST run) that reached stationarity. Usually, only 5,000 to 20,000 trees are necessary for this, and these are typically obtained by cutting out &amp;lsquo;burnin&amp;rsquo; trees and then &amp;ldquo;thinning&amp;rdquo; trees from &amp;ldquo;.trees&amp;rdquo; output files using LogCombiner until the desired number of trees is reached.</description>
+    </item>
+    
+  </channel>
+</rss>

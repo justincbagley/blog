@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Collection on blog</title>
+    <link>/tags/data-collection/</link>
+    <description>Recent content in Data Collection on blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 27 Nov 2013 04:33:44 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/data-collection/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Where to outsource next-generation sequencing runs for de novo SNP discovery for phylogenetics and phylogeography</title>
+      <link>/2013/11/27/outsource-next-generation-sequencing-runs-de-novo-snp-discovery-phylogenetics-phylogeography/</link>
+      <pubDate>Wed, 27 Nov 2013 04:33:44 +0000</pubDate>
+      
+      <guid>/2013/11/27/outsource-next-generation-sequencing-runs-de-novo-snp-discovery-phylogenetics-phylogeography/</guid>
+      <description>Intro Given their high density throughout the genome, single nucleotide polymorphisms (SNPs) have become a popular marker for population genetics and phylogenetics analyses in evolutionary biology (in addition to applications in QTL mapping, association studies etc.). The rapid advance of next-generation sequencing (NGS) has created several new ways of generating 100s to hundreds of thousands of variable SNPs quickly and cost-effectively. In this post, I am compiling a list of North American facilities with capabilities for de novo genome-scale data generation and marker (i.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Install on blog</title>
+    <link>/tags/install/</link>
+    <description>Recent content in Install on blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 26 Mar 2018 03:11:07 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/install/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>R install for user on a CentOS Linux supercomputer</title>
+      <link>/2018/03/26/installing-r-for-user-on-a-centos-linux-supercomputer-account/</link>
+      <pubDate>Mon, 26 Mar 2018 03:11:07 +0000</pubDate>
+      
+      <guid>/2018/03/26/installing-r-for-user-on-a-centos-linux-supercomputer-account/</guid>
+      <description>An up-to-date R install is a key component of any biologist&amp;rsquo;s bioinformatics toolkit. In this post, I will walk through some code that I used to solve the problem of installing the latest version of R, R v3.4.4 (the &amp;ldquo;2018-03-15, Someone to Lean On&amp;rdquo; release), at the user level on a Linux supercomputing cluster running CentOS 5/6/7. First, I&amp;rsquo;ll give some background information that will be useful for following along.</description>
+    </item>
+    
+    <item>
+      <title>dDocent install successes &amp; failures on Linux supercomputers</title>
+      <link>/2018/03/10/ddocent-install-successes-failures-on-linux-supercomputers/</link>
+      <pubDate>Sat, 10 Mar 2018 23:17:05 +0000</pubDate>
+      
+      <guid>/2018/03/10/ddocent-install-successes-failures-on-linux-supercomputers/</guid>
+      <description>Jon Puritz and some other developers have hacked out a nice pipeline, named dDocent (pronounced &amp;ldquo;docent&amp;rdquo;), for genomic assembly, read mapping, and SNP calling using NGS data from the RAD-seq family of sequencing strategies. dDocent is nice because it pulls together several top-of-the-line existing tools, and because it provides reference-based and de novo assembly options.
+Instructions for installing dDocent are given at the pipeline&amp;rsquo;s Bioconda Download and Install page, and are claimed to be &amp;ldquo;So easy your grandfather could do this&amp;hellip;.</description>
+    </item>
+    
+    <item>
+      <title>How To Setup A Linux Supercomputer for RAD-seq</title>
+      <link>/2017/09/17/linux-supercomputer-rad-seq/</link>
+      <pubDate>Sun, 17 Sep 2017 18:23:01 +0000</pubDate>
+      
+      <guid>/2017/09/17/linux-supercomputer-rad-seq/</guid>
+      <description>Here, I&amp;rsquo;m sharing a Gist that I recently wrote, and just updated today, about setting up an account on a Linux supercomputer for analyzing RAD-seq data (e.g. from ddRAD-seq, 2bRAD methods).
+Here&amp;rsquo;s the Gist&amp;hellip;
+https://gist.github.com/justincbagley/84f5dae6f35926c0c30bfc1cbd82eb24
+Cheers ~J</description>
+    </item>
+    
+    <item>
+      <title>Automatically install or update all phylogenetics packages in R</title>
+      <link>/2016/04/06/simultaneously-install-phylogenetics-packages-in-r/</link>
+      <pubDate>Wed, 06 Apr 2016 15:43:16 +0000</pubDate>
+      
+      <guid>/2016/04/06/simultaneously-install-phylogenetics-packages-in-r/</guid>
+      <description>In case you are unaware of this trick, it is possible to simultaneously install or update all of the phylogenetics packages available in R in one fail swoop.
+A number of different CRAN Task Views have been created summarizing R packages and utilities for different fields of analysis or research. Luckily, there is not only a compilation of these located on the CRAN-R website here, but also Brian O&amp;rsquo;Meara (@omearabrian #omearabrian) has developed a nice CRAN Task View entitled &amp;ldquo;Phylogenetics, Especially Comparative Methods.</description>
+    </item>
+    
+    <item>
+      <title>Getting BEAST v1.8.3 running! Beagle, CUDA, Java, and LINUX</title>
+      <link>/2016/03/10/getting-beast-v1-8-3-running-java-cuda-beagle-linux/</link>
+      <pubDate>Thu, 10 Mar 2016 12:16:25 +0000</pubDate>
+      
+      <guid>/2016/03/10/getting-beast-v1-8-3-running-java-cuda-beagle-linux/</guid>
+      <description>OK, I recently posted here about the new BEAST v1.8.3 release to let people know it was available (just echoing the announcement from Andrew Rambaut). Not sure about you, but when I get ahold of a new version of BEAST, I generally get it set up in my file system and try to run it. It&amp;rsquo;s good to go into this type of thing with a little dose of skepticism, as in my experience new versions of BEAST contain bug fixes but also seem to introduce new bugs or problems that you can run into.</description>
+    </item>
+    
+  </channel>
+</rss>

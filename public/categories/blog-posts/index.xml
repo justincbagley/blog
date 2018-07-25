@@ -1,0 +1,722 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog Posts on blog</title>
+    <link>/categories/blog-posts/</link>
+    <description>Recent content in Blog Posts on blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 16 Jul 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/blog-posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>First blogdown post</title>
+      <link>/2018/07/16/first-blogdown-post/</link>
+      <pubDate>Mon, 16 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/07/16/first-blogdown-post/</guid>
+      <description>Post This is my first blogdown post, written in Markdown from within the R console in RStudio Version 1.1.453 (released this year, available here). As I have no content prepared for this post, I&amp;rsquo;ll just throw in a couple of quotes from some of my favorite evolutionary biologists instead, as follows:
+ “There is grandeur in this view of life, with its several powers, having been originally breathed by the Creator into a few forms or into one; and that, whilst this planet has gone cycling on according to the fixed law of gravity, from so simple a beginning endless forms most beautiful and most wonderful have been and are being evolved.</description>
+    </item>
+    
+    <item>
+      <title>R install for user on a CentOS Linux supercomputer</title>
+      <link>/2018/03/26/installing-r-for-user-on-a-centos-linux-supercomputer-account/</link>
+      <pubDate>Mon, 26 Mar 2018 03:11:07 +0000</pubDate>
+      
+      <guid>/2018/03/26/installing-r-for-user-on-a-centos-linux-supercomputer-account/</guid>
+      <description>An up-to-date R install is a key component of any biologist&amp;rsquo;s bioinformatics toolkit. In this post, I will walk through some code that I used to solve the problem of installing the latest version of R, R v3.4.4 (the &amp;ldquo;2018-03-15, Someone to Lean On&amp;rdquo; release), at the user level on a Linux supercomputing cluster running CentOS 5/6/7. First, I&amp;rsquo;ll give some background information that will be useful for following along.</description>
+    </item>
+    
+    <item>
+      <title>dDocent install successes &amp; failures on Linux supercomputers</title>
+      <link>/2018/03/10/ddocent-install-successes-failures-on-linux-supercomputers/</link>
+      <pubDate>Sat, 10 Mar 2018 23:17:05 +0000</pubDate>
+      
+      <guid>/2018/03/10/ddocent-install-successes-failures-on-linux-supercomputers/</guid>
+      <description>Jon Puritz and some other developers have hacked out a nice pipeline, named dDocent (pronounced &amp;ldquo;docent&amp;rdquo;), for genomic assembly, read mapping, and SNP calling using NGS data from the RAD-seq family of sequencing strategies. dDocent is nice because it pulls together several top-of-the-line existing tools, and because it provides reference-based and de novo assembly options.
+Instructions for installing dDocent are given at the pipeline&amp;rsquo;s Bioconda Download and Install page, and are claimed to be &amp;ldquo;So easy your grandfather could do this&amp;hellip;.</description>
+    </item>
+    
+    <item>
+      <title>Testing hypotheses of Panamanian frog &amp; fish diversification - now out @ PeerJ Preprints</title>
+      <link>/2018/03/07/testing-hypotheses-of-panamanian-frog-fish-diversification-now-out-peerj-preprints/</link>
+      <pubDate>Wed, 07 Mar 2018 05:32:23 +0000</pubDate>
+      
+      <guid>/2018/03/07/testing-hypotheses-of-panamanian-frog-fish-diversification-now-out-peerj-preprints/</guid>
+      <description>Thanks to PeerJ Preprints I am very pleased to be able to report two pieces of positive news for today:
+  **Our new preprint, which presents the results of a comparative phylogeography study, is now published online at PeerJ Preprints (as of yesterday) and ** I had a very positive experience submitting my preprint to this service.   
+The Paper
+One reason I&amp;rsquo;m excited about this new paper is that it addresses a highly relevant issue in evolutionary biology: inferring mechanisms underpinning biotic assembly and diversification in Neotropical species assemblages.</description>
+    </item>
+    
+    <item>
+      <title>stdio.h file error during C/C&#43;&#43; software compilation on Mac</title>
+      <link>/2018/03/06/stdio-h-file-error-during-c-c-software-compilation-on-mac/</link>
+      <pubDate>Tue, 06 Mar 2018 04:14:15 +0000</pubDate>
+      
+      <guid>/2018/03/06/stdio-h-file-error-during-c-c-software-compilation-on-mac/</guid>
+      <description>Recently, back in February of 2018, I updated Xcode and installed the macOS High Sierra Supplemental Update as well. I was quite unhappy to find out that, following these updates, compiling software written in C/C++ using gcc (which was up to date!) seemed to be failing with a &amp;ldquo;stdio.h&amp;rdquo; file not found error, as follows:
+...fatal error: stdio.h: No such file or directory #import&amp;lt;stdio.h&amp;gt;; ^ 1 error generated. ...  The missing file was the same in multiple cases, for multiple software programs that I think included both the species tree inference software SVDquartets and the popgen/selection forward-time simulation program SFS_CODE.</description>
+    </item>
+    
+    <item>
+      <title>Command line trash: how to delete, trash, and inspect files from the CLI</title>
+      <link>/2018/03/06/command-line-trash-how-to-delete-trash-and-inspect-files-from-the-cli/</link>
+      <pubDate>Tue, 06 Mar 2018 03:49:42 +0000</pubDate>
+      
+      <guid>/2018/03/06/command-line-trash-how-to-delete-trash-and-inspect-files-from-the-cli/</guid>
+      <description>As many of you know, I use a UNIX/Mac system, and I spend a great deal of time working from the command line on UNIX and LINUX. One thing that everyone learns when they&amp;rsquo;re learning the UNIX/LINUX command line is that the &amp;ldquo;rm&amp;rdquo; command is a powerful and versatile option for deleting files. However, when we delete files with rm, they never come back, and thus they cannot be inspected afterward.</description>
+    </item>
+    
+    <item>
+      <title>How To Setup A Linux Supercomputer for RAD-seq</title>
+      <link>/2017/09/17/linux-supercomputer-rad-seq/</link>
+      <pubDate>Sun, 17 Sep 2017 18:23:01 +0000</pubDate>
+      
+      <guid>/2017/09/17/linux-supercomputer-rad-seq/</guid>
+      <description>Here, I&amp;rsquo;m sharing a Gist that I recently wrote, and just updated today, about setting up an account on a Linux supercomputer for analyzing RAD-seq data (e.g. from ddRAD-seq, 2bRAD methods).
+Here&amp;rsquo;s the Gist&amp;hellip;
+https://gist.github.com/justincbagley/84f5dae6f35926c0c30bfc1cbd82eb24
+Cheers ~J</description>
+    </item>
+    
+    <item>
+      <title>Analyzing ddRADseq Data in SNAPP</title>
+      <link>/2017/09/13/gist-ddradseq-data-snapp/</link>
+      <pubDate>Wed, 13 Sep 2017 11:40:35 +0000</pubDate>
+      
+      <guid>/2017/09/13/gist-ddradseq-data-snapp/</guid>
+      <description>](https://gist.github.com)
+Oh, SNAPP&amp;hellip;
+Over the last year, as I&amp;rsquo;ve become increasingly comfortable with GitHub, I&amp;rsquo;ve naturally shifted all of my note writing to Markdown language. During the process, I&amp;rsquo;ve started frequently jotting down useful notes related to analysis, code, or scientific computing as &amp;ldquo;Gists&amp;rdquo; on GitHub. In contrast to most repositories, Gists are small snippets of code or notes and are posted at gist.github.com rather than github.com. To date, I have published 8 Gists on topics as broad as Pandoc, ∂a∂i, SNAPP, and Markdown.</description>
+    </item>
+    
+    <item>
+      <title>Running AMOVA (analysis of molecular variance) on biallelic SNP data in R</title>
+      <link>/2017/08/18/running-amova-analysis-molecular-variance-biallelic-snp-data-r/</link>
+      <pubDate>Fri, 18 Aug 2017 19:16:27 +0000</pubDate>
+      
+      <guid>/2017/08/18/running-amova-analysis-molecular-variance-biallelic-snp-data-r/</guid>
+      <description>AMOVA in R Resources for conducting population genetic and phylogenetic analyses in the R computing environment are continually improving, and to date several packages have provided functions for estimating phi-statistics and hierarchical patterns of population variance partitioning using AMOVA (analysis of molecular variance; Quattro et al. 1992). The paper for the AMOVA method, penned by population geneticists Joe Quattro, Peter Smouse, and Laurent Excoffier, now has &amp;gt;12,000 citations, making it one of the most used and cited methods of all time in evolutionary genetic analysis; many people continue using this method, including me.</description>
+    </item>
+    
+    <item>
+      <title>Getting BEAST2 Path Sampler analyses running on Windows 10</title>
+      <link>/2017/08/17/getting-beast2-path-sampler-analyses-running-windows-10/</link>
+      <pubDate>Thu, 17 Aug 2017 18:18:35 +0000</pubDate>
+      
+      <guid>/2017/08/17/getting-beast2-path-sampler-analyses-running-windows-10/</guid>
+      <description>BEAST2 PathSampler
+I am a relatively big Mac (UNIX) and Linux fan, as many of you know. So, my standard approach to running BEAST or BEAST2 is to use my Mac for local setup and testing and then employ shell scripts (effective wrappers) that I&amp;rsquo;ve developed to automate final run setup and queuing on a Linux supercomputing cluster. However, there are times, especially when running path sampling (PS) analysis (Larillot and Phillipe 2006; Baele et al.</description>
+    </item>
+    
+    <item>
+      <title>Data mining resources for species distribution modeling and macroecology</title>
+      <link>/2017/06/28/data-mining-resources-for-species-distribution-modeling-and-macroecology/</link>
+      <pubDate>Wed, 28 Jun 2017 01:49:20 +0000</pubDate>
+      
+      <guid>/2017/06/28/data-mining-resources-for-species-distribution-modeling-and-macroecology/</guid>
+      <description>Research projects in ecology, evolution, and conservation biology increasingly rely upon ecological modeling and GIS data and tools for manipulating and analyzing spatially linked data from across a variety of spatial scales. Of particular importance are species distribution modeling (SDM; also known as Ecological Niche Models, or ENMs, or Environmental Niche Models) and niche divergence tools, geospatial data layers representing Earth environments from a variety of perspectives and scales, and GIS and mapping software.</description>
+    </item>
+    
+    <item>
+      <title>Setting DNA substitution models in BEAST</title>
+      <link>/2016/10/11/setting-dna-substitution-models-beast/</link>
+      <pubDate>Tue, 11 Oct 2016 19:52:55 +0000</pubDate>
+      
+      <guid>/2016/10/11/setting-dna-substitution-models-beast/</guid>
+      <description>JC model of sequence evolution from TreeThinkers.
+BEAST (Bayesian Evolutionary Analysis Sampling Trees) software provides a growing set of clear options for specifying evolutionary models of DNA substitution for alignments loaded into the program. However, the set of models that are readily available and &amp;ldquo;spelled out&amp;rdquo; in drop-down menus in the BEAUti (Bayesian Evolutionary Analysis Utility) GUI is much smaller compared to the standard set of 11 substitution schemes considered by other software programs for model selection (giving rise to a total of 88 models in jModelTest, or 56 models in PartitionFinder).</description>
+    </item>
+    
+    <item>
+      <title>Automatically install or update all phylogenetics packages in R</title>
+      <link>/2016/04/06/simultaneously-install-phylogenetics-packages-in-r/</link>
+      <pubDate>Wed, 06 Apr 2016 15:43:16 +0000</pubDate>
+      
+      <guid>/2016/04/06/simultaneously-install-phylogenetics-packages-in-r/</guid>
+      <description>In case you are unaware of this trick, it is possible to simultaneously install or update all of the phylogenetics packages available in R in one fail swoop.
+A number of different CRAN Task Views have been created summarizing R packages and utilities for different fields of analysis or research. Luckily, there is not only a compilation of these located on the CRAN-R website here, but also Brian O&amp;rsquo;Meara (@omearabrian #omearabrian) has developed a nice CRAN Task View entitled &amp;ldquo;Phylogenetics, Especially Comparative Methods.</description>
+    </item>
+    
+    <item>
+      <title>How to kill an R process without forcing R to quit on mac</title>
+      <link>/2016/04/06/kill-r-process-without-forcing-r-quit-mac/</link>
+      <pubDate>Wed, 06 Apr 2016 15:22:18 +0000</pubDate>
+      
+      <guid>/2016/04/06/kill-r-process-without-forcing-r-quit-mac/</guid>
+      <description>From time to time, we make mistakes in programming or testing a new R script or function, only to find that R &amp;ldquo;freezes&amp;rdquo; and appears to be stuck, or working but giving the impression that it will take an eternity to complete the computation. What could be happening is that the process is based on an maximum-likelihood estimation of a parameter that requires convergence, you could have accidentally (e.g. by default) run a function that needs to visit the total number of models possible for your dataset or a certain amount of parameter space.</description>
+    </item>
+    
+    <item>
+      <title>Latest *BEAST trace: Most beautiful thing I&#39;ve seen today</title>
+      <link>/2016/03/11/latest-beast-trace-beautiful-thing-ive-seen-today/</link>
+      <pubDate>Fri, 11 Mar 2016 12:00:01 +0000</pubDate>
+      
+      <guid>/2016/03/11/latest-beast-trace-beautiful-thing-ive-seen-today/</guid>
+      <description>My new *BEAST (starbeast) species tree runs are converging wonderfully in BEAST v1.8.3, so I am off to a great start this morning. Here, I&amp;rsquo;m including a screenshot of the results of one of these runs, which I ran for 200 million generations using 3 normally distributed calibration points, as visualized in Tracer. Note the good posterior trace, very high ESS scores for all parameter estimates, and good use of burn-in (default 10% value works quite well in this case).</description>
+    </item>
+    
+    <item>
+      <title>Getting BEAST v1.8.3 running! Beagle, CUDA, Java, and LINUX</title>
+      <link>/2016/03/10/getting-beast-v1-8-3-running-java-cuda-beagle-linux/</link>
+      <pubDate>Thu, 10 Mar 2016 12:16:25 +0000</pubDate>
+      
+      <guid>/2016/03/10/getting-beast-v1-8-3-running-java-cuda-beagle-linux/</guid>
+      <description>OK, I recently posted here about the new BEAST v1.8.3 release to let people know it was available (just echoing the announcement from Andrew Rambaut). Not sure about you, but when I get ahold of a new version of BEAST, I generally get it set up in my file system and try to run it. It&amp;rsquo;s good to go into this type of thing with a little dose of skepticism, as in my experience new versions of BEAST contain bug fixes but also seem to introduce new bugs or problems that you can run into.</description>
+    </item>
+    
+    <item>
+      <title>Dealing with negative phylogenetic branch lengths in BEAST starting trees</title>
+      <link>/2016/03/01/dealing-negative-phylogenetic-branch-lengths-beast-starting-trees/</link>
+      <pubDate>Tue, 01 Mar 2016 21:43:35 +0000</pubDate>
+      
+      <guid>/2016/03/01/dealing-negative-phylogenetic-branch-lengths-beast-starting-trees/</guid>
+      <description>Negative branch lengths and the BEAST When conducting phylogenetic analyses, you will from time to time encounter negative branch lengths. Negative branch lengths are a nuisance because they can cause substantial visualization problems or keep analyses (e.g. downstream analyses in other programs) from running.
+For example, it will be desirable in many cases to add a starting tree to input files for datasets with phylogeographical sampling (e.g. multiple individuals in a standard BEAST analysis, or a *BEAST species tree analysis with multiple individuals sampled per species/population modeled).</description>
+    </item>
+    
+    <item>
+      <title>New version of BEAST--v1.8.3--released!</title>
+      <link>/2016/02/22/new-version-beast-v1-8-3-released/</link>
+      <pubDate>Mon, 22 Feb 2016 17:10:32 +0000</pubDate>
+      
+      <guid>/2016/02/22/new-version-beast-v1-8-3-released/</guid>
+      <description>BEAST v1.8.3 logo
+In case you were unaware, Andrew Rambaut has made a new version of BEAST 1, v1.8.3, available for Mac, Windows and Linux (.dmg, .zip, .tgz) at the BEAST 1 GitHub website.
+According to Andrew, new features of this version include:
+ Generalized Stepping Stone sampling for Marginal Likelihood Estimation. Continuous quantile version of uncorrelated relaxed clock as option in BEAUti [from Li &amp;amp; Drummond 2012, MBE]. Option in BEAUti to log complete histories in Markov Jump Counting.</description>
+    </item>
+    
+    <item>
+      <title>Update: BEAST v2.3.2 released!</title>
+      <link>/2015/12/17/update-beast-v2-3-2-released/</link>
+      <pubDate>Thu, 17 Dec 2015 13:04:58 +0000</pubDate>
+      
+      <guid>/2015/12/17/update-beast-v2-3-2-released/</guid>
+      <description>BEAST2 logo
+Hi guys, OK, in case you haven&amp;rsquo;t heard, there is a new version of BEAST2, so make sure that you go get that update on GitHub. According to Remco Bouckaert, the new version, v2.3.2, improves the ability of the user to interact with data in BEAUti, and it also improves the efficiency of some BEAST functions, particularly the MRCAPrior. Moreover, LogCombiner has been fixed to ensure logcombiner burn in editing finished properly, and LogAnalyser now has one line per file mode.</description>
+    </item>
+    
+    <item>
+      <title>Update to BEAST v2.3.1</title>
+      <link>/2015/12/02/update-beast-v2-3-1/</link>
+      <pubDate>Wed, 02 Dec 2015 12:25:54 +0000</pubDate>
+      
+      <guid>/2015/12/02/update-beast-v2-3-1/</guid>
+      <description>BEAST2 logo
+A couple of months ago the developers released a new version of BEAST, v2.3.1. I like to remind myself and others to update your BEAST and its utilities to this latest version, which you can download it here.
+BEAST v2.3.1 contains a number of important updates. Most notably, TreeAnnotator now has the default memory set to 4 Gb, and this will greatly help ambitious people who try to upload and summarize large numbers of trees, or the posterior distribution of trees from an analysis with many tree tips.</description>
+    </item>
+    
+    <item>
+      <title>Cochrane&#39;s Aphorism for Molecular Ecologists</title>
+      <link>/2015/11/25/cochranes-aphorism-for-molecular-ecologists/</link>
+      <pubDate>Wed, 25 Nov 2015 12:47:36 +0000</pubDate>
+      
+      <guid>/2015/11/25/cochranes-aphorism-for-molecular-ecologists/</guid>
+      <description>An apparently commonly cited axiom in evidence-based medical science and statistics is &amp;ldquo;Cochrane&amp;rsquo;s Aphorism&amp;rdquo;, named for Archie Cochrane.
+Cochrane&amp;rsquo;s Aphorism states:
+ &amp;ldquo;Before ordering a test, decide what you will do if it is (1) positive or (2) negative. If both answers are the same, don&amp;rsquo;t take the
+test.&amp;rdquo;
+–Archie Cochrane
+ This quote is probably best known among doctors and nurses as an aid in making decisions about ordering laboratory tests for additional evidence, which published studies have shown is prone to overuse, redundancy, and sometimes also egregious errors.</description>
+    </item>
+    
+    <item>
+      <title>Bagley&#39;s Law of Scientific Publication Access</title>
+      <link>/2015/11/23/bagleys-law-scientific-publication-access/</link>
+      <pubDate>Mon, 23 Nov 2015 02:30:32 +0000</pubDate>
+      
+      <guid>/2015/11/23/bagleys-law-scientific-publication-access/</guid>
+      <description>Find Open Access scholarly articles online for free
+The topic is peer-reviewed scientific articles (primary or secondary literature). Also, we&amp;rsquo;ll assume that you&amp;rsquo;re not searching for a paper from an Open Access publisher. Let&amp;rsquo;s also assume that library holdings / subscriptions at your institution have gaps&amp;ndash;they do not cover every journal in your field over every possible time period.
+Then, Bagley&amp;rsquo;s Law of Scientific Publication Access is:
+ &amp;ldquo;When you need an article, you will not have free access to it, but you will have access to plenty of articles that you don&amp;rsquo;t want and you don&amp;rsquo;t need.</description>
+    </item>
+    
+    <item>
+      <title>Detecting trait-dependent shifts in DNA sequence evolution with traitRate</title>
+      <link>/2015/09/17/detecting-trait-dependent-shifts-dna-sequence-evolution-traitrate/</link>
+      <pubDate>Thu, 17 Sep 2015 15:06:20 +0000</pubDate>
+      
+      <guid>/2015/09/17/detecting-trait-dependent-shifts-dna-sequence-evolution-traitrate/</guid>
+      <description>These days, we evo-biologists studying macroevolution tend to be interested in riding different waves of research and methods, and one of these is focused on understanding shifts in diversification rates as inferred from phylogenies and trait data. This is a hot topic in my opinion, and the focus is on understanding the causes and rates of spectacular adaptive and non-adaptive radiations of species in different systems across the glob.
+But did you know it was possible to test for trait-dependent shifts in evolution of species DNA sequences or genomes?</description>
+    </item>
+    
+    <item>
+      <title>Coding general data types with ambiguities in BEAST input files</title>
+      <link>/2015/09/08/coding-general-data-types-with-ambiguities-in-beast-input-files/</link>
+      <pubDate>Tue, 08 Sep 2015 03:07:12 +0000</pubDate>
+      
+      <guid>/2015/09/08/coding-general-data-types-with-ambiguities-in-beast-input-files/</guid>
+      <description>The generalDataType Problem BEAST allows users to specify general data types&amp;ndash;formally, tag &amp;ldquo;generalDataType&amp;rdquo;&amp;ndash;with codes representing ambiguities reflecting multiple character states. People have questions/problems creating and using these general data types, e.g. here and here. The main issues are understanding what general data types are, as well as how to code them in the BEAST XML input file so that BEAST runs without errors.
+Specifying general data types To solve the first issue, you should first know that a generalDataType tag can be specified in input files for BEAST v1 or BEAST2.</description>
+    </item>
+    
+    <item>
+      <title>Stupid common names: Tigerfish</title>
+      <link>/2015/09/02/tigerfish-have-stupidcommonnames/</link>
+      <pubDate>Wed, 02 Sep 2015 02:38:32 +0000</pubDate>
+      
+      <guid>/2015/09/02/tigerfish-have-stupidcommonnames/</guid>
+      <description>I posted this little graphic earlier @justincbagley to support the exposition of stupid common names on Twitter today (hashtag #stupidcommonnames).
+A guilty pleasure, but I had so much fun in the very short time I spent making it that I decided to also post it here. Go check the rest of the stupid common names other scientists have identified and have a good laugh. &amp;ldquo;Tigerfish&amp;rdquo;, or &amp;ldquo;Tiger Fish&amp;rdquo; is definitely a stupid name: these fish don&amp;rsquo;t look like tigers, aren&amp;rsquo;t codistributed with tigers, don&amp;rsquo;t interact with tigers, and generally aren&amp;rsquo;t really formally associated with tigers (or any other mammals, except human sport fishermen) in any way.</description>
+    </item>
+    
+    <item>
+      <title>A funny thing about IMa2 output (a lost 2011 blog post)</title>
+      <link>/2015/09/01/funny-thing-ima2-output/</link>
+      <pubDate>Tue, 01 Sep 2015 02:41:34 +0000</pubDate>
+      
+      <guid>/2015/09/01/funny-thing-ima2-output/</guid>
+      <description>Recently, I discovered something that I wrote about four years ago during the first part of my PhD, just 2 years or so after IMa2 had come out [around a year or so after Hey (2010)]. Back then, I was a little unhappy about the way parameters were coded, but now looking back, it&amp;rsquo;s actually kind of funny, so I decided to post this as a blog entry. I mean, I&amp;rsquo;ve published with this method and have a much better understanding of it now.</description>
+    </item>
+    
+    <item>
+      <title>Update: &#39;new&#39; functions for generating starting trees for BEAST or *BEAST in R</title>
+      <link>/2015/08/30/update-new-functions-for-generating-starting-trees-for-beast-or-starbeast-in-r/</link>
+      <pubDate>Sun, 30 Aug 2015 02:55:29 +0000</pubDate>
+      
+      <guid>/2015/08/30/update-new-functions-for-generating-starting-trees-for-beast-or-starbeast-in-r/</guid>
+      <description>Background
+In a previous blog post, which has received quite a bit of attention, I detailed how to get &amp;ldquo;off to a good start&amp;rdquo; by generating a starting tree for your BEAST analyses. The goal was to work from a tree with branch lengths in units of substitutions per site and to finish with an ultrametric, time-calibrated tree topology with node ages matching calibration points (e.g. fossil ages) you intended to use in BEAST.</description>
+    </item>
+    
+    <item>
+      <title>Get the latest version of BEAST - v2.3.0 - then ask, &#34;Do you need it?&#34;</title>
+      <link>/2015/08/28/get-the-latest-version-of-beast-v2-3-0-then-ask-do-you-need-it/</link>
+      <pubDate>Fri, 28 Aug 2015 23:20:27 +0000</pubDate>
+      
+      <guid>/2015/08/28/get-the-latest-version-of-beast-v2-3-0-then-ask-do-you-need-it/</guid>
+      <description>Hi BEAST users subscribed to justinbagley.org. As what is for many of you an academic summer starts winding down its backslope, this is a little reminder that you should try and finish all the BEAST analyses you&amp;rsquo;ve been putting off, and in case you haven&amp;rsquo;t done so already you should consider updating to the latest version of BEAST2, v2.3.0, which was released in June. Make sure you also update to the most up-to-date java version too; don&amp;rsquo;t worry, after the update BEAST v2.</description>
+    </item>
+    
+    <item>
+      <title>Update Mesquite with plugin for reading and writing NeXML format</title>
+      <link>/2015/08/23/update-mesquite-plugin-reading-writing-nexml-format/</link>
+      <pubDate>Sun, 23 Aug 2015 13:58:21 +0000</pubDate>
+      
+      <guid>/2015/08/23/update-mesquite-plugin-reading-writing-nexml-format/</guid>
+      <description>In case you were unaware, there is a community-driven &amp;ldquo;NeXML&amp;rdquo; movement in computational phylogenetics, led by several bioinformaticians including Rutger Vos who are attempting to harness technologies and advantages of the XML format for transforming NEXUS flat files (an older standard for storing systematic data) into a format that is more easily processed and manipulated. See NeXML.org for more info on this technology and for softwares that allow reading and writing NeXML etc.</description>
+    </item>
+    
+    <item>
+      <title>Meeting opportunity: Dating species divergences using rocks and clocks</title>
+      <link>/2015/08/07/meeting-opportunity-dating-species-divergences-using-rocks-clocks/</link>
+      <pubDate>Fri, 07 Aug 2015 01:12:00 +0000</pubDate>
+      
+      <guid>/2015/08/07/meeting-opportunity-dating-species-divergences-using-rocks-clocks/</guid>
+      <description>A seemingly infinite clock&amp;hellip; credit: Chris Limb; see link to this image at Probing question: what is a molecular clock?
+The Royal Society has announced a new scientific discussion meeting opportunity aimed at uniting experts from various fields of the life and earth sciences to share scientific ideas, methods, and results, relevant to the topic of using molecular clocks to date patterns of evolution. SO, if you can be, or plan on being, in London the 9-10 of November, 2015, and this topic interests you, you should look into this meeting!</description>
+    </item>
+    
+    <item>
+      <title>Update to latest version of BEAST2 - v2.2.1</title>
+      <link>/2015/03/26/update-latest-version-beast2-v2-2-1/</link>
+      <pubDate>Thu, 26 Mar 2015 01:34:21 +0000</pubDate>
+      
+      <guid>/2015/03/26/update-latest-version-beast2-v2-2-1/</guid>
+      <description>Hi BEAST users subscribed to justinbagley.org. Here&amp;rsquo;s a note to serve as a little reminder that, when you have a moment, you should update your BEAST2 software package to the latest version, v2.2.1, which was released last week.
+As always, the new BEAST2 version works with the most up-to-date versions of java (e.g. version 8 update 31 from January, or version 8 update 40), which you no doubt have recently downloaded since they came out in the past three months.</description>
+    </item>
+    
+    <item>
+      <title>New BEAST2 Tutorial that Rocks!</title>
+      <link>/2014/12/27/new-beast2-tutorial-rocks/</link>
+      <pubDate>Sat, 27 Dec 2014 17:02:23 +0000</pubDate>
+      
+      <guid>/2014/12/27/new-beast2-tutorial-rocks/</guid>
+      <description>There are few things that are more useful or necessary in evolutionary biology these days than learning new computational skills, including how to run software programs. For this, there are a variety of sources of information: journal articles (methods papers/sections), library books, online books (e-Books), workshops, online tutorials, and internet blogs like this one. Tutorials are among the best of these options given their practical focus, and because they often include step-by-step instructions with screenshots showing how to interact with GUIs, etc.</description>
+    </item>
+    
+    <item>
+      <title>Alternative ways to quickly get post-burnin trees from BEAST output from the command line</title>
+      <link>/2014/12/26/quickly-get-post-burnin-trees-beast-output-without-using-log-combiner-tree-annotator/</link>
+      <pubDate>Fri, 26 Dec 2014 11:06:40 +0000</pubDate>
+      
+      <guid>/2014/12/26/quickly-get-post-burnin-trees-beast-output-without-using-log-combiner-tree-annotator/</guid>
+      <description>Evolutionary biologists generally use nice java-written utility programs that come in the standard BEAST distribution to obtain post-burnin trees for summarizing the results of a converged BEAST run (or *BEAST run) that reached stationarity. Usually, only 5,000 to 20,000 trees are necessary for this, and these are typically obtained by cutting out &amp;lsquo;burnin&amp;rsquo; trees and then &amp;ldquo;thinning&amp;rdquo; trees from &amp;ldquo;.trees&amp;rdquo; output files using LogCombiner until the desired number of trees is reached.</description>
+    </item>
+    
+    <item>
+      <title>Give your mac some relief: how to remove the sleepimage file using Terminal</title>
+      <link>/2014/09/20/give-mac-relief-remove-sleepimage-file-using-terminal/</link>
+      <pubDate>Sat, 20 Sep 2014 19:39:38 +0000</pubDate>
+      
+      <guid>/2014/09/20/give-mac-relief-remove-sleepimage-file-using-terminal/</guid>
+      <description>Your mac, depending on how you have it set up and how you use it, can slow on start up from restarts or hibernation due to the presence of a very large file called &amp;ldquo;sleepimage&amp;rdquo;. This is a very important file generated by Safe Sleep (on all MacBook Pros, for example) that serves the purpose of saving a state of your mac&amp;rsquo;s memory that keeps you from losing data when the computer sleeps, hibernates, restarts, or runs out of memory.</description>
+    </item>
+    
+    <item>
+      <title>Updated links to BEAST 1.7.5 phylogeography tutorials</title>
+      <link>/2014/08/07/updated-links-beast-1-7-5-phylogeography-tutorials/</link>
+      <pubDate>Thu, 07 Aug 2014 20:59:25 +0000</pubDate>
+      
+      <guid>/2014/08/07/updated-links-beast-1-7-5-phylogeography-tutorials/</guid>
+      <description>As you know, BEAST is being developed by two separate groups of biologists and computer scientists, those working on beast 1.7&amp;frasl;8 and those devleoping Beast2. BEAST is essentially the main evolutionary analysis program now for phylogenetics, historical biogeography, species delimitation, and different phylogeography approaches; so it matters when there is an update. This is just a quick post to highlight that changes to BEAST 1.7.5 phylogeography tutorials have been made, in case you didn&amp;rsquo;t get word of this through recent emails.</description>
+    </item>
+    
+    <item>
+      <title>Mesquite website down yesterday, today... and tomorrow?</title>
+      <link>/2014/08/07/mesquite-website-yesterday-today-tomorrow/</link>
+      <pubDate>Thu, 07 Aug 2014 18:11:18 +0000</pubDate>
+      
+      <guid>/2014/08/07/mesquite-website-yesterday-today-tomorrow/</guid>
+      <description>Mesquite is a very popular modular software for comparative evolutionary analyses involving phylogenies, one that I have used for a long time and actually like a lot.
+A couple of weeks ago, in response to a reviewer who asked for me to use the latest version of Mesquite, version 2.75, instead of 2.74 (which I used for the analyses in the ms), I recently updated Mesquite to build 556. Then, yesterday, I realized that I had deleted a couple of module folders (e.</description>
+    </item>
+    
+    <item>
+      <title>New book on phylogenetic comparative analysis in R</title>
+      <link>/2014/04/30/new-book-phylogenetic-comparative-analysis-r/</link>
+      <pubDate>Wed, 30 Apr 2014 18:04:38 +0000</pubDate>
+      
+      <guid>/2014/04/30/new-book-phylogenetic-comparative-analysis-r/</guid>
+      <description>I just found out about this and it is definitely going on my Want List. Springer has just this year published Nick Swenson&amp;rsquo;s new book entitled Functional and Phylogenetic Ecology in R. This book looks very useful for anyone interested in phylogenetic analysis of ecological adaptation or diversity using the R environment. Check it out and buy it direct from Spring here.
+One cool thing about this book is that it provides examples on integrating R code with code/programs from Python and C.</description>
+    </item>
+    
+    <item>
+      <title>Cool new paper on phylogenetic community diversity in Costa Rican ants</title>
+      <link>/2014/04/30/cool-new-paper-phylogenetic-community-diversity-costa-rican-ants/</link>
+      <pubDate>Wed, 30 Apr 2014 17:30:36 +0000</pubDate>
+      
+      <guid>/2014/04/30/cool-new-paper-phylogenetic-community-diversity-costa-rican-ants/</guid>
+      <description>Reading this cool new paper on the diversity and phylogenetic structure of ant communities in Costa Rica&amp;hellip; http://onlinelibrary.wiley.com/doi/10.1111/j.1600-0587.2013.00631.x/full
+I enjoy reading new papers to learn about who to use the latest phylogenetic methods to study adaptation and community diversity and assembly. One thing I like about Ecography papers is that they are quick reads.
+I would love to have the opportunity to do this same kind of study on fishes or other taxa from biodiversity hotspots.</description>
+    </item>
+    
+    <item>
+      <title>New web server update for Bayesian PTP species delimitation on single-locus gene trees - and more!</title>
+      <link>/2014/03/07/new-web-server-update-bayesian-ptp-species-delimitation-single-gene-tree/</link>
+      <pubDate>Fri, 07 Mar 2014 16:05:31 +0000</pubDate>
+      
+      <guid>/2014/03/07/new-web-server-update-bayesian-ptp-species-delimitation-single-gene-tree/</guid>
+      <description>Recently, biologists have been developing statistically more rigorous methods that &amp;lsquo;put the teeth into&amp;rsquo; species delimitation, including species discovery approaches, and provide what appears to be new steps towards more automated means of taking advantage of DNA sequence data for these purposes. This is critical given the current biodiversity crisis.
+Among the new methods, two sets of methods take similar approaches to delimit species from one or multiple phylogenetic trees. These methods, the general mixed Yule-coalescent (GMYC) model and the Poisson tree process (PTP) model, were initially developed to use coalescent or non-coalescent statistical algorithms to delimit species on single-locus gene trees, e.</description>
+    </item>
+    
+    <item>
+      <title>So you got a starting tree?  How to add it to your BEAST2 xml file and make it work for you</title>
+      <link>/2014/02/17/got-starting-tree-add-beast2-xml-file-make-work/</link>
+      <pubDate>Mon, 17 Feb 2014 04:46:23 +0000</pubDate>
+      
+      <guid>/2014/02/17/got-starting-tree-add-beast2-xml-file-make-work/</guid>
+      <description>I have now for several months been happily using BEAST2 instead of Beast 1.7.5 or 1.8.x&amp;ndash;I&amp;rsquo;m converted! Thus far, datasets have run surprisingly smoothly, but for some recent analyses I have tried to jump-start things and ensure proper likelihood values at the onset of runs by including a starting tree in my xml input file.
+Previously, I blogged about just how you might create such a starting tree that fits one or multiple calibration points in a BEAST analysis, by using penalized likelihood analysis (r8s) in R.</description>
+    </item>
+    
+    <item>
+      <title>Lower Central America phylogeography: review paper gets 100 views in 2 days on Academia.edu!</title>
+      <link>/2014/02/08/lower-central-america-phylogeography-review-paper-gets-100-views-2-days-academia-edu/</link>
+      <pubDate>Sat, 08 Feb 2014 07:54:08 +0000</pubDate>
+      
+      <guid>/2014/02/08/lower-central-america-phylogeography-review-paper-gets-100-views-2-days-academia-edu/</guid>
+      <description>Hopefully, it is a sign that your new paper is going to get cited when it starts getting attention immediately after it becomes available online. This appears to be happening with our new review of the phylogeographic literature from the lower Central American Neotropics, entitled &amp;ldquo;Phylogeography and biogeography of the lower Central American Neotropics: diversification between two continents and between two seas&amp;rdquo; (Bagley &amp;amp; Johnson 2014, Biological Reviews). I just put this paper up on Academia.</description>
+    </item>
+    
+    <item>
+      <title>New version of Lamarc--Lamarc v2.1.9--now available!</title>
+      <link>/2013/12/13/new-version-lamarc-lamarc-v2-1-9-now-available/</link>
+      <pubDate>Fri, 13 Dec 2013 19:04:34 +0000</pubDate>
+      
+      <guid>/2013/12/13/new-version-lamarc-lamarc-v2-1-9-now-available/</guid>
+      <description>Yet again, a new version of an important piece of software for molecular ecologists, evolutionary biologists, and biogeographers has just become available. Mary Kuhner and colleagues have just released a new version of the software program Lamarc, a program that originally only implemented likelihood analysis but now implements ML and Bayesian algorithms for estimating population migration rates (gene flow), population sizes, exponential growth rates and recombination rates. You can download the most up-to-date version of Lamarc, Lamarc v2.</description>
+    </item>
+    
+    <item>
+      <title>New version of Tracer - Tracer v1.6 - now available!</title>
+      <link>/2013/12/11/new-version-tracer-tracer-1-6-now-available/</link>
+      <pubDate>Wed, 11 Dec 2013 20:02:10 +0000</pubDate>
+      
+      <guid>/2013/12/11/new-version-tracer-tracer-1-6-now-available/</guid>
+      <description>OK, heads up everyone using BEAST, or interested in summarizing and analyzing the results of Bayesian analyses in other software programs! There is a new version of the program Tracer available at Andrew Rambaut&amp;rsquo;s website. You can obtain the new version of Tracer, Tracer v1.6 by downloading the appropriate version here. The new version supports several new features, and here is a list of the new stuff they&amp;rsquo;ve added to the program, taken from the website:</description>
+    </item>
+    
+    <item>
+      <title>Luke Mahler visits BYU</title>
+      <link>/2013/12/11/luke-mahler-visits-byu/</link>
+      <pubDate>Wed, 11 Dec 2013 19:58:27 +0000</pubDate>
+      
+      <guid>/2013/12/11/luke-mahler-visits-byu/</guid>
+      <description>I&amp;rsquo;m a little behind on my blogging (sorry!), but a few weeks ago, we had Dr. Luke Mahler here at BYU. Luke is currently a postdoctoral researcher at the UC Davis Center for Population Biology (CPB) and was selected by the graduate students for a visit here at the Department of Biology. He gave a great talk at our departmental seminar on his work on convergent evolution and the &amp;lsquo;macroevolutionary landscape&amp;rsquo; in Anolis lizards from the Greater Antilles and North American Gulf-Atlantic coast, which presents a new comparative method and was recently published in Science (check it out here).</description>
+    </item>
+    
+    <item>
+      <title>New Phyloseminar with Daniel Ksepka: adding fossil data to phylogenies</title>
+      <link>/2013/12/03/new-phyloseminar-adding-fossil-data-phylogenies/</link>
+      <pubDate>Tue, 03 Dec 2013 19:19:42 +0000</pubDate>
+      
+      <guid>/2013/12/03/new-phyloseminar-adding-fossil-data-phylogenies/</guid>
+      <description>Just FYI, there was yet another great phyloseminar, today, as part of a series of talks on using fossil data in phylogenetics (two weeks ago, Tracy Heath gave a talk on the Fossilized Birth-Death process model).
+Today&amp;rsquo;s talk, which I missed but will watch later since these are always recorded, was given by Daniel Ksepka (NESCENT) and was entitled, &amp;ldquo;Including Fossil Taxa in Phylogenies: Advances and Issues&amp;rdquo;.
+I suspect that a lot of people missed this talk but will want to see it!</description>
+    </item>
+    
+    <item>
+      <title>Where to outsource next-generation sequencing runs for de novo SNP discovery for phylogenetics and phylogeography</title>
+      <link>/2013/11/27/outsource-next-generation-sequencing-runs-de-novo-snp-discovery-phylogenetics-phylogeography/</link>
+      <pubDate>Wed, 27 Nov 2013 04:33:44 +0000</pubDate>
+      
+      <guid>/2013/11/27/outsource-next-generation-sequencing-runs-de-novo-snp-discovery-phylogenetics-phylogeography/</guid>
+      <description>Intro Given their high density throughout the genome, single nucleotide polymorphisms (SNPs) have become a popular marker for population genetics and phylogenetics analyses in evolutionary biology (in addition to applications in QTL mapping, association studies etc.). The rapid advance of next-generation sequencing (NGS) has created several new ways of generating 100s to hundreds of thousands of variable SNPs quickly and cost-effectively. In this post, I am compiling a list of North American facilities with capabilities for de novo genome-scale data generation and marker (i.</description>
+    </item>
+    
+    <item>
+      <title>Bryan Carstens&#39;s phylogeography talk from the 2012 Molecular Ecology Symposium, 1st Joint Congress on Evolutionary Biology, Ottawa, Canada</title>
+      <link>/2013/11/27/bryan-carstenss-phylogeography-talk-2012-molecular-ecology-symposium-1st-congress-evolutionary-biology-ottawa-canada/</link>
+      <pubDate>Wed, 27 Nov 2013 01:05:02 +0000</pubDate>
+      
+      <guid>/2013/11/27/bryan-carstenss-phylogeography-talk-2012-molecular-ecology-symposium-1st-congress-evolutionary-biology-ottawa-canada/</guid>
+      <description>In 2012, the Evolution meetings were held in Ottawa, Canada as part of the 1st Joint Congress on Evolutionary Biology (combining meetings of the SSE, SSB, ASN, etc.). The meeting was excellent, and I remember I was present for the entire Molecular Ecology Symposium, which was moderated by Time Vines and Loren Riesberg, each of whom also gave talks, as I recall. From memory, the symposium was dominated by speakers interested in applying next-generation techniques to problems in population genetics, evolution, and adaptation, and there was also an excellent talk on long-term ecological research.</description>
+    </item>
+    
+    <item>
+      <title>Software Carpentry: providing training and open-access material for self-paced instruction in software skills for researchers</title>
+      <link>/2013/11/18/software-carpentry-providing-training-open-access-material-self-paced-instruction-software-skills-researchers/</link>
+      <pubDate>Mon, 18 Nov 2013 00:22:53 +0000</pubDate>
+      
+      <guid>/2013/11/18/software-carpentry-providing-training-open-access-material-self-paced-instruction-software-skills-researchers/</guid>
+      <description>Software Carpentry
+Meet Software Carpentry. On a volunteer basis, members of this company teach basic software proficiencies to scientists in any field, including biology, physical sciences, engineering and medicine. They also provide a large amount of training tools, e.g. videos, online, all for free! This company walks the talk about open-access material for self-paced instruction in software skills. Moreover, their products are professional. Software Carpentry carries loads of experience gained since their 1998 founding, and from their current participation in the Mozilla Science Lab.</description>
+    </item>
+    
+    <item>
+      <title>Tracy Heath visits BYU Biology dept ... and more</title>
+      <link>/2013/11/12/tracy-heath-visits-byu-biology-dept/</link>
+      <pubDate>Tue, 12 Nov 2013 00:09:21 +0000</pubDate>
+      
+      <guid>/2013/11/12/tracy-heath-visits-byu-biology-dept/</guid>
+      <description>Tracy Heath poses with Charles Darwin.
+This past week, the BYU Department of Biology had the distinct pleasure of welcoming Tracy Heath for a seminar. Tracy was chosen by the graduate students as a key speaker for our seminar series this semester, and was brought in to visit with the entire department, in addition to delivering a talk at our regular Thursday meeting.
+For those that may not be familiar with her work, Tracy is a Postdoc in John Huelsenbeck&amp;rsquo;s laboratory at the Center for Theoretical Evolutionary Genomics (CTEG) at UC Berkeley.</description>
+    </item>
+    
+    <item>
+      <title>California freshwater fish distribution resources</title>
+      <link>/2013/11/11/california-freshwater-fish-distribution-resources/</link>
+      <pubDate>Mon, 11 Nov 2013 05:40:53 +0000</pubDate>
+      
+      <guid>/2013/11/11/california-freshwater-fish-distribution-resources/</guid>
+      <description>California Fish Databases / datasets
+Fans of North American freshwater fishes will be interested to know that there are several online resources for obtaining information about California&amp;rsquo;s native and introduced freshwater fish fauna. I recently discovered two of these resources, the Native Fish Species By Location - California Fish Site of the California Freshwater Fish Laboratory, led by Lisa Thompson, and the California fish distribution datasets from The Nature Conservancy&amp;rsquo;s (TNC) Hexagon Project (Data Basin Gallery), developed by Peter Moyle and Paul Randall at UC Davis.</description>
+    </item>
+    
+    <item>
+      <title>BEASTGen: a new program for creating NEXUS, FASTA and BEAST XML input files for phylogenetics software</title>
+      <link>/2013/10/29/beastgen-a-new-program-for-creating-nexus-fasta-and-beast-xml-input-files-for-phylogenetics-software/</link>
+      <pubDate>Tue, 29 Oct 2013 15:36:00 +0000</pubDate>
+      
+      <guid>/2013/10/29/beastgen-a-new-program-for-creating-nexus-fasta-and-beast-xml-input-files-for-phylogenetics-software/</guid>
+      <description>Andrew Rambaut has released the first version of a new software program, BEASTGen, that transforms phylogenetic data between the standard NEXUS, FASTA and BEAST XML formats. Could this mean that we are one step closer to calming many graduate students&amp;rsquo; (and other people&amp;rsquo;s) woes over this issue?
+The new software can be downloaded from the BEAST Google code website, at https://code.google.com/p/beast-mcmc/downloads/detail?name=BEASTGen_v1.0.tgz.
+Andrew has also written a brief set of instructions that can be found on the BEAST website, at http://beast.</description>
+    </item>
+    
+    <item>
+      <title>Symphony of Science - The Greatest Show on Earth! A music video about E...</title>
+      <link>/2013/10/27/symphony-of-science-the-greatest-show-on-earth-a-music-video-about-e/</link>
+      <pubDate>Sun, 27 Oct 2013 19:55:00 +0000</pubDate>
+      
+      <guid>/2013/10/27/symphony-of-science-the-greatest-show-on-earth-a-music-video-about-e/</guid>
+      <description>The Greatest Show on Earth
+Hope you like the video.
+~ J</description>
+    </item>
+    
+    <item>
+      <title>A comprehensive list of phylogenetics packages for R</title>
+      <link>/2013/10/27/a-comprehensive-list-of-phylogenetics-packages-for-r/</link>
+      <pubDate>Sun, 27 Oct 2013 19:25:00 +0000</pubDate>
+      
+      <guid>/2013/10/27/a-comprehensive-list-of-phylogenetics-packages-for-r/</guid>
+      <description>The packages
+Here is my comprehensive list of phylogenetics packages for R, with links to their websites (for some, links to support pages or more detailed information are provided in subsequent sections). The requirement for inclusion in the list is at least one function related to manipulation or analysis of phylogenetic data. Please E-mail me if you know of another program to add, or if you are developing a new package for phylogenetics in R.</description>
+    </item>
+    
+    <item>
+      <title>Do journal guidelines discouraging single-locus papers reflect an attitude that contributes to a &#34;file-drawer problem&#34; in phylogeography and phylogenetics?</title>
+      <link>/2013/10/25/do-journal-guidelines-discouraging-single-locus-papers-reflect-an-attitude-that-contributes-to-a-file-drawer-problem-in-phylogeography-and-phylogenetics/</link>
+      <pubDate>Fri, 25 Oct 2013 06:22:00 +0000</pubDate>
+      
+      <guid>/2013/10/25/do-journal-guidelines-discouraging-single-locus-papers-reflect-an-attitude-that-contributes-to-a-file-drawer-problem-in-phylogeography-and-phylogenetics/</guid>
+      <description>Single-locus phylogeography studies are now &amp;ldquo;unlikely&amp;rdquo; to be published in Molecular Ecology, the most important journal in phylogeography and molecular ecology, based on a new policy (other journals seem to be going this way, too&amp;hellip; like Molecular Phylogenetics and Evolution). I ask what this means for authors/studies with single locus datasets, and whether this will contribute to a &amp;ldquo;file-drawer problem&amp;rdquo; in phylogeography and phylogenetic systematics.
+The &amp;ldquo;New&amp;rdquo; guidelines for Mol Ecol and existing guidelines for MPE say NO!</description>
+    </item>
+    
+    <item>
+      <title>Off to a good start: how to generate starting trees for BEAST analyses using R</title>
+      <link>/2013/10/10/off-to-a-good-start-how-to-generate-starting-trees-for-beast-analyses-using-r/</link>
+      <pubDate>Thu, 10 Oct 2013 20:35:00 +0000</pubDate>
+      
+      <guid>/2013/10/10/off-to-a-good-start-how-to-generate-starting-trees-for-beast-analyses-using-r/</guid>
+      <description>BEAST and user trees
+The program BEAST (e.g. latest release version v1.8.0; or v2.1.1; Drummond et al. 2012) is increasingly more and more popular and important in the fields of evolutionary biology and the biology of infectious diseases. When conducting MCMC simulations to simultaneously make phylogenetic inference and estimate divergence times, and/or coalescent model parameters (summary statistics) in BEAST, it is usually necessary, and desirable, to provide some form of calibrated tree priors.</description>
+    </item>
+    
+    <item>
+      <title>SSH clients and Linux command line for interacting with supercomputers during evolutionary analysis</title>
+      <link>/2013/03/13/ssh-clients-and-linux-command-line-for-interacting-with-supercomputers-during-evolutionary-analysis/</link>
+      <pubDate>Wed, 13 Mar 2013 14:05:00 +0000</pubDate>
+      
+      <guid>/2013/03/13/ssh-clients-and-linux-command-line-for-interacting-with-supercomputers-during-evolutionary-analysis/</guid>
+      <description>At the time of this writing, I am fortunate to be doing my PhD at BYU, which is a great environment to work on biogeography, systematics and evolution mainly because of the great people with similar interests that seem to always be attracted to the place. However, I am also very fortunate that at my institution we have excellent infrastructure and internal resources for conducting the highest quality research in molecular evolution and ecology.</description>
+    </item>
+    
+    <item>
+      <title>R functions for working with phylogenetic trees in packages ape, geiger, and caper: Part I</title>
+      <link>/2011/11/22/r-functions-for-working-with-phylogenetic-trees-in-packages-ape-geiger-and-caper-part-i/</link>
+      <pubDate>Tue, 22 Nov 2011 08:15:00 +0000</pubDate>
+      
+      <guid>/2011/11/22/r-functions-for-working-with-phylogenetic-trees-in-packages-ape-geiger-and-caper-part-i/</guid>
+      <description>OK, in this post I will be reviewing some R functions for phylogenetics, walking you through some ways of working with phylogenies within the R environment. First, install R (http://cran.r-project.org/) on your computer. Also install the phylogenetics packages APE (http://cran.r-project.org/web/packages/ape/index.html), geiger (http://cran.r-project.org/web/packages/geiger/index.html) and caper (http://cran.r-project.org/web/packages/caper/index.html) on your machine using links at these URLs, or using the &amp;lsquo;Install packages&amp;rsquo; option within the &amp;lsquo;Packages&amp;rsquo; dropdown menu of the R gui), in the appropriate library folder (e.</description>
+    </item>
+    
+    <item>
+      <title>Statistical phylogeography tutorial #1: Coalescent simulations in Mesquite Part I</title>
+      <link>/2011/09/22/statistical-phylogeography-tutorial-1-coalescent-simulations-in-mesquite-part-i/</link>
+      <pubDate>Thu, 22 Sep 2011 16:51:00 +0000</pubDate>
+      
+      <guid>/2011/09/22/statistical-phylogeography-tutorial-1-coalescent-simulations-in-mesquite-part-i/</guid>
+      <description>Part I. Draft 9/22/11
+WARNING: The following is based on my current understanding and use of Mesquite to perform coalescent simulations for phylogeographical hypotheses testing and is correct to the best of my knowledge, but I do not guarantee its accuracy. Also, you may not perform these analyses in the exact way or order that I have performed them. The following is based on a number of previously-published studies (e.g. Knowles 2001; Knowles &amp;amp; Maddison 2002; Carstens et al.</description>
+    </item>
+    
+    <item>
+      <title>Migrate-N and phylogeography: Bayesian priors and run settings</title>
+      <link>/2011/09/13/migrate-n-and-phylogeography-bayesian-priors-and-run-settings/</link>
+      <pubDate>Tue, 13 Sep 2011 14:56:00 +0000</pubDate>
+      
+      <guid>/2011/09/13/migrate-n-and-phylogeography-bayesian-priors-and-run-settings/</guid>
+      <description>In a previous post I discussed using Migrate-N for phylogeography (e.g. migration model testing, run settings, general tips). I mentioned that Migrate-N runs maximum likelihood (ML) and Bayesian algorithms and I discussed those a little bit, including how to run under different estimation modes. While Bayesian analysis is likely to be preferred for several reasons, a common critique of Bayesian methods in statistical population genetics and elsewhere is that it is difficult to set the prior information for each run.</description>
+    </item>
+    
+    <item>
+      <title>DNA polymorphism indices and sampling</title>
+      <link>/2011/09/04/dna-polymorphism-indices-and-sampling/</link>
+      <pubDate>Sun, 04 Sep 2011 06:53:00 +0000</pubDate>
+      
+      <guid>/2011/09/04/dna-polymorphism-indices-and-sampling/</guid>
+      <description>I just wanted to jot down something simple that I just realized for the first time&amp;hellip; which is that DNA polymorphism indices usually reported in phylogeography and population genetics studies of fishes and other organisms vary in their degree of sensitivity to sampling (i.e. sample size). A number of these indices exist and are commonly&amp;ndash;actually increasingly&amp;ndash;reported, particularly since programs such as Arlequin and DnaSP provide excellent software resources for manipulating and analyzing data along these lines.</description>
+    </item>
+    
+    <item>
+      <title>BEAST and the BEAST basics: molecular clocks and how to input rates into BEAST</title>
+      <link>/2011/09/01/beast-and-the-beast-basics-molecular-clocks-and-how-to-input-rates-into-beast/</link>
+      <pubDate>Thu, 01 Sep 2011 23:38:00 +0000</pubDate>
+      
+      <guid>/2011/09/01/beast-and-the-beast-basics-molecular-clocks-and-how-to-input-rates-into-beast/</guid>
+      <description>BEAST basics **A brief introduction to BEAST ** BEAST is a powerful computer program for evolutionary analysis developed by Andrew Rambaut and Alexei Drummond, as well as Marc Suchard, Simon Ho, Joseph Heled, and others. BEAST was originally designed to provide a Bayesian Markov chain Monte Carlo (MCMC) method for simultaneously co-estimating phylogenies and divergence times (times to the most recent common ancestor, TMRCAs) from DNA sequence data (or amino acids) for one or multiple loci.</description>
+    </item>
+    
+    <item>
+      <title>Estimated cytb and RPS7 mutation rates for Heterandria</title>
+      <link>/2011/08/12/estimated-cytb-and-rps7-mutation-rates-for-heterandria/</link>
+      <pubDate>Fri, 12 Aug 2011 15:01:00 +0000</pubDate>
+      
+      <guid>/2011/08/12/estimated-cytb-and-rps7-mutation-rates-for-heterandria/</guid>
+      <description>Today, I looked at results of some runs I have been doing in BEAST to estimate divergence times and other parameters for my project on Least Killifish, Heterandria formosa (Poeciliidae). These analyses were multi-locus, based on cyt_b _and RPS7 sequence data (based on a small number of subsamples of our phylogeographic sampling). Essentially, no one knows the S7 mutation rate for freshwater fishes. In other words, it is poorly understood. However, by unlinking the rates of these two loci I was able to arrive at some estimates of the mutation rate of unexpressed portions of this nuclear gene based on variation in S7 intron 1 and intron 2.</description>
+    </item>
+    
+    <item>
+      <title>jmodeltest will not run with single quotes around tip names</title>
+      <link>/2011/08/06/jmodeltest-will-not-run-with-single-quotes-around-tip-names/</link>
+      <pubDate>Sat, 06 Aug 2011 14:20:00 +0000</pubDate>
+      
+      <guid>/2011/08/06/jmodeltest-will-not-run-with-single-quotes-around-tip-names/</guid>
+      <description>A little while ago, I discovered a common error in jmodeltest is the error message that the number of sites appears to be wrong. I recently encountered this issue again. This is caused by single quotation marks on either side of tip names in a NEXUS file, which is a common form of the output / exported NEXUS file from DNASP. So, once you export a NEXUS from DNASP, say after doing some population level genetic analyses or after defining sequence groups for setting up structure in ARLEQUIN, you should simply open your NEXUS file in a word processor or text editor and use the &amp;ldquo;Replace&amp;rdquo; command to remove all quotation marks from your file.</description>
+    </item>
+    
+    <item>
+      <title>New GARLI web server for runs in the cloud</title>
+      <link>/2011/08/05/new-garli-web-server-for-runs-in-the-cloud/</link>
+      <pubDate>Fri, 05 Aug 2011 19:41:00 +0000</pubDate>
+      
+      <guid>/2011/08/05/new-garli-web-server-for-runs-in-the-cloud/</guid>
+      <description>I just noticed that molecularevolution.org has provided, with Derrick Zwickl, a new online server for running phylogenetic maximum likelihood analyses using GARLI. The server for putting up new jobs (runs) can be found at:
+http://molecularevolution.org/software/phylogenetics/garli/garli_create_job
+A starting tree can be specified (although this doesn&amp;rsquo;t save time in GARLI like it does in PAUP*) and up to 2000 bootstrap reps can be performed.
+This will prove a useful resource for anyone who doesn&amp;rsquo;t want to take time to put their jobs up on a supercomputer using some form of scripting (e.</description>
+    </item>
+    
+    <item>
+      <title>Evolution, phylogenetics, and phylogenetic model selection: jmodeltest vs. DT_ModSel</title>
+      <link>/2011/08/05/evolution-phylogenetics-and-phylogenetic-model-selection-jmodeltest-vs-dt_modsel/</link>
+      <pubDate>Fri, 05 Aug 2011 18:50:00 +0000</pubDate>
+      
+      <guid>/2011/08/05/evolution-phylogenetics-and-phylogenetic-model-selection-jmodeltest-vs-dt_modsel/</guid>
+      <description>Evolution is the central unifying theme in all biology&amp;ndash;&amp;ldquo;Nothing makes sense in biology except in the light of evolution,&amp;rdquo; said Dobzhansky. Two of the most important contributions of Darwin to this field were (1) acceptance and priority of the reality and importance of individual variation (selection acts on individuals, evolutionary changes surface in populations&amp;hellip;) and (2) the first phylogenetic tree with the accompanying hypothesis that all organisms share a common ancestry that can be visualized as a hierarchical branching design.</description>
+    </item>
+    
+    <item>
+      <title>In only so many words...</title>
+      <link>/2011/07/19/in-only-so-many-words/</link>
+      <pubDate>Tue, 19 Jul 2011 13:52:00 +0000</pubDate>
+      
+      <guid>/2011/07/19/in-only-so-many-words/</guid>
+      <description>There are many ways that we should be growing and changing as young biologists in grad school. We all know what I mean by that i.e. the development of an ability to think critically and synthesize large amounts of technical information, the ability to cultivate ideas and to develop our own novel contributions to scientific research in our respective disciplines. One of the important outcomes of becoming a PhD in evolutionary biology is the development of one&amp;rsquo;s own research program.</description>
+    </item>
+    
+    <item>
+      <title>One way to evaluate incomplete lineage sorting in your phylogenetic or phylogeographic data</title>
+      <link>/2011/07/19/one-way-to-evaluate-incomplete-lineage-sorting-in-your-phylogenetic-or-phylogeographic-data/</link>
+      <pubDate>Tue, 19 Jul 2011 04:20:00 +0000</pubDate>
+      
+      <guid>/2011/07/19/one-way-to-evaluate-incomplete-lineage-sorting-in-your-phylogenetic-or-phylogeographic-data/</guid>
+      <description>There aren&amp;rsquo;t many ways to quantitatively evaluate incomplete lineage sorting (ILS) or ancestral polymorphism in molecular data in a statistically rigorous way. One means of gauging relative amounts of lineage sorting is the gsi, which I will be working on later. But, right here I wanted to note that I recently saw Ian Wang &amp;amp; Brad Shaffer using Wayne Maddison and Lacey Knowles method to evaluate ILS in a paper they wrote on dendrobatid frogs of Costa Rica, which is one of the main areas I am studying in my dissertation research.</description>
+    </item>
+    
+    <item>
+      <title>How to use MIGRATE-N for phylogeography</title>
+      <link>/2010/09/04/how-to-use-migrate-n-for-phylogeography/</link>
+      <pubDate>Sat, 04 Sep 2010 00:38:00 +0000</pubDate>
+      
+      <guid>/2010/09/04/how-to-use-migrate-n-for-phylogeography/</guid>
+      <description>Introduction to MIGRATE-N One thing that makes this a great time to be involved in phylogeography is the exploding amount of data and quantitative methods available to workers. An important advance in the past 10 years has been the introduction of likelihood- and Bayesian inference-based methods for modeling gene flow, and for comparing models of gene flow, in population genetics. In particular, model-based coalescent methods are highly attractive. A method (or class of methods) that stems from statistical population genetics and is useful in phylogeography involves using coalescent gene genealogy samplers to estimate parameters based on variation across a huge number of gene trees representing estimates of probable ancestral patterns.</description>
+    </item>
+    
+    <item>
+      <title>Phylogenetic hypothesis testing</title>
+      <link>/2010/08/16/phylogenetic-hypotheses-testing/</link>
+      <pubDate>Mon, 16 Aug 2010 01:56:00 +0000</pubDate>
+      
+      <guid>/2010/08/16/phylogenetic-hypotheses-testing/</guid>
+      <description>I love going online and finding new websites with useful information. Here are a few recent websites related to evolutionary analysis using phylogenetic systematics, and particularly related to phylogenetic hypothesis testing.
+ Mesquite documentation on Simulations &amp;amp; Randomization
+ http://mesquiteproject.wikispaces.com/Simulations+%26+Randomizations   Brian O&amp;rsquo;Meara&amp;rsquo;s old phylogenetics tutorial page
+ http://www.brianomeara.info/tutorials/phylogenetics   Andrew Crawford&amp;rsquo;s page - general
+ http://dna.ac/index.html   Andrew Crawford&amp;rsquo;s SOWH test instructions
+ http://dna.ac/SOWH_detailed_guide.rtf   Anderson, Goldman and Rodrigo&amp;rsquo;s SOWH test instructions</description>
+    </item>
+    
+    <item>
+      <title>Phylogenetic signal</title>
+      <link>/2010/08/07/phylogenetic-signal/</link>
+      <pubDate>Sat, 07 Aug 2010 22:21:00 +0000</pubDate>
+      
+      <guid>/2010/08/07/phylogenetic-signal/</guid>
+      <description>The field of phylogenetic comparative methods is a very young field of evolutionary biology which attempts to account for phylogenetic correlations among comparative trait data. Many PCM methods have been and are being developed in this field, creating a rapidly expanding base of analyses from which to choose. A key aspect to consider in any PCM-based study is phylogenetic signal, the statistical measure of the phylogenetic clumping of similarities in the evolution of traits.</description>
+    </item>
+    
+    <item>
+      <title>Recent stuff - latest Micropterus sequences on GenBank</title>
+      <link>/2010/08/03/recent-stuff-latest-micropterus-sequences-on-genbank/</link>
+      <pubDate>Tue, 03 Aug 2010 22:49:00 +0000</pubDate>
+      
+      <guid>/2010/08/03/recent-stuff-latest-micropterus-sequences-on-genbank/</guid>
+      <description>Micropterus GenBank accessions
+http://www.ncbi.nlm.nih.gov/nuccore/DQ536425.1
+http://www.ncbi.nlm.nih.gov/nuccore/AF479273.1
+http://www.ncbi.nlm.nih.gov/nuccore/DQ451324.1
+TreeBase
+http://www.treebase.org/treebase-web/home.html;jsessionid=78F8E41715F6EC6FCC617320D767E872</description>
+    </item>
+    
+  </channel>
+</rss>

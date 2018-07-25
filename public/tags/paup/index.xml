@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Paup on blog</title>
+    <link>/tags/paup/</link>
+    <description>Recent content in Paup on blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 19 Jul 2011 04:20:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/paup/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>One way to evaluate incomplete lineage sorting in your phylogenetic or phylogeographic data</title>
+      <link>/2011/07/19/one-way-to-evaluate-incomplete-lineage-sorting-in-your-phylogenetic-or-phylogeographic-data/</link>
+      <pubDate>Tue, 19 Jul 2011 04:20:00 +0000</pubDate>
+      
+      <guid>/2011/07/19/one-way-to-evaluate-incomplete-lineage-sorting-in-your-phylogenetic-or-phylogeographic-data/</guid>
+      <description>There aren&amp;rsquo;t many ways to quantitatively evaluate incomplete lineage sorting (ILS) or ancestral polymorphism in molecular data in a statistically rigorous way. One means of gauging relative amounts of lineage sorting is the gsi, which I will be working on later. But, right here I wanted to note that I recently saw Ian Wang &amp;amp; Brad Shaffer using Wayne Maddison and Lacey Knowles method to evaluate ILS in a paper they wrote on dendrobatid frogs of Costa Rica, which is one of the main areas I am studying in my dissertation research.</description>
+    </item>
+    
+  </channel>
+</rss>

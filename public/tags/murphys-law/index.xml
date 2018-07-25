@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Murphys Law on blog</title>
+    <link>/tags/murphys-law/</link>
+    <description>Recent content in Murphys Law on blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 23 Nov 2015 02:30:32 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/murphys-law/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Bagley&#39;s Law of Scientific Publication Access</title>
+      <link>/2015/11/23/bagleys-law-scientific-publication-access/</link>
+      <pubDate>Mon, 23 Nov 2015 02:30:32 +0000</pubDate>
+      
+      <guid>/2015/11/23/bagleys-law-scientific-publication-access/</guid>
+      <description>Find Open Access scholarly articles online for free
+The topic is peer-reviewed scientific articles (primary or secondary literature). Also, we&amp;rsquo;ll assume that you&amp;rsquo;re not searching for a paper from an Open Access publisher. Let&amp;rsquo;s also assume that library holdings / subscriptions at your institution have gaps&amp;ndash;they do not cover every journal in your field over every possible time period.
+Then, Bagley&amp;rsquo;s Law of Scientific Publication Access is:
+ &amp;ldquo;When you need an article, you will not have free access to it, but you will have access to plenty of articles that you don&amp;rsquo;t want and you don&amp;rsquo;t need.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Phyloseminar on blog</title>
+    <link>/categories/phyloseminar/</link>
+    <description>Recent content in Phyloseminar on blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 03 Dec 2013 19:19:42 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/phyloseminar/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>New Phyloseminar with Daniel Ksepka: adding fossil data to phylogenies</title>
+      <link>/2013/12/03/new-phyloseminar-adding-fossil-data-phylogenies/</link>
+      <pubDate>Tue, 03 Dec 2013 19:19:42 +0000</pubDate>
+      
+      <guid>/2013/12/03/new-phyloseminar-adding-fossil-data-phylogenies/</guid>
+      <description>Just FYI, there was yet another great phyloseminar, today, as part of a series of talks on using fossil data in phylogenetics (two weeks ago, Tracy Heath gave a talk on the Fossilized Birth-Death process model).
+Today&amp;rsquo;s talk, which I missed but will watch later since these are always recorded, was given by Daniel Ksepka (NESCENT) and was entitled, &amp;ldquo;Including Fossil Taxa in Phylogenies: Advances and Issues&amp;rdquo;.
+I suspect that a lot of people missed this talk but will want to see it!</description>
+    </item>
+    
+  </channel>
+</rss>
