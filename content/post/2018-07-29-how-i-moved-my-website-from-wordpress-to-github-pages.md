@@ -88,7 +88,7 @@ I followed the GitHub Help instructions for <a href="https://help.github.com/art
 
 Next, I claimed and secured my site using the new free security app <a href="https://keybase.io">Keybase</a>, and Google. This means that I put Keybase and Google authentication code into my website repository on GitHub, verifying myself as the owner of the site.
 
-<a href="https://keybase.io"><img src="/images/keybase_logo.png" alt="Keybase" width="300px"></img></a>
+<a href="https://keybase.io"><img src="/images/keybase_logo.png" alt="Keybase" width="250px"></img></a>
 
 I then made new site maps and added them to Google through my <a href="https://www.google.com/webmasters/tools/home?hl=en>Google Search Console</a> (webmasters tools). I used the sitemap functions in a free version of <a href="https://www.screamingfrog.co.uk">Screaming Frog</a> for this, and edited the sitemap by hand. I also tested several free online sitemap generators. I am still experimenting with those and options to improve my sitemap and make a better-looking HTML sitemap for user convenience. In the end the 500 page limit of the SF free trial proved too restrictive; so I wound up using the 30-day free trial of <a href="https://techseo360.com">TechSEO360</a> for creating new/final sitemaps for my blog and website.
 
