@@ -36,7 +36,7 @@ That all started around seven years ago...
 
 I could write a lot about what I learned from using Wordpress (e.g. basic CSS and PHP) and maintaining a dynamic site that started drawing >2000 visitors a month with shared interests in Bayesian evolutionary analysis or molecular clocks. I even had to increase my plan at HostGator to accomodate all the traffic I was getting. People were becoming more interested in my research too. But I won't write about that now. I'll just say that it took _a lot of effort_ to keep the Wordpress site updated and looking and running smoothly. _It seemed that every couple of days, I had to update those pesky Wordpress plugins or my site would slow down!_ I did come to enjoy the site and I liked the way that it looked (see _below_).
 
-<img src="/images/wordpress_site_scrnsht1.png" title="Justin's previous Wordpress site" alt="Justin's previous Wordpress site" width="450px"></img>
+<img src="/images/wordpress_site_scrnsht1.png" title="Justin's previous Wordpress site" alt="Justin's previous Wordpress site" width="700px"></img>
 
 Fast forward to today, during the prime time of my postdoc years...
 
@@ -50,7 +50,7 @@ After seeing GitHub Pages-hosted sites powered by jekyll cropping up from severa
 
 I learned what jekyll was (homepage below) and that GitHub Pages not only provided a free platform, but also provided free site hosting for your user account and all of your project repositories! #awesome!
 
-<img src="/images/jekyll_fpg.png" title="jekyll home page" alt="jekyll home page" width="450px"></img>
+<img src="/images/jekyll_fpg.png" title="jekyll home page" alt="jekyll home page" width="700px"></img>
 
 I also read about the benefits of switching to a static site, as well as the experiences of several developers in migrating from 
 Wordpress to jekyll/GitHub Pages. See for example, Daniel Takeshi's <a href="https://danieltakeshi.github.io/2015/05/14/moved-to-jekyll/#fnref:commands">post</a>, or Tomomi Imura's post about this topic <a href="https://girliemac.com/blog/2013/12/27/wordpress-to-jekyll/">here</a>. Also I also read Igal Tabachnik's post <a href="https://hmemcpy.com/2016/06/getting-with-the-times-migrating-from-wordpress-to-github-pages-with-hexo/">here</a> about using Hexo for this purpose.
@@ -63,7 +63,7 @@ I immediately went to Wordpress and backed up my site. I downloaded the backup. 
 
 I started with jekyll and twitter bootstrap. I cloned <a href="https://github.com/kbroman/kbroman.github.io">Karl Broman's website repo</a> and modified my html files from Wordpress (e.g. my about, research, and publications pages--three important pages for personal academic websites), changing their html formatting to Markdown using <a href="https://github.com/thomasf/exitwp">exitwp</a> and my own modifications. I read through Karl's helpful <a href="https://kbroman.org/simple_site/">"simple site" tutorial</a> and related <a href="https://kbroman.org/tutorials.html">tutorials</a>. I would be uploading Markdown files and they would be converted to HTML with <a href="https://kramdown.gettalong.org/documentation.html">kramdown</a>. How great! Screenshot of about page looked like this:
 
-<img src="/images/kbroman_style_site.png" alt="Justin's jekyll twitter bootstrap site, based on code from K Broman" width="450px"></img>
+<img src="/images/kbroman_style_site.png" alt="Justin's jekyll twitter bootstrap site, based on code from K Broman" width="700px"></img>
 
 I did the whole thing in a day or two, and then realized I wanted the most up-to-date bootstrap code, <a href="getbootstrap.com">Bootstrap 4</a>, and twitter bootstrap theme seemed to be using bootstrap akin to v2 or v3. Karl's setup was awesome, and I liked the CSS, the simple portfolio styling, and the navbar look. It was aslo _responsive_. _But something was missing..._
 
@@ -94,7 +94,7 @@ I then made new site maps and added them to Google through my <a href="https://w
 
 **_Overall_, my new website is now up at my custom domain https://justinbagley.org, is super fast loading, and is hosted through GitHub Pages for _free_!** Here's a screenshot of the frong page:
 
-<a href="https://justinbagley.org"><img src="/images/justinbagley.org_scrnsht.png" alt="Justin's new Bootstrap 4 GitHub Pages website" width="500px"></img></a>
+<a href="https://justinbagley.org"><img src="/images/justinbagley.org_scrnsht.png" alt="Justin's new Bootstrap 4 GitHub Pages website" width="800px"></img></a>
 
 I was also able to avoid jekyll or Hugo themes that look good now but that I might not be happy with later on, and instead go with a simple Bootstrap 4 look for my site that has responsive characteristics that I wanted, and which I feel have staying power. I also got the satisfaction of learning and using among the most up-to-date methods for publishing your own website online, including probably the most popular front-end platform. In the end, make no mistake that I will be in a continued process of maintaining, updating, and improving my site, and so some of these things are subject to change.
 
