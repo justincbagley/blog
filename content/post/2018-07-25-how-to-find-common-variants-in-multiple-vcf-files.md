@@ -39,10 +39,10 @@ $ bcftools isec -n +2 file1.vcf.gz file2.vcf.gz | bgzip -c > isec_file1-v-2_out.
 
 Alternatively, if you wanted just statistics on the numbers of SNPs/variants or genotypes in common between files, you could use the ```vcf-compare``` tool that comes with vcftools. See the documentation <a href="http://vcftools.sourceforge.net/perl_module.html#vcf-compare">here</a>.
 
-Once you had the output of running these programs in hand, it would then be possible to do a number of things, such as report common/different SNPs between runs or treatments, conduct statistical anlaysis, or create a Venn diagram of common/different SNPs between multiple VCF files to visualize the differences. Personally, I can validate this by saying that I recently ran ```vcf-compare``` and ```bcftools isec``` (as per above) and used the results to generate a Venn diagram with <a href="http://jvenn.toulouse.inra.fr/app/index.html">jVenn</a>, shown below:
+Once you had the output of running these programs in hand, it would then be possible to do a number of things, such as report common/different SNPs between runs or treatments, conduct statistical anlaysis, or create a Venn diagram of common/different SNPs between multiple VCF files to visualize the differences. Personally, I can validate this by saying that I recently ran ```vcf-compare``` and ```bcftools isec``` (as per above) and used the results to generate a Venn diagram with <a href="http://jvenn.toulouse.inra.fr/app/index.html">jvenn</a>, shown below:
 
 <!-- ![jVenn-generated Venn diagram comparing SNPs between two different SNP assemblies](/images/final-noTR_SNPs_comparison_jVenn_res.png =300x) -->
-<img src="/images/final-noTR_SNPs_comparison_jVenn_res.png" title="jVenn-generated Venn diagram comparing SNPs between two different SNP assemblies" alt="jVenn-generated Venn diagram comparing SNPs between two different SNP assemblies" width="550px"/>
+<img src="/images/final-noTR_SNPs_comparison_jVenn_res.png" title="jvenn-generated Venn diagram comparing SNPs between two different SNP assemblies" alt="jvenn-generated Venn diagram comparing SNPs between two different SNP assemblies" width="550px"/>
 
 This is showing a comparison of the VCF file from the original SNP discovery analysis for one dataset, and a second run of the SNP discovery pipeline on the same dataset, but with technical replicates removed (blue). Results are 99.4% similar, and the classical Venn helps us visualize the very minute difference between these results.
 
