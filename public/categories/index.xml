@@ -102,6 +102,15 @@
     </item>
     
     <item>
+      <title>Bootstrap</title>
+      <link>/categories/bootstrap/</link>
+      <pubDate>Sun, 29 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/bootstrap/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Byu</title>
       <link>/categories/byu/</link>
       <pubDate>Wed, 11 Dec 2013 19:58:27 +0000</pubDate>
@@ -257,9 +266,18 @@
     <item>
       <title>Github</title>
       <link>/categories/github/</link>
-      <pubDate>Sun, 17 Sep 2017 18:23:01 +0000</pubDate>
+      <pubDate>Sun, 29 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>/categories/github/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Github Pages</title>
+      <link>/categories/github-pages/</link>
+      <pubDate>Sun, 29 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/github-pages/</guid>
       <description></description>
     </item>
     
@@ -644,7 +662,7 @@
     <item>
       <title>Website</title>
       <link>/categories/website/</link>
-      <pubDate>Wed, 25 Jul 2018 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 29 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>/categories/website/</guid>
       <description></description>
@@ -656,6 +674,15 @@
       <pubDate>Thu, 17 Aug 2017 18:18:35 +0000</pubDate>
       
       <guid>/categories/windows/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wordpress</title>
+      <link>/categories/wordpress/</link>
+      <pubDate>Sun, 29 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/wordpress/</guid>
       <description></description>
     </item>
     

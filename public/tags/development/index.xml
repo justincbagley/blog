@@ -6,10 +6,21 @@
     <description>Recent content in Development on blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 25 Jul 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 29 Jul 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/development/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>How I moved my website from Wordpress to GitHub Pages</title>
+      <link>/2018/07/29/how-i-moved-my-website-from-wordpress-to-github-pages/</link>
+      <pubDate>Sun, 29 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/07/29/how-i-moved-my-website-from-wordpress-to-github-pages/</guid>
+      <description>During my PhD, I created a personal academic website built with Wordpress and hosted by HostGator in order to establish my online presence. I then started blogging here and there about software programs, and eventually R code etc., that I was using or found helpful when conducting evolutionary genetic analyses for my previous or ongoing collaborations.
+That all started around seven years ago.
+I could write a lot about what I learned from using Wordpress (e.</description>
+    </item>
     
     <item>
       <title>Picking a custom search engine for your website</title>

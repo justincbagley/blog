@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/2018/07/29/how-i-moved-my-website-from-wordpress-to-github-pages/</loc>
+    <lastmod>2018-07-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/2018/07/25/how-to-find-common-variants-in-multiple-vcf-files/</loc>
     <lastmod>2018-07-25T00:00:00+00:00</lastmod>
   </url>
@@ -384,6 +389,12 @@
   </url>
   
   <url>
+    <loc>/tags/academic/</loc>
+    <lastmod>2018-07-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/adegenet/</loc>
     <lastmod>2017-08-18T19:16:27+00:00</lastmod>
     <priority>0</priority>
@@ -601,7 +612,19 @@
   
   <url>
     <loc>/tags/bootstrap/</loc>
-    <lastmod>2018-07-25T00:00:00+00:00</lastmod>
+    <lastmod>2018-07-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/bootstrap/</loc>
+    <lastmod>2018-07-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/bootstrap-4/</loc>
+    <lastmod>2018-07-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -745,7 +768,7 @@
   
   <url>
     <loc>/tags/code/</loc>
-    <lastmod>2014-04-30T18:04:38+00:00</lastmod>
+    <lastmod>2018-07-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -919,7 +942,7 @@
   
   <url>
     <loc>/tags/development/</loc>
-    <lastmod>2018-07-25T00:00:00+00:00</lastmod>
+    <lastmod>2018-07-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1153,13 +1176,19 @@
   
   <url>
     <loc>/tags/github/</loc>
-    <lastmod>2017-09-13T11:40:35+00:00</lastmod>
+    <lastmod>2018-07-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/categories/github/</loc>
-    <lastmod>2017-09-17T18:23:01+00:00</lastmod>
+    <lastmod>2018-07-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/github-pages/</loc>
+    <lastmod>2018-07-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1196,6 +1225,18 @@
   <url>
     <loc>/tags/hms-beagle/</loc>
     <lastmod>2017-12-26T17:28:55+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/hosting/</loc>
+    <lastmod>2018-07-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/html/</loc>
+    <lastmod>2018-07-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1286,6 +1327,12 @@
   <url>
     <loc>/tags/jc69/</loc>
     <lastmod>2016-10-11T19:52:55+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/jekyll/</loc>
+    <lastmod>2018-07-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1447,7 +1494,7 @@
   
   <url>
     <loc>/tags/markdown/</loc>
-    <lastmod>2018-07-16T00:00:00+00:00</lastmod>
+    <lastmod>2018-07-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1507,7 +1554,7 @@
   
   <url>
     <loc>/tags/migration/</loc>
-    <lastmod>2011-09-13T14:56:00+00:00</lastmod>
+    <lastmod>2018-07-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1867,7 +1914,7 @@
   
   <url>
     <loc>/post/</loc>
-    <lastmod>2018-07-25T00:00:00+00:00</lastmod>
+    <lastmod>2018-07-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1951,7 +1998,7 @@
   
   <url>
     <loc>/tags/r/</loc>
-    <lastmod>2018-03-26T03:11:07+00:00</lastmod>
+    <lastmod>2018-07-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2527,13 +2574,13 @@
   
   <url>
     <loc>/tags/website/</loc>
-    <lastmod>2018-07-25T00:00:00+00:00</lastmod>
+    <lastmod>2018-07-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/categories/website/</loc>
-    <lastmod>2018-07-25T00:00:00+00:00</lastmod>
+    <lastmod>2018-07-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2552,6 +2599,18 @@
   <url>
     <loc>/categories/windows/</loc>
     <lastmod>2017-08-17T18:18:35+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/wordpress/</loc>
+    <lastmod>2018-07-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/wordpress/</loc>
+    <lastmod>2018-07-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2605,7 +2664,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2018-07-25T00:00:00+00:00</lastmod>
+    <lastmod>2018-07-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

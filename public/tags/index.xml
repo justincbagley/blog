@@ -21,6 +21,15 @@
     </item>
     
     <item>
+      <title>Academic</title>
+      <link>/tags/academic/</link>
+      <pubDate>Sun, 29 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/academic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Adegenet</title>
       <link>/tags/adegenet/</link>
       <pubDate>Fri, 18 Aug 2017 19:16:27 +0000</pubDate>
@@ -257,9 +266,18 @@
     <item>
       <title>Bootstrap</title>
       <link>/tags/bootstrap/</link>
-      <pubDate>Wed, 25 Jul 2018 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 29 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/bootstrap/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bootstrap 4</title>
+      <link>/tags/bootstrap-4/</link>
+      <pubDate>Sun, 29 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/bootstrap-4/</guid>
       <description></description>
     </item>
     
@@ -428,7 +446,7 @@
     <item>
       <title>Code</title>
       <link>/tags/code/</link>
-      <pubDate>Wed, 30 Apr 2014 18:04:38 +0000</pubDate>
+      <pubDate>Sun, 29 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/code/</guid>
       <description></description>
@@ -626,7 +644,7 @@
     <item>
       <title>Development</title>
       <link>/tags/development/</link>
-      <pubDate>Wed, 25 Jul 2018 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 29 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/development/</guid>
       <description></description>
@@ -923,7 +941,7 @@
     <item>
       <title>Github</title>
       <link>/tags/github/</link>
-      <pubDate>Wed, 13 Sep 2017 11:40:35 +0000</pubDate>
+      <pubDate>Sun, 29 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/github/</guid>
       <description></description>
@@ -980,6 +998,24 @@
       <pubDate>Tue, 26 Dec 2017 17:28:55 +0000</pubDate>
       
       <guid>/tags/hms-beagle/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hosting</title>
+      <link>/tags/hosting/</link>
+      <pubDate>Sun, 29 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/hosting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Html</title>
+      <link>/tags/html/</link>
+      <pubDate>Sun, 29 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/html/</guid>
       <description></description>
     </item>
     
@@ -1097,6 +1133,15 @@
       <pubDate>Tue, 11 Oct 2016 19:52:55 +0000</pubDate>
       
       <guid>/tags/jc69/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jekyll</title>
+      <link>/tags/jekyll/</link>
+      <pubDate>Sun, 29 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/jekyll/</guid>
       <description></description>
     </item>
     
@@ -1301,7 +1346,7 @@
     <item>
       <title>Markdown</title>
       <link>/tags/markdown/</link>
-      <pubDate>Mon, 16 Jul 2018 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 29 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/markdown/</guid>
       <description></description>
@@ -1373,7 +1418,7 @@
     <item>
       <title>Migration</title>
       <link>/tags/migration/</link>
-      <pubDate>Tue, 13 Sep 2011 14:56:00 +0000</pubDate>
+      <pubDate>Sun, 29 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/migration/</guid>
       <description></description>
@@ -1877,7 +1922,7 @@
     <item>
       <title>R</title>
       <link>/tags/r/</link>
-      <pubDate>Mon, 26 Mar 2018 03:11:07 +0000</pubDate>
+      <pubDate>Sun, 29 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/r/</guid>
       <description></description>
@@ -2579,7 +2624,7 @@
     <item>
       <title>Website</title>
       <link>/tags/website/</link>
-      <pubDate>Wed, 25 Jul 2018 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 29 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/website/</guid>
       <description></description>
@@ -2600,6 +2645,15 @@
       <pubDate>Mon, 26 Mar 2018 03:11:07 +0000</pubDate>
       
       <guid>/tags/wget/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wordpress</title>
+      <link>/tags/wordpress/</link>
+      <pubDate>Sun, 29 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/wordpress/</guid>
       <description></description>
     </item>
     
