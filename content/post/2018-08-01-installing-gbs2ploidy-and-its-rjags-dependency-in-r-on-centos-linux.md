@@ -29,7 +29,7 @@ tags:
 
 I am currently wrapping up a paper on GBS phylogeography of quaking aspen, _Populus tremuloides_ with several collaborators. See pic _below_:
 
-![Quaking aspen](2013-10-06_15_04_21_autumn_Aspens_ChangingCanyonNT_Lamoille_Canyon_NV.jpg)
+![Quaking aspen](/images/2013-10-06_15_04_21_autumn_Aspens_ChangingCanyonNT_Lamoille_Canyon_NV.jpg)
 
 _Quaking aspen (Populus tremuloides), Lamoille Canyon, NV_
 
