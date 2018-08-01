@@ -36,19 +36,15 @@ Jon Puritz and some other developers have hacked out a nice pipeline, named [dDo
 Instructions for installing dDocent are given at the pipeline's Bioconda Download and Install page, and are claimed to be "So easy your grandfather could do this...." I've recently made attempts at installing dDocent on two different Linux-based high performance computing clusters, or "supercomputers," one at VCU's CHiPC facility, and one at BYU's FSL facility. Below, I discuss some successes and problems I've run into with installing this software, and the limited but generally successful set of solutions that I have found.
 
 
-
-
 ## **Perfect install on Centos Linux**
 
-[![](http://www.justinbagley.org/wp-content/uploads/2018/03/conda-300x81.png)](http://www.justinbagley.org/wp-content/uploads/2018/03/conda.png)First, I'm **very happy** to say that, after correctly installing [Miniconda](https://conda.io/miniconda.html) (for Python 2.7 in my case) and setting up my ".condarc" conda configuration file to search the Bioconda channel first, a regular install of dDocent and all depdencies worked flawlessly "out-of-the-box" on the VCU supercomputer! 
+[![](/images/conda-300x81.png)](/images/conda.png)First, I'm **very happy** to say that, after correctly installing [Miniconda](https://conda.io/miniconda.html) (for Python 2.7 in my case) and setting up my ".condarc" conda configuration file to search the Bioconda channel first, a regular install of dDocent and all depdencies worked flawlessly "out-of-the-box" on the VCU supercomputer! 
 
 Please click [on this link](http://www.justinbagley.org/wp-content/uploads/2018/03/Bagley_dDocent_godel_install_Terminal_log.txt) to obtain a copy of my Terminal log from the install, which I have sanitized. The full procedure involved 1) checking for, then installing Miniconda (=Python); 2) updating Miniconda; and 3) installing dDocent, and it worked like a charm when I tested the resulting executable. The only _trick_ here was that **I had to start my interactive session by using the "qrsh" [command](http://arc.leeds.ac.uk/using-the-systems/why-have-a-scheduler/qsub-qrsh-usage/) to log into a compute node with an updated Centos 6/7 environment** in order for this install procedure to work. I also had to allow sufficient time for the dDocent part of the conda install, which can take a couple of minutes and make your Terminal screen look "frozen"; but, whatever you do, don't stop it before it finishes--take a coffee break and let it do its work.
 
 
 
 ## **Errors during Red Hat Linux install**
-
-
 
 Despite the many positives, users may have trouble installing dDocent on Linux (where it is really made to be installed) or UNIX/Mac systems (generally not recommended). At such times, remember that issues on the developer's side are uncommon with major-version, widely used software programs that are usually updated within the last two to three months. More commonly, these problems can arise due to errors on the user side of things. On Linux and Mac there could be some common problems, but on Mac I'm almost certain that the roadblock will be installing [rainbow](https://sourceforge.net/projects/bio-rainbow/files/?source=navbar), which is currently distributed as source, but in a v2.0.4 that despite being supposedly updated for Mac, appears only to install correctly on Linux based on my experience. The latest rainbow executable is pretty old by software standards, updated three years ago in August  of 2015, so I wouldn't place high hopes for a Mac friendly update any time soon.
 
