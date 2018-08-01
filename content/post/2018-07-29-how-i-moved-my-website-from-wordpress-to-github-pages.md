@@ -46,7 +46,7 @@ I now have a lot more research experience as well as coding and analysis skills.
 
 Then, surprisingly recently, I learned about <a href="https://pages.github.com">GitHub Pages</a> all because of <a href="https://jekyllrb.com">jekyll</a>.
 
-After seeing GitHub Pages-hosted sites powered by jekyll cropping up from several other biologists in my field that I just happened to be checking out or to run across online (e.g. Erik Enbody's site <a href="https://erikenbody.github.io">here</a> and Karl Broman's site <a href="https://kbroman.org">here</a>), my interest was piqued.
+After seeing GitHub Pages-hosted sites powered by jekyll cropping up from several other biologists in my field that I just happened to be checking out or to run across online (e.g. Erik Enbody's site <a href="https://erikenbody.github.io">here</a>, Karl Broman's site <a href="https://kbroman.org">here</a>, and Liz Cooper's site <a href="https://eacooper400.github.io">here</a>), my interest was piqued.
 
 I learned what jekyll was (homepage below) and that GitHub Pages not only provided a free platform, but also provided free site hosting for your user account and all of your project repositories! #awesome!
 
