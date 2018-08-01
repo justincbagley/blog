@@ -39,5 +39,6 @@ So, as a final touch on the manuscript, I need to estimate the occurrence of var
 
 I had some issues with the install, so to help others who might encounter similar issues, I am writing a post about what I ran into and how to overcome the problems (which will probably be general, not reflecting simply a user-specific case).
 
+[_Post under development._]
 
 ~J
