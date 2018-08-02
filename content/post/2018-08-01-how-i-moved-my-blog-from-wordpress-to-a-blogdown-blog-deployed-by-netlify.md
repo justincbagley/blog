@@ -31,6 +31,8 @@ tags:
 
 <!--# How I moved my blog from Wordpress to a blogdown blog hosted on GitHub Pages and deployed by Netlify-->
 
+![RStudio-blogdown-GitHub-Hugo-Netlify](/images/hugoCover.jpg)
+
 In a recent post, I detailed how I moved my main website [from Wordpress to GitHub Pages](https://justinbagley.rbind.io/2018/07/29/how-i-moved-my-website-from-wordpress-to-github-pages/) with HTML in a <a href="https://getbootstrap.com">Bootstrap 4</a> front-end. This post represents the next installment in this series and will focus on how I moved my blog from the Wordpress site to <a href="https://pages.github.com">GitHub Pages</a>, and specifically to a blogdown-style blog hosted on GitHub and deployed by <a href="https://www.netlify.com">Netlify</a>. I don't currently have time to produce a _more detailed_ post now, but I give notes below on the 10 main steps that I took during this process. 
 
 ## 10 Steps
