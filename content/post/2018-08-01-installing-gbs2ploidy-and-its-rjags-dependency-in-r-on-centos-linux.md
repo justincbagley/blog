@@ -118,7 +118,7 @@ Now that these up-to-date versions of these important software programs were ins
 export PKG_CONFIG_PATH="~/miniconda2/lib/pkgconfig"
 ```
 
-Afterwards, all I needed to do was fire up ```R``` and install gbs2ploidy again, and _voila_!
+Afterwards, all I needed to do was fire up ```R``` and install gbs2ploidy again, and _voilà!_
 
 ```
 > install.packages("gbs2ploidy", dependencies=TRUE)
