@@ -196,4 +196,4 @@ That's all folks.
 
 ## References
 
-Gompert, Z., & Mock, K. E. (2017). Detection of individual ploidy levels with genotyping‐by‐sequencing (GBS) analysis. _Molecular Ecology Resources_, 17(6), 1156–1167.
+Gompert, Z., & Mock, K. E. (2017). Detection of individual ploidy levels with genotyping‐by‐sequencing (GBS) analysis. _Molecular Ecology Resources_, 17(6), 1156–1167. <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/1755-0998.12657">HTML</a>
