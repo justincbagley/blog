@@ -36,8 +36,10 @@ In a recent post, I detailed how I moved my main website [from Wordpress to GitH
 ## Steps
 
 1. Backup Wordpress blog using backup plugin, and by downloading an archived version of my 'public_html' folder.
+
 2. Download/install and use <a href="https://github.com/thomasf/exitwp">exitwp</a> to convert all HTML blog post pages into Markdown.
  - _Time-consuming step:_ Editing image links, metadata, and other aspects of the converted Markdown files by hand (several hours, over 2 days).
+
 3. Create 'blog' GitHub repository _without_ default README.md file.
  - Leave at 'master' branch (not really important for my purposes, since I will use a custom domain, but this means the blog would be at https://justinbagley.github.io/blog/ under the default scenario).
 4. Make GitHub Pages site from blog repository and make local README file that will eventually give details and license information.
