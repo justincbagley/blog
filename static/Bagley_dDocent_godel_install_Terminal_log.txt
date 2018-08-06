@@ -1,0 +1,342 @@
+$ godel
+NOTICE TO USERS:
+ 
+This computer and the University systems accessed from it are
+for official University business use as authorized by the Virginia
+Commonwealth University Computer and Network Resources Use Policy.
+ 
+see https://go.vcu.edu/computer-use
+ 
+Monitoring and recording of users' activities may occur
+when there is reasonable suspicion of unauthorized activity and
+may be used in administrative, civil, and criminal action  against an
+individual.  Anyone using this system expressly consents to  such
+monitoring.
+ 
+Last login: Wed Mar  7 16:38:46 2018 from 128.172.44.118
+NOTICE TO USERS:
+ 
+This computer and the University systems accessed from it are
+for official University business use as authorized by the Virginia
+Commonwealth University Computer and Network Resources Use Policy.
+ 
+see https://go.vcu.edu/computer-use
+ 
+Monitoring and recording of users' activities may occur
+when there is reasonable suspicion of unauthorized activity and
+may be used in administrative, civil, and criminal action  against an
+individual.  Anyone using this system expressly consents to  such
+monitoring.
+ 
+godel1
+CentOS release 5.11 (Final)
+Kernel 2.6.18-238.12.1.el5 on an 8-processor x86_64
+ 
+$ qrsh
+...
+$
+$ dDocent
+-bash: dDocent: command not found
+$ cat ~/.condarc
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+  - r
+$
+$ cd ~
+$ bash Miniconda2-latest-Linux-x86_64.sh
+
+Welcome to Miniconda2 4.3.31
+
+In order to continue the installation process, please review the license
+agreement.
+Please, press ENTER to continue
+>>> 
+====================================
+Miniconda End User License Agreement
+====================================
+
+Copyright 2015, Anaconda, Inc.
+
+All rights reserved under the 3-clause BSD License:
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+  * Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+  * Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materi
+als provided with the distribution.
+  * Neither the name of Continuum Analytics, Inc. (dba Anaconda, Inc.) ("Continuum") nor the names of its contributors may be used to endorse or promote products derived f
+rom this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+ MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL CONTINUUM BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CO
+NSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AN
+D ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN I
+F ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+
+Notice of Third Party Software Licenses
+=======================================
+
+Miniconda contains open source software packages from third parties. These are available on an "as is" basis and subject to their individual license agreements. These lice
+nses are available in Anaconda or at https://docs.anaconda.com/anaconda/packages/pkg-docs . Any binary packages of these third party tools you obtain via Anaconda are subj
+ect to their individual licenses as well as the Anaconda license. Continuum reserves the right to change which third party tools are provided in Miniconda.
+
+
+
+
+Cryptography Notice
+===================
+
+This distribution includes cryptographic software. The country in which you currently reside may have restrictions on the import, possession, use, and/or re-export to anot
+her country, of encryption software. BEFORE using any encryption software, please check your country's laws, regulations and policies concerning the import, possession, or
+ use, and re-export of encryption software, to see if this is permitted. See the Wassenaar Arrangement <http://www.wassenaar.org/> for more information.
+
+Continuum has self-classified this software as Export Commodity Control Number (ECCN) 5D002.C.1, which includes information security software using or performing cryptogra
+phic functions with asymmetric algorithms. The form and manner of this distribution makes it eligible for export under the License Exception ENC Technology Software Unrest
+ricted (TSU) exception (see the BIS Export Administration Regulations, Section 740.13) for both object code and source code. In addition, the Intel(TM) Math Kernel Library
+ contained in Continuum's software is classified by Intel(TM) as ECCN 5D992b with no license required for export to non-embargoed countries.
+
+The following packages are included in this distribution that relate to cryptography:
+
+openssl
+    The OpenSSL Project is a collaborative effort to develop a robust, commercial-grade, full-featured, and Open Source toolkit implementing the Transport Layer Security (
+TLS) and Secure Sockets Layer (SSL) protocols as well as a full-strength general purpose cryptography library.
+
+pycrypto
+    A collection of both secure hash functions (such as SHA256 and RIPEMD160), and various encryption algorithms (AES, DES, RSA, ElGamal, etc.).
+
+pyopenssl
+    A thin Python wrapper around (a subset of) the OpenSSL library.
+
+kerberos (krb5, non-Windows platforms)
+    A network authentication protocol designed to provide strong authentication for client/server applications by using secret-key cryptography.
+
+cryptography
+    A Python library which exposes cryptographic recipes and primitives.
+
+
+Do you accept the license terms? [yes|no]
+[no] >>> 
+Please answer 'yes' or 'no':'
+>>> yes
+
+Miniconda2 will now be installed into this location:
+/path/to/miniconda2
+
+  - Press ENTER to confirm the location
+  - Press CTRL-C to abort the installation
+  - Or specify a different location below
+
+[/path/to/miniconda2] >>> 
+PREFIX=/path/to/miniconda2
+installing: python-2.7.14-h1571d57_29 ...
+Python 2.7.14 :: Anaconda, Inc.
+installing: ca-certificates-2017.08.26-h1d4fec5_0 ...
+installing: conda-env-2.6.0-h36134e3_1 ...
+installing: libgcc-ng-7.2.0-h7cc24e2_2 ...
+installing: libstdcxx-ng-7.2.0-h7a57d05_2 ...
+installing: libffi-3.2.1-hd88cf55_4 ...
+installing: ncurses-6.0-h9df7e31_2 ...
+installing: openssl-1.0.2n-hb7f436b_0 ...
+installing: tk-8.6.7-hc745277_3 ...
+installing: yaml-0.1.7-had09818_2 ...
+installing: zlib-1.2.11-ha838bed_2 ...
+installing: libedit-3.1-heed3624_0 ...
+installing: readline-7.0-ha6073c6_4 ...
+installing: sqlite-3.20.1-hb898158_2 ...
+installing: asn1crypto-0.23.0-py27h7b0c810_0 ...
+installing: certifi-2017.11.5-py27h71e7faf_0 ...
+installing: chardet-3.0.4-py27hfa10054_1 ...
+installing: enum34-1.1.6-py27h99a27e9_1 ...
+installing: idna-2.6-py27h5722d68_1 ...
+installing: ipaddress-1.0.18-py27h337fd85_0 ...
+installing: pycosat-0.6.3-py27ha4109ae_0 ...
+installing: pycparser-2.18-py27hefa08c5_1 ...
+installing: pysocks-1.6.7-py27he2db6d2_1 ...
+installing: ruamel_yaml-0.11.14-py27h672d447_2 ...
+installing: six-1.11.0-py27h5f960f1_1 ...
+installing: cffi-1.11.2-py27ha7929c6_0 ...
+installing: setuptools-36.5.0-py27h68b189e_0 ...
+installing: cryptography-2.1.4-py27h6697b16_0 ...
+installing: wheel-0.30.0-py27h2bc6bb2_1 ...
+installing: pip-9.0.1-py27ha730c48_4 ...
+installing: pyopenssl-17.5.0-py27hcee3be0_0 ...
+installing: urllib3-1.22-py27ha55213b_0 ...
+installing: requests-2.18.4-py27hc5b0589_1 ...
+installing: conda-4.3.31-py27_0 ...
+installation finished.
+Do you wish the installer to prepend the Miniconda2 install location
+to PATH in your /path/to/.bashrc ? [yes|no]
+[no] >>> yes
+
+Appending source /path/to/miniconda2/bin/activate to /path/to/home/.bashrc
+A backup will be made to: /path/to/.bashrc-miniconda2.bak
+
+
+For this change to become active, you have to open a new terminal.
+
+Thank you for installing Miniconda2!
+$ 
+$
+$ dDocent
+-bash: dDocent: command not found
+$ 
+$ 
+$ conda update conda
+Fetching package metadata .................
+Solving package specifications: .
+
+Package plan for installation in environment /path/to/miniconda2:
+
+The following packages will be UPDATED:
+
+    conda: 4.3.31-py27_0 --> 4.3.34-py27_0 conda-forge
+
+Proceed ([y]/n)? y
+
+conda-4.3.34-p 100% |###########################################################################################################################| Time: 0:00:00   8.49 MB/s
+$ 
+$ 
+$ conda install ddocent
+Fetching package metadata .................
+Solving package specifications: .
+
+Package plan for installation in environment /path/to/miniconda2:
+
+The following NEW packages will be INSTALLED:
+
+    bamtools:          2.4.1-1                bioconda   
+    bedtools:          2.26.0-0               bioconda   
+    bwa:               0.7.17-pl5.22.0_2      bioconda   
+    bzip2:             1.0.6-1                conda-forge
+    cd-hit:            4.6.8-0                bioconda   
+    cmake:             3.5.0-3                conda-forge
+    curl:              7.55.1-0               conda-forge
+    ddocent:           2.2.25-bamtools2.4.1_2 bioconda   
+    expat:             2.2.5-0                conda-forge
+    fontconfig:        2.12.6-0               conda-forge
+    freebayes:         1.1.0.46-htslib1.7_3   bioconda   
+    freetype:          2.8.1-0                conda-forge
+    gawk:              4.1.3-1                bioconda   
+    giflib:            5.1.4-0                conda-forge
+    gmp:               6.1.2-0                conda-forge
+    gnuplot:           5.0.3-4                bioconda   
+    grep:              2.14-1                 bioconda   
+    htslib:            1.7-0                  bioconda   
+    icu:               58.2-0                 conda-forge
+    jpeg:              9b-2                   conda-forge
+    krb5:              1.14.2-0               conda-forge
+    libgcc:            7.2.0-h69d50b8_2                  
+    libgd:             2.2.5-3                conda-forge
+    libiconv:          1.15-0                 conda-forge
+    libpng:            1.6.34-0               conda-forge
+    libssh2:           1.8.0-2                conda-forge
+    libtiff:           4.0.9-0                conda-forge
+    libwebp:           0.5.2-7                conda-forge
+    libxml2:           2.9.7-0                conda-forge
+    llvm-meta:         5.0.0-0                conda-forge
+    mawk:              1.3.4-0                bioconda   
+    mpfr:              3.1.5-0                conda-forge
+    openjdk:           8.0.121-1                         
+    openmp:            5.0.0-1                conda-forge
+    parallel:          20170422-pl5.22.0_0    bioconda   
+    pear:              0.9.6-3                bioconda   
+    perl:              5.22.0.1-0             conda-forge
+    perl-threaded:     5.22.0-pl5.22.0_12     bioconda   
+    perl-vcftools-vcf: 0.953-3                bioconda   
+    rainbow:           2.0.4-0                bioconda   
+    samtools:          1.7-1                  bioconda   
+    seqtk:             1.2-1                  bioconda   
+    stacks:            2.0Beta8-pl5.22.0_1    bioconda   
+    trimmomatic:       0.36-5                 bioconda   
+    unzip:             6.0-0                  conda-forge
+    vcflib:            1.0.0_rc1-1            bioconda   
+    vcftools:          0.1.14-5               bioconda   
+    velvet:            1.2.10-1               bioconda   
+    xz:                5.2.3-0                conda-forge
+
+The following packages will be SUPERSEDED by a higher-priority channel:
+
+    conda-env:         2.6.0-h36134e3_1                   --> 2.6.0-0 conda-forge
+
+Proceed ([y]/n)? y
+
+bzip2-1.0.6-1. 100% |###########################################################################################################################| Time: 0:00:00   7.48 MB/s
+cmake-3.5.0-3. 100% |###########################################################################################################################| Time: 0:00:00  21.68 MB/s
+conda-env-2.6. 100% |###########################################################################################################################| Time: 0:00:00 709.16 kB/s
+expat-2.2.5-0. 100% |###########################################################################################################################| Time: 0:00:00  21.94 MB/s
+giflib-5.1.4-0 100% |###########################################################################################################################| Time: 0:00:00  18.04 MB/s
+gmp-6.1.2-0.ta 100% |###########################################################################################################################| Time: 0:00:00  24.16 MB/s
+grep-2.14-1.ta 100% |###########################################################################################################################| Time: 0:00:00  18.02 MB/s
+icu-58.2-0.tar 100% |###########################################################################################################################| Time: 0:00:00  30.23 MB/s
+jpeg-9b-2.tar. 100% |###########################################################################################################################| Time: 0:00:00  30.91 MB/s
+krb5-1.14.2-0. 100% |###########################################################################################################################| Time: 0:00:00  21.98 MB/s
+libiconv-1.15- 100% |###########################################################################################################################| Time: 0:00:00  29.63 MB/s
+llvm-meta-5.0. 100% |###########################################################################################################################| Time: 0:00:00   2.17 MB/s
+openjdk-8.0.12 100% |###########################################################################################################################| Time: 0:00:02  29.76 MB/s
+perl-5.22.0.1- 100% |###########################################################################################################################| Time: 0:00:00  27.88 MB/s
+unzip-6.0-0.ta 100% |###########################################################################################################################| Time: 0:00:00  17.26 MB/s
+xz-5.2.3-0.tar 100% |###########################################################################################################################| Time: 0:00:00  23.85 MB/s
+libgcc-7.2.0-h 100% |###########################################################################################################################| Time: 0:00:00  26.25 MB/s
+mpfr-3.1.5-0.t 100% |###########################################################################################################################| Time: 0:00:00  27.83 MB/s
+openmp-5.0.0-1 100% |###########################################################################################################################| Time: 0:00:00  22.90 MB/s
+parallel-20170 100% |###########################################################################################################################| Time: 0:00:00  14.92 MB/s
+perl-threaded- 100% |###########################################################################################################################| Time: 0:00:00   1.50 MB/s
+trimmomatic-0. 100% |###########################################################################################################################| Time: 0:00:00  23.05 MB/s
+bamtools-2.4.1 100% |###########################################################################################################################| Time: 0:00:00  22.30 MB/s
+bedtools-2.26. 100% |###########################################################################################################################| Time: 0:00:00  21.92 MB/s
+bwa-0.7.17-pl5 100% |###########################################################################################################################| Time: 0:00:00  27.84 MB/s
+cd-hit-4.6.8-0 100% |###########################################################################################################################| Time: 0:00:00  31.62 MB/s
+libpng-1.6.34- 100% |###########################################################################################################################| Time: 0:00:00  24.48 MB/s
+libssh2-1.8.0- 100% |###########################################################################################################################| Time: 0:00:00  21.14 MB/s
+libtiff-4.0.9- 100% |###########################################################################################################################| Time: 0:00:00  19.12 MB/s
+libxml2-2.9.7- 100% |###########################################################################################################################| Time: 0:00:00  20.78 MB/s
+mawk-1.3.4-0.t 100% |###########################################################################################################################| Time: 0:00:00  32.14 MB/s
+pear-0.9.6-3.t 100% |###########################################################################################################################| Time: 0:00:00  26.37 MB/s
+perl-vcftools- 100% |###########################################################################################################################| Time: 0:00:00  16.05 MB/s
+rainbow-2.0.4- 100% |###########################################################################################################################| Time: 0:00:00  19.33 MB/s
+seqtk-1.2-1.ta 100% |###########################################################################################################################| Time: 0:00:00  15.69 MB/s
+vcflib-1.0.0_r 100% |###########################################################################################################################| Time: 0:00:01  32.77 MB/s
+velvet-1.2.10- 100% |###########################################################################################################################| Time: 0:00:00   4.17 MB/s
+curl-7.55.1-0. 100% |###########################################################################################################################| Time: 0:00:00  28.86 MB/s
+freetype-2.8.1 100% |###########################################################################################################################| Time: 0:00:00  24.90 MB/s
+gawk-4.1.3-1.t 100% |###########################################################################################################################| Time: 0:00:00  22.12 MB/s
+libwebp-0.5.2- 100% |###########################################################################################################################| Time: 0:00:00  28.73 MB/s
+stacks-2.0Beta 100% |###########################################################################################################################| Time: 0:00:00  12.58 MB/s
+vcftools-0.1.1 100% |###########################################################################################################################| Time: 0:00:00  23.28 MB/s
+fontconfig-2.1 100% |###########################################################################################################################| Time: 0:00:00  28.90 MB/s
+htslib-1.7-0.t 100% |###########################################################################################################################| Time: 0:00:00  25.16 MB/s
+samtools-1.7-1 100% |###########################################################################################################################| Time: 0:00:00  26.56 MB/s
+freebayes-1.1. 100% |###########################################################################################################################| Time: 0:00:00  25.39 MB/s
+libgd-2.2.5-3. 100% |###########################################################################################################################| Time: 0:00:00  26.78 MB/s
+gnuplot-5.0.3- 100% |###########################################################################################################################| Time: 0:00:00  26.50 MB/s
+ddocent-2.2.25 100% |###########################################################################################################################| Time: 0:00:00  26.55 MB/s
+
+$ 
+$ dDocent
+dDocent 2.2.25 
+
+Contact jpuritz@gmail.com with any problems 
+
+ 
+Checking for required software
+
+All required software is installed!
+ls: cannot access *.F.fq.gz: No such file or directory
+ls: cannot access *.F.fq.gz: No such file or directory
+
+dDocent run started Sat Mar 10 16:59:52 EST 2018 
+
+0 individuals are detected. Is this correct? Enter yes or no and press [ENTER]
+xyz
+Incorrect Input
+$ 
+$ cat ~/.condarc
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+  - r
+$ 
