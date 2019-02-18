@@ -7,11 +7,7 @@ date: "2019-02-17T20:04:25-05:00"
 <!-- # about -->
 
 Justin C. Bagley is a Postdoctoral Scholar in the <a href="https://www.umsl.edu/~biology/">Department of Biology</a>
-at the University of Missouri-St. Louis
-<!--<a href="https://biology.vcu.edu">Department 
-of Biology</a> at <a href="https://www.vcu.edu">Virginia Commonwealth University</a>
--->
-; Senior Research Associate in the 
+at the University of Missouri-St. Louis<!--<a href="https://biology.vcu.edu">Department of Biology</a> at <a href="https://www.vcu.edu">Virginia Commonwealth University</a>-->; Senior Research Associate in the 
 <a href="https://zoo.unb.br">Departamento de Zoologia</a> at Universidade de Brasília; 
 researcher in ecological and evolutionary genetics of animals and plants in North America 
 and the Neotropics; developer of <a href="https://github.com/justincbagley/PIrANHA">PIrANHA</a>, <a href="https://github.com/justincbagley/MAGNET">MAGNET</a>, 
