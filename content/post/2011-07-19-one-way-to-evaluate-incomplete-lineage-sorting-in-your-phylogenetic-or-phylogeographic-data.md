@@ -17,7 +17,7 @@ tags:
 - PAUP*
 ---
 
-There aren't many ways to quantitatively evaluate incomplete lineage sorting (ILS) or ancestral polymorphism in molecular data in a statistically rigorous way.  One means of gauging relative amounts of lineage sorting is the gsi, which I will be working on later.  But, right here I wanted to note that I recently saw Ian Wang & Brad Shaffer using Wayne Maddison and Lacey Knowles method to evaluate ILS in a paper they wrote on dendrobatid frogs of Costa Rica, which is one of the main areas I am studying in my dissertation research.  Here is an excerpt from their paper:  
+As of this writing in 2011, there aren't many ways to quantitatively evaluate incomplete lineage sorting (ILS) or ancestral polymorphism in molecular data in a statistically rigorous way.  One means of gauging relative amounts of lineage sorting is the gsi, which I will be working on later.  But, right here I wanted to note that I recently saw Ian Wang & Brad Shaffer using Wayne Maddison and Lacey Knowles method to evaluate ILS in a paper they wrote on dendrobatid frogs of Costa Rica, which is one of the main areas I am studying in my dissertation research.  Here is an excerpt from their paper:  
   
 >"Because incomplete lineage sorting has the potential to confound  
 phylogenetic analyses of recently diverged populations, we  
