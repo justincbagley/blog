@@ -19,7 +19,7 @@ tags:
 ---
 
 **The packages**  
-Here is my comprehensive list of phylogenetics packages for R, with links to their websites (for some, links to support pages or more detailed information are provided in subsequent sections).  The requirement for inclusion in the list is at least one function related to manipulation or analysis of phylogenetic data.  Please [E-mail me](https://justinbagley.org/pages/about.html#contact) if you know of another program to add, or if you are developing a new package for phylogenetics in R.  The packages, listed in alphabetical order, are as follows:** **
+Here is my comprehensive list of phylogenetics packages for `R`, with links to their websites (for some, links to support pages or more detailed information are provided in subsequent sections).  The requirement for inclusion in the list is at least one function related to manipulation or analysis of phylogenetic data.  Please [E-mail me](https://justinbagley.org/pages/about.html#contact) if you know of another program to add, or if you are developing a new package for phylogenetics in `R`.  The packages, listed in alphabetical order, are as follows:** **
 
   1. ade4, Analysis of Ecological Data: Exploratory and Euclidian methods in Environmental sciences ([link](http://cran.r-project.org/web/packages/ade4/index.html))
   2. ape, Analysis of Phylogenetics and Evolution ([link](http://cran.r-project.org/web/packages/ape/))
