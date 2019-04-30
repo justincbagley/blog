@@ -25,14 +25,14 @@ tags:
 
 **Part I. Draft 9/22/11**  
 
-WARNING: The following is based on my current understanding and use of [Mesquite](http://mesquiteproject.wikispaces.com) to perform coalescent simulations for phylogeographical hypotheses testing and is correct to the best of my knowledge, but I do not guarantee its accuracy. Also, you may not perform these analyses in the exact way or order that I have performed them. The following is based on a number of previously-published studies (e.g. Knowles 2001; Knowles & Maddison 2002; Carstens et al. 2004, 2005; Spellman & Klicka 2006; Shepard & Burbrink 2009). If you use my tutorial to conduct analyses, please (1) [email me](http://www.justinbagley.org/contact) or post to this blog and let me know (thanks!), (2) properly cite Mesquite documentation (see the new [wikispaces website](http://mesquiteproject.wikispaces.com)), and (3) report any errors you might find in my tutorial to me immediately, please. If you think you find a bug in Mesquite, report that to its developers.   
+WARNING: The following is based on my current understanding and use of [Mesquite](http://mesquiteproject.wikispaces.com) to perform coalescent simulations for phylogeographical hypotheses testing and is correct to the best of my knowledge, but I do not guarantee its accuracy. Also, you may not perform these analyses in the exact way or order that I have performed them. The following is based on a number of previously-published studies (e.g. Knowles 2001; Knowles & Maddison 2002; Carstens et al. 2004, 2005; Spellman & Klicka 2006; Shepard & Burbrink 2009). If you use my tutorial to conduct analyses, please (1) [contact me](https://justinbagley.org/pages/about.html) or post to this blog and let me know (thanks!), (2) properly cite Mesquite documentation (see the new [website](https://www.mesquiteproject.org)), and (3) report any errors you might find in my tutorial to me immediately, please. If you think you find a bug in Mesquite, report that to its developers.   
    
 
 **Data and getting started**  
 
 Assume sequences are each alleles, i.e. unique haplotypes, in a file with NEXUS format, with known locality information (preferably, including geographical coordinates) that you have mapped in space in relation to geography. Also assume your data are haploid and come from a non-recombining genome region (although multi-locus analyses are possible, published studies using reehe analyses described below have mostly worked with mtDNA; I am still learning the multi-locus approaches and I will post on them later, probably in a Part III). Now, open your DNA sequence matrix in Mesquite ("File > Open File").
 
-_NOTE_: the version of Mesquite I am using as of this writing is 2.73, but many functions of the following simulations stem back to Mesquite 1.05; this also goes for the newer versions of the program.   
+><i>NOTE:</i> the version of Mesquite I am using as of this writing is 2.73, but many functions of the following simulations stem back to Mesquite 1.05; this also goes for the newer versions of the program.   
 
 
 **Import your gene tree**  
@@ -88,7 +88,7 @@ To **finalize step (A4)**, we need to create a histogram chart representing the 
 
 The final step in the analysis is to compare your observed test statistic to the distribution you just generated and derive a p-value (analogous to a one-tailed t-test). We are interested in whether the observed value falls below 95% of the null distribution. You could generate the p-value in a statistics software program using a normal distribution with the mean and variance (output by Mesquite) of the given distribution, or use percentiles.  
  
-_More later..._
+<i>More later, if I have time...</i>
 
 Best, 
 
