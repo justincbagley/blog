@@ -25,7 +25,7 @@ tags:
 
 **Background**
 
-In a previous [blog post](http://www.justinbagley.org/113/off-to-a-good-start-how-to-generate-starting-trees-for-beast-or-beast-analyses-using-r), which has received quite a bit of attention, I detailed how to get "off to a good start" by generating a starting tree for your BEAST analyses. The goal was to work from a tree with branch lengths in units of substitutions per site and to finish with an ultrametric, time-calibrated tree topology with node ages matching calibration points (e.g. fossil ages) you intended to use in BEAST. However, that post was based on things I was doing in 2012, and that were acceptable then, like using ape's now-deprecated "chronopl" subroutine to do something similar to penalized likelihood (PL; Sanderson, 2002), which is implemented in its fullest form in the r8s software (which, as of this writing, Michael Sanderson stopped updating a couple of years ago at version 1.8). Since that time, Emmanuel Paradis has updated the [ape](http://ape-package.ird.fr) [R package](https://cran.r-project.org/web/packages/ape/index.html) to use a new function, "chronos", for molecular dating on trees using PL and maximum-likelihood. As a result, the goal of this post is to describe how you can use chronos to calibrate the branches of a tree to scale or time units using PL in a way that is more accurate and more sophisticated than what was previously a la mode using chronopl.
+In a previous [blog post](https://justinbagley.rbind.io/2013/10/10/off-to-a-good-start-how-to-generate-starting-trees-for-beast-analyses-using-r/), which has received quite a bit of attention, I detailed how to get "off to a good start" by generating a starting tree for your BEAST analyses. The goal was to work from a tree with branch lengths in units of substitutions per site and to finish with an ultrametric, time-calibrated tree topology with node ages matching calibration points (e.g. fossil ages) you intended to use in BEAST. However, that post was based on things I was doing in 2012, and that were acceptable then, like using ape's now-deprecated "chronopl" subroutine to do something similar to penalized likelihood (PL; Sanderson, 2002), which is implemented in its fullest form in the r8s software (which, as of this writing, Michael Sanderson stopped updating a couple of years ago at version 1.8). Since that time, Emmanuel Paradis has updated the [ape](http://ape-package.ird.fr) [R package](https://cran.r-project.org/web/packages/ape/index.html) to use a new function, "chronos", for molecular dating on trees using PL and maximum-likelihood. As a result, the goal of this post is to describe how you can use chronos to calibrate the branches of a tree to scale or time units using PL in a way that is more accurate and more sophisticated than what was previously a la mode using chronopl.
 
 So, we'll again be getting "off to a good start" for BEAST analyses, only this time using more up-to-date methods that I have been having success with now for a year or so.
 
@@ -36,7 +36,7 @@ Just like in the original post on this topic, we'll want to begin with a standar
 ```
 ##Open R, then...
 ## Specify working directory and load ape:
-setwd('~/Documents/2 - by Project/bin') # Note: this is my working dir on mac; yours may have a different path.
+setwd('~/path/to/working/directory')
 library(ape)
 #
 ## Read newick format tree file, like this:
@@ -117,7 +117,7 @@ plot.phylo(tree146_3Calib_chronogram, type = 'phylogram', use.edge.length=TRUE, 
 This is also easy. The fastest way to use chronos to go from a non-ultrametric tree to a nice ultrametric tree, without needing to even _think about_ possible calibration points or clock models, is to give chronos no information at all. Just use the chronos defaults, which means a correlated rate model, and only tell chronos which tree to run on, like this:
 
 ```
-timetree = chronos (fishtree)
+timetree = chronos(fishtree)
 ```
 
 
