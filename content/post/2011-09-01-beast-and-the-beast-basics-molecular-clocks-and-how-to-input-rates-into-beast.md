@@ -20,9 +20,9 @@ tags:
 - tutorial
 ---
 
-#### **BEAST basics**
+## **BEAST basics**
 
-##### **A brief introduction to BEAST **
+### **A brief introduction to BEAST **
 
 BEAST is a powerful computer program for evolutionary analysis developed by Andrew Rambaut and Alexei Drummond, as well as Marc Suchard, Simon Ho, Joseph Heled, and others. BEAST was originally designed to provide a [Bayesian](https://en.wikipedia.org/wiki/Bayesian_inference) [Markov chain Monte Carlo (MCMC)](https://en.wikipedia.org/wiki/Markov_chain_Monte_Carlo) method for simultaneously co-estimating phylogenies and divergence times (times to the most recent common ancestor, TMRCAs) from DNA sequence data (or amino acids) for one or multiple loci. However, it has now been extended to trait data and provides means of testing for correlated trait evolution. It currently implements a wide variety of evolutionary models. For those interested in studying phylogenetics, phylogeography and demography in a Bayesian framework, BEAST is a choice option for analysis, being among the premier tools in each of these fields.  
 
@@ -32,7 +32,7 @@ Before reading the rest of this post, make sure you have downloaded BEAST. You c
 ****
 
 
-##### **Molecular clocks in BEAST**
+### **Molecular clocks in BEAST**
 
 [Molecular clocks](https://en.wikipedia.org/wiki/Molecular_clock) play a key role in all of the models implemented in BEAST. Despite the good documentation and support mentioned above, however, a frequently asked question regarding setting up BEAST runs is, "I have an idea of what rate I would like to use in my analysis, but how do I input it into the program?" In response to such questions, the purpose of this post is to practically introduce readers to the way strict molecular clocks are used in BEAST. Although BEAST implements three different molecular clock models (strict, relaxed, and random), I focus on strict clock analyses where users will want to set mutation rate priors. Assuming a strict or "global" molecular clock will often be a poor assumption for interspecific molecular data, because rates vary among lineages; however, in programs such as BEAST that are based on the coalescent (which is usually assumed to tick at a strict pace), when users analyze large intraspecific datasets, relaxed clocks are almost always inappropriate. Thus for intraspecific phylogeography of a single mtDNA locus, for example, a strict clock will usually be preferred.   
 
@@ -58,9 +58,7 @@ But there are other options... and we can imagine other cases.
 
 For example, you may want the <i>x</i>-axis of your BEAST output files (e.g. for your time tree or Bayesian skyline plot) to be in units of years. To accomplish this, you need to format the desired rate value appropriately. In the case of a pairwise rate such as the 2%/Myr rate in the example above, you would divide 0.01 by 10<sup>6</sup> (one million), leaving you with 1.0 x 10<sup>-8</sup> or 0.00000001. This is the value you would input into BEAUTi to achieve the result desired here. This assumes generation time (<i>g</i>) = 1.0 yr (thus you could think of it as the output actually being in generations).   
 
- _  
-
- __Note_: if you had a fossil calibration point dated in Ma and you checked "estimate" for your rate under a model specifying a strict clock and input your fossil calibration, the resulting output would also be in Myr. So, if your fossil is 30 Ma +/- 2 Ma for a given node, you would input that into the program as a point estimate of 30.0 (fixed; also you could use a variety of calibration transformations/distributions; see below). And you would get output in units of Ma.  BEAST would also estimate the substitution rate in subs/site/Myr for you.  
+> <i>Note</i>: if you had a fossil calibration point dated in Ma and you checked "estimate" for your rate under a model specifying a strict clock and input your fossil calibration, the resulting output would also be in Myr. So, if your fossil is 30 Ma +/- 2 Ma for a given node, you would input that into the program as a point estimate of 30.0 (fixed; also you could use a variety of calibration transformations/distributions; see below). And you would get output in units of Ma.  BEAST would also estimate the substitution rate in subs/site/Myr for you.  
 
    
 
