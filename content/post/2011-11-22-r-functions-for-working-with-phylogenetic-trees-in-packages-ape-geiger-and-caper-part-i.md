@@ -111,7 +111,7 @@ One of my favorite things to do with phylogenies in `R` is to play around with d
 
 **References and links**  
 
-Here are some links to some content related to phylogenetics and R from the Berkeley Integrative Biology (IB) program and a couple other places, which I have drawn from and will continue to use as resources as I add more content to my blog about phylogenetics in R. I'm going to draw up a little bibliography on the best reading in phylogenetic comparative methods as well, as I develop these new sections of the blog further...  
+Here are some links to some content related to phylogenetics and `R` from the Berkeley Integrative Biology (IB) program and a couple other places, which I have drawn from and will continue to use as resources as I add more content to my blog about phylogenetics in `R`. I'm going to draw up a little bibliography on the best reading in phylogenetic comparative methods as well, as I develop these new sections of the blog further...  
 
    
 Berkeley resources, mostly developed by Nick Matzke (Thanks Nick!):  
