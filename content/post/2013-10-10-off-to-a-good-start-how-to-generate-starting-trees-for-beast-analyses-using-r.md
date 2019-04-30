@@ -36,11 +36,11 @@ In this post, I show you how to get "off to a good start" by generating a starti
 
 There are several ways you can make starting trees for BEAST or \*BEAST, including using programs as diverse as TreeEdit, Mesquite, r8s, etc. However, the idea is in general to take a Bayesian or ML tree topology inferred from a separate phylogenetic analysis in a program such as MrBayes or GARLI (respectively), and then to manipulate the branch lengths in some way to get to the right starting tree--with branch lengths in units of time matching the units specified in your xml file for your BEAST run.
 
-In TreeEdit and Mesquite, you can basically import a starting tree topology with branch lengths output from the above programs in substitutions/site and move them around to fit your needs, and then use an iterative scaling and manual tree-editing approach to get the right time tree. I take a slightly different approach using some commands that allow me to run an algorithm from r8s in the R environment without having to manually alter the topology; for this, we are going to use the package ape (Analysis in Phylogenetics and Evolution), by Emmanuel Paradis, to make our starting tree.
+In TreeEdit and Mesquite, you can basically import a starting tree topology with branch lengths output from the above programs in substitutions/site and move them around to fit your needs, and then use an iterative scaling and manual tree-editing approach to get the right time tree. I take a slightly different approach using some commands that allow me to run an algorithm from r8s in the `R` environment without having to manually alter the topology; for this, we are going to use the package ape (Analysis in Phylogenetics and Evolution), by Emmanuel Paradis, to make our starting tree.
 
-Before starting, you might need to get familiar with the R basics, e.g. by reading my previous post [here](http://justinbagley.rbind.io/2011/11/22/r-functions-for-working-with-phylogenetic-trees-in-packages-ape-geiger-and-caper-part-i/), or using resources [like this one](http://cran.r-project.org/doc/manuals/R-intro.pdf) (R intro), or [this one](http://www.r-phylo.org/wiki/Main_Page) (R-Phylo phylogenetics wiki). OK, so do that if necessary. Then, here we go...
+Before starting, you might need to get familiar with the R basics, e.g. by reading my previous post [here](http://justinbagley.rbind.io/2011/11/22/r-functions-for-working-with-phylogenetic-trees-in-packages-ape-geiger-and-caper-part-i/), or using resources [like this one](http://cran.r-project.org/doc/manuals/R-intro.pdf) (`R` intro), or [this one](http://www.r-phylo.org/wiki/Main_Page) (R-Phylo phylogenetics wiki). OK, so do that if necessary. Then, here we go...
 
-Open R and load the package we need by typing library(ape). Move the tree file or files (newick text, .NEX, .tre formats, etc.) you are interested in into your current R working directory. Assuming the file of interest is a newick format tree in a file called "fishes.tre", or a NEXUS style tree file named "fishes.NEX", type the following to read your tree in and plot it:
+Open R and load the package we need by typing `library(ape)`. Move the tree file or files (newick text, .NEX, .tre formats, etc.) you are interested in into your current `R` working directory. Assuming the file of interest is a newick format tree in a file called "fishes.tre", or a NEXUS style tree file named "fishes.NEX", type the following to read your tree in and plot it:
 
 ```
 ## Read in Newick format tree file
@@ -59,7 +59,7 @@ add.scale.bar(cex=0.4, font=4, col='red')
 ```
 
 
-Now, we're up and running and your tree is looking pretty good (pretty cool).  The next step is to take your calibration information and identify which node of the phylogeny you are going to be applying it to. Look at the plot or another reference figure of your tree and determine two taxa for which this node represents their most recent common ancestor, or "MRCA." Write the names down in a text editor (I'm on mac, and I prefer TextWrangler). You can then copy and paste these into the editor window directly from your treefile or get them from R. So far so good, but you also need to know the number identifying the node of interest on your tree, which isn't readily apparent. Let's get this in R, as follows:
+Now, we're up and running and your tree is looking pretty good (pretty cool).  The next step is to take your calibration information and identify which node of the phylogeny you are going to be applying it to. Look at the plot or another reference figure of your tree and determine two taxa for which this node represents their most recent common ancestor, or "MRCA." Write the names down in a text editor (I'm on mac, and I prefer TextWrangler). You can then copy and paste these into the editor window directly from your treefile or get them from `R`. So far so good, but you also need to know the number identifying the node of interest on your tree, which isn't readily apparent. Let's get this in `R`, as follows:
 
 ```
 mrca(fishtree)['taxon1', 'taxon2']
@@ -99,7 +99,7 @@ write.tree(fishtree.pl.cvl1, file='fishtree.pl.cvl1.newick')
 ```
 
 
-Now your tree is available in a newick file that has been written to your present R working directory. So, go get your tree and use it and you're done! Of course, we can imagine more complex cases with multiple calibration points, and these can also be accomodated using similar functions to those above. But more on that later, gotta run.
+Now your tree is available in a newick file that has been written to your present `R` working directory. So, go get your tree and use it and you're done! Of course, we can imagine more complex cases with multiple calibration points, and these can also be accomodated using similar functions to those above. But more on that later, gotta run.
 
 ~ J
 
