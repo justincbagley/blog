@@ -19,7 +19,8 @@ tags:
 
 As of this writing in 2011, there aren't many ways to quantitatively evaluate incomplete lineage sorting (ILS) or ancestral polymorphism in molecular data in a statistically rigorous way.  One means of gauging relative amounts of lineage sorting is the gsi, which I will be working on later.  But, right here I wanted to note that I recently saw Ian Wang & Brad Shaffer using Wayne Maddison and Lacey Knowles method to evaluate ILS in a paper they wrote on dendrobatid frogs of Costa Rica, which is one of the main areas I am studying in my dissertation research.  Here is an excerpt from their paper:  
   
-><span style="font-size:3em;">"Because incomplete lineage sorting has the potential to confound  
+<!--<span style="font-size:3em;"> -- </span> -->
+><font size="4">"Because incomplete lineage sorting has the potential to confound  
 phylogenetic analyses of recently diverged populations, we  
 also performed the “minimize deep coalescences method” following  
 the procedure of Maddison and Knowles (2006). This method  
@@ -35,7 +36,7 @@ trees recovered in the search. We then used the tree search
 tool in Mesquite version 2.5 (Maddison and Maddison 2005) to  
 find the population tree that minimized the total number of deep  
 coalescences, using the saved majority-rule consensus tree and  
-SPR branch swapping (Maddison and Knowles 2006)."  </span>
+SPR branch swapping (Maddison and Knowles 2006)."</font>
   
 Through this analysis, the authors were able to say that their phylogeny based on their mtDNA data was not different from a tree where ILS was minimized, suggesting the tree more likely reflected historical signal.   
   
