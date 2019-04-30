@@ -43,4 +43,4 @@ This is a nifty little trick that I plan on using.  I am currently learning to 
   
 **References**  
   
-Ian J. Wang1,2 and H. Bradley Shaffer1 (2008) RAPID COLOR EVOLUTION IN AN APOSEMATIC SPECIES: A PHYLOGENETIC ANALYSIS OF COLOR VARIATION IN THE STRIKINGLY POLYMORPHIC STRAWBERRY POISON-DART FROG. _Evolution_, 62-11: 2742–2759.
+Wang IJ, Shaffer HB (2008) Rapid color evolution in aposematic species: a phylogenetic analysis of color variation in the strikingly polymorphic strawberry poison-dart frog. _Evolution_, 62-11: 2742–2759.
