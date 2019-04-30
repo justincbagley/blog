@@ -25,7 +25,9 @@ tags:
 
 **Part I. Draft 9/22/11**  
 
-WARNING: The following is based on my current understanding and use of [Mesquite](http://mesquiteproject.wikispaces.com) to perform coalescent simulations for phylogeographical hypotheses testing and is correct to the best of my knowledge, but I do not guarantee its accuracy. Also, you may not perform these analyses in the exact way or order that I have performed them. The following is based on a number of previously-published studies (e.g. Knowles 2001; Knowles & Maddison 2002; Carstens et al. 2004, 2005; Spellman & Klicka 2006; Shepard & Burbrink 2009). If you use my tutorial to conduct analyses, please (1) [contact me](https://justinbagley.org/pages/about.html) or post to this blog and let me know (thanks!), (2) properly cite Mesquite documentation (see the new [website](https://www.mesquiteproject.org)), and (3) report any errors you might find in my tutorial to me immediately, please. If you think you find a bug in Mesquite, report that to its developers.   
+WARNING: The following is based on my current understanding and use of [Mesquite](http://mesquiteproject.wikispaces.com) to perform coalescent simulations for phylogeographical hypotheses testing and is correct to the best of my knowledge, but I do not guarantee its accuracy. Also, you may not perform these analyses in the exact way or order that I have performed them. 
+
+The following post is based on a number of previously-published studies (e.g. Knowles 2001; Knowles & Maddison 2002; Carstens et al. 2004, 2005; Spellman & Klicka 2006; Shepard & Burbrink 2009). If you use my tutorial to conduct analyses, please (1) [contact me](https://justinbagley.org/pages/about.html) or post to this blog and let me know (thanks!), (2) properly cite Mesquite documentation (see the new [website](https://www.mesquiteproject.org)), and (3) report any errors you might find in my tutorial to me immediately, please. If you think you find a bug in Mesquite, report that to its developers.   
    
 
 **Data and getting started**  
