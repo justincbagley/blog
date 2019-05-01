@@ -24,27 +24,27 @@ tags:
 <!-- ![R language for statistical computing](/images/R-logo-image.png =80x) -->
 <img src="/images/R-logo-image.png" alt="R language for statistical computing" width="150px"/>
 
-In case you are unaware of this trick, it is possible to simultaneously install or update all of the phylogenetics packages available in R in one fail swoop.
+In case you are unaware of this trick, it is possible to simultaneously install or update all of the phylogenetics packages available in `R` in one fell swoop.
 
-A number of different CRAN Task Views have been created summarizing R packages and utilities for different fields of analysis or research. Luckily, there is not only a compilation of these located on the CRAN-R website [here](https://cran.r-project.org/web/views/), but also [Brian O'Meara](https://twitter.com/omearabrian) (@omearabrian #omearabrian) has developed a nice CRAN Task View entitled "Phylogenetics, Especially Comparative Methods." This means that you can view all of the software for phylogenetics and phylogenetic comparative methods in R at one time from the corresponding [Phylogenetics website](https://cran.r-project.org/web/views/Phylogenetics.html). Here is what these websites look like:
+A number of different CRAN Task Views have been created summarizing `R` packages and utilities for different fields of analysis or research. Luckily, there is not only a compilation of these located on the CRAN-R website [here](https://cran.r-project.org/web/views/), but also [Brian O'Meara](https://twitter.com/omearabrian) (@omearabrian #omearabrian) has developed a nice CRAN Task View entitled "Phylogenetics, Especially Comparative Methods." This means that you can view all of the software for phylogenetics and phylogenetic comparative methods in `R` at one time from the corresponding [Phylogenetics website](https://cran.r-project.org/web/views/Phylogenetics.html). Here is what these websites look like:
 
 [![CRAN_Task_Views_screenshot](/images/CRAN_Task_Views_screenshot-768x407.png)](/images/CRAN_Task_Views_screenshot-1024x542.png)
 [![Omeara_Phylogenetics_ctv](/images/Omeara_Phylogenetics_ctv-768x407.png)](/images/Omeara_Phylogenetics_ctv-1024x543.png)
 
-The most important thing, though, is that you can automatically install the entire Phylogenetics, Especially Comparative Methods view! Here's how you do it! First, open R, download the [ctv package](https://cran.r-project.org/web/packages/ctv/index.html)(ctv stands for "CRAN Task Views"), then load the ctv library by typing:
+The most important thing, though, is that you can automatically install the entire Phylogenetics, Especially Comparative Methods view! Here's how you do it! First, open `R`, download the [ctv package](https://cran.r-project.org/web/packages/ctv/index.html)(ctv stands for "CRAN Task Views"), then load the ctv library by typing:
 
 ```
 library(ctv)
 ```
 
 
-Next, you can install the Phylogenetics, Especially Comparative Methods view using the 'install.views' function, and later you can update this view using the 'update.views' function. If this is your first time using R for phylogenetics, you will not have any of the phylogenetics software, so you will do the following to install the view:
+Next, you can install the Phylogenetics, Especially Comparative Methods view using the 'install.views' function, and later you can update this view using the 'update.views' function. If this is your first time using `R` for phylogenetics, you will not have any of the phylogenetics software, so you will do the following to install the view:
 
 ```
 install.views('Phylogenetics')
 ```
 
-If you have already been working with phylogenies in R and have some of the related packages installed, you will want to use update.views as follows:
+If you have already been working with phylogenies in `R` and have some of the related packages installed, you will want to use update.views as follows:
 
 ```
 update.views('Phylogenetics')
