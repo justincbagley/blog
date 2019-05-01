@@ -23,6 +23,8 @@ tags:
 - SNPs
 ---
 
+<i>Last update: May 1, 2019</i>
+
 ### **Intro**
 
 Given their high density throughout the genome, single nucleotide polymorphisms (SNPs) have become a popular marker for population genetics and phylogenetics analyses in evolutionary biology (in addition to applications in QTL mapping, association studies etc.).  The rapid advance of next-generation sequencing (NGS) has created several new ways of generating 100s to hundreds of thousands of variable SNPs quickly and cost-effectively. 
@@ -45,9 +47,11 @@ ABRF Core Marketplace - [AllSeq](http://www.allseq.com) -Allseq has created a "[
 
 Genohub - [Georgia Genomics Facility](http://dna.uga.edu/) (GGF) - In addition to genotyping services (e.g. microsatellite DNA marker development and scoring), this core facility provides next-generation sequencing services on Roche 454, Illumina HiSeq, Illumina MiSeq, and Ion Torrent™ platforms, as well as bioinformatics services.
 
+[Novogene](https://en.novogene.com) - Currently one of my favorites (last used in 2018) for their [Illumina sequencing services](https://en.novogene.com/technology/illumina-systems/). As of 2019, this company has upscaled to all of the best Illumina sequencers and now provides services on HiSeq 4000, HiSeq X, and NovaSeq 6000, the latter of which is among the newest technology and yields about 3x the sequence output range of the HiSeq X. 
+
 [Oregon State University Center for Genome Research & Biocomputing (CGRB)](http://corelabs.cgrb.oregonstate.edu/) - Services in genomics, biocomputing and bioinformatics, imaging and image analysis.  Roche 454 and Illumina HiSeq and MiSeq platforms.
 
-Science Exchange - [More coming soon.]
+[Science Exchange](https://www.scienceexchange.com/marketplace/ngs?page=1) - One of the best solutions yet! Allows you to source from one of over 2,500 sequencing/service providers. Looking through their [Illumina sequencing providers](https://www.scienceexchange.com/marketplace/illumina-ngs?page=1), approximately 66 search results (as of April 2019), cost per lane looks to be raning from $900-$2000.
 
 [SNPsaurus](http://snpsaurus.com) - Provides services for genotyping-by-sequencing using the "nextRAD" method, which differs from other GBS methods in  selectively amplifying fragments across the genome with a select sequence, allowing sequences to stack up only at those regions, which are scattered throughout the genome. This group apparently provides an academic discount for samples with genomes under 1 gigabase in size. I think that based on the name of the method, nextRad refers to Nextera library prep for Illumina platform sequencing. (April 2016:) For 95-sample projects, pricing is $69-99/sample for 15,000-50,000 nextRad loci. For 190-sample projects, pricing is $59-74/sample for the same range of loci.
 
