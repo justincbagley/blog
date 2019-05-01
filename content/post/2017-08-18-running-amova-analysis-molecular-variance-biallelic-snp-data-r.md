@@ -32,14 +32,14 @@ tags:
 
 ## AMOVA in R
 
-Resources for conducting population genetic and phylogenetic analyses in the R computing environment are continually improving, and to date several packages have provided functions for estimating phi-statistics and hierarchical patterns of population variance partitioning using AMOVA (analysis of molecular variance; Quattro et al. 1992). The [paper](http://www.genetics.org/content/genetics/131/2/479.full.pdf) for the AMOVA method, penned by population geneticists Joe Quattro, Peter Smouse, and Laurent Excoffier, now [has >12,000 citations](https://scholar.google.com/scholar?hl=en&q=analysis+molecular+variance+Quattro+1992&btnG=&as_sdt=1%2C47&as_sdtp=), making it one of the most used and cited methods of all time in evolutionary genetic analysis; many people continue using this method, including me. What is interesting about recent packages is that they allow us to do AMOVA rather easily on SNP data, and today I'm going to show you some code for conducting AMOVA in R on biallelic SNPs.
+Resources for conducting population genetic and phylogenetic analyses in the `R` computing environment are continually improving, and to date several packages have provided functions for estimating phi-statistics and hierarchical patterns of population variance partitioning using AMOVA (analysis of molecular variance; Quattro et al. 1992). The [paper](http://www.genetics.org/content/genetics/131/2/479.full.pdf) for the AMOVA method, penned by population geneticists Joe Quattro, Peter Smouse, and Laurent Excoffier, now [has >12,000 citations](https://scholar.google.com/scholar?hl=en&q=analysis+molecular+variance+Quattro+1992&btnG=&as_sdt=1%2C47&as_sdtp=), making it one of the most used and cited methods of all time in evolutionary genetic analysis; many people continue using this method, including me. What is interesting about recent packages is that they allow us to do AMOVA rather easily on SNP data, and today I'm going to show you some code for conducting AMOVA in R on biallelic SNPs.
 
 
 
 ![Photo Credit: P. Aquino](/images/Hypostomus-sp2_picture-800x400.jpg)
 _Hypostomus_ sp. 2
 
-I'll be using an example of SNP sites from ddRAD-seq analyses of _Hypostomus _suckermouth armored catfishes (sp. 2, pictured _at left_), that are hierarchically spatially distributed as individuals, within sites (populations), within three drainage basins in central Brazil. We are going to start from SNPs, get the SNPs into R using the packages [adegenet](http://adegenet.r-forge.r-project.org) (Jombart 2008; Jombart and Ahmed 2011; Jombart et al. 2015) and [poppr](http://grunwaldlab.cgrb.oregonstate.edu/poppr-r-package-population-genetics) (Kamvar et al. 2014, 2015), and then conduct some data massaging/prepwork before conducting final AMOVA analyses using the same packages. The analyses will experiment with the effects on AMOVA results of varying the missing data level threshold in poppr's AMOVA function (i.e. the "cutoff" option within '[poppr.amova](https://www.rdocumentation.org/packages/poppr/versions/2.3.0/topics/poppr.amova)' function).
+I'll be using an example of SNP sites from ddRAD-seq analyses of _Hypostomus_ suckermouth armored catfishes (sp. 2, pictured _at left_), that are hierarchically spatially distributed as individuals, within sites (populations), within three drainage basins in central Brazil. We are going to start from SNPs, get the SNPs into `R` using the packages [adegenet](http://adegenet.r-forge.r-project.org) (Jombart 2008; Jombart and Ahmed 2011; Jombart et al. 2015) and [poppr](http://grunwaldlab.cgrb.oregonstate.edu/poppr-r-package-population-genetics) (Kamvar et al. 2014, 2015), and then conduct some data massaging/prepwork before conducting final AMOVA analyses using the same packages. The analyses will experiment with the effects on AMOVA results of varying the missing data level threshold in poppr's AMOVA function (i.e. the "cutoff" option within '[poppr.amova](https://www.rdocumentation.org/packages/poppr/versions/2.3.0/topics/poppr.amova)' function).
 
 
 
@@ -47,7 +47,7 @@ I'll be using an example of SNP sites from ddRAD-seq analyses of _Hypostomus _su
 
 ##### SETUP: Load R packages
 
-First, let's open [R](https://cran.r-project.org) (I'm using R version 3.3.2 (2016-10-31) -- "Sincere Pumpkin Patch") and set up the workspace by loading adegenet and poppr; let's also load the APE library just in case we need it. If you don't have R, then download the latest version for Windows [here](https://cran.r-project.org/bin/windows/), and download the latest version for Mac OS X [here](https://cran.r-project.org/bin/macosx/). If you have R but don't have the packages, then install them from within R by typing install. packages("name") where name is the name of the package.
+First, let's open [R](https://cran.r-project.org) (as of initial writing, I'm using `R` version 3.3.2 (2016-10-31) -- "Sincere Pumpkin Patch") and set up the workspace by loading adegenet and poppr; let's also load the APE library just in case we need it. If you don't have R, then download the latest version for Windows [here](https://cran.r-project.org/bin/windows/), and download the latest version for Mac OS X [here](https://cran.r-project.org/bin/macosx/). If you have `R` but don't have the packages, then install them from within `R` by typing install. packages("name") where name is the name of the package.
 
 ```
 library(adegenet)
@@ -58,7 +58,7 @@ library(ape)
 
 ##### SETUP: Read in the data
 
-Next, we'll read in the data and process it (see next code section _below_). We will start by reading my SNP data into R from a file with an ".str" extension in the current working directory, in which the data are stored in STRUCTURE format. This data file contains a moderate number of SNPs (representing 1 SNP per RAD tag) from central Brazilian _Hypostomus _suckermouth armored catfish populations, and it was originally output by pyRAD following data assembly and SNP calling. Here, in my case, the data were produced by NGS sequencing on a ddRAD-seq genomic library that included outgroup samples, in order to facilitate downstream phylogenomic analyses. However, we need to make sure that we only do AMOVA on the ingroup data, because we are interested in patterns of hierarchical genetic structure in the focal species, and not in focal species + outgroup. Including outgroup individuals would in fact bias the results. So, we must start by reading in a data file that contains only ingroup _Hypostomus _individuals, and _*no outgroup individuals*_ (hence the "noout" code in the file name). 
+Next, we'll read in the data and process it (see next code section _below_). We will start by reading my SNP data into R from a file with an ".str" extension in the current working directory, in which the data are stored in STRUCTURE format. This data file contains a moderate number of SNPs (representing 1 SNP per RAD tag) from central Brazilian _Hypostomus_ suckermouth armored catfish populations, and it was originally output by pyRAD following data assembly and SNP calling. Here, in my case, the data were produced by NGS sequencing on a ddRAD-seq genomic library that included outgroup samples, in order to facilitate downstream phylogenomic analyses. However, we need to make sure that we only do AMOVA on the ingroup data, because we are interested in patterns of hierarchical genetic structure in the focal species, and not in focal species + outgroup. Including outgroup individuals would in fact bias the results. So, we must start by reading in a data file that contains only ingroup _Hypostomus_ individuals, and _*no outgroup individuals*_ (hence the "noout" code in the file name). 
 
 **I will do this _below_ using the following four steps:**
   * Step #1: read in the data as a genind object
@@ -145,7 +145,7 @@ The purpose of showing these steps in this order is to demonstrate that we can e
 
 ##### **ANALYSIS: AMOVAs**
 
-OK, that's it for processing! Now, we're ready to conduct AMOVAs and get some results for our _Hypostomus_ populations. As noted above, we will run separate AMOVA analyses using different cutoff values for missing data. **This "cutoff" value sets the level at which missing data will be ignored or modified during calculations.** It's somewhat counterintuitive, but a _low value_ will specify a low missing data threshold and thus identify and _remove more_ sites with missing data from the analysis, leaving potentially many _fewer _sites for analysis. By comparison, a high cutoff value will result in leaving more sites for analysis, depending on the distribution of missing data in the data frame. In my case, as you'll see below, a 95% cutoff value removed 0 loci. **But let's see if changing the cutoff value from 30% (analyzing fewer sites) to 95% (analyzing more sites) changes the outcome for the _Hypostomus _headwater fish system.** 
+OK, that's it for processing! Now, we're ready to conduct AMOVAs and get some results for our _Hypostomus_ populations. As noted above, we will run separate AMOVA analyses using different cutoff values for missing data. **This "cutoff" value sets the level at which missing data will be ignored or modified during calculations.** It's somewhat counterintuitive, but a _low value_ will specify a low missing data threshold and thus identify and _remove more_ sites with missing data from the analysis, leaving potentially many _fewer_ sites for analysis. By comparison, a high cutoff value will result in leaving more sites for analysis, depending on the distribution of missing data in the data frame. In my case, as you'll see below, a 95% cutoff value removed 0 loci. **But let's see if changing the cutoff value from 30% (analyzing fewer sites) to 95% (analyzing more sites) changes the outcome for the _Hypostomus_ headwater fish system.** 
 
 **Here is the code for doing the AMOVAs and significance tests (to get p-values):**
 
@@ -176,7 +176,7 @@ When I ran the above code and called R to print the basic AMOVA results to scree
 
 ##### RESULTS!
 
-Now, let's look at the results of variance partitioning, as well as the significance of the variation within and between groups, as they would be pictured in the R console (GUI) window:
+Now, let's look at the results of variance partitioning, as well as the significance of the variation within and between groups, as they would be pictured in the `R` console (GUI) window:
 
 **30% cutoff AMOVA results**
 
@@ -252,7 +252,7 @@ Phi-drain-total   0.2750973
 
 **Second, the data are sufficient in number and variability so that AMOVAs on these data are robust to up to 30% (and above) missing data per locus**. This makes sense, given that, in pyRAD, these data were stringently filtered so that each RAD tag would contain no more than 30% missing data.
 
-I hope that you have enjoyed doing AMOVA with me! Also, I hope this helps you conduct AMOVA on your phylogeographic or population genomic dataset, in the R environment. Cheers,
+I hope that you have enjoyed doing AMOVA with me! Also, I hope this helps you conduct AMOVA on your phylogeographic or population genomic dataset, in the `R` environment. Cheers,
 
 ~J
 
