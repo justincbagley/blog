@@ -20,9 +20,9 @@ tags:
 
 <img src="/images/beast2.png" title="BEAST logo" alt="BEAST logo" width="150px">
 
-I have now for several months been happily using [BEAST2](http://www.beast2.org) instead of Beast 1.7.5 or 1.8.x--I'm converted!  Thus far, datasets have run surprisingly smoothly, but for some recent analyses I have tried to jump-start things and ensure proper likelihood values at the onset of runs by including a starting tree in my xml input file.
+I have now for several months been happily using [BEAST2](http://www.beast2.org) instead of Beast 1.7.5 or 1.8.x--I'm converted! Thus far, datasets have run surprisingly smoothly, but for some recent analyses I have tried to jump-start things and ensure proper likelihood values at the onset of runs by including a starting tree in my xml input file.
 
-[**Previously, I blogged about just how you might create such a starting tree**](http://justinbagley.rbind.io/2013/10/10/off-to-a-good-start-how-to-generate-starting-trees-for-beast-or-beast-analyses-using-r/) that fits one or multiple calibration points in a BEAST analysis, by using penalized likelihood analysis (r8s) in R.  However, another easy way to do this is to conduct a preliminary analysis using a short run specifying the full set of calibrations in BEAST2, and then to use the MCC tree from this run (or one post-burnin tree) as a starting tree for your final runs.  Either way, I have discussed how to generate starting trees.  Now, I'll round out this topic more with a brief post on how to _actually add_ the starting tree to an xml file for a BEAST2 analysis.
+[**Previously, I blogged about just how you might create such a starting tree**](https://justinbagley.rbind.io/2013/10/10/off-to-a-good-start-how-to-generate-starting-trees-for-beast-analyses-using-r/) that fits one or multiple calibration points in a BEAST analysis, by using penalized likelihood analysis (r8s) in R. However, another easy way to do this is to conduct a preliminary analysis using a short run specifying the full set of calibrations in BEAST2, and then to use the MCC tree from this run (or one post-burnin tree) as a starting tree for your final runs. Either way, I have discussed how to generate starting trees. Now, I'll round out this topic more with a brief post on how to <i>actually add</i> the starting tree to an xml file for a BEAST2 analysis.
 
 After you have an appropriate starting tree with no polytomies, you can add it to your BEAST2 xml file in three easy steps:
 
@@ -52,7 +52,7 @@ This code specifies a random starting tree and you'll notice that the relevant I
     <init islabellednewick="true" initial="@Tree.t:mtDNA_tree" id="StartingTree.t:mtDNA_tree" spec="beast.util.TreeParser"> <input name="newick"> (Bovine:0.69395,(Hylobates:0.36079,(Pongo:0.33636,(G._Gorilla:0.17147, (P._paniscus:0.19268,H._sapiens:0.11927):0.08386):0.06124):0.15057):0.54939, Rodent:1.21460); </input> </init> 
 ```
 
-Note that we actually specify ("spec=") the starting tree with the "beast.util.TreeParser" class.  Now, check to make sure your xml file runs, indicating that your tree is a good fit to your priors and produces a good starting likelihood.  If you observe the xml with the starting tree specified running and correctly calculating likelihoods, then you've gone from just having a starting tree to making it work for you!
+Note that we actually specify ("spec=") the starting tree with the "beast.util.TreeParser" class. Now, check to make sure your xml file runs, indicating that your tree is a good fit to your priors and produces a good starting likelihood. If you observe the xml with the starting tree specified running and correctly calculating likelihoods, then you've gone from just having a starting tree to making it work for you!
 
 ~J
 
@@ -69,7 +69,7 @@ PS: A slightly more simple way to do step three would be to use this instead (be
     <init islabellednewick="true" initial="@Tree.t:mtDNA_tree" spec="beast.util.TreeParser" id="StartingTree.t:mtDNA_tree"> <input name="newick"> (Bovine:0.69395,(Hylobates:0.36079,(Pongo:0.33636,(G._Gorilla:0.17147, (P._paniscus:0.19268,H._sapiens:0.11927):0.08386):0.06124):0.15057):0.54939, Rodent:1.21460); </input> </init> 
 ```
 
-PS2: If you try the code in the starting tree section on the beast2 wiki (link above), you will probably get an error that stateNode is not a tag used used by the mcmc.  This is why I have stuck with "init" here.  Here is what said error message will look like:
+PS2: If you try the code in the starting tree section on the beast2 wiki (link above), you will probably get an error that stateNode is not a tag used used by the mcmc. This is why I have stuck with "init" here. Here is what said error message will look like:
 
 ```
     Error 130 parsing the xml input file 
