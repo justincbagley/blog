@@ -34,13 +34,13 @@ tags:
 <!-- ![R language for statistical computing](/images/R-logo-image.png =80x) -->
 <img src="/images/R-logo-image.png" alt="R language for statistical computing" width="150px"/>
 
-An up-to-date R install is a key component of any biologist's bioinformatics toolkit. In this post, I will walk through some code that I used to solve the problem of installing the latest version of R, [R v3.4.4](https://cran.r-project.org) (the "2018-03-15, Someone to Lean On" release), at the user level on a Linux supercomputing cluster running [CentOS 5/6/7](https://www.centos.org). First, I'll give some background information that will be useful for following along. Then, I'll go into the basics of conducting a Linux R install when you do not have admin privileges. Thirdly, I'll point out a library/environment problem that I ran into with this method, and I'll show a low-stress solution for solving that problem. And, finally, I'll close with the successful install setup steps and illustrate that the newly installed version of R v3.4.4 worked and was available from my command line.
+An up-to-date `R` install is a key component of any biologist's bioinformatics toolkit. In this post, I will walk through some code that I used to solve the problem of installing the latest version of `R`, [R v3.4.4](https://cran.r-project.org) (the "2018-03-15, Someone to Lean On" release), at the user level on a Linux supercomputing cluster running [CentOS 5/6/7](https://www.centos.org). First, I'll give some background information that will be useful for following along. Then, I'll go into the basics of conducting a Linux `R` install when you do not have admin privileges. Thirdly, I'll point out a library/environment problem that I ran into with this method, and I'll show a low-stress solution for solving that problem. And, finally, I'll close with the successful install setup steps and illustrate that the newly installed version of `R` v3.4.4 worked and was available from my command line.
 
 
 
 ##### 1. Background: pre-install environment
 
-On our cluster, I first used [`qrsh`](http://gridscheduler.sourceforge.net/howto/basic_usage.html) to log into a node and run or check the available R install, which gave me the following information:
+On our cluster, I first used [`qrsh`](http://gridscheduler.sourceforge.net/howto/basic_usage.html) to log into a node and run or check the available `R` install, which gave me the following information:
 
 ```
 $ which R
@@ -70,12 +70,12 @@ Type 'q()' to quit R.
 Save workspace image? [y/n/c]: n
 ```
 
-This told me that the system administrator currently had R v3.3.2 installed, and that it was made available to all users at /usr/global/R-3.3.2/bin/R. This version is from one or two years back, so I wanted to install my own updated version of R in my [home directory](http://www.linfo.org/home_directory.html) (you can get the path to your home dir by doing `echo $HOME`). 
+This told me that the system administrator currently had `R` v3.3.2 installed, and that it was made available to all users at /usr/global/R-3.3.2/bin/R. This version is from one or two years back, so I wanted to install my own updated version of `R` in my [home directory](http://www.linfo.org/home_directory.html) (you can get the path to your home dir by doing `echo $HOME`). 
 
 
-##### 2. First steps: local R install within my user "$HOME"
+##### 2. First steps: local `R` install within my user "$HOME"
 
-To install R within my home directory, I started by following the standard install procedure for Linux, which involves downloading the source code as a tarball, unzipping that tarball, configuring the install, and performing the install. Note that you may see other biologists/scientists discussing tools such as `sudo`, `yum`, and `apt-get` for installing software on Linux. **It is important to _note_ that _none of these apply to the current case_**. The "super user do" command [`sudo`](https://linuxacademy.com/blog/linux/linux-commands-for-beginners-sudo/) is only used when you have admin privileges, and I am working as a user on an HPC cluster _without_ such privileges (not in sudoers list). Therefore, and in addition, since `yum` often requires `sudo`, it is also off limits. Want to use `apt-get`? Nope. Think again. The `apt-get` command calls [APT (Advanced Package Tool)](https://wiki.debian.org/Apt), which is a package tool manager that is only available on [Debian Linux](https://www.debian.org), and I am working on a cluster that runs CentOS. **So, the appropriate CentOS approach, without admin privileges, is to use [`wget`](https://www.gnu.org/software/wget/) as follows:**
+To install `R` within my home directory, I started by following the standard install procedure for Linux, which involves downloading the source code as a tarball, unzipping that tarball, configuring the install, and performing the install. Note that you may see other biologists/scientists discussing tools such as `sudo`, `yum`, and `apt-get` for installing software on Linux. **It is important to _note_ that _none of these apply to the current case_**. The "super user do" command [`sudo`](https://linuxacademy.com/blog/linux/linux-commands-for-beginners-sudo/) is only used when you have admin privileges, and I am working as a user on an HPC cluster _without_ such privileges (not in sudoers list). Therefore, and in addition, since `yum` often requires `sudo`, it is also off limits. Want to use `apt-get`? Nope. Think again. The `apt-get` command calls [APT (Advanced Package Tool)](https://wiki.debian.org/Apt), which is a package tool manager that is only available on [Debian Linux](https://www.debian.org), and I am working on a cluster that runs CentOS. **So, the appropriate CentOS approach, without admin privileges, is to use [`wget`](https://www.gnu.org/software/wget/) as follows:**
 
 ```
 $ cd $HOME
@@ -111,7 +111,7 @@ Fetching package metadata .................
 Solving package specifications: .
 
 # All requested packages already installed.
-# packages in environment at /gpfs_fs/home/jcbagley/miniconda2:
+# packages in environment at /path/to/miniconda2:
 #
 libiconv                  1.15                          0    conda-forge
 
@@ -127,27 +127,27 @@ $ ls ./libiconv*
 The above listed the corresponding/correct lib files, so... I decided that the best solution at this point would be to add the Miniconda lib directory (folder) to my "$LD_LIBRARY_PATH" environmental variable. I did this using standard practices, as follows:
 
 ```
-$ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/gpfs_fs/home/jcbagley/miniconda2/lib
+$ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/path/to/miniconda2/lib
 ```
 
 
 
 
-**I then went back and started a fresh R install, and configure as well as make and install worked!!**
+**I then went back and started a fresh `R` install, and configure as well as make and install worked!!**
 
 
-**Still, a successful install is not a suitable stopping point in bioinformatics. The same applies to every R install.**
+**Still, a successful install is not a suitable stopping point in bioinformatics. The same applies to every `R` install.**
 
-You must always make sure that the version of the software that you have installed is actually available from the command line, and not superseded by a previous install; and we want the appropriate R version to have priority. In my case, even after installing R v3.4.4 locally, I found that a call to R would open the system version, v3.3.2, which of course was suboptimal. One easy fix for this is to alias "R" to the newly installed version. Specifically, you could add the following line to your "~/.bashrc" file and then source it:
+You must always make sure that the version of the software that you have installed is actually available from the command line, and not superseded by a previous install; and we want the appropriate `R` version to have priority. In my case, even after installing `R` v3.4.4 locally, I found that a call to `R` would open the system version, v3.3.2, which of course was suboptimal. One easy fix for this is to alias "R" to the newly installed version. Specifically, you could add the following line to your "~/.bashrc" file and then source it:
 
 ```
 alias R="$HOME/R/bin/R"
 ```
 
 
-Afterwards, a call to R would always direct to the correct version corresponding to your user R install.
+Afterwards, a call to `R` would always direct to the correct version corresponding to your user `R` install.
 
-However, I realized that **a better solution** would be to move the "R" script generated during the R install (which is actually a shell script) into the main binary folder located within my "$PATH", which for me is `~/local/bin`, and that's what I did: 
+However, I realized that **a better solution** would be to move the "R" script generated during the `R` install (which is actually a shell script) into the main binary folder located within my "$PATH", which for me is `~/local/bin`, and that's what I did: 
 
 ```
 $ cp R Rscript ~/local/bin
@@ -178,6 +178,6 @@ Save workspace image? [y/n/c]: n
 
 
 
-**_Problem solved!!_ I hope this helps someone else overcome the libiconv configure error that I encountered and successfully add an updated R install to their Linux account. Let me know in the comments section below!**
+**_Problem solved!!_ I hope this helps someone else overcome the libiconv configure error that I encountered and successfully add an updated `R` install to their Linux account. Let me know in the comments section below!**
 
 ~J
