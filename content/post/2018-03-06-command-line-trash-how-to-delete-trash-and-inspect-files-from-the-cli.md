@@ -20,9 +20,9 @@ tags:
 - trash
 ---
 
-As many of you know, I use a UNIX/Mac system, and I spend a great deal of time working from the command line on UNIX and LINUX. One thing that everyone learns when they're learning the UNIX/LINUX command line is that the "rm" command is a powerful and versatile option for deleting files. However, when we delete files with rm, they never come back, and thus they cannot be inspected afterward. Adding the "-i" flag (e.g. "rm -i ) is an extremely useful safety feature for regular or recursive (i.e. folder-and-everything-in-it) deleting that will cause you to be prompted for confirmation that you _really_ want to permanently delete the target file(s) or directory; however, this can be a bit of a nuisance.
+As many of you know, I use a UNIX/Mac system, and I spend a great deal of time working from the command line on UNIX and LINUX. One thing that everyone learns when they're learning the UNIX/LINUX command line is that the `rm` command is a powerful and versatile option for deleting files. However, when we delete files with rm, they never come back, and thus they cannot be inspected afterward. Adding the "-i" flag (e.g. `rm -i` ) is an extremely useful safety feature for regular or recursive (i.e. folder-and-everything-in-it) deleting that will cause you to be prompted for confirmation that you _really_ want to permanently delete the target file(s) or directory; however, this can be a bit of a nuisance.
 
-One thing that I figured out a while back was that several people have been interested in this issue. And, as a result of their efforts, there is some free software out there that can provide an alternative to rm, by providing "trash" functions. One such software is called "trash", was written by Ali Rantakari (available [here](http://hasseg.org/trash/)), and is easily installed from [Homebrew](https://brew.sh) as follows:
+One thing that I figured out a while back was that several people have been interested in this issue. And, as a result of their efforts, there is some free software out there that can provide an alternative to rm, by providing "trash" functions. One such software is called `trash`, was written by Ali Rantakari (available [here](http://hasseg.org/trash/)), and is easily installed from [Homebrew](https://brew.sh) as follows:
 
 ```
 $ brew install trash
@@ -72,6 +72,6 @@ $ ## Delete *all* files in the Trash:
 $ rm -rf ~/.Trash/*
 ```
 
-I hope this helps someone improve their usage of the command line. However, remember that, "With great power comes great responsibility" ~ Uncle Ben ([_Spider-Man_](https://en.wikipedia.org/wiki/Spider-Man_(2002_film)), 2002). Always remember that inappropriate use of rm commands such as those above can wipe out 1) precious files you didn't mean to delete but that wound up in the Trash, or 2) whole sets of files inside a directory. This mainly applies to the "-r" and "-R" flags for recursive deletion, which will not only delete an entire folder and all of it's contents; but it's a good thing to keep in mind.
+I hope this helps someone improve their usage of the command line. However, remember that, "With great power comes great responsibility" ~ Uncle Ben ([_Spider-Man_](https://en.wikipedia.org/wiki/Spider-Man_(2002_film)), 2002). Always remember that inappropriate use of `rm` commands such as those above can wipe out 1) precious files you didn't mean to delete but that wound up in the Trash, or 2) whole sets of files inside a directory. This mainly applies to the "-r" and "-R" flags for recursive deletion, which will not only delete an entire folder and all of it's contents; but it's a good thing to keep in mind.
 
 ~J
