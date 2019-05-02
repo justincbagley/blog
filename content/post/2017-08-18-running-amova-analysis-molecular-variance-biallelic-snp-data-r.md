@@ -32,7 +32,7 @@ tags:
 
 ## AMOVA in R
 
-Resources for conducting population genetic and phylogenetic analyses in the `R` computing environment are continually improving, and to date several packages have provided functions for estimating phi-statistics and hierarchical patterns of population variance partitioning using AMOVA (analysis of molecular variance; Quattro et al. 1992). The [paper](http://www.genetics.org/content/genetics/131/2/479.full.pdf) for the AMOVA method, penned by population geneticists Joe Quattro, Peter Smouse, and Laurent Excoffier, now [has >12,000 citations](https://scholar.google.com/scholar?hl=en&q=analysis+molecular+variance+Quattro+1992&btnG=&as_sdt=1%2C47&as_sdtp=), making it one of the most used and cited methods of all time in evolutionary genetic analysis; many people continue using this method, including me. What is interesting about recent packages is that they allow us to do AMOVA rather easily on SNP data, and today I'm going to show you some code for conducting AMOVA in R on biallelic SNPs.
+Resources for conducting population genetic and phylogenetic analyses in the `R` computing environment are continually improving, and to date several packages have provided functions for estimating phi-statistics and hierarchical patterns of population variance partitioning using AMOVA (analysis of molecular variance; Quattro et al. 1992). The [paper](http://www.genetics.org/content/genetics/131/2/479.full.pdf) for the AMOVA method, penned by population geneticists Joe Quattro, Peter Smouse, and Laurent Excoffier, now [has >12,000 citations](https://scholar.google.com/scholar?hl=en&q=analysis+molecular+variance+Quattro+1992&btnG=&as_sdt=1%2C47&as_sdtp=), making it one of the most used and cited methods of all time in evolutionary genetic analysis; many people continue using this method, including me. What is interesting about recent packages is that they allow us to do AMOVA rather easily on SNP data, and today I'm going to show you some code for conducting AMOVA in `R` on biallelic SNPs.
 
 
 
@@ -46,7 +46,7 @@ I'll be using an example of SNP sites from ddRAD-seq analyses of _Hypostomus_ su
 
 ## Practical
 
-##### SETUP: Load R packages
+##### SETUP: Load `R` packages
 
 First, let's open [R](https://cran.r-project.org) (as of initial writing, I'm using `R` version 3.3.2 (2016-10-31) -- "Sincere Pumpkin Patch") and set up the workspace by loading adegenet and poppr; let's also load the APE library just in case we need it. If you don't have R, then download the latest version for Windows [here](https://cran.r-project.org/bin/windows/), and download the latest version for Mac OS X [here](https://cran.r-project.org/bin/macosx/). If you have `R` but don't have the packages, then install them from within `R` by typing install. packages("name") where name is the name of the package.
 
@@ -59,7 +59,7 @@ library(ape)
 
 ##### SETUP: Read in the data
 
-Next, we'll read in the data and process it (see next code section _below_). We will start by reading my SNP data into R from a file with an ".str" extension in the current working directory, in which the data are stored in STRUCTURE format. This data file contains a moderate number of SNPs (representing 1 SNP per RAD tag) from central Brazilian _Hypostomus_ suckermouth armored catfish populations, and it was originally output by pyRAD following data assembly and SNP calling. Here, in my case, the data were produced by NGS sequencing on a ddRAD-seq genomic library that included outgroup samples, in order to facilitate downstream phylogenomic analyses. However, we need to make sure that we only do AMOVA on the ingroup data, because we are interested in patterns of hierarchical genetic structure in the focal species, and not in focal species + outgroup. Including outgroup individuals would in fact bias the results. So, we must start by reading in a data file that contains only ingroup _Hypostomus_ individuals, and _*no outgroup individuals*_ (hence the "noout" code in the file name). 
+Next, we'll read in the data and process it (see next code section _below_). We will start by reading my SNP data into `R` from a file with an ".str" extension in the current working directory, in which the data are stored in STRUCTURE format. This data file contains a moderate number of SNPs (representing 1 SNP per RAD tag) from central Brazilian _Hypostomus_ suckermouth armored catfish populations, and it was originally output by pyRAD following data assembly and SNP calling. Here, in my case, the data were produced by NGS sequencing on a ddRAD-seq genomic library that included outgroup samples, in order to facilitate downstream phylogenomic analyses. However, we need to make sure that we only do AMOVA on the ingroup data, because we are interested in patterns of hierarchical genetic structure in the focal species, and not in focal species + outgroup. Including outgroup individuals would in fact bias the results. So, we must start by reading in a data file that contains only ingroup _Hypostomus_ individuals, and _*no outgroup individuals*_ (hence the "noout" code in the file name). 
 
 **I will do this _below_ using the following four steps:**
   * Step #1: read in the data as a genind object
@@ -171,7 +171,7 @@ Hyp.drain.amova.test.95
 ```
 
 
-When I ran the above code and called R to print the basic AMOVA results to screen for both models (by typing "Hyp.drain.amova.res" or "Hip.drain.amova.res.95" and then pressing Enter), the basic pattern of change in the number of sites in the analyses was as follows: 338 of the 3,829 total SNPs in the dataset were removed due to having 30% missing data (or more, but this is very unlikely; see _below_) during the 30% cutoff analysis, and 0 SNPs were removed due to missing data in the 95% cutoff analysis (results not shown).
+When I ran the above code and called `R` to print the basic AMOVA results to screen for both models (by typing "Hyp.drain.amova.res" or "Hip.drain.amova.res.95" and then pressing Enter), the basic pattern of change in the number of sites in the analyses was as follows: 338 of the 3,829 total SNPs in the dataset were removed due to having 30% missing data (or more, but this is very unlikely; see _below_) during the 30% cutoff analysis, and 0 SNPs were removed due to missing data in the 95% cutoff analysis (results not shown).
 
 
 
