@@ -37,8 +37,7 @@ Resources for conducting population genetic and phylogenetic analyses in the `R`
 
 
 ![Photo Credit: P. Aquino](/images/Hypostomus-sp2_picture-800x400.jpg)
-_Hypostomus_ sp. 2
-_Photo Credit: Pedro P. U. Aquino_
+_Hypostomus_ sp. 2; _Photo Credit: Pedro P. U. Aquino_
 
 I'll be using an example of SNP sites from ddRAD-seq analyses of _Hypostomus_ suckermouth armored catfishes (sp. 2, pictured _at left_), that are hierarchically spatially distributed as individuals, within sites (populations), within three drainage basins in central Brazil. We are going to start from SNPs, get the SNPs into `R` using the packages [adegenet](http://adegenet.r-forge.r-project.org) (Jombart 2008; Jombart and Ahmed 2011; Jombart et al. 2015) and [poppr](http://grunwaldlab.cgrb.oregonstate.edu/poppr-r-package-population-genetics) (Kamvar et al. 2014, 2015), and then conduct some data massaging/prepwork before conducting final AMOVA analyses using the same packages. The analyses will experiment with the effects on AMOVA results of varying the missing data level threshold in poppr's AMOVA function (i.e. the "cutoff" option within '[poppr.amova](https://www.rdocumentation.org/packages/poppr/versions/2.3.0/topics/poppr.amova)' function).
 
