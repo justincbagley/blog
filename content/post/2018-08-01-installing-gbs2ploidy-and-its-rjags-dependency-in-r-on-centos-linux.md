@@ -35,7 +35,7 @@ _Quaking aspen (Populus tremuloides), Lamoille Canyon, NV_
 
 Aspen are known to vary from diploid to triploid in natural populations, with many triploids (higher prevalence) in the Rockies. This is an issue with any population genomics study of aspen, or other forest trees with polyploidy. 
 
-So, as a final touch on the manuscript, I need to estimate the occurrence of varying ploidy number across individuals in the dataset and see if ploidy is significantly affecting (e.g. correlated to) the results. Karen Mock at Utah State University is a collaborator on the current GBS project and has advised us to use the new [gbs2ploidy](https://cran.r-project.org/web/packages/gbs2ploidy/index.html) R package written by Zack Gompert in their [2017 paper](https://onlinelibrary.wiley.com/doi/abs/10.1111/1755-0998.12657) on the subject (Gompert and Mock 2017). 
+So, as a final touch on the manuscript, I need to estimate the occurrence of varying ploidy number across individuals in the dataset and see if ploidy is significantly affecting (e.g. correlated to) the results. Karen Mock at Utah State University is a collaborator on the current GBS project and has advised us to use the new [gbs2ploidy](https://cran.r-project.org/web/packages/gbs2ploidy/index.html) `R` package written by Zack Gompert in their [2017 paper](https://onlinelibrary.wiley.com/doi/abs/10.1111/1755-0998.12657) on the subject (Gompert and Mock 2017). 
 
 I had some issues with the install, so to help others who might encounter similar issues, I am writing a post about what I ran into and how to overcome the problems (which will probably be general, not reflecting simply a user-specific case).
 
@@ -104,7 +104,7 @@ _likewise failed_.
 
 ## Solution
 
-It became clear to me that the solution here was going to involve multiple steps. First, I installed ```pkg-config``` and the original ```jags``` MCMC software locally, into my user account, using my Miniconda utility ```conda```:
+It became clear to me that the solution here was going to involve multiple steps. First, I installed ```pkg-config``` and the original ```jags``` MCMC software locally, into my user account, using my Miniconda 2 utility ```conda```:
 
 ```
 $ conda install pkg-config jags ## Type this, then accept changes with a yes answer, 'y'
@@ -112,7 +112,7 @@ $                               ## This gets pkg-config v0.29.2 and jags v4.3.0
 ...
 ```
 
-Now that these up-to-date versions of these important software programs were installed into my Miniconda directory, which for me is ~/miniconda2/, I could set the ```$PKG_CONFIG_PATH``` variable to point to my miniconda2 pkg-config folder:
+Now that these up-to-date versions of these important software programs were installed into my Miniconda directory, which for me is ~/miniconda2/, I could set the ```$PKG_CONFIG_PATH``` variable to point to my Miniconda 2 pkg-config folder:
 
 ```
 export PKG_CONFIG_PATH="~/miniconda2/lib/pkgconfig"
@@ -190,7 +190,7 @@ Linked to JAGS 4.3.0
 Loaded modules: basemod,bugs
 ```
 
-That's all folks.
+That's all, folks.
 
 ~J
 
