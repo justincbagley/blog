@@ -65,6 +65,6 @@ What finally worked for me was to generate the `locate` database anew (it took a
 sudo /usr/libexec/locate.updatedb
 ```
 
-After the new `locate`database was generated, Terminal loaded normally and all `locate`-related errors stopped, and I continue to have no issues with `locate`. I hope that this helps someone who runs across this problem in the future.
+After the new `locate` database was generated, Terminal loaded normally and all `locate`-related errors stopped, and I continue to have no issues with `locate`. I hope that this helps someone who runs across this problem in the future.
 
 ~J
