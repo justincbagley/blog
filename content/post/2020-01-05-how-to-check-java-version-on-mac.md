@@ -28,6 +28,7 @@ There are two ways that I recommend checking your Java version, and there is one
 **1. System Preferences**
 
 This one is the easiest option for most users that like using the traditional, visual approach to computing on macOS. Simply open System Preferences ("Apple > System Preferences"), and then click "Java" (you will see the Java icon). The Java preferences open in a separate window, called "Java Control Panel." In Java Control Panel, do either
+
 - a) click on the "General" tab, followed by the "About" button, to display Java version information, 
 
 or 
