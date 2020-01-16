@@ -16,10 +16,11 @@ tags:
   - software
   - Markdown
   - blog
+  - writing
   - post
 ---
 
-# First Markdown post using Bear app
+<!-- # First Markdown post using Bear app -->
 
 My trusty old iPhone 7 recently died (screen was cracked months ago, battery charger port finally loosened and stopped charging phone). So I did the logical thing, given the very low trade-in value for my model in its condition, and went out and bought a brand new iPhone 11!
 
