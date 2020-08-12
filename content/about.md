@@ -1,13 +1,12 @@
 ---
 title: "about"
-date: "2019-02-17T20:04:25-05:00"
+date: "2020-08-12T10:12:25-05:00"
 ---
 
 <!-- # about -->
 
-Justin C. Bagley is a Postdoctoral Scholar in the <a href="https://www.umsl.edu/~biology/">Department of Biology</a>
-at the University of Missouri-St. Louis; Affiliate Researcher in the Department of Bilogy at Virginia Commonwealth University; Senior Research Associate in the 
-<a href="https://zoo.unb.br">Departamento de Zoologia</a> at Universidade de Brasília; 
+Justin C. Bagley is an Assistant Professor in the <a href="http://www.jsu.edu/biology/">Department of Biology</a>
+at Jacksonville State University; Affiliate Researcher in the <a href="https://biology.vcu.edu">Department of Bilogy</a> at Virginia Commonwealth University; 
 researcher in ecological and evolutionary genetics of animals and plants in North America 
 and the Neotropics; developer of <a href="https://github.com/justincbagley/PIrANHA">PIrANHA</a>, <a href="https://github.com/justincbagley/MAGNET">MAGNET</a>, 
 <a href="https://github.com/justincbagley/RADish">RADish</a>, and other repositories for 
