@@ -50,7 +50,8 @@ A variety of functions manipulate DNA sequence alignments, while others conduct 
 _New features_ include tab completion of function names, as follows:
 
 <!-- ![piranha-tab-completion](https://raw.githubusercontent.com/justincbagley/piranha/master/assets/piranha_tab_completion2-min.gif) -->
-<p align="center"><img src="https://github.com/justincbagley/piranha/tree/master/assets/piranha_tab_completion2-min.gif?raw=true"/></p>
+<!-- <p align="center"><img src="https://github.com/justincbagley/piranha/tree/master/assets/piranha_tab_completion2-min.gif?raw=true"/></p> -->
+<p align="center"><img src="images/piranha_tab_completion2-min.gif?raw=true"/></p>
 
 Cheers, ~J
 
