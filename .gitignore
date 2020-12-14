@@ -5,3 +5,5 @@
 blogdown
 .nojekyll
 public/ # if using Netlify
+content/.DS_Store
+.DS_Store
