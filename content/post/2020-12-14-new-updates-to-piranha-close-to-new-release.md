@@ -40,7 +40,6 @@ tags:
 > Interested in evolutionary genetic analysis in phylogenetics or population genomics? Get my software package PIrANHA [here](https://github.com/justincbagley/piranha) or keep reading!
 <!-- <br/>-->
 
-
 <a href="https://imgur.com/AQte6eh"><img src="https://i.imgur.com/AQte6eh.png" title="source: Justin C. Bagley" width=40% height=40% align="center" /></a>
 
 PIrANHA provides a set of tools for automating file processing and analysis steps in the (phylo\*=) fields of phylogenomics and phylogeography (including population genomics). PIrANHA is fully command line-based and contains a series of functions for automating tasks during evolutionary analyses of genetic data. 
