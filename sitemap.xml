@@ -7,12 +7,58 @@
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 <url>
 	<loc>https://justinbagley.rbind.io/</loc>
-	<lastmod>2018-07-18T05:36:43+00:00</lastmod>
+	<lastmod>2020-12-14T12:21:23+00:00</lastmod>
 	<priority>1.00</priority>
 </url>
 <url>
 	<loc>https://justinbagley.rbind.io/about/</loc>
-	<lastmod>2018-07-18T05:36:43+00:00</lastmod>
+	<lastmod>2020-12-14T12:21:23+00:00</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://justinbagley.rbind.io/2020/12/14/new-updates-to-piranha-close-to-new-release/</loc>
+	<lastmod>2020-12-14T05:36:43+00:00</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://justinbagley.rbind.io/2020/12/13/new-gist-on-reasons-to-prefer-cli-vs-gui/</loc>
+	<lastmod>2020-12-13T05:36:43+00:00</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://justinbagley.rbind.io/2019/12/31/problems-with-locate-after-homebrew-update-on-mac/</loc>
+	<lastmod>2019-12-31T05:36:43+00:00</lastmod>
+	<priority>0.80</priority>
+</url>
+
+<url>
+	<loc>https://justinbagley.rbind.io/2018/07/25/how-to-find-common-variants-in-multiple-vcf-files/</loc>
+	<lastmod>2018-07-25T05:36:43+00:00</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://justinbagley.rbind.io/2018/08/01/installing-gbs2ploidy-and-its-rjags-dependency-in-r-on-centos-linux/</loc>
+	<lastmod>2018-08-01T05:36:43+00:00</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://justinbagley.rbind.io/2018/08/01/how-i-moved-my-blog-from-wordpress-to-a-blogdown-blog-deployed-by-netlify/</loc>
+	<lastmod>2018-08-01T05:36:43+00:00</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://justinbagley.rbind.io/2018/07/29/how-i-moved-my-website-from-wordpress-to-github-pages/</loc>
+	<lastmod>2018-07-29T05:36:43+00:00</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://justinbagley.rbind.io/2018/07/25/picking-a-custom-search-engine-for-your-website/</loc>
+	<lastmod>2018-07-25T05:36:43+00:00</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://justinbagley.rbind.io/2018/07/25/how-to-find-common-variants-in-multiple-vcf-files/</loc>
+	<lastmod>2018-07-25T05:36:43+00:00</lastmod>
 	<priority>0.80</priority>
 </url>
 <url>
