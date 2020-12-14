@@ -24,6 +24,6 @@ tags:
 
 I have just posted a new GitHub Gist entitled, ["Reasons to Prefer Commalind Line Interface (CLI) Software to GUIs""](https://gist.github.com/justincbagley/95cfaf9601b4af6f3afa93b4d2155abb).
 
-This post will prove a useful resource for anyone interested in whether to *prefer* CLI vs. GUIs, or the class question and its variations--*"UI or CLI, which is better?"* Comments welcome here on on the Gist itself.
+This post will prove a useful resource for anyone interested in whether to *prefer* CLI vs. GUIs, or the class question and its variations--*"UI or CLI, which is better?"* Comments welcome here and on the Gist itself.
   
 ~ J
