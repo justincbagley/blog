@@ -42,7 +42,7 @@ tags:
 
 <a href="https://imgur.com/AQte6eh"><img src="https://i.imgur.com/AQte6eh.png" title="source: Justin C. Bagley" width=40% height=40% align="center" /></a>
 
-**PIrANHA [here](https://github.com/justincbagley/piranha)** provides a set of tools for automating file processing and analysis steps in the (phylo\*=) fields of phylogenomics and phylogeography (including population genomics). PIrANHA is fully command line-based and contains a series of functions for automating tasks during evolutionary analyses of genetic data. 
+**[PIrANHA](https://github.com/justincbagley/piranha)** provides a set of tools for automating file processing and analysis steps in the (phylo\*=) fields of phylogenomics and phylogeography (including population genomics). PIrANHA is fully command line-based and contains a series of functions for automating tasks during evolutionary analyses of genetic data. 
 
 A variety of functions manipulate DNA sequence alignments, while others conduct custom analysis pipelines; for example, one set conducts reference-based assembly, allele phasing, and alignment of allelic sequences, starting from cleaned targeted sequence capture reads. Many functions are wrappers around existing software, allowing for straightforward automation of common analysis steps in evolutionary genetics. PIrANHA is under development (join in!), but the [alpha release](https://github.com/justincbagley/piranha/releases) is now stable! 
 
