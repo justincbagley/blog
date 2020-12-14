@@ -37,7 +37,7 @@ tags:
 - supercomputer
 ---
 
-> Interested in evolutionary genetic analysis in phylogenetics or population genomics? Get my software package PIrANHA [here](https://github.com/justincbagley/piranha) or keep reading!
+> *Interested in evolutionary genetic analysis in phylogenetics or population genomics? Get my software package PIrANHA [here](https://github.com/justincbagley/piranha) or keep reading!*
 <!-- <br/>-->
 
 <a href="https://imgur.com/AQte6eh"><img src="https://i.imgur.com/AQte6eh.png" title="source: Justin C. Bagley" width=40% height=40% align="center" /></a>
